@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "mode": "live",
-  "attemptedAt": "2026-11-04T11:53:24.687398+00:00",
-  "lastSuccessAt": "2026-11-04T11:53:24.687398+00:00",
+  "attemptedAt": "2026-11-04T11:58:43.107305+00:00",
+  "lastSuccessAt": "2026-11-04T11:58:43.107305+00:00",
   "status": "ok",
   "sources": [
     {
@@ -33,7 +33,7 @@
       "name": "台湾经济部",
       "url": "https://www.moea.gov.tw/Mns/populace/news/NewsRSSdetail.aspx?Kind=1",
       "state": "ok",
-      "matched": 2,
+      "matched": 1,
       "language": "zh-Hant",
       "sourceType": "government"
     },
@@ -49,7 +49,7 @@
       "name": "日本 SOLAR JOURNAL",
       "url": "https://solarjournal.jp/feed/",
       "state": "ok",
-      "matched": 7,
+      "matched": 10,
       "language": "ja",
       "sourceType": "media"
     },
@@ -65,7 +65,7 @@
       "name": "韩国电气新闻",
       "url": "https://www.electimes.com/rss/allArticle.xml",
       "state": "ok",
-      "matched": 3,
+      "matched": 0,
       "language": "ko",
       "sourceType": "media"
     },
@@ -128,112 +128,6 @@
   ],
   "items": [
     {
-      "id": "ff1f283412eb287dc63c6341",
-      "market": "韩国",
-      "title": "(신재생學 추계학술대회)이회성 무탄소연합 회장 “제조 역량 없는 재생E 강국 없다”",
-      "originalTitle": "(신재생學 추계학술대회)이회성 무탄소연합 회장 “제조 역량 없는 재생E 강국 없다”",
-      "date": "2026-11-04",
-      "publishedAt": "2026-11-04T07:53:34+00:00",
-      "topic": "竞争动态",
-      "priority": "中",
-      "source": "韩国电气新闻",
-      "url": "https://www.electimes.com/news/articleView.html?idxno=374357",
-      "summary": "中文整理待生成；请核对原文。",
-      "originalSummary": "“수십 GW의 재생에너지 설비를 갖췄다고 재생에너지 강국이 되겠는가. 보급에 걸맞은 제조 역량을 갖췄다면 강국이라 부를 수 있지만 그렇지 않다면 추종자에 불과하다.”이회성 무탄소연합 회장(전 IPCC 의장)은 4일 한국신재생에너지학회 추계학술대회 기조연설에서 재생에너지 전환의 성과를 설비용량 증가와 발전단가 하락만으로 평가해서는 안 된다며 이같이 강조했다. 보급 확대와 함께 공급망 위기에도 선택권을 유지할 산업 역량을 확보하고, 산업계에 안정적이고 경제적인 전력을 공급하는 체계를 갖춰야 한다는 주문이다.이 같은 지적은 재생에너지 보급비용 인하에 무게를 둔 정부 정책에도 시사점을 던진다. 국내 공급망이 충분히 자리 잡지 못한 상황에서 가격 인하를 앞세우면 기업의 투자비 회수와 기술개발 여력이 줄고, 저가 해외 기자재 의존이 깊어질 수 있기 때문이다. 당장의 도입비용을 낮추는 데 그치지 않고 국내 제조 기반과 공급망 선택권을 확보하는 데 필요한 투자 여건까지 함께 살펴야 한다는 의미로 풀이된다.이회성 회장은 중국의 제조업이 태양광 공급망 전반의 생산체계와 규모의 경제를 구축해 세계적인 발전비용 하락에 기여했다고 평가하면서도, 특정국에 집중된 생산구조는 기술 경쟁",
-      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
-      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
-      "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
-      "tech": "未分类",
-      "dataKind": "live",
-      "analysisKind": "evidence-cues",
-      "language": "ko",
-      "sourceType": "media",
-      "jurisdiction": "地域适用性待复核",
-      "marketBasis": "正文明确提及市场",
-      "eventType": "合作/供货",
-      "policyDirection": "未判定",
-      "policyStage": "法规效力/执行阶段待核实",
-      "evidence": [
-        {
-          "label": "项目/合作/产品原文线索",
-          "original": "토리(으)로 기사보내기 카카오톡(으)로 기사보내기 네이버밴드(으)로 기사보내기 네이버블로그(으)로 기사보내기 URL복사(으)로 기사보내기 닫기 바로가기 기사스크랩하기 본문 글씨 키우기 본문 글씨 줄이기 “제조 기반·공급망 투자 여건 살펴야” 가격 인하 치우친 보급정책에 시사점 발전단가 넘어 전력시스템 전체 비용 강조...전력망·저장장치 통합 주문 이회성 무탄소연합 회장. [사진=김진후 기자] “수십 GW의 재생에너지 설비를 갖췄다고 재생에너지 강국이 되겠는가. 보급에 걸맞은 제조 역량을 갖췄다면 강국이라 부를 수 있지만 그렇지 않다면 추종자에 불과하다.” 이회성 무탄소연합 회장(전 IPCC 의장)은 4일"
-        }
-      ],
-      "articleRead": true,
-      "translationStatus": "pending",
-      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
-      "translationError": "ValueError"
-    },
-    {
-      "id": "0866e5575ea61befd355948a",
-      "market": "韩国",
-      "title": "(WHE 2026) 지필로스, 전력망 없이 그린수소 만든다…‘오프그리드’ 기술 공개",
-      "originalTitle": "(WHE 2026) 지필로스, 전력망 없이 그린수소 만든다…‘오프그리드’ 기술 공개",
-      "date": "2026-11-04",
-      "publishedAt": "2026-11-04T05:32:44+00:00",
-      "topic": "竞争动态",
-      "priority": "中",
-      "source": "韩国电气新闻",
-      "url": "https://www.electimes.com/news/articleView.html?idxno=374339",
-      "summary": "中文整理待生成；请核对原文。",
-      "originalSummary": "경기도 고양시 킨텍스에서 4일 개막한 ‘World Hydrogen Expo 2026(WHE 2026)’ 지필로스 부스에는 재생에너지와 수전해, 수소저장 기술을 한데 묶은 P2G(Power to Gas) 통합솔루션이 자리를 잡았다. 외부 전력망에 기대지 않고 태양광·풍력 전력으로 수소를 만드는 ‘오프그리드(Off-grid) 그린수소 생산 기술’과, 이렇게 만든 수소를 압축 없이 담아두는 고체수소 저장시스템이 나란히 관람객을 맞았다.부스에 놓인 100kW급 PEM(고분자전해질막) 수전해시스템 ‘PEMEC Pured100K’는 시간당 2kg, 하루 최대 48.5kg의 수소를 생산한다. 수소승용차 약 10대를 충전할 수 있는 양이다. 메가와트(MW)급이 아닌 100kW급을 주력으로 삼은 데는 시장 판단이 깔려 있다.엄규문 지필로스 대외협력실장은 “MW급 수전해는 대기업이나 발전사 중심으로 들어가는데, 실제로는 산간·도서지역이나 소규모 실증을 원하는 기업 수요가 더 많았다”며 “공장에서 생산하는 수전해로는 처음으로 한국가스안전공사(KGS) 인증을 받았다”고 설명했다. 대형 설비는 대부분 설치 현장에서 인증을 받는다. 생산된 수소는 정제기를 거쳐 99.999% 고순도로",
-      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
-      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
-      "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
-      "tech": "未分类",
-      "dataKind": "live",
-      "analysisKind": "evidence-cues",
-      "language": "ko",
-      "sourceType": "media",
-      "jurisdiction": "地域适用性待复核",
-      "marketBasis": "正文明确提及市场",
-      "eventType": "合作/供货",
-      "policyDirection": "未判定",
-      "policyStage": "法规效力/执行阶段待核实",
-      "evidence": [
-        {
-          "label": "项目/合作/产品原文线索",
-          "original": "우기 본문 글씨 줄이기 WHE 2026서 P2G 통합솔루션 선보여 100kW급 PEM 수전해시스템 실물 전시 8bar 저압 설계로 방폭·인프라 비용 낮춰 금속수소화물 저장시스템, 도심·네팔 공략 엄규문 지필로스 대외협력실장이 100kW 수전해시스템을 소개하고 있다.[사진=오철기자] 경기도 고양시 킨텍스에서 4일 개막한 ‘World Hydrogen Expo 2026(WHE 2026)’ 지필로스 부스에는 재생에너지와 수전해, 수소저장 기술을 한데 묶은 P2G(Power to Gas) 통합솔루션이 자리를 잡았다. 외부 전력망에 기대지 않고 태양광·풍력 전력으로 수소를 만드는 ‘오프그리드(Off-grid) 그린수"
-        }
-      ],
-      "articleRead": true,
-      "translationStatus": "pending",
-      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
-      "translationError": "ValueError"
-    },
-    {
-      "id": "890122939f973dd7cf1fc5e6",
-      "market": "韩国",
-      "title": "[단독] 발전 5社의 속사정…통합하려니 따질 게 ‘산더미’",
-      "originalTitle": "[단독] 발전 5社의 속사정…통합하려니 따질 게 ‘산더미’",
-      "date": "2026-11-04",
-      "publishedAt": "2026-11-04T03:34:19+00:00",
-      "topic": "市场趋势",
-      "priority": "中",
-      "source": "韩国电气新闻",
-      "url": "https://www.electimes.com/news/articleView.html?idxno=374330",
-      "summary": "中文整理待生成；请核对原文。",
-      "originalSummary": "발전 5사 통합 과정에서 금융계약 승계와 근로조건 조정은 물론 발전소 정비·건설계약, 전력시장 운영규칙 개정에 이르기까지 광범위한 검토가 이뤄질 전망이다. 국내외 사업에 얽힌 수많은 계약과 이해관계, 법률상 권리·의무까지 일일이 따져야 하는 것이다.4일 업계에 따르면 남동발전은 중부·서부·남부·동서발전 등 4사와 공동으로 124억원 규모의 ‘발전공기업 5사 통합을 위한 자문 및 지원(PMI) 용역’을 지난 2일 발주했다. 용역 기간은 계약체결일부터 2027년 말까지다.발전 5사는 프로젝트파이낸싱(PF) 대주단과 해외 발행채권의 채권자 동의 확보를 용역 과업에 명시했다. 합병으로 계약당사자가 바뀌면 금융 약정에 따라 별도 승인이 필요할 수 있어서다. 민간 공동출자 사업도 마찬가지다. 주주 간 협약에 따른 우선매수권, 지배구조 변경 제한, 채무불이행 관련 조항까지 점검 대상에 올랐다. 한 발전사 금융 담당자는 “국내 PF 계약은 검토 결과 큰 문제가 없을 것으로 봤다”고 말했다.해외사업으로 가면 사정이 더 복잡해진다. 서부발전의 오만·아랍에미리트(UAE) 태양광, 중부발전의 인도네시아 발전사업, 남부발전의 미국 가스복합발전소 등 국가별로 계약과 현지법이 제각각이",
-      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
-      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
-      "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
-      "tech": "未分类",
-      "dataKind": "live",
-      "analysisKind": "evidence-cues",
-      "language": "ko",
-      "sourceType": "media",
-      "jurisdiction": "地域适用性待复核",
-      "marketBasis": "正文明确提及市场",
-      "eventType": "市场/企业动态",
-      "policyDirection": "未判定",
-      "policyStage": "法规效力/执行阶段待核实",
-      "evidence": [],
-      "articleRead": true,
-      "translationStatus": "pending",
-      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
-      "translationError": "ValueError"
-    },
-    {
       "id": "01996e8c12d8548b3e10a1f6",
       "market": "日本",
       "title": "千叶豪雨中断超越了电力!智慧家第一步GoodWe的住宅用解决方案",
@@ -244,12 +138,12 @@
       "priority": "中",
       "source": "日本 SOLAR JOURNAL",
       "url": "https://solarjournal.jp/product/68121/",
-      "summary": "千叶豪雨的可靠性高感. 除了产品力量之外,还评估了长久相遇的支援系统. 在能源业界有大约50年的经验,青柳先生说,太阳光和储存电池选择应该重视什么? The post 千叶豪雨通过停电! 智慧家第一步GoodWe的住宅用解决方案 first appeared on SOLAR JOURNAL .",
-      "originalSummary": "千葉豪雨で信頼性の高さを実感。製品力に加えて、長く付き合えるサポート体制を評価。エネルギー業界で約50年の経験を持つ青柳さんが語る、太陽光・蓄電池選びで重視すべきこととは？ The post 千葉豪雨による停電を乗り切った！スマートハウス一歩目にGoodWeの住宅用ソリューション first appeared on SOLAR JOURNAL .",
+      "summary": "主要功率是配备4MPPT的单轴混合电源和储存电池(容量9.6kWh或12.8kWh)的“EI系列”,以及住宅太阳能电池模块“Suncake系列”。",
+      "originalSummary": "主力となるのは、4MPPT搭載の単相ハイブリッドパワコンと蓄電池（容量9.6kWhもしくは12.8kWh）を組み合わせた「EIシリーズ」、そして住宅用太陽電池モジュール「Suncakeシリーズ」だ。",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
       "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
-      "tech": "未分类",
+      "tech": "防眩光组件",
       "dataKind": "live",
       "analysisKind": "evidence-cues",
       "language": "ja",
@@ -260,16 +154,16 @@
       "policyDirection": "未判定",
       "policyStage": "法规效力/执行阶段待核实",
       "evidence": [],
-      "articleRead": false,
+      "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:43:37.623486+00:00",
+      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-04T11:45:02.568879+00:00"
+      "translatedAt": "2026-11-04T12:00:48.161695+00:00"
     },
     {
       "id": "6193965cdca690ab0960e64f",
       "market": "韩国",
-      "title": "‘가구당 월 8,000원 절감’ LH, 태양광 잉여전력 요금상계거래 시행",
+      "title": "“每家8000元节省”LH,太阳能发电费交易",
       "originalTitle": "‘가구당 월 8,000원 절감’ LH, 태양광 잉여전력 요금상계거래 시행",
       "date": "2026-11-04",
       "publishedAt": "2026-11-04T01:46:42+00:00",
@@ -277,8 +171,8 @@
       "priority": "中",
       "source": "韩国 Industry News",
       "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=88875",
-      "summary": "中文整理待生成；请核对原文。",
-      "originalSummary": "[인더스트리뉴스 정한교 기자] 한국토지주택공사(LH)는 세종시 6-3생활권 M1블록 산울마을 4단지에서 LH 공동주택 최초로 태양광 잉여전력을 활용한 ‘요금상계거래’를 시행한다고 지난 3일 밝혔다.‘요금상계거래’는 태양광 발전설비를 설치한 고객이 자가소비 후 남은 전력을 한국전력공사에 공급하고, 잉여전력량을 한전에서 공급받는 전력량과 상계하는 제도다. 태양광 발전전력 활용도를 높이고, 잉여전력의 경제적 가치를 입주민 관리비 절감으로 연결할 수 있다.산울마을 4단지는 행복주택 238세대 규모의 공공임대주택으로, LH 최초의 제로에너지",
+      "summary": "韩国土地住宅公司(LH)表示,在六周六6-3生活权M1区松村4区,LH共同住宅首次利用太阳能注射能的“税务交易”进行。",
+      "originalSummary": "[인더스트리뉴스 정한교 기자] 한국토지주택공사(LH)는 세종시 6-3생활권 M1블록 산울마을 4단지에서 LH 공동주택 최초로 태양광 잉여전력을 활용한 ‘요금상계거래’를 시행한다고 지난 3일 밝혔다.",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
       "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
@@ -295,13 +189,15 @@
       "evidence": [
         {
           "label": "项目/合作/产品原文线索",
-          "original": "택 최초로 태양광 잉여전력을 활용한 ‘요금상계거래’를 시행한 세종시 6-3생활권 M1블록 산울마을 4단지 전경 [사진=LH] ‘요금상계거래’는 태양광 발전설비를 설치한 고객이 자가소비 후 남은 전력을 한국전력공사에 공급하고, 잉여전력량을 한전에서 공급받는 전력량과 상계하는 제도다. 태양광 발전전력 활용도를 높이고, 잉여전력의 경제적 가치를 입주민 관리비 절감으로 연결할 수 있다. 산울마을 4단지는 행복주택 238세대 규모의 공공임대주택으로, LH 최초의 제로에너지건축물(ZEB) 3등급 단지다. 단지에는 총 246kW 규모 태양광 발전설비가 설치돼 있다. 세대당 태양광 설비용량은 1,035W로, ZEB 5등"
+          "original": "택 최초로 태양광 잉여전력을 활용한 ‘요금상계거래’를 시행한 세종시 6-3생활권 M1블록 산울마을 4단지 전경 [사진=LH] ‘요금상계거래’는 태양광 발전설비를 설치한 고객이 자가소비 후 남은 전력을 한국전력공사에 공급하고, 잉여전력량을 한전에서 공급받는 전력량과 상계하는 제도다.。",
+          "chinese": "房屋第一次利用太阳能注射能的“付费交易”执行的六종시 6-3 生命权 M1 区块 山谷 4 仅前景 [照片=LH] “付费交易”是安装太阳能发电设施的客户自己"
         }
       ],
       "articleRead": true,
-      "translationStatus": "pending",
-      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
-      "translationError": "ValueError"
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
+      "translationProvider": "M2M100-418M 本地开源机译",
+      "translatedAt": "2026-11-04T12:01:00.186214+00:00"
     },
     {
       "id": "65e234350cbc1c923166628e",
@@ -314,12 +210,12 @@
       "priority": "中",
       "source": "日本 SOLAR JOURNAL",
       "url": "https://solarjournal.jp/news/68291/",
-      "summary": "从明年起,地面设置的商业太阳光,原则上,将不受FIT/FIP系统的对象,而在某些领域,重点支持的政策被显示,具体什么是支持的对象――。 The post 【11/5 发布】 支持重点将成为太阳光市场的“追风”或“SOLAR JOURNAL vol.59” first appeared on SOLAR JOURNAL .",
-      "originalSummary": "来年度から地上設置型の事業用太陽光が、原則として、FIT/FIP制度の対象外となる。一方で、特定の分野に限っては、重点的に支援する方針が示されている。具体的に何が支援対象となるのか──。 The post 【11/5発行】支援重点化は太陽光市場の”追い風”となるか『SOLAR JOURNAL vol.59』 first appeared on SOLAR JOURNAL .",
+      "summary": "※本期刊将与「SOLAR JOURNAL 住宅特别号」同行。",
+      "originalSummary": "※本誌には「SOLAR JOURNAL 住宅特別号」を同梱しお送りいたします。",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
       "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
-      "tech": "未分类",
+      "tech": "钙钛矿叠层",
       "dataKind": "live",
       "analysisKind": "evidence-cues",
       "language": "ja",
@@ -330,11 +226,11 @@
       "policyDirection": "未判定",
       "policyStage": "法规效力/执行阶段待核实",
       "evidence": [],
-      "articleRead": false,
+      "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
+      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-04T11:45:16.635004+00:00"
+      "translatedAt": "2026-11-04T12:01:11.694527+00:00"
     },
     {
       "id": "0759f76c8fe627b26b535ec6",
@@ -359,58 +255,19 @@
       "sourceType": "company",
       "jurisdiction": "地域适用性待复核",
       "marketBasis": "本地语言来源定位，地域适用性待复核",
-      "eventType": "合作/供货",
+      "eventType": "产品/技术发布",
       "policyDirection": "未判定",
       "policyStage": "法规效力/执行阶段待核实",
       "evidence": [
         {
           "label": "项目/合作/产品原文线索",
-          "original": "バンカビリティは、「製造スコア」と「財務健全スコア」の2つで構成されており、製造スコアはさらに「供給能力」「生産能力」「技術」の3つのスコアで成り立っています。"
+          "original": "2026年第3四半期のPV ModuleTech バンカビリティ格付けで27期連続AAA獲得 インフォーマ社が発表した「PV ModuleTechバンカビリティ格付け」の2026年第3四半期版において、最上位格付けのAAA評価を27期連続で獲得しました。"
         }
       ],
       "articleRead": true,
       "translationStatus": "pending",
-      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
+      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
       "translationError": "ValueError"
-    },
-    {
-      "id": "4c19a841d1eda8b64728e09a",
-      "market": "台湾",
-      "title": "7家企业扩大投资台湾 「南茂科技」投资升级记忆体等产品封测技术及产能",
-      "originalTitle": "7家企業擴大投資臺灣 「南茂科技」投資升級記憶體等產品封測技術及產能",
-      "date": "2026-10-30",
-      "publishedAt": "2026-10-30T07:45:00+00:00",
-      "topic": "竞争动态",
-      "priority": "中",
-      "source": "台湾经济部",
-      "url": "https://www.moea.gov.tw/MNS/populace/news/News.aspx?kind=1&menu_id=40&news_id=124415",
-      "summary": "投资台湾事务所今(30)日联审通过7家企业申请扩大投资台湾案，包含台商回台方案的东野精机、台塑尖端能源科技、南茂科技，根留企业方案的义美食品，以及中小企业方案的金葡萄蛋黄酥、某电信射频器材制造商及某营造材料制造商。截至目前「投资台湾三大方案」已吸引1,837家企业约2兆8,713亿元投资，预估创造17万879个本国就业机会，其中「欢迎台商回台投资行动方案」有371家企业投资约1兆5,738亿元，带来 9万7,409个就业机会；「根留台湾企业加速投资行动方案」有239家企业投资约6,668亿元，创造3万659个就业机会；「中小企业加速投资行动方案」则已吸引1,227家企业投资约6,307亿元，可新增4万2,811个就业机会。后续尚有12家厂商排队待审。 东野精机为易发精机集团子公司，长年深耕半导体、自动化设备、光电面板及精密机械等产业，拥有完整的铝挤型机械架构系统及产业设备代工整合之能力与经验，可提供客制化生产与专案服务。该公司规划于台南市新化区兴建新厂，投资金额约5.6亿元。新厂预计导入智慧化设备、数位化管理系统及AI应用技术，持续精进制程效率与提升产品品质，并对厂区及生产设备进行整体能源规划，例如采用减碳建筑工法与进行温室气体盘查等。本次投资将有助于东野精机扩充产能与深化智慧制造能力，进一步带动国内精密机械产业发展。 台塑尖端能源科技为台塑新智能公司之子公司，专门生产锂铁电芯及模",
-      "originalSummary": "投資臺灣事務所今(30)日聯審通過7家企業申請擴大投資臺灣案，包含臺商回臺方案的東野精機、台塑尖端能源科技、南茂科技，根留企業方案的義美食品，以及中小企業方案的金葡萄蛋黃酥、某電信射頻器材製造商及某營造材料製造商。截至目前「投資臺灣三大方案」已吸引1,837家企業約2兆8,713億元投資，預估創造17萬879個本國就業機會，其中「歡迎臺商回臺投資行動方案」有371家企業投資約1兆5,738億元，帶來 9萬7,409個就業機會；「根留臺灣企業加速投資行動方案」有239家企業投資約6,668億元，創造3萬659個就業機會；「中小企業加速投資行動方案」則已吸引1,227家企業投資約6,307億元，可新增4萬2,811個就業機會。後續尚有12家廠商排隊待審。 東野精機為易發精機集團子公司，長年深耕半導體、自動化設備、光電面板及精密機械等產業，擁有完整的鋁擠型機械架構系統及產業設備代工整合之能力與經驗，可提供客製化生產與專案服務。該公司規劃於臺南市新化區興建新廠，投資金額約5.6億元。新廠預計導入智慧化設備、數位化管理系統及AI應用技術，持續精進製程效率與提升產品品質，並對廠區及生產設備進行整體能源規劃，例如採用減碳建築工法與進行溫室氣體盤查等。本次投資將有助於東野精機擴充產能與深化智慧製造能力，進一步帶動國內精密機械產業發展。 台塑尖端能源科技為台塑新智能公司之子公司，專門生產鋰鐵電芯及模組，繼112年申請「歡迎臺商回臺投資行動方案」後，為持續滿足儲能、電動車及新能源產業需求，規劃於彰濱產業園區擴大電芯產能，導入AI視覺檢測裝置，提高品檢效率及提升產品品質，並以循環經濟為理念，建置電池回收廠，將回收產物以電芯原料形式重新投入生產，提升資源循環利用效益，總投資金額約13.1億元。預期投資完成後，將帶動台塑尖端能源科技提升產能、最佳化核心技術，同時加速臺灣能源轉型與建立關鍵材料自主供應能力。 南茂科技提供半導體封裝測試之專業代工服務，客戶主要分布於記憶體、顯示器面板驅動IC及混合訊號產品等三大領域。為掌握AI產業成長所帶動之記憶體後段封測需求，以及擴展至光通訊與邏輯混合訊號等產品服務能量，規劃建置智能化封測產線，將導入AI智能管理平台，全方位提升生產排程、物料與庫存管理效率，並建置太陽能發電設施，實行溫室氣體查驗、碳足跡盤查等，將節能減碳措施納入企業永續經營規畫。本次為南茂科技第三次申請「歡迎臺商回臺投資行動方案」，投資金額約235億元，可增加225名本國就業機會，並協助擴大我國半導體封測產能，掌握AI與光通信等新興應用商機，維持國際競爭優勢。 義美食品為臺灣食品產業之標竿企業，近年跨足健康食品領域，成立義美生機與義美生醫，利用先端冷凍乾燥技術與天然物萃取技術，研發各類機能性與保健產品。該公司預計於桃園、雲林等地共四座廠區增設產線，導入高階智能化設備與無人搬運系統，並建",
-      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
-      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
-      "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
-      "tech": "未分类",
-      "dataKind": "live",
-      "analysisKind": "evidence-cues",
-      "language": "zh-Hant",
-      "sourceType": "government",
-      "jurisdiction": "台湾（公告适用范围待核实）",
-      "marketBasis": "官方发布机构辖区，公告适用范围待核实",
-      "eventType": "项目签约/建设",
-      "policyDirection": "未判定",
-      "policyStage": "法规效力/执行阶段待核实",
-      "evidence": [
-        {
-          "label": "项目/合作/产品原文线索",
-          "original": "某營造材料製造商主要生產預拌式砂漿與特殊灌漿材料，產品應用於各大公共工程、民間建築與高科技廠房建設。",
-          "chinese": "某营造材料制造商主要生产预拌式砂浆与特殊灌浆材料，产品应用于各大公共工程、民间建筑与高科技厂房建设。"
-        }
-      ],
-      "articleRead": false,
-      "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
-      "translationProvider": "繁体转简体（保留原文）",
-      "translatedAt": "2026-11-04T11:44:41.986819+00:00"
     },
     {
       "id": "2e506843beac0f556d4f6d7b",
@@ -423,8 +280,8 @@
       "priority": "中",
       "source": "日本 SOLAR JOURNAL",
       "url": "https://solarjournal.jp/news/68191/",
-      "summary": "台湾的太阳能市场现在热了。本文详细介绍了当地的专业展览“能源台湾 & Net-Zero台湾2026”。 严格选择和报告全球脱碳业务的关注企业和最新解决方案。 The post 想知道台湾的太阳能“现在”的“现在”的“能源台湾 & Net-Zero台湾2026 需要注意的企业报告 first appeared on SOLAR JOURNAL .",
-      "originalSummary": "台湾の太陽光市場がいま熱い。本稿では現地の専門展「Energy Taiwan & Net-Zero Taiwan 2026」を徹底取材した。世界の脱炭素ビジネスを牽引する注目企業と最新ソリューションを厳選しレポートする。 The post 知っておきたい台湾の太陽光発電の”今”｜Energy Taiwan & Net-Zero Taiwan2026 要注目企業レポート first appeared on SOLAR JOURNAL .",
+      "summary": "在布斯,包括JC-STAR获得的约30个经验的系统EMS,包括4个领域,即POWER SCADA,微型和太阳能合并BTM。",
+      "originalSummary": "ブースでは、JC-STAR取得済みで約30件の実績を持つ系統用EMSをはじめ、昇圧所向けPOWER SCADA、マイクログリッド、太陽光併設のBTMという4領域を網羅。",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
       "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
@@ -439,16 +296,16 @@
       "policyDirection": "未判定",
       "policyStage": "法规效力/执行阶段待核实",
       "evidence": [],
-      "articleRead": false,
+      "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
+      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-04T11:45:10.214055+00:00"
+      "translatedAt": "2026-11-04T12:01:06.747388+00:00"
     },
     {
       "id": "17bfaad35404cd8c816dc221",
       "market": "日本",
-      "title": "住宅への太陽光発電導入をサポートする『SOLAR JOURNAL 住宅号 2026』 発行のお知らせ",
+      "title": "“SOLAR JOURNAL住宅号2026”发布支持对住宅实施太阳能",
       "originalTitle": "住宅への太陽光発電導入をサポートする『SOLAR JOURNAL 住宅号 2026』 発行のお知らせ",
       "date": "2026-10-30",
       "publishedAt": "2026-10-30T01:00:23+00:00",
@@ -456,8 +313,8 @@
       "priority": "中",
       "source": "日本 SOLAR JOURNAL",
       "url": "https://solarjournal.jp/renewable/68021/",
-      "summary": "中文整理待生成；请核对原文。",
-      "originalSummary": "高騰する電気代や災害対策、売電収益など様々な分野で注目されている家庭用太陽光発電。この度SOLAR JOURNALでは、導入を支援する政策から、注目企業の最新ソリューションをまとめた住宅号を発行する。（本誌は11/5発行のSOLAR JOURNAL 59と同梱しお送りいたします） The post 住宅への太陽光発電導入をサポートする『SOLAR JOURNAL 住宅号 2026』 発行のお知らせ first appeared on SOLAR JOURNAL .",
+      "summary": "专集1 从“停电的夏天”到“GX ZEH新年”2026年,住宅太阳能和储存电池的提议进入了下一个阶段。",
+      "originalSummary": "« 特集 1 「停電の夏」から「GX ZEH元年」へ 2026年、住宅用太陽光と蓄電池の提案は次の段階に入った。",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
       "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
@@ -472,10 +329,11 @@
       "policyDirection": "未判定",
       "policyStage": "法规效力/执行阶段待核实",
       "evidence": [],
-      "articleRead": false,
-      "translationStatus": "pending",
-      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
-      "translationError": "ValueError"
+      "articleRead": true,
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
+      "translationProvider": "M2M100-418M 本地开源机译",
+      "translatedAt": "2026-11-04T12:01:30.268429+00:00"
     },
     {
       "id": "0aa6627f7c6df957866d4ba1",
@@ -500,19 +358,18 @@
       "sourceType": "government",
       "jurisdiction": "台湾（公告适用范围待核实）",
       "marketBasis": "官方发布机构辖区，公告适用范围待核实",
-      "eventType": "政策公告",
+      "eventType": "政策交流/会议",
       "policyDirection": "未判定",
       "policyStage": "法规效力/执行阶段待核实",
       "evidence": [
         {
           "label": "项目/合作/产品原文线索",
-          "original": "第65次APEC新及再生能源技術專家小組會議圓滿落幕 共築區域合作與綠能科技韌性願景 經濟部能源署於115年10月27日至30日假臺南香格里拉飯店主辦第65次亞太經濟合作（APEC）新及再生能源技術專家小組（EGNRET）會議。",
-          "chinese": "第65次APEC新及再生能源技术专家小组会议圆满落幕 共筑区域合作与绿能科技韧性愿景 经济部能源署于115年10月27日至30日假台南香格里拉饭店主办第65次亚太经济合作（APEC）新及再生能源技术专家小组（EGNRET）会议。"
+          "original": "第65次APEC新及再生能源技術專家小組會議圓滿落幕 共築區域合作與綠能科技韌性願景"
         }
       ],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
+      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
       "translationProvider": "繁体转简体（保留原文）",
       "translatedAt": "2026-11-04T11:44:41.988099+00:00"
     },
@@ -523,12 +380,12 @@
       "originalTitle": "【12/3大阪開催】『低圧系統用蓄電池』ビジネスの全貌 〜事業者が今知るべき最新トレンドと収益モデル〜",
       "date": "2026-10-29",
       "publishedAt": "2026-10-29T08:46:51+00:00",
-      "topic": "市场趋势",
+      "topic": "竞争动态",
       "priority": "中",
       "source": "日本 SOLAR JOURNAL",
       "url": "https://solarjournal.jp/event/67700/",
-      "summary": "12/3(木)大阪市,低压系统储蓄电池业务研讨会举行实时限制! 展示前所未有的兴奋的低压系统储蓄电池的最新趋势以及投资者、EPC经营者现在应该知道的具体收入模型、运营设计的专业人士将全面解释。 您在餐饮与亲戚会的网络化机会也! 请参加! The post 【12/3大阪举办】“低压系统储蓄电池”业务的全景 ～经营者现在应该知道的最新趋势和收入模型～ first appeared on SOLAR JOURNAL .",
-      "originalSummary": "12/3(木)大阪市内で、低圧系統用蓄電池ビジネスセミナーをリアル限定開催！ 空前の盛り上がりを見せる低圧系統用蓄電池の最新トレンドや、投資家・EPC事業者が今知るべき具体的な収益モデル、運用設計をプロが徹底解説します。お食事付き懇親会でのネットワーキング機会も。ぜひご参加ください！ The post 【12/3大阪開催】『低圧系統用蓄電池』ビジネスの全貌 〜事業者が今知るべき最新トレンドと収益モデル〜 first appeared on SOLAR JOURNAL .",
+      "summary": "« 《此事件只剩下》 低压太阳能储存电池解决方案 ● 低压系统储存电池业务的最前线信息!",
+      "originalSummary": "« 《本イベントのみどころ》 低圧太陽光向け蓄電池ソリューション ●低圧系統用蓄電池ビジネスの最前線情報が手に入る！",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
       "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
@@ -539,20 +396,26 @@
       "sourceType": "media",
       "jurisdiction": "地域适用性待复核",
       "marketBasis": "正文明确提及市场",
-      "eventType": "市场/企业动态",
+      "eventType": "产品/技术发布",
       "policyDirection": "未判定",
       "policyStage": "法规效力/执行阶段待核实",
-      "evidence": [],
-      "articleRead": false,
+      "evidence": [
+        {
+          "label": "项目/合作/产品原文线索",
+          "original": "HUAWEI 華為技術日本株式会社 デジタルパワー事業本部マーケティング&ソリューションセールス部プロダクトマネージャー 新井 龍人 氏 講演：HUAWEI 低圧系統用蓄電池ソリューション 太陽光発電・蓄電システムを中心に、技術提案や製品導入支援に従事。",
+          "chinese": "HUAWEI 华为技术日本股份公司 数字电力业务总部 营销与解决方案销售部门 产品经理 新井 龙人 先生 演讲: HUAWEI 低压系统储存电池解决方案 以太阳能发电和储存系统为中心,致力于技术建议和产品引入支持。"
+        }
+      ],
+      "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:43:37.623486+00:00",
+      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-04T11:45:50.939849+00:00"
+      "translatedAt": "2026-11-04T12:01:44.166694+00:00"
     },
     {
       "id": "fcf6b838eb6cfe42f2f9a9da",
       "market": "日本",
-      "title": "【受賞者決定！】ソーラーウィーク2026 30件を超える応募から13件が受賞！",
+      "title": "《太阳周2026》30多项申请中有13项获奖!",
       "originalTitle": "【受賞者決定！】ソーラーウィーク2026 30件を超える応募から13件が受賞！",
       "date": "2026-10-29",
       "publishedAt": "2026-10-29T05:58:07+00:00",
@@ -560,8 +423,8 @@
       "priority": "中",
       "source": "日本 SOLAR JOURNAL",
       "url": "https://solarjournal.jp/news/68244/",
-      "summary": "中文整理待生成；请核对原文。",
-      "originalSummary": "太陽光発電協会は10月14日、2026年度ソーラーウィーク大賞の受賞者を発表した。大賞2件、優秀賞5件、特別賞6件の計13件が選ばれた。応募件数は30件を超え、昨年を上回った。大賞には2件が選ばれた。1つは栃木県・茨城県・福島県・宮城県と広域で展開する、ソーラーシェアリングを中心とした地方創生の取り組み(グリーンシステムコーポレーション)。もう1つは大阪府堺市で動き出した、AIを活用した地域再エネ循環モデル(アイ・グリッド・ソリューションズ)だ。 The post 【受賞者決定！】ソーラーウィーク2026 30件を超える応募から13件が受賞！ first appeared on SOLAR JOURNAL .",
+      "summary": "太阳周2026获奖者名单3。",
+      "originalSummary": "ソーラーウィーク2026受賞者一覧 3.",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
       "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
@@ -576,9 +439,47 @@
       "policyDirection": "未判定",
       "policyStage": "法规效力/执行阶段待核实",
       "evidence": [],
-      "articleRead": false,
+      "articleRead": true,
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
+      "translationProvider": "M2M100-418M 本地开源机译",
+      "translatedAt": "2026-11-04T12:01:47.413810+00:00"
+    },
+    {
+      "id": "df382b69952295195490f77f",
+      "market": "日本",
+      "title": "【セキュリティー対策】経産省、分散型電源のサイバーセキュリティ対策 JC-STAR★２以上の策定に向け検討準備を進める",
+      "originalTitle": "【セキュリティー対策】経産省、分散型電源のサイバーセキュリティ対策 JC-STAR★２以上の策定に向け検討準備を進める",
+      "date": "2026-10-28",
+      "publishedAt": "2026-10-28T03:27:28+00:00",
+      "topic": "竞争动态",
+      "priority": "中",
+      "source": "日本 SOLAR JOURNAL",
+      "url": "https://solarjournal.jp/policy/68228/",
+      "summary": "中文整理待生成；请核对原文。",
+      "originalSummary": "R★２以上の策定に向けて検討準備を進めていく 風力発電はゲートウェイのみが対象 JC-STAR★１要件化の対象となる電源種、適用開始時期、適用範囲（出典 経済産業省） AIの悪用により全世界で勢いを増すサイバー攻撃への対応が急がれる一方で、太陽光発電や蓄電池では中国製品を採用する際に認証取得への不安が残る。",
+      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
+      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
+      "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
+      "tech": "未分类",
+      "dataKind": "live",
+      "analysisKind": "evidence-cues",
+      "language": "ja",
+      "sourceType": "media",
+      "jurisdiction": "地域适用性待复核",
+      "marketBasis": "本地语言来源定位，地域适用性待复核",
+      "eventType": "产品/技术发布",
+      "policyDirection": "未判定",
+      "policyStage": "法规效力/执行阶段待核实",
+      "evidence": [
+        {
+          "label": "项目/合作/产品原文线索",
+          "original": "討準備を進めていく 風力発電はゲートウェイのみが対象 JC-STAR★１要件化の対象となる電源種、適用開始時期、適用範囲（出典 経済産業省） AIの悪用により全世界で勢いを増すサイバー攻撃への対応が急がれる一方で、太陽光発電や蓄電池では中国製品を採用する際に認証取得への不安が残る。"
+        }
+      ],
+      "articleRead": true,
       "translationStatus": "pending",
-      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
+      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
       "translationError": "ValueError"
     },
     {
@@ -592,8 +493,8 @@
       "priority": "中",
       "source": "日本 SOLAR JOURNAL",
       "url": "https://solarjournal.jp/policy/68166/",
-      "summary": "农林水产部将于2027年4月实施的经营农型太阳能新制度,在全国5个区块举行市镇官员的讲座。在本次制度审查中,市镇的作用将大幅加强,农业负责人对持久经营农业的观点也将重要。 The post 【截止日期】农业水产部在全国5个区块举行经营农型太阳能市镇的讲座 first appeared on SOLAR JOURNAL .",
-      "originalSummary": "農林水産省は、2027年4月に施行される営農型太陽光発電の新制度に向けて、市町村担当者向けの説明会を全国5つのブロックで開催する。今回の制度見直しでは市町村の役割が大幅に強化され、農業の担い手による持続的な営農の視点も重要になる。 The post 【締切済み】農林水産省が営農型太陽光の市町村向け制度説明会を全国5ブロックで開催 first appeared on SOLAR JOURNAL .",
+      "summary": "在全国5个区块举行的在线讲座 市村的作用大幅加强 优先考虑区域农业的健康发展 现行制度与新制度的差异(来源 农业林业省) 2026年10月9日公布的省令修正和通知,经营型太阳能发电临时转用许可程序迎来重大转变期。",
+      "originalSummary": "オンライン説明会を 全国5ブロックで開催 市町村の役割が大幅に強化 地域農業の健全な発展を優先 現行制度と新制度の違い（出典 農林水産省） 2026年10月9日に公布された省令改正および告示により、営農型太陽光発電の一時転用許可手続きは大きな転換期を迎える。",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
       "watch": "先核对政府原文的适用地区、对象、金额、申请期限和施行日期；不能将补助线索视为已生效支持政策。",
@@ -608,11 +509,11 @@
       "policyDirection": "未判定",
       "policyStage": "法规效力/执行阶段待核实",
       "evidence": [],
-      "articleRead": false,
+      "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
+      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-04T11:46:08.628594+00:00"
+      "translatedAt": "2026-11-04T12:02:01.102169+00:00"
     },
     {
       "id": "e93189f06c970776fe70190b",
@@ -625,8 +526,8 @@
       "priority": "中",
       "source": "日本 SOLAR JOURNAL",
       "url": "https://solarjournal.jp/news/68092/",
-      "summary": "可再生能源将被引入或不确定性不能否认. 补充其不稳定性是储蓄电池. 要进一步扩大业务,必须安排论点,解决挑战. 在本研讨会上,(公财)自然能源基金会的工藤美香先生,根据日本和世界的现状,介绍了该基金会在5月发布的政策提议. 在文章中报告了这一情况。",
-      "originalSummary": "再生エネルギーが導入されるも不確実性は否めない。その不安定さを補うのが蓄電池だ。今後事業を拡大していくために論点を整理し、課題を解決する必要がある。本シンポジウムでは、（公財）自然エネルギー財団の工藤美香氏が、日本と世界の現状を踏まえて同財団が5月に公表した政策提言を紹介した。記事ではその様子をレポートする。 The post 「国の導入目標設定が必要」日本における蓄電池事業拡大に向けた5つのポイント｜自然エネルギー財団 first appeared on SOLAR JOURNAL .",
+      "summary": "目前存电池没有明确的国家目标设置,如太阳能和风力发电,工藤先生说“未来推进存电池业务,需要国家实施目标设置”。",
+      "originalSummary": "現状蓄電池は太陽光発電や風力発電のように明確な国の目標設定がなく、工藤氏は「今後蓄電池事業を推進するにあたり、国の導入目標設定は必要」と語った。",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
       "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
@@ -641,11 +542,11 @@
       "policyDirection": "未判定",
       "policyStage": "法规效力/执行阶段待核实",
       "evidence": [],
-      "articleRead": false,
+      "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
+      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-04T11:46:16.912862+00:00"
+      "translatedAt": "2026-11-04T12:02:07.418590+00:00"
     },
     {
       "id": "79c33e42fd11f111e8631d91",
@@ -658,8 +559,8 @@
       "priority": "中",
       "source": "日本 SOLAR JOURNAL",
       "url": "https://solarjournal.jp/policy/68051/",
-      "summary": "关于农业型太阳能发电的省令修正和公告于10月9日公布。从迄今为止通过通货的运营,从省令和公告的法律体系上升、严格化背景以及2027年4月实施的新制度的变更点等,详细解释。 The post 【新制度解释】 农业和水产省公布了农业型太阳能省令修正和公告 全面解释2027年4月实施的新制度 first appeared on SOLAR JOURNAL .",
-      "originalSummary": "営農型太陽光発電に関連する省令改正や告示が10月9日に公布された。これまでの通達による運用から、省令や告示に基づく法体系へ格上げ・厳格化された背景や、2027年4月に施行される新制度の変更点などを徹底解説する。 The post 【新制度解説】農林水産省が営農型太陽光の省令改正・告示を公布 2027年4月施行の新制度を徹底解説 first appeared on SOLAR JOURNAL .",
+      "summary": "基于DATA省令和通知 向法律体系升级、严格化 经营农型太阳能发电设施设置农场临时转用许可件数(源 农业林水产省) 农场上设立高架,设立支柱,安排太阳能电池板,继续农业生产同时生产电的经营农型太阳能发电,也被称为太阳能共享。",
+      "originalSummary": "DATA 省令や告示に基づく 法体系へ格上げ・厳格化 営農型太陽光発電設備を設置するための農地の一時転用許可件数（出典 農林水産省） 農地の上に高い架台を立て、支柱を設置して太陽光パネルを並べ、農業生産を継続しながら発電を行う営農型太陽光発電は、ソーラーシェアリングとも呼ばれ、同じ土地から農作物の販売収入と電気の販売収入という2つの収益を得ることができる仕組みとして発展してきた。",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
       "watch": "先核对政府原文的适用地区、对象、金额、申请期限和施行日期；不能将补助线索视为已生效支持政策。",
@@ -674,11 +575,11 @@
       "policyDirection": "未判定",
       "policyStage": "法规效力/执行阶段待核实",
       "evidence": [],
-      "articleRead": false,
+      "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
+      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-04T11:46:24.588245+00:00"
+      "translatedAt": "2026-11-04T12:02:19.954480+00:00"
     },
     {
       "id": "27ca5432987f5fd8a1158be0",
@@ -691,8 +592,8 @@
       "priority": "中",
       "source": "天合光能日本官方",
       "url": "https://www.trinasolar.com/jp/%E3%83%88%E3%83%AA%E3%83%8A%E3%82%B9%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B8%E9%87%8E%E6%B4%A5%E3%81%AEAEJ%E8%93%84%E9%9B%BB%E6%B1%A0%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AB-196MWh%E3%81%AE%E8%93%84%E9%9B%BB%E6%B1%A0%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%82%92%E4%BE%9B%E7%B5%A6/",
-      "summary": "在太阳能和储存解决方案领域领先的世界电池储存业务部门(Trina Solar Co., Ltd.,SH:688599,以下简称“Trina Solar”)的Trina Storage(以下简称“Trina Storage”)已被选为电池储存系统(BESS)的供应商,用于大分区建造的50MW/196MWhAEJ储存电池项目。",
-      "originalSummary": "太陽光発電および蓄電ソリューション分野で世界をリードするトリナ・ソーラー（Trina Solar Co., Ltd.、SH:688599、以下「トリナ・ソーラー」）のエネルギー貯蔵事業部門であるトリナ・ストレージ（以下「トリナ・ストレージ」）は、大分県で建設される50MW/196MWh規模のAEJ野津蓄電池プロジェクト向けの、バッテリーエネルギー貯蔵システム（BESS）の供給業者として選定されました。 The post トリナ・ストレージ、「野津」のAEJ蓄電池プロジェクトに 196MWhの蓄電池システムを供給 appeared first on Trinasolar JP .",
+      "summary": "tschland / Schweiz / Österreich France / Suisse / Belgique España Italia Polska NA America LAC América Latina Brasil 关于 特里纳太阳能 模块 电源 电源 电源 电源",
+      "originalSummary": "tschland / Schweiz/ Österreich France / Suisse / Belgique España Italia Polska NA America LAC América Latina Brasil トリナ・ソーラーについて モジュール 蓄電 サステナビリティ パートナーリソース トリナ・ソーラーについて 企業概要 技術革新 品質 ニュース ダウンロード モジュール Vertex Nシリーズ Vertex S+シリーズ 蓄電 大型産業用蓄電池 住宅蓄電池システム サステナビリティ 環境 社会 ガバナンス 方針およびレポート パートナーリソース ダウンロード 太陽光発電用語集 お問い合わせ Select region / language Globa",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
       "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
@@ -703,21 +604,21 @@
       "sourceType": "company",
       "jurisdiction": "地域适用性待复核",
       "marketBasis": "本地语言来源定位，地域适用性待复核",
-      "eventType": "合作意向/MOU",
+      "eventType": "合作/供货",
       "policyDirection": "未判定",
       "policyStage": "法规效力/执行阶段待核实",
       "evidence": [
         {
           "label": "项目/合作/产品原文线索",
-          "original": "また、本年9月には、AMP-lify株式会社と、最新の「Elementa 3」シリーズを採用した約1GWhの系統用蓄電システム（BESS）設備を、日本国内で供給することについて、覚書（MoU）を締結しました。",
-          "chinese": "此外,今年9月,AMP-lify公司和采用最新“Elementa 3”系列的约1GWh系统用电储存系统(BESS)设施,在日本国内供应的备忘录(MoU)签署。"
+          "original": "トリナ・ストレージ、「野津」のAEJ蓄電池プロジェクトに 196MWhの蓄電池システムを供給",
+          "chinese": "托里纳存储“野津”的AEJ储存电池项目供应196MWh的储存电池系统"
         }
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
+      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-04T11:46:33.913742+00:00"
+      "translatedAt": "2026-11-04T12:02:30.178053+00:00"
     },
     {
       "id": "4b774033dbd69e9542b31b46",
@@ -741,7 +642,7 @@
       "originalSummary": "South Korea’s Ministry of Climate, Energy and Environment (MCEE) has unveiled its KRW1,000 trillion (US$747 billion) Korean Green Transformation (K-GX) industrial strategy.",
       "translationStatus": "translated",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-04T11:45:54.309155+00:00"
+      "translatedAt": "2026-11-04T12:01:17.742427+00:00"
     },
     {
       "id": "fe93c76b33491c0ddad0acdf",
@@ -777,7 +678,7 @@
       ],
       "articleRead": true,
       "translationStatus": "pending",
-      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
+      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
       "translationError": "ValueError"
     },
     {
@@ -787,7 +688,7 @@
       "originalTitle": "結晶シリコン太陽電池セルの変換効率で28.29％の世界新記録を達成 結晶シリコン太陽電池セル（単接合型）において、変換効率28.29％の世界新記録を達成。 グローバルニュース 2026.9.30",
       "date": "2026-09-29",
       "publishedAt": "2026-09-29T15:00:00+00:00",
-      "topic": "竞争动态",
+      "topic": "技术创新",
       "priority": "中",
       "source": "隆基日本官方",
       "url": "https://www.longi.com/jp/news/cell-2829/",
@@ -803,18 +704,13 @@
       "sourceType": "company",
       "jurisdiction": "地域适用性待复核",
       "marketBasis": "本地语言来源定位，地域适用性待复核",
-      "eventType": "产品/技术发布",
+      "eventType": "市场/企业动态",
       "policyDirection": "未判定",
       "policyStage": "法规效力/执行阶段待核实",
-      "evidence": [
-        {
-          "label": "项目/合作/产品原文线索",
-          "original": "世界記録から量産製品へ、進化を続けるBC技術 LONGiは、研究室レベルでの世界記録達成そのものを目的とするのではなく、研究開発によって得られた成果を量産技術や製品へ結び付けることを重視しています。"
-        }
-      ],
+      "evidence": [],
       "articleRead": true,
       "translationStatus": "pending",
-      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
+      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
       "translationError": "ValueError"
     },
     {
@@ -828,8 +724,8 @@
       "priority": "中",
       "source": "天合光能日本官方",
       "url": "https://www.trinasolar.com/jp/%E3%83%88%E3%83%AA%E3%83%8A%E3%82%B9%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B8AMP-lify%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%81%A8-1GWh%E8%A6%8F%E6%A8%A1%E3%81%AE%E7%B3%BB%E7%B5%B1%E7%94%A8%E8%93%84%E9%9B%BB%E6%B1%A0%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E8%A6%9A%E6%9B%B8MOU%E3%82%92%E7%B7%A0%E7%B5%90/",
-      "summary": "在太阳能和储存解决方案领域领先的世界特里纳太阳能(Trina Solar Co., Ltd.,SH:688599,以下简称“特里纳太阳能”)的能源储存业务部门,特里纳存储(以下简称“特里纳存储”)签署了关于供应该公司的项目约1GWh的系统储存系统(BESS)设施的备忘录(MOU)。AMP-lify在日本全国开展系统连接系统BESS,大规模太阳能和风力发电项目的开发和开发。",
-      "originalSummary": "太陽光発電および蓄電ソリューション分野で世界をリードするトリナ・ソーラー（Trina Solar Co., Ltd.、SH:688599、以下「トリナ・ソーラー」）のエネルギー貯蔵事業部門であるトリナ・ストレージ（以下「トリナ・ストレージ」）は、日本のクリーンエネルギープラットフォームであるAMP-lify株式会社（東京都港区、 以下「AMP-lify」）と、同社のプロジェクト向けに約1GWhの系統用蓄電システム（BESS）設備を供給することについて、覚書（MOU）を締結しました。AMP-lifyは、日本全国で系統連系型BESS、大規模太陽光発電、および陸上風力発電プロジェクトの開発、建設、運営を行っています。 The post トリナ・ストレージ、AMP-lify株式会社と 1GWh規模の系統用蓄電池プロジェクトに関する覚書（MOU）を締結 appeared first on Trinasolar JP .",
+      "summary": "tschland / Schweiz / Österreich France / Suisse / Belgique España Italia Polska NA America LAC América Latina Brasil 关于 特里纳太阳能 模块 电源 电源 电源 电源",
+      "originalSummary": "tschland / Schweiz/ Österreich France / Suisse / Belgique España Italia Polska NA America LAC América Latina Brasil トリナ・ソーラーについて モジュール 蓄電 サステナビリティ パートナーリソース トリナ・ソーラーについて 企業概要 技術革新 品質 ニュース ダウンロード モジュール Vertex Nシリーズ Vertex S+シリーズ 蓄電 大型産業用蓄電池 住宅蓄電池システム サステナビリティ 環境 社会 ガバナンス 方針およびレポート パートナーリソース ダウンロード 太陽光発電用語集 お問い合わせ Select region / language Globa",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
       "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
@@ -846,20 +742,20 @@
       "evidence": [
         {
           "label": "项目/合作/产品原文线索",
-          "original": "トリナ・ストレージ、AMP-lify株式会社と 1GWh規模の系統用蓄電池プロジェクトに関する覚書（MOU）を締結 Select region / language Global CHINA China APAC APAC Australia Japan MEA Middle East and Africa Afrique Francophone الشرق الاوسط وأفريقيا South Africa Europe Europe (EN) Deutschland / Schweiz/ Österreich France",
-          "chinese": "托里纳存储、AMP-lify 公司和 1GWh 系统存储电池项目签署备忘录(MOU) Select region / language Global CHINA China APAC APAC Australia Japan MEA Middle East and Africa Afrique Francophone Middle East and Africa South Africa Europe (EN) Deutschland"
+          "original": "トリナ・ストレージ、AMP-lify株式会社と 1GWh規模の系統用蓄電池プロジェクトに関する覚書（MOU）を締結",
+          "chinese": "特里纳存储、AMP-lify 公司和 1GWh 系统储存电池项目签署备忘录(MOU)"
         }
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
+      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-04T11:46:57.176021+00:00"
+      "translatedAt": "2026-11-04T12:03:01.599383+00:00"
     },
     {
       "id": "2aa3d6f534cdc85bed8b7dc5",
       "market": "日本",
-      "title": "共同開発の家庭用蓄電システムが「JC-STAR レベル1」要件に適合 トリナ・ストレージ、日本市場で住宅用太陽光・蓄電池のセット販売を開始",
+      "title": "共同开发的家庭用电储存系统符合“JC-STAR 级别1”要求 特里纳储存,日本市场开始销售住宅用太阳能和储存电池的集成",
       "originalTitle": "共同開発の家庭用蓄電システムが「JC-STAR レベル1」要件に適合 トリナ・ストレージ、日本市場で住宅用太陽光・蓄電池のセット販売を開始",
       "date": "2026-09-04",
       "publishedAt": "2026-09-04T08:48:56+00:00",
@@ -867,8 +763,8 @@
       "priority": "中",
       "source": "天合光能日本官方",
       "url": "https://www.trinasolar.com/jp/%E5%85%B1%E5%90%8C%E9%96%8B%E7%99%BA%E3%81%AE%E5%AE%B6%E5%BA%AD%E7%94%A8%E8%93%84%E9%9B%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%8CJC-STAR-%E3%83%AC%E3%83%99%E3%83%AB1%E8%A6%81%E4%BB%B6%E3%81%AB%E9%81%A9%E5%90%88-%E3%83%88%E3%83%AA%E3%83%8A%E3%82%B9%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B8%E6%97%A5%E6%9C%AC%E5%B8%82%E5%A0%B4%E3%81%A7%E4%BD%8F%E5%AE%85%E7%94%A8%E5%A4%AA%E9%99%BD%E5%85%89%E8%93%84%E9%9B%BB%E6%B1%A0%E3%81%AE%E3%82%BB%E3%83%83%E3%83%88%E8%B2%A9%E5%A3%B2%E3%82%92%E9%96%8B%E5%A7%8B/",
-      "summary": "中文整理待生成；请核对原文。",
-      "originalSummary": "太陽光発電および蓄電ソリューション分野で世界をリードするトリナ・ソーラー（Trina Solar Co., Ltd.、SH:688599、以下「トリナ・ソーラー」）のエネルギー貯蔵事業部門であるトリナ・ストレージ（以下「トリナ・ストレージ」）は、日本市場において、住宅用太陽光発電モジュールと家庭用蓄電システムを組み合わせたセット販売を開始します。 The post 共同開発の家庭用蓄電システムが「JC-STAR レベル1」要件に適合 トリナ・ストレージ、日本市場で住宅用太陽光・蓄電池のセット販売を開始 appeared first on Trinasolar JP .",
+      "summary": "tschland / Schweiz / Österreich France / Suisse / Belgique España Italia Polska NA America LAC América Latina Brasil 关于 特里纳太阳能 模块 电源 电源 电源 电源",
+      "originalSummary": "tschland / Schweiz/ Österreich France / Suisse / Belgique España Italia Polska NA America LAC América Latina Brasil トリナ・ソーラーについて モジュール 蓄電 サステナビリティ パートナーリソース トリナ・ソーラーについて 企業概要 技術革新 品質 ニュース ダウンロード モジュール Vertex Nシリーズ Vertex S+シリーズ 蓄電 大型産業用蓄電池 住宅蓄電池システム サステナビリティ 環境 社会 ガバナンス 方針およびレポート パートナーリソース ダウンロード 太陽光発電用語集 お問い合わせ Select region / language Globa",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
       "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
@@ -885,13 +781,15 @@
       "evidence": [
         {
           "label": "项目/合作/产品原文线索",
-          "original": "今回のセット販売開始は、トリナ・ストレージが日本の住宅市場において、単体の製品供給から、統合型「太陽光発電＋蓄電＋エネルギー管理」ソリューションの提供へと進化を遂げる一歩となるものです。"
+          "original": "今回のセット販売開始は、トリナ・ストレージが日本の住宅市場において、単体の製品供給から、統合型「太陽光発電＋蓄電＋エネルギー管理」ソリューションの提供へと進化を遂げる一歩となるものです。",
+          "chinese": "这一集销售开始,将成为Trina Storage在日本住宅市场发展的一步,从单一产品供应到综合“太阳能 + 储存 + 能源管理”解决方案的供应。"
         }
       ],
       "articleRead": true,
-      "translationStatus": "pending",
-      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
-      "translationError": "ValueError"
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
+      "translationProvider": "M2M100-418M 本地开源机译",
+      "translatedAt": "2026-11-04T12:03:14.686954+00:00"
     },
     {
       "id": "9aef343bc5062a7a2fb1b6c3",
@@ -916,18 +814,18 @@
       "sourceType": "company",
       "jurisdiction": "地域适用性待复核",
       "marketBasis": "本地语言来源定位，地域适用性待复核",
-      "eventType": "合作/供货",
+      "eventType": "产品/技术发布",
       "policyDirection": "未判定",
       "policyStage": "法规效力/执行阶段待核实",
       "evidence": [
         {
           "label": "项目/合作/产品原文线索",
-          "original": "LONGiは、太陽光発電技術の研究開発と製品の高効率化・高信頼性化を進めるとともに、グローバルな生産・供給体制の構築、財務基盤の強化、サプライチェーンの透明性・トレーサビリティ向上、サステナビリティへの取り組みを継続しています。"
+          "original": "S&Pグローバル・エナジー「Tier 1 クリーンテック企業」に2年連続で選定 S&P Global Energyが発表した「2026年 Tier 1 クリーンテック企業」の太陽電池モジュール分野に選定。"
         }
       ],
       "articleRead": true,
       "translationStatus": "pending",
-      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
+      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
       "translationError": "ValueError"
     },
     {
@@ -941,8 +839,8 @@
       "priority": "中",
       "source": "天合光能日本官方",
       "url": "https://www.trinasolar.com/jp/%E6%97%A5%E6%9C%AC%E3%81%A7AI%E3%83%87%E3%83%BC%E3%82%BF%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%E3%81%AE%E3%82%A4%E3%83%B3%E3%83%95%E3%83%A9%E6%8B%A1%E5%85%85%E3%81%8C%E9%80%B2%E3%82%80%E4%B8%AD%E3%83%88%E3%83%AA%E3%83%8A%E3%82%B9%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B8%E3%81%8C2026%E5%B9%B4AIDC-%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC%E8%B2%AF%E8%94%B5TOP-%E3%83%99%E3%83%B3%E3%83%81%E3%83%9E%E3%83%BC%E3%82%AF%E8%B3%9E%E3%82%92%E5%8F%97%E8%B3%9E/",
-      "summary": "作为全球能源储存解决方案供应商,Trina Solar的储存业务部门,Trina Storage为其人工智能(AI)数据中心的全套能源储存和电力架构进行了评估,并于2026年获得了“AIDC能源储存顶级品牌奖”。该奖项于7月24日在中国江苏省南通市举行的“2026 Gaogong Energy Storage Summit(高工能电力工业峰会)颁发。",
-      "originalSummary": "グローバルなエネルギー貯蔵ソリューションプロバイダーであり、トリナ・ソーラーの蓄電事業部門であるトリナ・ストレージは、同社の人工知能（AI）データセンター向けフルスタック型エネルギー貯蔵・電力アーキテクチャが評価され、2026年「AIDCエネルギー貯蔵TOPベンチマーク賞」を受賞しました。同賞は、7月24日に中国江蘇省南通市で開催された「2026 Gaogong Energy Storage Summit（高工蓄電産業サミット）において授与されました。 The post 日本でAIデータセンターのインフラ拡充が進む中、トリナ・ストレージが「2026年AIDC エネルギー貯蔵TOP ベンチマーク賞」を受賞 appeared first on Trinasolar JP .",
+      "summary": "tschland / Schweiz / Österreich France / Suisse / Belgique España Italia Polska NA America LAC América Latina Brasil 关于 特里纳太阳能 模块 电源 电源 电源 电源",
+      "originalSummary": "tschland / Schweiz/ Österreich France / Suisse / Belgique España Italia Polska NA America LAC América Latina Brasil トリナ・ソーラーについて モジュール 蓄電 サステナビリティ パートナーリソース トリナ・ソーラーについて 企業概要 技術革新 品質 ニュース ダウンロード モジュール Vertex Nシリーズ Vertex S+シリーズ 蓄電 大型産業用蓄電池 住宅蓄電池システム サステナビリティ 環境 社会 ガバナンス 方針およびレポート パートナーリソース ダウンロード 太陽光発電用語集 お問い合わせ Select region / language Globa",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
       "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
@@ -953,26 +851,20 @@
       "sourceType": "company",
       "jurisdiction": "地域适用性待复核",
       "marketBasis": "正文明确提及市场",
-      "eventType": "项目签约/建设",
+      "eventType": "市场/企业动态",
       "policyDirection": "未判定",
       "policyStage": "法规效力/执行阶段待核实",
-      "evidence": [
-        {
-          "label": "项目/合作/产品原文线索",
-          "original": "日本で急増するAI電力需要への対応 資源エネルギー庁の予測によると、国内の電力需要は2025年度の803.4 TWhから2035年度には846.1 TWhへと増加すると見込まれており、その要因の一つとして、新たなデータセンターや半導体工場の建設が挙げられています。",
-          "chinese": "根据资源能源局预测,国内电力需求预计将从2025年803.4 TWh增加到2035年846.1 TWh,其中一个因素是新数据中心和半导体工厂建设。"
-        }
-      ],
+      "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
+      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-04T11:47:17.028711+00:00"
+      "translatedAt": "2026-11-04T12:03:27.666261+00:00"
     },
     {
       "id": "00f86af93e32b442613589c3",
       "market": "日本",
-      "title": "トリナ・ソーラー、S&Pグローバルの「クリーンテック企業リスト2026」において 太陽光発電モジュールおよびエネルギー貯蔵システムの両部門でTier 1の地位を維持",
+      "title": "特里纳太阳能在S&P全球“清洁技术企业名单2026”中保持太阳能模块和能源储存系统的两部门的Tier 1地位",
       "originalTitle": "トリナ・ソーラー、S&Pグローバルの「クリーンテック企業リスト2026」において 太陽光発電モジュールおよびエネルギー貯蔵システムの両部門でTier 1の地位を維持",
       "date": "2026-08-07",
       "publishedAt": "2026-08-07T05:51:44+00:00",
@@ -980,8 +872,8 @@
       "priority": "中",
       "source": "天合光能日本官方",
       "url": "https://www.trinasolar.com/jp/%E3%83%88%E3%83%AA%E3%83%8A%E3%82%BD%E3%83%BC%E3%83%A9%E3%83%BCSP%E3%82%B0%E3%83%AD%E3%83%BC%E3%83%90%E3%83%AB%E3%81%AE%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%83%86%E3%83%83%E3%82%AF%E4%BC%81%E6%A5%AD%E3%83%AA%E3%82%B9%E3%83%882026%E3%81%AB%E3%81%8A%E3%81%84%E3%81%A6-%E5%A4%AA%E9%99%BD%E5%85%89%E7%99%BA%E9%9B%BB%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%8A%E3%82%88%E3%81%B3%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC%E8%B2%AF%E8%94%B5%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AE%E4%B8%A1%E9%83%A8%E9%96%80%E3%81%A7Tier-1%E3%81%AE%E5%9C%B0%E4%BD%8D%E3%82%92%E7%B6%AD%E6%8C%81/",
-      "summary": "中文整理待生成；请核对原文。",
-      "originalSummary": "太陽光発電および蓄電ソリューション分野で世界をリードするトリナ・ソーラー（Trina Solar Co., Ltd.、SH:688599、以下「トリナ・ソーラー」）は、この度S&Pグローバル・エナジーが発表した、太陽光発電モジュール、太陽光発電用インバーター、風力タービン、エネルギー貯蔵システム、およびエネルギー貯蔵用バッテリーセルを対象とした、第2回「Tier 1 クリーンテック企業リスト」において、太陽光発電モジュールおよびエネルギー貯蔵システムの両部門で再度Tier 1リストに選定されました。 この2年連続の選定は、トリナ・ソーラーの卓越したシステム統合能力、市場での強力な存在感、そして持続可能な取り組みへの貢献が評価されたものです。S&Pグローバル・エナジーの「Tier 1 クリーンテック企業」分類は、市場での存在感、市場シェア、事業規模、グローバルな事業多角化、財務実績、およびサステナビリティ要因を含む6つの主要指標に基づき、世界中のメーカーを評価するものです。 トリナ・ソーラーは29年にわたり、太陽光発電のイノベーションを牽引してきました。N型TOPConの産業化におけるパイオニアとして、トリナ・ソーラーの「Vertex N G3」モジュールは最大出力760 Wを達成し、高い両面発電効率、優れた低照度性能、そしてユーティリティ規模のプロジェクトに求められる信頼性を兼ね備えています。同時に、トリナ・ソーラーはTHBC技術の開発も進めており、ユーティリティ規模および非ユーティリティ規模の用途において、TOPConとTHBCの両方を原動力とする「デュアルエンジン」モデルを構築しています。2025年末までに、トリナ・ソーラーの210mmモジュールの累計出荷量は、世界第1位の地位を確固たるものにしました。トリナ・ソーラーは、砂漠地帯や過酷な気候条件に対応した顧客志向のソリューションを提供するとともに、AIデータセンター（AIDC）、グリッド形成型エネルギー貯蔵システム、AIを活用した分散型エネルギーシステムといった新興分野にも事業を拡大しており、シナリオベース・ソリューションの新たな時代を切り拓いています。 同社の強力な第2の成長エンジンであるトリナ・ストレージは、「Cell-to-Grid」のバリューチェーン全体にわたるエンド・ツー・エンドのエネルギー貯蔵能力を確立しました。鋭い市場洞察力と、180以上の国・地域に広がる強固なグローバルサービスネットワークを武器に、トリナ・ストレージは2025年末までに、アジア太平洋、欧州、ラテンアメリカ、中東・アフリカ（MEA）、北米などの主要市場において、20 GWhを超えるエネルギー貯蔵システムを出荷しました。海外での受注量は10GWhを超え、世界的なクリーンエネルギーへの移行を推進するトリナ・ソーラーのリーダーシ",
+      "summary": "tschland / Schweiz / Österreich France / Suisse / Belgique España Italia Polska NA America LAC América Latina Brasil 关于 特里纳太阳能 模块 电源 电源 电源 电源",
+      "originalSummary": "tschland / Schweiz/ Österreich France / Suisse / Belgique España Italia Polska NA America LAC América Latina Brasil トリナ・ソーラーについて モジュール 蓄電 サステナビリティ パートナーリソース トリナ・ソーラーについて 企業概要 技術革新 品質 ニュース ダウンロード モジュール Vertex Nシリーズ Vertex S+シリーズ 蓄電 大型産業用蓄電池 住宅蓄電池システム サステナビリティ 環境 社会 ガバナンス 方針およびレポート パートナーリソース ダウンロード 太陽光発電用語集 お問い合わせ Select region / language Globa",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
       "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
@@ -998,13 +890,15 @@
       "evidence": [
         {
           "label": "项目/合作/产品原文线索",
-          "original": "1の地位を維持 2026.08.07 太陽光発電および蓄電ソリューション分野で世界をリードするトリナ・ソーラー（Trina Solar Co., Ltd.、SH:688599、以下「トリナ・ソーラー」）は、この度S&Pグローバル・エナジーが発表した、太陽光発電モジュール、太陽光発電用インバーター、風力タービン、エネルギー貯蔵システム、およびエネルギー貯蔵用バッテリーセルを対象とした、第2回「Tier 1 クリーンテック企業リスト」において、太陽光発電モジュールおよびエネルギー貯蔵システムの両部門で再度Tier 1リストに選定されました。"
+          "original": "1の地位を維持 2026.08.07 太陽光発電および蓄電ソリューション分野で世界をリードするトリナ・ソーラー（Trina Solar Co., Ltd.、SH:688599、以下「トリナ・ソーラー」）は、この度S&Pグローバル・エナジーが発表した、太陽光発電モジュール、太陽光発電用インバーター、風力タービン、エネルギー貯蔵システム、およびエネルギー貯蔵用バッテリーセルを対象とした、第2回「Tier 1 クリーンテック企業リスト」において、太陽光発電モジュールおよびエネルギー貯蔵システムの両部門で再度Tier 1リストに選定されました。",
+          "chinese": "保持 1 位 2026.08.07 太阳能和储存解决方案领域的世界领先的特里纳太阳能(Trina Solar Co., Ltd.,SH:688599,以下称为“特里纳太阳能”)是由S&P全球能源发布的太阳能模块,太阳能发电"
         }
       ],
       "articleRead": true,
-      "translationStatus": "pending",
-      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
-      "translationError": "ValueError"
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
+      "translationProvider": "M2M100-418M 本地开源机译",
+      "translatedAt": "2026-11-04T12:03:43.851942+00:00"
     }
   ],
   "coverageNotes": [
@@ -1013,15 +907,15 @@
     "政策方向为保守的原文线索，不是已核实的法律或投资结论。"
   ],
   "translation": {
-    "status": "error",
-    "at": "2026-11-04T11:55:11.885340+00:00",
-    "translatedThisRun": 0,
-    "remaining": 12,
-    "validationFailures": 12,
+    "status": "partial",
+    "at": "2026-11-04T12:00:35.360852+00:00",
+    "translatedThisRun": 16,
+    "remaining": 5,
+    "validationFailures": 5,
     "error": null,
-    "phase": "translate",
+    "phase": "local-fallback",
     "modelLicense": "mit",
-    "note": "机器翻译/节译，未人工复核；数字校验失败时保留原文并标记待翻译。"
+    "note": "机译/节译未人工复核；公开网页翻译非正式商业API，可能限流；失败时本地开源模型补充，数字校验不通过仍保留原文。"
   },
   "translationModel": {
     "name": "facebook/m2m100_418M",
