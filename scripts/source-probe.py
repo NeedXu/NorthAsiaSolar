@@ -8,18 +8,12 @@ import urllib.request
 import urllib.error
 import xml.etree.ElementTree as ET
 CANDIDATES=[
-('日本環境省RSS','https://www.env.go.jp/rss/news.xml'),
+('台湾経済部公式RSS','https://www.moea.gov.tw/Mns/populace/news/NewsRSSdetail.aspx?Kind=1'),
+('台湾能源署公式RSS','https://www.moeaea.gov.tw/ECW/populace/news/NewsRSSdetail.aspx?Kind=1'),
+('韓国政府政策一覧','https://www.korea.kr/news/policyNewsList.do'),
+('Trina日本RSS','https://www.trinasolar.com/jp/feed/'),
 ('日本環境省発表','https://www.env.go.jp/press/'),
-('東京都政府RSS','https://www.metro.tokyo.lg.jp/rss/index.rdf'),
-('NEDO発表','https://www.nedo.go.jp/news/press/index.html'),
-('韓国政府トップ','https://www.korea.kr/main.do'),
-('韓国政府RSS案内','https://www.korea.kr/etc/rss.do'),
-('韓国政府政策RSS','https://www.korea.kr/rss/policy.xml'),
-('台湾経済部RSS案内','https://www.moea.gov.tw/Mns/populace/news/NewsRSS.aspx?menu_id=1430'),
-('台湾能源署RSS案内','https://www.moeaea.gov.tw/ECW/populace/news/NewsRSS.aspx?menu_id=819'),
-('台湾科技新報全体','https://technews.tw/feed/'),
-('Trina日本発表','https://www.trinasolar.com/jp/press-releases/'),
-('Qcells韓国ニュース','https://www.qcells.com/kr/stay-in-the-loop/trending-news'),
+('無料翻訳モデルライセンス','https://huggingface.co/facebook/m2m100_418M/raw/main/README.md'),
 ]
 
 def inspect(entry):
@@ -37,7 +31,8 @@ def inspect(entry):
    text=data.decode('utf-8','replace');result['title']=re.findall(r'<title[^>]*>(.*?)</title>',text,re.S)[:1]
    links=re.findall(r'href=[\"\']([^\"\']+)[\"\']',text,re.I)
    result['feedLinks']=[l for l in links if re.search('rss|rdf|atom|feed',l,re.I)][:12]
-   result['newsLinks']=[l for l in links if re.search('press|news|article|view|idxno',l,re.I)][:10]
+   result['newsLinks']=[l for l in links if re.search('press|news|article|view|idxno',l,re.I)][:20]
+   result['articleExamples']=[{'url':m.group(1),'context':re.sub('<[^>]+>',' ',text[max(0,m.start()-150):m.end()+400])} for m in re.finditer(r'href=[\"\']([^\"\']*(?:policyNewsView|press_[0-9]|news_id)[^\"\']*)[\"\']',text,re.I)][:4]
  except Exception as e:result.update(error=type(e).__name__,status=getattr(e,'code',None))
  return result
 results=list(concurrent.futures.ThreadPoolExecutor(max_workers=6).map(inspect,CANDIDATES))
@@ -50,7 +45,8 @@ if model['configured']:
    body=r.read();model.update(status=r.status,finalURL=r.url,contentType=r.headers.get('Content-Type'));
    if 'json' in r.headers.get('Content-Type',''):
     d=json.loads(body);model['text']=d.get('choices',[{}])[0].get('message',{}).get('content');model['errorCode']=d.get('error',{}).get('code')
-   else:model['pageTitle']=re.findall(r'<title[^>]*>(.*?)</title>',body.decode('utf-8','replace'),re.S)[:1]
+   else:
+    preview=body.decode('utf-8','replace')[:800].replace(os.environ['GITHUB_TOKEN'],'[redacted]');model['responsePreview']=preview
  except Exception as e:model.update(error=type(e).__name__,status=getattr(e,'code',None))
 Path('.deploy/source-probe.json').write_text(json.dumps({'sources':results,'model':model},ensure_ascii=False,indent=2)+'\n')
 print('Source probes complete. Safe results saved; credential values never logged.')
