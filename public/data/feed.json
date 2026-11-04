@@ -1,1 +1,42 @@
-{"schemaVersion":1,"mode":"live","attemptedAt":null,"lastSuccessAt":null,"status":"pending","sources":[],"items":[]}
+{
+  "schemaVersion": 1,
+  "mode": "live",
+  "attemptedAt": "2026-11-04T10:24:36.908078+00:00",
+  "lastSuccessAt": "2026-11-04T10:24:36.908078+00:00",
+  "status": "ok",
+  "sources": [
+    {
+      "name": "PV magazine",
+      "url": "https://www.pv-magazine.com/feed/",
+      "state": "ok",
+      "matched": 0
+    },
+    {
+      "name": "PV Tech",
+      "url": "https://www.pv-tech.org/feed/",
+      "state": "ok",
+      "matched": 1
+    }
+  ],
+  "items": [
+    {
+      "id": "4b774033dbd69e9542b31b46",
+      "market": "韩国",
+      "title": "South Korea picks solar, battery and EVs as key sectors in US$747 billion Green Industrial Plan",
+      "date": "2026-10-08",
+      "publishedAt": "2026-10-08T09:02:45+00:00",
+      "topic": "市场趋势",
+      "priority": "中",
+      "source": "PV Tech",
+      "url": "https://www.pv-tech.org/south-korea-picks-solar-battery-and-evs-as-key-sectors-in-us747-billion-green-industrial-plan/",
+      "summary": "原始 RSS 摘录（未翻译）：South Korea’s Ministry of Climate, Energy and Environment (MCEE) has unveiled its KRW1,000 trillion (US$747 billion) Korean Green Transformation (K-GX) industrial strategy.",
+      "importance": "待核实：主题和优先级由关键词规则标记，不代表已确认的商业重要性。",
+      "impact": "尚未生成晶科业务影响分析，请结合原文及当地业务情况判断。",
+      "watch": "核对原文、发布日期、政策适用范围与实施时间。",
+      "tech": "未分类",
+      "dataKind": "live",
+      "analysisKind": "rules",
+      "collectedAt": "2026-11-04T10:24:36.908078+00:00"
+    }
+  ]
+}
