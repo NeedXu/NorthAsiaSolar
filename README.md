@@ -4,7 +4,7 @@
 
 ## 当前状态
 
-代码已具备「公开 RSS → 每日采集 → JSON 归档 → GitHub Pages → 浏览器读取」流程，并增加受 GitHub 权限保护的公开访问开关。**已于 2026-11-04 成功部署网站，首页与数据 HTTP 验证已通过；关闭方式正在验证**。网站地址：https://needxu.github.io/NorthAsiaSolar/ 。GitHub Actions 首次采集已于 2026-11-04 18:24（北京时间）成功读取两个来源并归档 1 条相关报道。发布状态由 `.deploy/public-access.json` 管理，实际验证结果记录在 `.deploy/site-status.json`。本次云环境对 `www.pv-magazine.com` 和 `www.pv-tech.org` 返回代理 403，禁止绕过。当前 `public/data/feed.json` 已由 GitHub Actions 写入真实采集结果，不包含模拟新闻。
+代码已具备「公开 RSS → 每日采集 → JSON 归档 → GitHub Pages → 浏览器读取」流程，并增加受 GitHub 权限保护的公开访问开关。**已于 2026-11-04 成功部署网站，首页与数据 HTTP 验证已通过；关闭页方案已实际验证成功（新闻数据与上一版 JS/CSS 均不可访问）**。网站地址：https://needxu.github.io/NorthAsiaSolar/ 。GitHub Actions 首次采集已于 2026-11-04 18:24（北京时间）成功读取两个来源并归档 1 条相关报道。发布状态由 `.deploy/public-access.json` 管理，实际验证结果记录在 `.deploy/site-status.json`。本次云环境对 `www.pv-magazine.com` 和 `www.pv-tech.org` 返回代理 403，禁止绕过。当前 `public/data/feed.json` 已由 GitHub Actions 写入真实采集结果，不包含模拟新闻。
 
 - 真实数据模式默认开启，显示原始 RSS 标题、摘录、发布日期、原文链接与规则分类。
 - 模拟版本通过「查看界面演示」独立进入，不会自动混入真实列表。
@@ -93,3 +93,5 @@ tests/test_collect.py            采集解析、去重与失败保护测试
 发布与采集任务通过 `scripts/push-main.sh` 非强制推送状态；遇到 GitHub `commit_refs` 等暂时性拒绝，会先同步远端并 rebase 后再重试（最多 4 次）。冲突或持续失败会明确停止，不丢弃他人提交。该路径已在本地临时裸仓库中测试远端并发提交与模拟拒绝。
 
 仓库拥有者也可提交 `.deploy/access-request.json` 发起 open/close 请求，以便通过已授权的 Git 操作远程管理，无需在浏览器保存密钥。手动工作流入口仍可使用。
+
+2026-11-04 实测：关闭流程已完成，验证停用页、新闻数据 404/410 及两个旧应用资源 404/410。完整站点删除 API 被 GitHub 返回 403，因此使用上述停用页机制。
