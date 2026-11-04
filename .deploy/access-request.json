@@ -1,1 +1,1 @@
-{"action": "close", "requestedAt": "2026-11-04T10:56:27.871365+00:00", "reason": "Diagnose Pages shutdown response without requiring user screenshots"}
+{"action": "close", "requestedAt": "2026-11-04T11:00:20.559104+00:00", "reason": "Verify maintenance shutdown removes all application assets and news data without admin API privileges"}

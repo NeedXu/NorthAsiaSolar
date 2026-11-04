@@ -11,6 +11,9 @@ class SiteVerificationTests(unittest.TestCase):
    with self.assertRaises(ValueError):v.check('https://example.github.io/project')
  def test_close_requires_both_homepage_and_feed_gone(self):
   with patch.object(v,'read',side_effect=[(404,''),(404,'')]):self.assertEqual(v.check('https://example.github.io/project',True),0)
-  for codes in [(404,200),(403,403),(500,500)]:
+  with patch.object(v,'read',side_effect=[(200,'NORTH_ASIA_ACCESS_CLOSED'),(404,''),(404,'')]):self.assertEqual(v.check('https://example.github.io/project',True,['https://example.github.io/project/old.js']),0)
+  with patch.object(v,'read',side_effect=[(200,'NORTH_ASIA_ACCESS_CLOSED'),(404,''),(200,'old app')]):
+   with self.assertRaises(ValueError):v.check('https://example.github.io/project',True,['https://example.github.io/project/old.js'])
+  for codes in [(404,200),(403,403),(500,500),(200,404)]:
    with patch.object(v,'read',side_effect=[(codes[0],''),(codes[1],'')]):
     with self.assertRaises(ValueError):v.check('https://example.github.io/project',True)

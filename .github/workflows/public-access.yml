@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       action:
-        description: 'close 关闭公开访问 / open 重新开放（仅仓库管理员）'
+        description: 'close 撤下应用与新闻 / open 重新开放（需要仓库权限）'
         type: choice
         required: true
         default: close
@@ -24,7 +24,7 @@ jobs:
       contents: write
       pages: write
     outputs:
-      open: ${{ steps.state.outputs.open }}
+      action: ${{ steps.request.outputs.action }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -47,7 +47,7 @@ jobs:
           if (!['open','close'].includes(action)) throw Error('Invalid access request');
           fs.appendFileSync(process.env.GITHUB_OUTPUT, `action=${action}\n`);
           JS
-      - name: Block deployment first (including reopen failures)
+      - name: Block application deployment first
         run: |
           node -e "require('fs').writeFileSync('.deploy/public-access.json', JSON.stringify({enabled:false})+'\n')"
           git config user.name 'github-actions[bot]'
@@ -57,66 +57,47 @@ jobs:
             git commit -m 'ops: disable public deployment'
             bash scripts/push-main.sh
           fi
-      - name: Change Pages site using runner authorization
-        id: pages
-        continue-on-error: true
+      - name: Ensure Pages is configured for workflow deployments
         env:
-          ACCESS_ACTION: ${{ steps.request.outputs.action }}
+          ACCESS_ACTION: open
           GITHUB_TOKEN: ${{ github.token }}
         run: node scripts/pages-control.mjs
-      - name: Save access-operation result
-        run: |
-          git add .deploy/access-result.json
-          git commit -m 'ops: record access-control result'
-          bash scripts/push-main.sh
-      - name: Require confirmed Pages operation
-        if: steps.pages.outcome != 'success'
-        run: exit 1
-      - name: Verify closed website and data endpoint
-        if: steps.request.outputs.action == 'close'
-        run: |
-          python3 scripts/verify-site.py --closed
-          git add .deploy/site-status.json
-          if ! git diff --cached --quiet; then
-            git commit -m 'ops: record verified website shutdown'
-            bash scripts/push-main.sh
-          fi
-      - name: Enable deployment only after Pages authorization succeeds
-        id: state
+      - name: Enable daily application deployment on open only
         if: steps.request.outputs.action == 'open'
         run: |
           node -e "require('fs').writeFileSync('.deploy/public-access.json', JSON.stringify({enabled:true})+'\n')"
           git add .deploy/public-access.json
           git commit -m 'ops: enable public deployment'
           bash scripts/push-main.sh
-          echo 'open=true' >> "$GITHUB_OUTPUT"
-      - name: Record result
-        env:
-          ACCESS_ACTION: ${{ steps.request.outputs.action }}
-        run: |
-          echo "Public access action completed: $ACCESS_ACTION" >> "$GITHUB_STEP_SUMMARY"
-          echo 'Only a successful close job confirms Pages deletion. Data already downloaded or cached cannot be recalled.' >> "$GITHUB_STEP_SUMMARY"
   build:
     needs: access
-    if: needs.access.outputs.open == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           ref: main
-          fetch-depth: 0
       - uses: actions/setup-node@v4
+        if: needs.access.outputs.action == 'open'
         with:
           node-version: '24'
           cache: npm
-      - run: npm ci
-      - run: npm test
-      - run: npm run build
+      - if: needs.access.outputs.action == 'open'
+        run: npm ci && npm test && npm run build
+      - name: Build shutdown page without application or feed
+        if: needs.access.outputs.action == 'close'
+        run: python3 scripts/build-closed.py
+      - name: Preserve prior asset list for shutdown verification
+        if: needs.access.outputs.action == 'close'
+        uses: actions/upload-artifact@v4
+        with:
+          name: prior-assets
+          path: .deploy/prior-assets.json
+          include-hidden-files: true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
   deploy:
-    needs: build
+    needs: [access, build]
     runs-on: ubuntu-latest
     permissions:
       pages: write
@@ -132,14 +113,28 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
-      - name: Verify homepage and published feed
+      - uses: actions/download-artifact@v4
+        if: needs.access.outputs.action == 'close'
+        with:
+          name: prior-assets
+          path: .deploy
+      - name: Verify application access state and data endpoint
         env:
           SITE_URL: ${{ steps.deployment.outputs.page_url }}
-        run: python3 scripts/verify-site.py
-      - name: Record verified website URL
+          ACCESS_ACTION: ${{ needs.access.outputs.action }}
+        run: |
+          if [ "$ACCESS_ACTION" = close ]; then
+            python3 scripts/verify-site.py --closed
+          else
+            python3 scripts/verify-site.py
+          fi
+      - name: Save verified access state
+        env:
+          ACCESS_ACTION: ${{ needs.access.outputs.action }}
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add .deploy/site-status.json
-          git commit -m 'ops: record verified live website'
+          git commit -m 'ops: record verified website access state'
           bash scripts/push-main.sh
+          echo "Verified action: $ACCESS_ACTION" >> "$GITHUB_STEP_SUMMARY"
