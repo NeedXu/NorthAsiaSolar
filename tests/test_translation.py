@@ -14,3 +14,11 @@ class TranslationTests(unittest.TestCase):
   row={'title':'태양광 100MW','summary':'태양광 100MW 공급','language':'ko','evidence':[]}
   result=t.apply(row,lambda text,lang:'100MW 光伏供应')
   self.assertEqual(result['originalTitle'],'태양광 100MW');self.assertEqual(result['title'],'100MW 光伏供应');self.assertEqual(result['translationStatus'],'translated')
+ def test_public_translation_response_is_parsed_without_credentials(self):
+  import json
+  from unittest.mock import MagicMock,patch
+  response=MagicMock();response.__enter__.return_value.read.return_value=json.dumps([[['太阳能100MW','태양광100MW']],None,'ko']).encode()
+  t.WEB_CACHE.clear();t.WEB_DISABLED=False
+  with patch.object(t.urllib.request,'urlopen',return_value=response) as request,patch.object(t.time,'sleep'):
+   self.assertEqual(t.web_translate('태양광100MW','ko'),'太阳能100MW')
+   self.assertNotIn('Authorization',dict(request.call_args.args[0].header_items()))

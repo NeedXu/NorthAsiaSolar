@@ -34,3 +34,8 @@ class LocalSourcesTests(unittest.TestCase):
   body='<html><meta property="article:published_time" content="2026-11-03T10:00:00+09:00"><main><h1>태양광 지원 정책</h1><p>태양광 보조금 지원 정책을 시행합니다.</p></main></html>'.encode()
   with patch.object(c,'fetch',return_value=body):rows=c.parse_listing(page,source,NOW)
   self.assertEqual(rows[0]['url'],'https://example.com/news/view?id=1');self.assertTrue(rows[0]['articleRead']);self.assertEqual(rows[0]['sourceType'],'government')
+ def test_incidental_solar_mention_in_general_investment_release_is_not_core_news(self):
+  self.assertFalse(c.relevant('7家企业扩大投资台湾','7家企业扩大投资台湾。某工厂计划在厂区设置太阳能。',{'sourceType':'government'}))
+ def test_headline_completion_is_not_replaced_by_an_old_mou_in_body(self):
+  text='太陽光発電所が竣工。太陽光について去年MOUを締結。'
+  self.assertEqual(c.signals(text,{'sourceType':'company'},'太陽光発電所が竣工')[0],'项目竣工/投运')

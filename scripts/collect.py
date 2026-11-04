@@ -58,36 +58,42 @@ def fetch(source):
 def article_document(data):
  soup=BeautifulSoup(data,'html.parser')
  dates=[]
- for tag in soup.select('meta[property="article:published_time"],meta[name="date"],meta[name="pubdate"],meta[name="publishdate"],meta[name="DC.date.issued"],meta[name="DC.date"],time[datetime],.article-date,.view-date,.view_date,.view_info .date,p.date,span.date'):
+ for tag in soup.select('meta[property="article:published_time"],meta[name="date"],meta[name="pubdate"],meta[name="publishdate"],meta[name="DC.date.issued"],meta[name="DC.date"],time[datetime],.article-date,.view-date,.view_date,.view_info .date,p.date,span.date,.news-date,.news_date,.newsDate'):
   dates.append(tag.get('content') or tag.get('datetime') or tag.get_text(' ',strip=True))
  # JSON-LD publication time is metadata, never executed as code.
  for script in soup.select('script[type="application/ld+json"]'):
   for match in re.findall(r'"datePublished"\s*:\s*"([^"]+)"',script.get_text()):dates.append(match)
  for bad in soup.select('script,style,nav,header,footer,noscript,form,iframe'):bad.decompose()
  title=clean(soup.h1.get_text(' ',strip=True)) if soup.h1 else ''
- body=soup.select_one('article') or soup.select_one('#contentBody') or soup.select_one('.view_cont') or soup.select_one('.article-view-content-div') or soup.select_one('main') or soup.body or soup
+ body=soup.select_one('[itemprop="articleBody"],#contentBody,.article-view-content-div,.entry-content,.post-content,.view_cont') or soup.select_one('article') or soup.select_one('#contentBody') or soup.select_one('.view_cont') or soup.select_one('.article-view-content-div') or soup.select_one('main') or soup.body or soup
  text=clean(body.get_text(' ',strip=True))[:18000]
  if not dates:dates=[text[:900]]
  return title,text,dates
 
 def cue(text,pattern):
- for sentence in re.split(r'(?<=[。！？!?])|\n',text):
+ for sentence in re.split(r'(?<=[。！？!?])|(?<=\.)\s+|\n',text):
   match=re.search(pattern,sentence,re.I)
   if match:
    start=max(0,match.start()-120);return sentence[start:match.end()+220][:380].strip()
  return ''
-def signals(text,source):
+def signals(text,source,title=None):
+ headline=title or text.split('。')[0]
+ relevant_sentences=[p for p in re.split(r'(?<=[。！？!?])|(?<=\.)\s+|\n',text) if re.search(PV,p,re.I)]
+ focus='。'.join(relevant_sentences)
  event='政策公告' if source.get('sourceType')=='government' and re.search(POLICY,text,re.I) else '市场/企业动态'
  evidence=''
- for name,pattern in EVENTS:
-  found=cue(text,pattern)
-  if found:
-   event=name;evidence=found;break
- if source.get('sourceType')=='government' and re.search(POLICY,text,re.I):event='政策公告'
+ for scope in [headline,focus]:
+  for name,pattern in EVENTS:
+   found=cue(scope,pattern)
+   if found:event=name;evidence=found;break
+  if evidence:break
+ if source.get('sourceType')=='government':
+  if re.search(POLICY,headline,re.I):event='政策公告'
+  elif re.search(r'会議|會議|会议|회의|forum|meeting',headline,re.I):event='政策交流/会议'
  if event=='项目竣工/投运' and re.search(r'予定|計画|계획|예정|计划|計畫|预计|預計|planned|expected|will',evidence,re.I):event='项目计划（待核实）'
  direction='未判定';policy_quote=''
  if source.get('sourceType')=='government':
-  for sentence in re.split(r'(?<=[。！？!?])',text):
+  for sentence in re.split(r'(?<=[。！？!?])|(?<=\.)\s+',text):
    if not re.search(PV,sentence,re.I):continue
    support=bool(re.search(r'補助|補貼|补贴|助成|지원|보조금|subsid|grant',sentence,re.I))
    restrict=bool(re.search(r'廃止|終了|縮小|停止|禁止|対象外|しない|行わない|不予|不再|제한|폐지|축소|중단|지원하지|제외|하지 않|取消|撤銷|下修|end of|terminate|ban\b|phase.out',sentence,re.I))
@@ -96,9 +102,14 @@ def signals(text,source):
     policy_quote=cue(sentence,PV);break
  return event,evidence,direction,policy_quote
 
+def relevant(title,text,source):
+ if not re.search(PV,text,re.I):return False
+ if source.get('sourceType')=='company' or source.get('solarFocused') or re.search(PV,title,re.I):return True
+ return source.get('sourceType')=='government' and bool(re.search(POLICY+r'|再生能源|再生可能|재생에너지|renewable',title,re.I))
+
 def make_rows(title,excerpt,url,published,source,now,body='',body_ok=False):
  text=title+' '+(body or excerpt)
- if not re.search(PV,text,re.I):return []
+ if not relevant(title,text,source):return []
  matched=[m for m,p in MARKETS.items() if re.search(p,title+' '+excerpt,re.I)]
  basis='正文明确提及市场'
  if source.get('sourceType')=='government':matched=[source['market']];basis='官方发布机构辖区，公告适用范围待核实'
@@ -106,8 +117,8 @@ def make_rows(title,excerpt,url,published,source,now,body='',body_ok=False):
   if re.search(r'米国|中国|中國|미국|중국|유럽|欧州|欧洲|europe|united states|germany|ドイツ|ブラジル|독일',title,re.I):return []
   matched=[source['market']];basis='本地语言来源定位，地域适用性待复核'
  if not matched:return []
- event,event_quote,direction,policy_quote=signals(text,source)
- topic='政策与补贴' if event=='政策公告' or re.search(POLICY,title,re.I) else '竞争动态' if event!='市场/企业动态' or re.search(BRANDS,title,re.I) else '技术创新' if re.search(r'効率|효율|efficiency|钙钛矿|ペロブスカイト|HJT|TOPCon',title,re.I) else '市场趋势'
+ event,event_quote,direction,policy_quote=signals(text,source,title)
+ topic='政策与补贴' if event in ('政策公告','政策交流/会议') or re.search(POLICY,title,re.I) else '竞争动态' if event!='市场/企业动态' or re.search(BRANDS,title,re.I) else '技术创新' if re.search(r'効率|효율|efficiency|钙钛矿|ペロブスカイト|HJT|TOPCon',title,re.I) else '市场趋势'
  # No legal/policy stance from a media report or title alone.
  if not body_ok:direction='未判定';policy_quote=''
  evidence=[]
@@ -115,7 +126,7 @@ def make_rows(title,excerpt,url,published,source,now,body='',body_ok=False):
  if event_quote:evidence.append({'label':'项目/合作/产品原文线索','original':event_quote})
  for market in matched:
   yield {'id':hashlib.sha256((market+url).encode()).hexdigest()[:24],'market':market,'title':title,'originalTitle':title,'date':published.astimezone(dt.timezone(dt.timedelta(hours=8))).date().isoformat(),'publishedAt':published.isoformat(),'topic':topic,'priority':'高' if source.get('sourceType')=='government' and topic=='政策与补贴' else '中','source':source['name'],'url':url,
-   'summary':'中文整理待生成；请核对原文。','originalSummary':excerpt[:1200],
+   'summary':'中文整理待生成；请核对原文。','originalSummary':(cue(body,PV) if body_ok else excerpt)[:1200],
    'importance':'该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。',
    'impact':'尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。',
    'watch':('先核对政府原文的适用地区、对象、金额、申请期限和施行日期；不能将补助线索视为已生效支持政策。' if topic=='政策与补贴' else '核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。'),'tech':next((name for name,pattern in TECH.items() if re.search(pattern,text,re.I)),'未分类'),
@@ -131,7 +142,7 @@ def parse_feed(xml,source,now,enrich=False):
  for item in entries:
   title=clean(item.findtext('title') or item.findtext('a:title',namespaces=ns))
   excerpt=clean(item.findtext('description') or item.findtext('a:summary',namespaces=ns))
-  if not re.search(PV,title+' '+excerpt,re.I):continue
+  if not relevant(title,title+' '+excerpt,source):continue
   try:
    link=item.findtext('link')
    if not link:
@@ -163,7 +174,7 @@ def parse_listing(data,source,now):
  for url,title in list(links.items())[:14]:
   try:
    actual,body,dates=article_document(fetch(url));title=actual or title
-   if not re.search(PV,title+' '+body,re.I):continue
+   if not relevant(title,title+' '+body,source):continue
    published=None
    for value in dates:
     try:published=valid_date(value,source,now);break
@@ -207,7 +218,9 @@ def run(path):
  with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
   for rows,health in pool.map(lambda s:collect_source(s,now),SOURCES):incoming.extend(rows);status.append(health)
  success=all(s['state']=='ok' for s in status)
- payload={'schemaVersion':1,'mode':'live','attemptedAt':now.isoformat(),'lastSuccessAt':now.isoformat() if success else previous.get('lastSuccessAt'),'status':'ok' if success else 'partial' if any(s['state']=='ok' for s in status) else 'error','sources':status,'items':merge(previous['items'],incoming),'coverageNotes':['日本经济产业省/资源能源厅目前返回403，未声称已覆盖其政策原文。','政府公告、媒体报道与企业自述分开标记；未覆盖所有地方补助或所有同行动态。','政策方向为保守的原文线索，不是已核实的法律或投资结论。']}
+ by_name={s['name']:s for s in SOURCES}
+ old_rows=[r for r in previous['items'] if relevant(r.get('originalTitle') or r['title'],(r.get('originalTitle') or r['title'])+' '+r.get('originalSummary',r['summary']),by_name.get(r['source'],{'sourceType':r.get('sourceType','media')}))]
+ payload={'schemaVersion':1,'mode':'live','attemptedAt':now.isoformat(),'lastSuccessAt':now.isoformat() if success else previous.get('lastSuccessAt'),'status':'ok' if success else 'partial' if any(s['state']=='ok' for s in status) else 'error','sources':status,'items':merge(old_rows,incoming),'coverageNotes':['日本经济产业省/资源能源厅目前返回403，未声称已覆盖其政策原文。','政府公告、媒体报道与企业自述分开标记；未覆盖所有地方补助或所有同行动态。','政策方向为保守的原文线索，不是已核实的法律或投资结论。']}
  for key in ('translation','translationModel'):
   if key in previous:payload[key]=previous[key]
  path.parent.mkdir(parents=True,exist_ok=True);temp=path.with_suffix('.tmp');temp.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n');os.replace(temp,path)

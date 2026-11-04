@@ -1,17 +1,143 @@
 [
- {"name":"东京都政府","url":"https://www.metro.tokyo.lg.jp/rss/index.rdf","kind":"rss","market":"日本","jurisdiction":"东京都","language":"ja","sourceType":"government","timezone":9},
- {"name":"日本环境省","url":"https://www.env.go.jp/press/","kind":"html","linkPattern":"/press/(?:press_)?[0-9_]+\\.html","market":"日本","jurisdiction":"日本（公告适用范围待核实）","language":"ja","sourceType":"government","timezone":9},
- {"name":"韩国政府政策简报","url":"https://www.korea.kr/news/policyNewsList.do","kind":"html","linkPattern":"/news/policyNewsView\\.do\\?newsId=[0-9]+","market":"韩国","jurisdiction":"韩国（公告适用范围待核实）","language":"ko","sourceType":"government","timezone":9},
- {"name":"台湾经济部","url":"https://www.moea.gov.tw/Mns/populace/news/NewsRSSdetail.aspx?Kind=1","kind":"rss","market":"台湾","jurisdiction":"台湾（公告适用范围待核实）","language":"zh-Hant","sourceType":"government","timezone":8},
- {"name":"台湾经济部能源署","url":"https://www.moeaea.gov.tw/ECW/populace/news/NewsRSSdetail.aspx?Kind=1","kind":"rss","market":"台湾","jurisdiction":"台湾（公告适用范围待核实）","language":"zh-Hant","sourceType":"government","timezone":8},
- {"name":"日本 SOLAR JOURNAL","url":"https://solarjournal.jp/feed/","kind":"rss","market":"日本","language":"ja","sourceType":"media","timezone":9},
- {"name":"韩国 Industry News","url":"https://www.industrynews.co.kr/rss/allArticle.xml","kind":"rss","market":"韩国","language":"ko","sourceType":"media","timezone":9},
- {"name":"韩国电气新闻","url":"https://www.electimes.com/rss/allArticle.xml","kind":"rss","market":"韩国","language":"ko","sourceType":"media","timezone":9},
- {"name":"韩国能源日报","url":"https://www.energydaily.co.kr/rss/allArticle.xml","kind":"rss","market":"韩国","language":"ko","sourceType":"media","timezone":9},
- {"name":"台湾科技新报","url":"https://technews.tw/feed/","kind":"rss","market":"台湾","language":"zh-Hant","sourceType":"media","timezone":8},
- {"name":"天合光能日本官方","url":"https://www.trinasolar.com/jp/feed/","kind":"rss","market":"日本","language":"ja","sourceType":"company","timezone":9},
- {"name":"隆基日本官方","url":"https://www.longi.com/jp/news/","kind":"html","linkPattern":"/jp/news/[a-zA-Z0-9-]+/","market":"日本","language":"ja","sourceType":"company","timezone":9},
- {"name":"韩华 Qcells 韩国官方","url":"https://www.qcells.com/kr/stay-in-the-loop/trending-news","kind":"html","linkPattern":"trending-news-detail\\?newsId=NEW[0-9]+","market":"韩国","language":"ko","sourceType":"company","timezone":9},
- {"name":"PV magazine（补充）","url":"https://www.pv-magazine.com/feed/","kind":"rss","language":"en","sourceType":"media"},
- {"name":"PV Tech（补充）","url":"https://www.pv-tech.org/feed/","kind":"rss","language":"en","sourceType":"media"}
+  {
+    "name": "东京都政府",
+    "url": "https://www.metro.tokyo.lg.jp/rss/index.rdf",
+    "kind": "rss",
+    "market": "日本",
+    "jurisdiction": "东京都",
+    "language": "ja",
+    "sourceType": "government",
+    "timezone": 9
+  },
+  {
+    "name": "日本环境省",
+    "url": "https://www.env.go.jp/press/",
+    "kind": "html",
+    "linkPattern": "/press/(?:press_)?[0-9_]+\\.html",
+    "market": "日本",
+    "jurisdiction": "日本（公告适用范围待核实）",
+    "language": "ja",
+    "sourceType": "government",
+    "timezone": 9
+  },
+  {
+    "name": "韩国政府政策简报",
+    "url": "https://www.korea.kr/news/policyNewsList.do",
+    "kind": "html",
+    "linkPattern": "/news/policyNewsView\\.do\\?newsId=[0-9]+",
+    "market": "韩国",
+    "jurisdiction": "韩国（公告适用范围待核实）",
+    "language": "ko",
+    "sourceType": "government",
+    "timezone": 9
+  },
+  {
+    "name": "台湾经济部",
+    "url": "https://www.moea.gov.tw/Mns/populace/news/NewsRSSdetail.aspx?Kind=1",
+    "kind": "rss",
+    "market": "台湾",
+    "jurisdiction": "台湾（公告适用范围待核实）",
+    "language": "zh-Hant",
+    "sourceType": "government",
+    "timezone": 8
+  },
+  {
+    "name": "台湾经济部能源署",
+    "url": "https://www.moeaea.gov.tw/ECW/populace/news/NewsRSSdetail.aspx?Kind=1",
+    "kind": "rss",
+    "market": "台湾",
+    "jurisdiction": "台湾（公告适用范围待核实）",
+    "language": "zh-Hant",
+    "sourceType": "government",
+    "timezone": 8
+  },
+  {
+    "name": "日本 SOLAR JOURNAL",
+    "url": "https://solarjournal.jp/feed/",
+    "kind": "rss",
+    "market": "日本",
+    "language": "ja",
+    "sourceType": "media",
+    "timezone": 9,
+    "solarFocused": true
+  },
+  {
+    "name": "韩国 Industry News",
+    "url": "https://www.industrynews.co.kr/rss/allArticle.xml",
+    "kind": "rss",
+    "market": "韩国",
+    "language": "ko",
+    "sourceType": "media",
+    "timezone": 9
+  },
+  {
+    "name": "韩国电气新闻",
+    "url": "https://www.electimes.com/rss/allArticle.xml",
+    "kind": "rss",
+    "market": "韩国",
+    "language": "ko",
+    "sourceType": "media",
+    "timezone": 9
+  },
+  {
+    "name": "韩国能源日报",
+    "url": "https://www.energydaily.co.kr/rss/allArticle.xml",
+    "kind": "rss",
+    "market": "韩国",
+    "language": "ko",
+    "sourceType": "media",
+    "timezone": 9
+  },
+  {
+    "name": "台湾科技新报",
+    "url": "https://technews.tw/feed/",
+    "kind": "rss",
+    "market": "台湾",
+    "language": "zh-Hant",
+    "sourceType": "media",
+    "timezone": 8
+  },
+  {
+    "name": "天合光能日本官方",
+    "url": "https://www.trinasolar.com/jp/feed/",
+    "kind": "rss",
+    "market": "日本",
+    "language": "ja",
+    "sourceType": "company",
+    "timezone": 9
+  },
+  {
+    "name": "隆基日本官方",
+    "url": "https://www.longi.com/jp/news/",
+    "kind": "html",
+    "linkPattern": "/jp/news/[a-zA-Z0-9-]+/",
+    "market": "日本",
+    "language": "ja",
+    "sourceType": "company",
+    "timezone": 9
+  },
+  {
+    "name": "韩华 Qcells 韩国官方",
+    "url": "https://www.qcells.com/kr/stay-in-the-loop/trending-news",
+    "kind": "html",
+    "linkPattern": "trending-news-detail\\?newsId=NEW[0-9]+",
+    "market": "韩国",
+    "language": "ko",
+    "sourceType": "company",
+    "timezone": 9
+  },
+  {
+    "name": "PV magazine（补充）",
+    "url": "https://www.pv-magazine.com/feed/",
+    "kind": "rss",
+    "language": "en",
+    "sourceType": "media"
+  },
+  {
+    "name": "PV Tech（补充）",
+    "url": "https://www.pv-tech.org/feed/",
+    "kind": "rss",
+    "language": "en",
+    "sourceType": "media"
+  }
 ]

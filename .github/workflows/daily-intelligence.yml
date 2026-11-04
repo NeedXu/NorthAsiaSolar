@@ -2,7 +2,7 @@ name: Daily intelligence and Pages deployment
 on:
   push:
     branches: [main]
-    paths-ignore: ['.deploy/access-request.json']
+    paths-ignore: ['.deploy/access-request.json','scripts/source-probe.py','.github/workflows/source-validation.yml','.deploy/source-probe.json']
   workflow_dispatch:
   schedule:
     - cron: '0 0 * * *' # 08:00 Asia/Shanghai; GitHub may delay scheduled jobs.
