@@ -2,6 +2,7 @@ name: Daily intelligence and Pages deployment
 on:
   push:
     branches: [main]
+    paths-ignore: ['.deploy/access-request.json']
   workflow_dispatch:
   schedule:
     - cron: '0 0 * * *' # 08:00 Asia/Shanghai; GitHub may delay scheduled jobs.
@@ -19,6 +20,9 @@ jobs:
       failed: ${{ steps.collect.outcome == 'failure' }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -34,7 +38,7 @@ jobs:
           git add public/data/feed.json
           if ! git diff --cached --quiet; then
             git commit -m 'data: refresh North Asia RSS archive'
-            git push
+            bash scripts/push-main.sh
           fi
   public-access:
     needs: collect

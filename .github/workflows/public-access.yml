@@ -1,5 +1,8 @@
 name: 公开访问开关
 on:
+  push:
+    branches: [main]
+    paths: ['.deploy/access-request.json']
   workflow_dispatch:
     inputs:
       action:
@@ -15,6 +18,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   access:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -25,9 +29,24 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
+      - name: Validate requested action
+        id: request
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          MANUAL_ACTION: ${{ inputs.action }}
+        run: |
+          node --input-type=module <<'JS'
+          import fs from 'node:fs';
+          const action = process.env.EVENT_NAME === 'workflow_dispatch'
+            ? process.env.MANUAL_ACTION
+            : JSON.parse(fs.readFileSync('.deploy/access-request.json','utf8')).action;
+          if (!['open','close'].includes(action)) throw Error('Invalid access request');
+          fs.appendFileSync(process.env.GITHUB_OUTPUT, `action=${action}\n`);
+          JS
       - name: Block deployment first (including reopen failures)
         run: |
           node -e "require('fs').writeFileSync('.deploy/public-access.json', JSON.stringify({enabled:false})+'\n')"
@@ -36,25 +55,25 @@ jobs:
           git add .deploy/public-access.json
           if ! git diff --cached --quiet; then
             git commit -m 'ops: disable public deployment'
-            git push
+            bash scripts/push-main.sh
           fi
       - name: Change Pages site using runner authorization
         env:
-          ACCESS_ACTION: ${{ inputs.action }}
+          ACCESS_ACTION: ${{ steps.request.outputs.action }}
           GITHUB_TOKEN: ${{ github.token }}
         run: node scripts/pages-control.mjs
       - name: Enable deployment only after Pages authorization succeeds
         id: state
-        if: inputs.action == 'open'
+        if: steps.request.outputs.action == 'open'
         run: |
           node -e "require('fs').writeFileSync('.deploy/public-access.json', JSON.stringify({enabled:true})+'\n')"
           git add .deploy/public-access.json
           git commit -m 'ops: enable public deployment'
-          git push
+          bash scripts/push-main.sh
           echo 'open=true' >> "$GITHUB_OUTPUT"
       - name: Record result
         env:
-          ACCESS_ACTION: ${{ inputs.action }}
+          ACCESS_ACTION: ${{ steps.request.outputs.action }}
         run: |
           echo "Public access action completed: $ACCESS_ACTION" >> "$GITHUB_STEP_SUMMARY"
           echo 'Only a successful close job confirms Pages deletion. Data already downloaded or cached cannot be recalled.' >> "$GITHUB_STEP_SUMMARY"
@@ -66,6 +85,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
