@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "mode": "live",
-  "attemptedAt": "2026-11-04T12:18:31.159720+00:00",
-  "lastSuccessAt": "2026-11-04T12:18:31.159720+00:00",
+  "attemptedAt": "2026-11-04T12:25:23.839559+00:00",
+  "lastSuccessAt": "2026-11-04T12:25:23.839559+00:00",
   "status": "ok",
   "sources": [
     {
@@ -25,7 +25,7 @@
       "name": "韩国政府政策简报（光伏检索）",
       "url": "https://www.korea.kr/news/policyNewsList.do?srchWord=%ED%83%9C%EC%96%91%EA%B4%91",
       "state": "ok",
-      "matched": 6,
+      "matched": 5,
       "language": "ko",
       "sourceType": "government"
     },
@@ -164,7 +164,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
+      "collectedAt": "2026-11-04T12:25:23.839559+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:15:54.201831+00:00"
     },
@@ -203,7 +203,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
+      "collectedAt": "2026-11-04T12:25:23.839559+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:37.869316+00:00"
     },
@@ -236,7 +236,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
+      "collectedAt": "2026-11-04T12:25:23.839559+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:03.302883+00:00"
     },
@@ -263,19 +263,13 @@
       "sourceType": "company",
       "jurisdiction": "地域适用性待复核",
       "marketBasis": "本地语言来源定位，地域适用性待复核",
-      "eventType": "产品/技术发布",
+      "eventType": "市场/企业动态",
       "policyDirection": "未判定",
       "policyStage": "法规效力/执行阶段待核实",
-      "evidence": [
-        {
-          "label": "项目/合作/产品原文线索",
-          "original": "年第1四半期から最高評価を維持 LONGi（ロンジ、LONGi Green Energy Technology Co., Ltd.／本社：中国・西安市）は、インフォーマ社（Informa PLC（インフォーマ・ピーエルシー）、本社：英国）が発表した「PV ModuleTechバンカビリティ格付け」の2026年第3四半期版において、最上位格付けのAAA（トリプル・エー）評価を27期連続で獲得しました。",
-          "chinese": "隆基（隆基，隆基绿色能源科技有限公司/总部：中国西安）保持自2017年第一季度以来的最高评级，成为Informa PLC（总部：英国）公布的PV ModuleTech Vanguard成员。"
-        }
-      ],
+      "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
+      "collectedAt": "2026-11-04T12:25:23.839559+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:14.263167+00:00"
     },
@@ -308,7 +302,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
+      "collectedAt": "2026-11-04T12:25:23.839559+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:01.295687+00:00"
     },
@@ -341,7 +335,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
+      "collectedAt": "2026-11-04T12:25:23.839559+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:23.350414+00:00"
     },
@@ -374,14 +368,15 @@
       "evidence": [
         {
           "label": "项目/合作/产品原文线索",
-          "original": "第65次APEC新及再生能源技術專家小組會議圓滿落幕 共築區域合作與綠能科技韌性願景"
+          "original": "第65次APEC新及再生能源技術專家小組會議圓滿落幕 共築區域合作與綠能科技韌性願景",
+          "chinese": "第65次APEC新及再生能源技术专家小组会议圆满落幕 共筑区域合作与绿能科技韧性愿景"
         }
       ],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
+      "collectedAt": "2026-11-04T12:25:23.839559+00:00",
       "translationProvider": "繁体转简体（保留原文）",
-      "translatedAt": "2026-11-04T11:44:41.988099+00:00"
+      "translatedAt": "2026-11-04T12:27:06.865620+00:00"
     },
     {
       "id": "6520f4c8d07ab5659e19fe89",
@@ -390,7 +385,7 @@
       "originalTitle": "【12/3大阪開催】『低圧系統用蓄電池』ビジネスの全貌 〜事業者が今知るべき最新トレンドと収益モデル〜",
       "date": "2026-10-29",
       "publishedAt": "2026-10-29T08:46:51+00:00",
-      "topic": "竞争动态",
+      "topic": "市场趋势",
       "priority": "中",
       "source": "日本 SOLAR JOURNAL",
       "url": "https://solarjournal.jp/event/67700/",
@@ -406,19 +401,13 @@
       "sourceType": "media",
       "jurisdiction": "地域适用性待复核",
       "marketBasis": "正文明确提及市场",
-      "eventType": "产品/技术发布",
+      "eventType": "市场/企业动态",
       "policyDirection": "未判定",
       "policyStage": "法规效力/执行阶段待核实",
-      "evidence": [
-        {
-          "label": "项目/合作/产品原文线索",
-          "original": "HUAWEI 華為技術日本株式会社 デジタルパワー事業本部マーケティング&ソリューションセールス部プロダクトマネージャー 新井 龍人 氏 講演：HUAWEI 低圧系統用蓄電池ソリューション 太陽光発電・蓄電システムを中心に、技術提案や製品導入支援に従事。",
-          "chinese": "华为 华为技术日本有限公司 数字电源业务总部 Marketing & 解决方案销售部 产品经理 Ryuto Arai 演讲：华为低压系统蓄电池解决方案 从事技术方案和产品导入支持，重点关注太阳能发电和蓄电系统。"
-        }
-      ],
+      "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
+      "collectedAt": "2026-11-04T12:25:23.839559+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:32.133219+00:00"
     },
@@ -451,7 +440,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
+      "collectedAt": "2026-11-04T12:25:23.839559+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:40.563878+00:00"
     },
@@ -462,7 +451,7 @@
       "originalTitle": "【セキュリティー対策】経産省、分散型電源のサイバーセキュリティ対策 JC-STAR★２以上の策定に向け検討準備を進める",
       "date": "2026-10-28",
       "publishedAt": "2026-10-28T03:27:28+00:00",
-      "topic": "竞争动态",
+      "topic": "市场趋势",
       "priority": "中",
       "source": "日本 SOLAR JOURNAL",
       "url": "https://solarjournal.jp/policy/68228/",
@@ -478,19 +467,13 @@
       "sourceType": "media",
       "jurisdiction": "地域适用性待复核",
       "marketBasis": "本地语言来源定位，地域适用性待复核",
-      "eventType": "产品/技术发布",
+      "eventType": "市场/企业动态",
       "policyDirection": "未判定",
       "policyStage": "法规效力/执行阶段待核实",
-      "evidence": [
-        {
-          "label": "项目/合作/产品原文线索",
-          "original": "討準備を進めていく 風力発電はゲートウェイのみが対象 JC-STAR★１要件化の対象となる電源種、適用開始時期、適用範囲（出典 経済産業省） AIの悪用により全世界で勢いを増すサイバー攻撃への対応が急がれる一方で、太陽光発電や蓄電池では中国製品を採用する際に認証取得への不安が残る。",
-          "chinese": "对于风力发电，只有网关符合JC-STAR★1要求、电源类型、申请开始日期和适用范围（来源：经济产业省） 虽然由于滥用人工智能而迫切需要应对全球范围内日益猖獗的网络攻击，但太阳能发电和蓄电池采用中国产品时仍对获得认证感到担忧。"
-        }
-      ],
+      "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
+      "collectedAt": "2026-11-04T12:25:23.839559+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:47.536257+00:00"
     },
@@ -556,7 +539,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
+      "collectedAt": "2026-11-04T12:25:23.839559+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:51.329994+00:00"
     },
@@ -589,7 +572,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
+      "collectedAt": "2026-11-04T12:25:23.839559+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:55.473555+00:00"
     },
@@ -619,12 +602,18 @@
       "eventType": "政策公告",
       "policyDirection": "未判定",
       "policyStage": "法规效力/执行阶段待核实",
-      "evidence": [],
+      "evidence": [
+        {
+          "label": "政策公告原文线索",
+          "original": "[정책 바로보기] 소방관 순직 재발방지 대책은?",
+          "chinese": "【政策概述】防止消防员因公死亡事件再次发生有哪些措施？"
+        }
+      ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
+      "collectedAt": "2026-11-04T12:25:23.839559+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
-      "translatedAt": "2026-11-04T12:20:12.025241+00:00"
+      "translatedAt": "2026-11-04T12:27:09.963540+00:00"
     },
     {
       "id": "9e91753c7681cc6ebb26e546",
@@ -656,14 +645,19 @@
         {
           "label": "政策方向原文线索",
           "original": "송전망 주변마을 '햇빛소득' 지원…입지 선정 때 주민참여 확대 정부가 송전망이 지나는 마을 주민에게 태양광 발전 수익이 돌아갈 수 있도록 지원체계를 손본다.",
-          "chinese": "为输电网络周边村庄提供“阳光收入”支持……提高居民选址参与度 政府正在完善支持体系，将太阳能发电利润返还给输电网络所经村庄的居民。"
+          "chinese": "为输电网络周边村庄提供“阳光收入”支持……选址时扩大居民参与。政府正在完善支持体系，将太阳能发电利润返还给输电网络所经村庄的居民。"
+        },
+        {
+          "label": "政策公告原文线索",
+          "original": "송전망 주변마을 '햇빛소득' 지원…입지 선정 때 주민참여 확대",
+          "chinese": "为输电网络周边村庄提供“阳光收入”支持……选址时扩大居民参与"
         }
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
+      "collectedAt": "2026-11-04T12:25:23.839559+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
-      "translatedAt": "2026-11-04T12:16:09.334719+00:00"
+      "translatedAt": "2026-11-04T12:27:15.852513+00:00"
     },
     {
       "id": "79c33e42fd11f111e8631d91",
@@ -694,7 +688,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
+      "collectedAt": "2026-11-04T12:25:23.839559+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:59.090480+00:00"
     },
@@ -705,15 +699,15 @@
       "originalTitle": "학교 태양광 설비 법정검사 주기 4년→1년 단축…안전 강화",
       "date": "2026-10-15",
       "publishedAt": "2026-10-14T17:55:00+00:00",
-      "topic": "竞争动态",
-      "priority": "中",
+      "topic": "政策与补贴",
+      "priority": "高",
       "source": "韩国政府政策简报（光伏检索）",
       "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148973472",
       "summary": "学校太阳能发电设施安全检查周期由4年缩短为1年。",
       "originalSummary": "학교 태양광 설비의 안전검사 주기가 기존 4년에서 1년으로 단축된다.",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
-      "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
+      "watch": "先核对政府原文的适用地区、对象、金额、申请期限和施行日期；不能将补助线索视为已生效支持政策。",
       "tech": "未分类",
       "dataKind": "live",
       "analysisKind": "evidence-cues",
@@ -721,21 +715,21 @@
       "sourceType": "government",
       "jurisdiction": "韩国（公告适用范围待核实）",
       "marketBasis": "官方发布机构辖区，公告适用范围待核实",
-      "eventType": "合作意向/MOU",
+      "eventType": "政策公告",
       "policyDirection": "未判定",
       "policyStage": "法规效力/执行阶段待核实",
       "evidence": [
         {
-          "label": "项目/合作/产品原文线索",
-          "original": "교육부는 15일 한국전기안전공사와 학교 태양광 설비의 안전 확보를 위한 업무협약을 체결한다.。",
-          "chinese": "15日，教育部与韩国电气安全公社签署业务协议，确保学校太阳能发电设施安全。"
+          "label": "政策公告原文线索",
+          "original": "학교 태양광 설비 법정검사 주기 4년→1년 단축…안전 강화",
+          "chinese": "学校太阳能发电设施法定检验周期从4年缩短至1年...安全性提高"
         }
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
+      "collectedAt": "2026-11-04T12:25:23.839559+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
-      "translatedAt": "2026-11-04T12:16:20.644868+00:00"
+      "translatedAt": "2026-11-04T12:27:19.599501+00:00"
     },
     {
       "id": "27ca5432987f5fd8a1158be0",
@@ -772,7 +766,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
+      "collectedAt": "2026-11-04T12:25:23.839559+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:17:02.506134+00:00"
     },
@@ -798,7 +792,7 @@
       "originalSummary": "South Korea’s Ministry of Climate, Energy and Environment (MCEE) has unveiled its KRW1,000 trillion (US$747 billion) Korean Green Transformation (K-GX) industrial strategy.",
       "translationStatus": "translated",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-04T12:20:28.156003+00:00"
+      "translatedAt": "2026-11-04T12:27:33.561826+00:00"
     },
     {
       "id": "ecd33be5da742c15ff9a7d34",
@@ -826,12 +820,18 @@
       "eventType": "政策公告",
       "policyDirection": "未判定",
       "policyStage": "法规效力/执行阶段待核实",
-      "evidence": [],
+      "evidence": [
+        {
+          "label": "政策公告原文线索",
+          "original": "7.9조 규모 현장대기 프로젝트 신속 지원…첨단·신산업 규제 합리화",
+          "chinese": "快速支持价值7.9万亿韩元的现场备用项目……高新技术和新兴产业法规合理化"
+        }
+      ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
+      "collectedAt": "2026-11-04T12:25:23.839559+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
-      "translatedAt": "2026-11-04T12:20:15.835709+00:00"
+      "translatedAt": "2026-11-04T12:27:23.345332+00:00"
     },
     {
       "id": "1ecba03b01440aaf4fc750ad",
@@ -840,7 +840,7 @@
       "originalTitle": "公告「太陽光電發電設備結合儲能系統115年第2期競標容量、投標截止期限及開標時間」",
       "date": "2026-10-01",
       "publishedAt": "2026-10-01T09:01:58+00:00",
-      "topic": "市场趋势",
+      "topic": "竞争动态",
       "priority": "中",
       "source": "台湾能源署业务/补助公告",
       "url": "https://www.moeaea.gov.tw:443/ECW/populace/news/Board.aspx?kind=3&menu_id=57&news_id=34599",
@@ -856,15 +856,21 @@
       "sourceType": "government",
       "jurisdiction": "台湾（公告适用对象及法规效力待核实）",
       "marketBasis": "官方发布机构辖区，公告适用范围待核实",
-      "eventType": "市场/企业动态",
+      "eventType": "政府招标/采购",
       "policyDirection": "未判定",
       "policyStage": "法规效力/执行阶段待核实",
-      "evidence": [],
+      "evidence": [
+        {
+          "label": "项目/合作/产品原文线索",
+          "original": "公告「太陽光電發電設備結合儲能系統115年第2期競標容量、投標截止期限及開標時間」",
+          "chinese": "公告「太阳光电发电设备结合储能系统115年第2期竞标容量、投标截止期限及开标时间」"
+        }
+      ],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
+      "collectedAt": "2026-11-04T12:25:23.839559+00:00",
       "translationProvider": "繁体转简体（保留原文）",
-      "translatedAt": "2026-11-04T12:15:50.840560+00:00"
+      "translatedAt": "2026-11-04T12:27:06.866299+00:00"
     },
     {
       "id": "c5d22358caaa5a51d2a378c1",
@@ -895,7 +901,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
+      "collectedAt": "2026-11-04T12:25:23.839559+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:26.695227+00:00"
     },
@@ -934,7 +940,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
+      "collectedAt": "2026-11-04T12:25:23.839559+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:17:03.692923+00:00"
     },
@@ -973,7 +979,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
+      "collectedAt": "2026-11-04T12:25:23.839559+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:17:06.925633+00:00"
     },
@@ -1006,7 +1012,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
+      "collectedAt": "2026-11-04T12:25:23.839559+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:17:08.991376+00:00"
     },
@@ -1033,19 +1039,13 @@
       "sourceType": "company",
       "jurisdiction": "地域适用性待复核",
       "marketBasis": "正文明确提及市场",
-      "eventType": "产品/技术发布",
+      "eventType": "市场/企业动态",
       "policyDirection": "未判定",
       "policyStage": "法规效力/执行阶段待核实",
-      "evidence": [
-        {
-          "label": "项目/合作/产品原文线索",
-          "original": "1の地位を維持 2026.08.07 太陽光発電および蓄電ソリューション分野で世界をリードするトリナ・ソーラー（Trina Solar Co., Ltd.、SH:688599、以下「トリナ・ソーラー」）は、この度S&Pグローバル・エナジーが発表した、太陽光発電モジュール、太陽光発電用インバーター、風力タービン、エネルギー貯蔵システム、およびエネルギー貯蔵用バッテリーセルを対象とした、第2回「Tier 1 クリーンテック企業リスト」において、太陽光発電モジュールおよびエネルギー貯蔵システムの両部門で再度Tier 1リストに選定されました。",
-          "chinese": "该段中文节译未通过校验，请核对下方原文。"
-        }
-      ],
+      "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
+      "collectedAt": "2026-11-04T12:25:23.839559+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:17:12.970613+00:00"
     }
@@ -1057,8 +1057,8 @@
   ],
   "translation": {
     "status": "ok",
-    "at": "2026-11-04T12:20:08.064397+00:00",
-    "translatedThisRun": 3,
+    "at": "2026-11-04T12:27:06.864623+00:00",
+    "translatedThisRun": 7,
     "remaining": 0,
     "validationFailures": 0,
     "error": null,
