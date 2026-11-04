@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "mode": "live",
-  "attemptedAt": "2026-11-04T11:43:37.623486+00:00",
-  "lastSuccessAt": "2026-11-04T11:43:37.623486+00:00",
+  "attemptedAt": "2026-11-04T11:53:24.687398+00:00",
+  "lastSuccessAt": "2026-11-04T11:53:24.687398+00:00",
   "status": "ok",
   "sources": [
     {
@@ -49,7 +49,7 @@
       "name": "日本 SOLAR JOURNAL",
       "url": "https://solarjournal.jp/feed/",
       "state": "ok",
-      "matched": 9,
+      "matched": 7,
       "language": "ja",
       "sourceType": "media"
     },
@@ -161,7 +161,7 @@
       ],
       "articleRead": true,
       "translationStatus": "pending",
-      "collectedAt": "2026-11-04T11:43:37.623486+00:00",
+      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
       "translationError": "ValueError"
     },
     {
@@ -198,7 +198,7 @@
       ],
       "articleRead": true,
       "translationStatus": "pending",
-      "collectedAt": "2026-11-04T11:43:37.623486+00:00",
+      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
       "translationError": "ValueError"
     },
     {
@@ -230,7 +230,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "pending",
-      "collectedAt": "2026-11-04T11:43:37.623486+00:00",
+      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
       "translationError": "ValueError"
     },
     {
@@ -300,7 +300,7 @@
       ],
       "articleRead": true,
       "translationStatus": "pending",
-      "collectedAt": "2026-11-04T11:43:37.623486+00:00",
+      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
       "translationError": "ValueError"
     },
     {
@@ -332,7 +332,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:43:37.623486+00:00",
+      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
       "translatedAt": "2026-11-04T11:45:16.635004+00:00"
     },
@@ -370,7 +370,7 @@
       ],
       "articleRead": true,
       "translationStatus": "pending",
-      "collectedAt": "2026-11-04T11:43:37.623486+00:00",
+      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
       "translationError": "ValueError"
     },
     {
@@ -408,7 +408,7 @@
       ],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:43:37.623486+00:00",
+      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
       "translationProvider": "繁体转简体（保留原文）",
       "translatedAt": "2026-11-04T11:44:41.986819+00:00"
     },
@@ -441,7 +441,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:43:37.623486+00:00",
+      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
       "translatedAt": "2026-11-04T11:45:10.214055+00:00"
     },
@@ -474,7 +474,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "pending",
-      "collectedAt": "2026-11-04T11:43:37.623486+00:00",
+      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
       "translationError": "ValueError"
     },
     {
@@ -512,7 +512,7 @@
       ],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:43:37.623486+00:00",
+      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
       "translationProvider": "繁体转简体（保留原文）",
       "translatedAt": "2026-11-04T11:44:41.988099+00:00"
     },
@@ -578,7 +578,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "pending",
-      "collectedAt": "2026-11-04T11:43:37.623486+00:00",
+      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
       "translationError": "ValueError"
     },
     {
@@ -610,7 +610,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:43:37.623486+00:00",
+      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
       "translatedAt": "2026-11-04T11:46:08.628594+00:00"
     },
@@ -643,7 +643,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:43:37.623486+00:00",
+      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
       "translatedAt": "2026-11-04T11:46:16.912862+00:00"
     },
@@ -676,7 +676,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:43:37.623486+00:00",
+      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
       "translatedAt": "2026-11-04T11:46:24.588245+00:00"
     },
@@ -715,7 +715,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:43:37.623486+00:00",
+      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
       "translatedAt": "2026-11-04T11:46:33.913742+00:00"
     },
@@ -777,7 +777,7 @@
       ],
       "articleRead": true,
       "translationStatus": "pending",
-      "collectedAt": "2026-11-04T11:43:37.623486+00:00",
+      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
       "translationError": "ValueError"
     },
     {
@@ -814,7 +814,7 @@
       ],
       "articleRead": true,
       "translationStatus": "pending",
-      "collectedAt": "2026-11-04T11:43:37.623486+00:00",
+      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
       "translationError": "ValueError"
     },
     {
@@ -852,7 +852,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:43:37.623486+00:00",
+      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
       "translatedAt": "2026-11-04T11:46:57.176021+00:00"
     },
@@ -890,7 +890,7 @@
       ],
       "articleRead": true,
       "translationStatus": "pending",
-      "collectedAt": "2026-11-04T11:43:37.623486+00:00",
+      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
       "translationError": "ValueError"
     },
     {
@@ -927,7 +927,7 @@
       ],
       "articleRead": true,
       "translationStatus": "pending",
-      "collectedAt": "2026-11-04T11:43:37.623486+00:00",
+      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
       "translationError": "ValueError"
     },
     {
@@ -965,7 +965,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:43:37.623486+00:00",
+      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
       "translatedAt": "2026-11-04T11:47:17.028711+00:00"
     },
@@ -1003,7 +1003,7 @@
       ],
       "articleRead": true,
       "translationStatus": "pending",
-      "collectedAt": "2026-11-04T11:43:37.623486+00:00",
+      "collectedAt": "2026-11-04T11:53:24.687398+00:00",
       "translationError": "ValueError"
     }
   ],
@@ -1012,20 +1012,20 @@
     "政府公告、媒体报道与企业自述分开标记；未覆盖所有地方补助或所有同行动态。",
     "政策方向为保守的原文线索，不是已核实的法律或投资结论。"
   ],
-  "translationModel": {
-    "name": "facebook/m2m100_418M",
-    "revision": "55c2e61bbf05dfb8d7abccdc3fae6fc8512fd636",
-    "license": "mit"
-  },
   "translation": {
-    "status": "partial",
-    "at": "2026-11-04T11:44:41.985532+00:00",
-    "translatedThisRun": 13,
+    "status": "error",
+    "at": "2026-11-04T11:55:11.885340+00:00",
+    "translatedThisRun": 0,
     "remaining": 12,
     "validationFailures": 12,
     "error": null,
     "phase": "translate",
     "modelLicense": "mit",
     "note": "机器翻译/节译，未人工复核；数字校验失败时保留原文并标记待翻译。"
+  },
+  "translationModel": {
+    "name": "facebook/m2m100_418M",
+    "revision": "55c2e61bbf05dfb8d7abccdc3fae6fc8512fd636",
+    "license": "mit"
   }
 }
