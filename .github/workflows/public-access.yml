@@ -1,0 +1,90 @@
+name: 公开访问开关
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: 'close 关闭公开访问 / open 重新开放（仅仓库管理员）'
+        type: choice
+        required: true
+        default: close
+        options: [close, open]
+permissions:
+  contents: read
+concurrency:
+  group: north-asia-pipeline
+  cancel-in-progress: false
+jobs:
+  access:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+    outputs:
+      open: ${{ steps.state.outputs.open }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Block deployment first (including reopen failures)
+        run: |
+          node -e "require('fs').writeFileSync('.deploy/public-access.json', JSON.stringify({enabled:false})+'\n')"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add .deploy/public-access.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'ops: disable public deployment'
+            git push
+          fi
+      - name: Change Pages site using runner authorization
+        env:
+          ACCESS_ACTION: ${{ inputs.action }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/pages-control.mjs
+      - name: Enable deployment only after Pages authorization succeeds
+        id: state
+        if: inputs.action == 'open'
+        run: |
+          node -e "require('fs').writeFileSync('.deploy/public-access.json', JSON.stringify({enabled:true})+'\n')"
+          git add .deploy/public-access.json
+          git commit -m 'ops: enable public deployment'
+          git push
+          echo 'open=true' >> "$GITHUB_OUTPUT"
+      - name: Record result
+        env:
+          ACCESS_ACTION: ${{ inputs.action }}
+        run: |
+          echo "Public access action completed: $ACCESS_ACTION" >> "$GITHUB_STEP_SUMMARY"
+          echo 'Only a successful close job confirms Pages deletion. Data already downloaded or cached cannot be recalled.' >> "$GITHUB_STEP_SUMMARY"
+  build:
+    needs: access
+    if: needs.access.outputs.open == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment

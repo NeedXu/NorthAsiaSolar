@@ -1,0 +1,90 @@
+name: Daily intelligence and Pages deployment
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *' # 08:00 Asia/Shanghai; GitHub may delay scheduled jobs.
+permissions:
+  contents: read
+concurrency:
+  group: north-asia-pipeline
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      failed: ${{ steps.collect.outcome == 'failure' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s tests -v
+      - name: Collect RSS (retain archive on source failures)
+        id: collect
+        continue-on-error: true
+        run: python scripts/collect.py
+      - name: Save archive and source health
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/data/feed.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: refresh North Asia RSS archive'
+            git push
+          fi
+  public-access:
+    needs: collect
+    runs-on: ubuntu-latest
+    outputs:
+      enabled: ${{ steps.check.outputs.enabled }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - id: check
+        run: echo "enabled=$(node scripts/access-control.mjs)" >> "$GITHUB_OUTPUT"
+  build:
+    needs: [collect, public-access]
+    if: needs.public-access.outputs.enabled == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment
+  collection-health:
+    needs: [collect, deploy]
+    if: always() && needs.collect.outputs.failed == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo 'RSS collection failed or partially failed. Latest source health was saved; inspect the collection log.'
+          exit 1

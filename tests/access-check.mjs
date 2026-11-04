@@ -1,0 +1,11 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import os from 'node:os';
+import path from 'node:path';
+import {readAccess} from '../scripts/access-control.mjs';
+import {changePages} from '../scripts/pages-control.mjs';
+test('deployment gate fails closed unless explicitly enabled',()=>{const dir=fs.mkdtempSync(path.join(os.tmpdir(),'solar-access-'));try{const file=path.join(dir,'state.json');assert.equal(readAccess(file),false);for(const text of ['invalid','{}','{"enabled":"true"}','{"enabled":false}']){fs.writeFileSync(file,text);assert.equal(readAccess(file),false)}fs.writeFileSync(file,'{"enabled":true}');assert.equal(readAccess(file),true)}finally{fs.rmSync(dir,{recursive:true})}});
+test('shutdown requires confirmed 204 and makes a DELETE request',async()=>{let called;const result=await changePages({action:'close',repository:'owner/repo',token:'test-only',request:async(url,opts)=>{called={url,opts};return {status:204}}});assert.equal(called.opts.method,'DELETE');assert.equal(called.url,'https://api.github.com/repos/owner/repo/pages');assert.match(result,/deleted/)});
+test('404 and permission failures never claim shutdown success',async()=>{for(const status of [404,403,409,500])await assert.rejects(()=>changePages({action:'close',repository:'owner/repo',token:'test-only',request:async()=>({status})}),/not confirmed/)});
+test('open supports existing workflow site and creates missing site',async()=>{assert.match(await changePages({action:'open',repository:'owner/repo',token:'test-only',request:async()=>({status:200,json:async()=>({build_type:'workflow'})})}),/configured/);const methods=[];await changePages({action:'open',repository:'owner/repo',token:'test-only',request:async(_,opts)=>{methods.push(opts.method);return {status:opts.method==='GET'?404:201}}});assert.deepEqual(methods,['GET','POST']);await assert.rejects(()=>changePages({action:'open',repository:'owner/repo',token:'test-only',request:async()=>({status:403})}),/failed/)});
