@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "mode": "live",
-  "attemptedAt": "2026-11-04T11:58:43.107305+00:00",
-  "lastSuccessAt": "2026-11-04T11:58:43.107305+00:00",
+  "attemptedAt": "2026-11-04T12:06:52.589394+00:00",
+  "lastSuccessAt": "2026-11-04T12:06:52.589394+00:00",
   "status": "ok",
   "sources": [
     {
@@ -156,9 +156,9 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
+      "collectedAt": "2026-11-04T12:06:52.589394+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-04T12:00:48.161695+00:00"
+      "translatedAt": "2026-11-04T12:08:48.320598+00:00"
     },
     {
       "id": "6193965cdca690ab0960e64f",
@@ -195,9 +195,9 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
+      "collectedAt": "2026-11-04T12:06:52.589394+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-04T12:01:00.186214+00:00"
+      "translatedAt": "2026-11-04T12:09:02.652394+00:00"
     },
     {
       "id": "65e234350cbc1c923166628e",
@@ -228,22 +228,22 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
+      "collectedAt": "2026-11-04T12:06:52.589394+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-04T12:01:11.694527+00:00"
+      "translatedAt": "2026-11-04T12:09:15.917109+00:00"
     },
     {
       "id": "0759f76c8fe627b26b535ec6",
       "market": "日本",
-      "title": "2026年第3四半期のPV ModuleTech バンカビリティ格付けで27期連続AAA獲得 インフォーマ社が発表した「PV ModuleTechバンカビリティ格付け」の2026年第3四半期版において、最上位格付けのAAA評価を27期連続で獲得しました。 グローバルニュース 2026.10.31",
-      "originalTitle": "2026年第3四半期のPV ModuleTech バンカビリティ格付けで27期連続AAA獲得 インフォーマ社が発表した「PV ModuleTechバンカビリティ格付け」の2026年第3四半期版において、最上位格付けのAAA評価を27期連続で獲得しました。 グローバルニュース 2026.10.31",
+      "title": "太阳长",
+      "originalTitle": "LONGi Solar",
       "date": "2026-10-30",
       "publishedAt": "2026-10-30T15:00:00+00:00",
       "topic": "竞争动态",
       "priority": "中",
       "source": "隆基日本官方",
       "url": "https://www.longi.com/jp/news/pvtech-aaa-2026q3-27th/",
-      "summary": "中文整理待生成；请核对原文。",
+      "summary": "评级图像:“PV ModuleTech Bankability Ratings Quarterly report,2026Q3”的“PV ModuleTech Bankability Rating”是针对太阳能电池模块(太阳能电池)制造商,供应链的强度,生产能力",
       "originalSummary": "格付けのイメージ：“PV ModuleTech Bankability Ratings Quarterly report、2026Q3”より 「PV ModuleTechバンカビリティ格付け」は、太陽電池モジュール（太陽光パネル）メーカーを対象に、サプライチェーンの強靭性、生産能力、設備投資、研究開発、キャッシュフロー、出荷実績など、多角的な要素を総合的に評価したものです。",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
@@ -261,13 +261,15 @@
       "evidence": [
         {
           "label": "项目/合作/产品原文线索",
-          "original": "2026年第3四半期のPV ModuleTech バンカビリティ格付けで27期連続AAA獲得 インフォーマ社が発表した「PV ModuleTechバンカビリティ格付け」の2026年第3四半期版において、最上位格付けのAAA評価を27期連続で獲得しました。"
+          "original": "年第1四半期から最高評価を維持 LONGi（ロンジ、LONGi Green Energy Technology Co., Ltd.／本社：中国・西安市）は、インフォーマ社（Informa PLC（インフォーマ・ピーエルシー）、本社：英国）が発表した「PV ModuleTechバンカビリティ格付け」の2026年第3四半期版において、最上位格付けのAAA（トリプル・エー）評価を27期連続で獲得しました。",
+          "chinese": "LONGi(LONGi,LONGi Green Energy Technology Co., Ltd./总部:中国西安市)自今年第一季度保持最高评级,由信息公司(Informa PLC(信息皮埃尔西),总部:英国)发布了“PV ModuleTech 电池”"
         }
       ],
       "articleRead": true,
-      "translationStatus": "pending",
-      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
-      "translationError": "ValueError"
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-04T12:06:52.589394+00:00",
+      "translationProvider": "M2M100-418M 本地开源机译",
+      "translatedAt": "2026-11-04T12:09:36.999960+00:00"
     },
     {
       "id": "2e506843beac0f556d4f6d7b",
@@ -298,9 +300,9 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
+      "collectedAt": "2026-11-04T12:06:52.589394+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-04T12:01:06.747388+00:00"
+      "translatedAt": "2026-11-04T12:09:10.168632+00:00"
     },
     {
       "id": "17bfaad35404cd8c816dc221",
@@ -331,9 +333,9 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
+      "collectedAt": "2026-11-04T12:06:52.589394+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-04T12:01:30.268429+00:00"
+      "translatedAt": "2026-11-04T12:09:44.046391+00:00"
     },
     {
       "id": "0aa6627f7c6df957866d4ba1",
@@ -369,7 +371,7 @@
       ],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
+      "collectedAt": "2026-11-04T12:06:52.589394+00:00",
       "translationProvider": "繁体转简体（保留原文）",
       "translatedAt": "2026-11-04T11:44:41.988099+00:00"
     },
@@ -408,9 +410,9 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
+      "collectedAt": "2026-11-04T12:06:52.589394+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-04T12:01:44.166694+00:00"
+      "translatedAt": "2026-11-04T12:09:59.767312+00:00"
     },
     {
       "id": "fcf6b838eb6cfe42f2f9a9da",
@@ -441,9 +443,9 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
+      "collectedAt": "2026-11-04T12:06:52.589394+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-04T12:01:47.413810+00:00"
+      "translatedAt": "2026-11-04T12:10:03.504061+00:00"
     },
     {
       "id": "df382b69952295195490f77f",
@@ -479,7 +481,7 @@
       ],
       "articleRead": true,
       "translationStatus": "pending",
-      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
+      "collectedAt": "2026-11-04T12:06:52.589394+00:00",
       "translationError": "ValueError"
     },
     {
@@ -511,9 +513,9 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
+      "collectedAt": "2026-11-04T12:06:52.589394+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-04T12:02:01.102169+00:00"
+      "translatedAt": "2026-11-04T12:10:27.118889+00:00"
     },
     {
       "id": "e93189f06c970776fe70190b",
@@ -544,9 +546,9 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
+      "collectedAt": "2026-11-04T12:06:52.589394+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-04T12:02:07.418590+00:00"
+      "translatedAt": "2026-11-04T12:10:34.562099+00:00"
     },
     {
       "id": "79c33e42fd11f111e8631d91",
@@ -577,9 +579,9 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
+      "collectedAt": "2026-11-04T12:06:52.589394+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-04T12:02:19.954480+00:00"
+      "translatedAt": "2026-11-04T12:10:48.740533+00:00"
     },
     {
       "id": "27ca5432987f5fd8a1158be0",
@@ -616,9 +618,9 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
+      "collectedAt": "2026-11-04T12:06:52.589394+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-04T12:02:30.178053+00:00"
+      "translatedAt": "2026-11-04T12:10:59.787353+00:00"
     },
     {
       "id": "4b774033dbd69e9542b31b46",
@@ -642,76 +644,7 @@
       "originalSummary": "South Korea’s Ministry of Climate, Energy and Environment (MCEE) has unveiled its KRW1,000 trillion (US$747 billion) Korean Green Transformation (K-GX) industrial strategy.",
       "translationStatus": "translated",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-04T12:01:17.742427+00:00"
-    },
-    {
-      "id": "fe93c76b33491c0ddad0acdf",
-      "market": "日本",
-      "title": "2026年上半期の太陽光パネル出荷量29.93GWで世界1位に 2026年上半期の太陽光パネルの出荷量が29.93GWとなり、世界1位に。 グローバルニュース 2026.9.30",
-      "originalTitle": "2026年上半期の太陽光パネル出荷量29.93GWで世界1位に 2026年上半期の太陽光パネルの出荷量が29.93GWとなり、世界1位に。 グローバルニュース 2026.9.30",
-      "date": "2026-09-29",
-      "publishedAt": "2026-09-29T15:00:00+00:00",
-      "topic": "竞争动态",
-      "priority": "中",
-      "source": "隆基日本官方",
-      "url": "https://www.longi.com/jp/news/2026h1-result/",
-      "summary": "中文整理待生成；请核对原文。",
-      "originalSummary": "BC（バックコンタクト）技術製品の出荷量が前年同期比2.25倍に拡大 LONGi（ロンジ、LONGi Green Energy Technology Co., Ltd.／本社：中国・西安市）は、2026年上半期（1～6月）の太陽光パネル（太陽電池モジュール）出荷量が29.93GWとなり、主要パネルメーカー各社が公表した2026年上半期の出荷量の実績を比較した結果、世界1位となりました。",
-      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
-      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
-      "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
-      "tech": "BC",
-      "dataKind": "live",
-      "analysisKind": "evidence-cues",
-      "language": "ja",
-      "sourceType": "company",
-      "jurisdiction": "地域适用性待复核",
-      "marketBasis": "本地语言来源定位，地域适用性待复核",
-      "eventType": "产品/技术发布",
-      "policyDirection": "未判定",
-      "policyStage": "法规效力/执行阶段待核实",
-      "evidence": [
-        {
-          "label": "项目/合作/产品原文线索",
-          "original": "グローバルニュース 2026.9.30 BC（バックコンタクト）技術製品の出荷量が前年同期比2.25倍に拡大 LONGi（ロンジ、LONGi Green Energy Technology Co., Ltd.／本社：中国・西安市）は、2026年上半期（1～6月）の太陽光パネル（太陽電池モジュール）出荷量が29.93GWとなり、主要パネルメーカー各社が公表した2026年上半期の出荷量の実績を比較した結果、世界1位となりました。"
-        }
-      ],
-      "articleRead": true,
-      "translationStatus": "pending",
-      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
-      "translationError": "ValueError"
-    },
-    {
-      "id": "145228eb786c96bffdf3d327",
-      "market": "日本",
-      "title": "結晶シリコン太陽電池セルの変換効率で28.29％の世界新記録を達成 結晶シリコン太陽電池セル（単接合型）において、変換効率28.29％の世界新記録を達成。 グローバルニュース 2026.9.30",
-      "originalTitle": "結晶シリコン太陽電池セルの変換効率で28.29％の世界新記録を達成 結晶シリコン太陽電池セル（単接合型）において、変換効率28.29％の世界新記録を達成。 グローバルニュース 2026.9.30",
-      "date": "2026-09-29",
-      "publishedAt": "2026-09-29T15:00:00+00:00",
-      "topic": "技术创新",
-      "priority": "中",
-      "source": "隆基日本官方",
-      "url": "https://www.longi.com/jp/news/cell-2829/",
-      "summary": "中文整理待生成；请核对原文。",
-      "originalSummary": "5年連続の世界記録更新が示すBC技術の可能性、次世代の高効率太陽電池を支える技術プラットフォーム LONGi（ロンジ、LONGi Green Energy Technology Co., Ltd.／本社：中国・西安市）は、結晶シリコン太陽電池セル（単接合型）において、変換効率28.29％の世界新記録を達成しました。",
-      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
-      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
-      "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
-      "tech": "BC",
-      "dataKind": "live",
-      "analysisKind": "evidence-cues",
-      "language": "ja",
-      "sourceType": "company",
-      "jurisdiction": "地域适用性待复核",
-      "marketBasis": "本地语言来源定位，地域适用性待复核",
-      "eventType": "市场/企业动态",
-      "policyDirection": "未判定",
-      "policyStage": "法规效力/执行阶段待核实",
-      "evidence": [],
-      "articleRead": true,
-      "translationStatus": "pending",
-      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
-      "translationError": "ValueError"
+      "translatedAt": "2026-11-04T12:09:22.724557+00:00"
     },
     {
       "id": "ba3266045de7d04282ea652b",
@@ -748,9 +681,9 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
+      "collectedAt": "2026-11-04T12:06:52.589394+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-04T12:03:01.599383+00:00"
+      "translatedAt": "2026-11-04T12:11:11.683338+00:00"
     },
     {
       "id": "2aa3d6f534cdc85bed8b7dc5",
@@ -787,46 +720,9 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
+      "collectedAt": "2026-11-04T12:06:52.589394+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-04T12:03:14.686954+00:00"
-    },
-    {
-      "id": "9aef343bc5062a7a2fb1b6c3",
-      "market": "日本",
-      "title": "S&Pグローバル・エナジー「Tier 1 クリーンテック企業」に2年連続で選定 S&P Global Energyが発表した「2026年 Tier 1 クリーンテック企業」の太陽電池モジュール分野に選定。 グローバルニュース 2026.8.31",
-      "originalTitle": "S&Pグローバル・エナジー「Tier 1 クリーンテック企業」に2年連続で選定 S&P Global Energyが発表した「2026年 Tier 1 クリーンテック企業」の太陽電池モジュール分野に選定。 グローバルニュース 2026.8.31",
-      "date": "2026-08-30",
-      "publishedAt": "2026-08-30T15:00:00+00:00",
-      "topic": "竞争动态",
-      "priority": "中",
-      "source": "隆基日本官方",
-      "url": "https://www.longi.com/jp/news/spglobal-tier1-2026/",
-      "summary": "中文整理待生成；请核对原文。",
-      "originalSummary": "hnology Co., Ltd.／本社：中国・西安市）は、S&P Global Energy（S&Pグローバル・エナジー）が発表した「2026年 Tier 1 クリーンテック企業（Tier 1 Cleantech Companies）」の太陽電池モジュール分野に選定されました。",
-      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
-      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
-      "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
-      "tech": "未分类",
-      "dataKind": "live",
-      "analysisKind": "evidence-cues",
-      "language": "ja",
-      "sourceType": "company",
-      "jurisdiction": "地域适用性待复核",
-      "marketBasis": "本地语言来源定位，地域适用性待复核",
-      "eventType": "产品/技术发布",
-      "policyDirection": "未判定",
-      "policyStage": "法规效力/执行阶段待核实",
-      "evidence": [
-        {
-          "label": "项目/合作/产品原文线索",
-          "original": "S&Pグローバル・エナジー「Tier 1 クリーンテック企業」に2年連続で選定 S&P Global Energyが発表した「2026年 Tier 1 クリーンテック企業」の太陽電池モジュール分野に選定。"
-        }
-      ],
-      "articleRead": true,
-      "translationStatus": "pending",
-      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
-      "translationError": "ValueError"
+      "translatedAt": "2026-11-04T12:11:26.503727+00:00"
     },
     {
       "id": "267d6e42eaa49d07ea055776",
@@ -857,9 +753,9 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
+      "collectedAt": "2026-11-04T12:06:52.589394+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-04T12:03:27.666261+00:00"
+      "translatedAt": "2026-11-04T12:11:35.490309+00:00"
     },
     {
       "id": "00f86af93e32b442613589c3",
@@ -896,9 +792,9 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T11:58:43.107305+00:00",
+      "collectedAt": "2026-11-04T12:06:52.589394+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-04T12:03:43.851942+00:00"
+      "translatedAt": "2026-11-04T12:11:54.173247+00:00"
     }
   ],
   "coverageNotes": [
@@ -908,10 +804,10 @@
   ],
   "translation": {
     "status": "partial",
-    "at": "2026-11-04T12:00:35.360852+00:00",
-    "translatedThisRun": 16,
-    "remaining": 5,
-    "validationFailures": 5,
+    "at": "2026-11-04T12:08:33.327672+00:00",
+    "translatedThisRun": 17,
+    "remaining": 1,
+    "validationFailures": 1,
     "error": null,
     "phase": "local-fallback",
     "modelLicense": "mit",
