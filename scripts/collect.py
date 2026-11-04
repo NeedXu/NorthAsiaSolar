@@ -105,8 +105,11 @@ def signals(text,source,title=None):
  return event,evidence,direction,policy_quote
 
 def relevant(title,text,source):
+ if source.get('sourceType')=='company':
+  if re.fullmatch(r'LONGi(?: Solar)?|隆基(?:乐叶|绿能)?|Qcells|ニュース・お知らせ',title.strip(),re.I):return False
+  return bool(re.search(PV+r'|PV ModuleTech|格付|AAA|Tier.?1|バンカビリティ|出荷|shipment|营收|營收|売上|revenue|提携|MOU|supply|capacity|factory|partner|合作|产能|工場',title+' '+text,re.I))
  if not re.search(PV,text,re.I):return False
- if source.get('sourceType')=='company' or source.get('solarFocused') or re.search(PV,title,re.I):return True
+ if source.get('solarFocused') or re.search(PV,title,re.I):return True
  return source.get('sourceType')=='government' and bool(re.search(POLICY+r'|再生能源|再生可能|재생에너지|renewable',title,re.I))
 
 def make_rows(title,excerpt,url,published,source,now,body='',body_ok=False):

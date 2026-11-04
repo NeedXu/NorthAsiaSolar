@@ -62,3 +62,7 @@ class LocalSourcesTests(unittest.TestCase):
   shell='<html><meta property="og:title" content="LONGi Solar"><main>Solar corporate shell 2026.10.31</main></html>'.encode()
   with patch.object(c,'fetch',return_value=shell):rows=c.parse_listing(listing,source,NOW)
   self.assertEqual(len(rows),2);self.assertEqual(rows[0]['originalTitle'],'太陽電池の効率28.29％を達成');self.assertEqual(rows[0]['date'],'2026-09-30');self.assertFalse(rows[0]['articleRead']);self.assertNotEqual(rows[0]['id'],rows[1]['id'])
+ def test_pv_company_business_rating_is_relevant_but_generic_brand_title_is_not(self):
+  source={'sourceType':'company'}
+  self.assertTrue(c.relevant('PV ModuleTechでAAA格付けを27期連続獲得','PV ModuleTechでAAA格付けを27期連続獲得',source))
+  self.assertFalse(c.relevant('LONGi Solar','LONGi Solar photovoltaic corporation',source))
