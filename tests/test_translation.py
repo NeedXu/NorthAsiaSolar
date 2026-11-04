@@ -26,3 +26,6 @@ class TranslationTests(unittest.TestCase):
   self.assertEqual(t.checked_translation('JC-STAR★２','JC-STAR 2级'), 'JC-STAR 2级')
   self.assertEqual(t.checked_translation('2026.9.30 世界1位','2026年9月30日 世界第一'), '2026年9月30日 世界第一')
   with self.assertRaises(ValueError):t.checked_translation('效率28.29%','效率28.30%')
+ def test_star_ratings_preserve_the_same_number_across_languages(self):
+  self.assertEqual(t.checked_translation('JC-STAR★２以上','JC-STAR二星级以上'),'JC-STAR二星级以上')
+  with self.assertRaises(ValueError):t.checked_translation('JC-STAR★２以上','JC-STAR三星级以上')

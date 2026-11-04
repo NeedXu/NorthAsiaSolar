@@ -24,8 +24,9 @@ def chinese_integer(text):
 def numeric_tokens(text):
  text=unicodedata.normalize('NFKC',text).replace(',','')
  text=re.sub(r'(\d{4})[./-](\d{1,2})[./-](\d{1,2})',lambda m:' '.join(str(int(v)) for v in m.groups()),text)
+ text=re.sub(r'★([零〇一二两三四五六七八九十百千]+)',lambda m:'★'+chinese_integer(m.group(1)),text)
  text=re.sub(r'第([零〇一二两三四五六七八九十百千]+)',lambda m:'第'+chinese_integer(m.group(1)),text)
- text=re.sub(r'([零〇一二两三四五六七八九十百千]+)(?=年|期|次|家|位|季度|个|名|倍|项|座)',lambda m:chinese_integer(m.group(1)),text)
+ text=re.sub(r'([零〇一二两三四五六七八九十百千]+)(?=年|期|次|家|位|季度|个|名|倍|项|座|级|星|颗|种|条|台|以上|以下)',lambda m:chinese_integer(m.group(1)),text)
  return set(re.findall(r'\d+(?:\.\d+)?',text))
 
 def checked_translation(original,translated):
