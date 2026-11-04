@@ -1,9 +1,9 @@
 import { news, type Intelligence, type Market } from '../data/mock';
-export interface NewsFilter { market?:Market; topic?:string; search?:string; priority?:string; from?:string; to?:string }
+export interface NewsFilter { market?:Market; topic?:string; search?:string; priority?:string; from?:string; to?:string; sourceType?:string; eventType?:string; policyDirection?:string }
 // Replace this adapter with an authenticated API client when a backend is available.
 export interface IntelligenceRepository { list(filter:NewsFilter):Promise<Intelligence[]> }
 export function filterNews(items:Intelligence[], f:NewsFilter) {
- return items.filter(n=>(!f.market||n.market===f.market)&&(!f.topic||n.topic===f.topic)&&(!f.priority||n.priority===f.priority)&&(!f.from||n.date>=f.from)&&(!f.to||n.date<=f.to)&&(!f.search||`${n.title} ${n.summary} ${n.source} ${n.tech}`.toLowerCase().includes(f.search.toLowerCase())));
+ return items.filter(n=>(!f.sourceType||n.sourceType===f.sourceType)&&(!f.eventType||n.eventType===f.eventType)&&(!f.policyDirection||n.policyDirection===f.policyDirection)&&(!f.market||n.market===f.market)&&(!f.topic||n.topic===f.topic)&&(!f.priority||n.priority===f.priority)&&(!f.from||n.date>=f.from)&&(!f.to||n.date<=f.to)&&(!f.search||`${n.title} ${n.originalTitle||''} ${n.originalSummary||''} ${n.summary} ${n.source} ${n.tech}`.toLowerCase().includes(f.search.toLowerCase())));
 }
 export function deduplicate(items:Intelligence[]) { return [...new Map(items.map(n=>[`${n.market}:${n.title.trim().toLowerCase()}`,n])).values()]; }
 export const mockRepository:IntelligenceRepository={async list(filter){return filterNews(deduplicate(news),filter)}};

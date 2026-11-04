@@ -1,6 +1,6 @@
 export type Market = '日本' | '韩国' | '台湾';
 export type Topic = '政策与补贴' | '市场趋势' | '竞争动态' | '技术创新';
-export interface Intelligence { id:string; market:Market; title:string; date:string; topic:Topic; priority:'高'|'中'; source:string; url:string; summary:string; importance:string; impact:string; watch:string; tech:string }
+export interface Intelligence { id:string; market:Market; title:string; date:string; topic:Topic; priority:'高'|'中'; source:string; url:string; summary:string; importance:string; impact:string; watch:string; tech:string; originalTitle?:string; originalSummary?:string; language?:string; sourceType?:'government'|'company'|'media'; eventType?:string; policyDirection?:string; policyStage?:string; jurisdiction?:string; marketBasis?:string; articleRead?:boolean; translationStatus?:'pending'|'translated'; translationProvider?:string; evidence?:{label:string;original:string;chinese?:string}[] }
 export const markets:Market[]=['日本','韩国','台湾'];
 export const topics:Topic[]=['政策与补贴','市场趋势','竞争动态','技术创新'];
 export const marketInfo = {
