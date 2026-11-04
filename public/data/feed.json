@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "mode": "live",
-  "attemptedAt": "2026-11-04T12:13:59.308552+00:00",
-  "lastSuccessAt": "2026-11-04T12:13:59.308552+00:00",
+  "attemptedAt": "2026-11-04T12:18:31.159720+00:00",
+  "lastSuccessAt": "2026-11-04T12:18:31.159720+00:00",
   "status": "ok",
   "sources": [
     {
@@ -25,7 +25,7 @@
       "name": "韩国政府政策简报（光伏检索）",
       "url": "https://www.korea.kr/news/policyNewsList.do?srchWord=%ED%83%9C%EC%96%91%EA%B4%91",
       "state": "ok",
-      "matched": 4,
+      "matched": 6,
       "language": "ko",
       "sourceType": "government"
     },
@@ -164,7 +164,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:13:59.308552+00:00",
+      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:15:54.201831+00:00"
     },
@@ -203,7 +203,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:13:59.308552+00:00",
+      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:37.869316+00:00"
     },
@@ -236,7 +236,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:13:59.308552+00:00",
+      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:03.302883+00:00"
     },
@@ -275,7 +275,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:13:59.308552+00:00",
+      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:14.263167+00:00"
     },
@@ -308,7 +308,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:13:59.308552+00:00",
+      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:01.295687+00:00"
     },
@@ -341,7 +341,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:13:59.308552+00:00",
+      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:23.350414+00:00"
     },
@@ -379,7 +379,7 @@
       ],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:13:59.308552+00:00",
+      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
       "translationProvider": "繁体转简体（保留原文）",
       "translatedAt": "2026-11-04T11:44:41.988099+00:00"
     },
@@ -418,7 +418,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:13:59.308552+00:00",
+      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:32.133219+00:00"
     },
@@ -451,7 +451,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:13:59.308552+00:00",
+      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:40.563878+00:00"
     },
@@ -490,7 +490,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:13:59.308552+00:00",
+      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:47.536257+00:00"
     },
@@ -523,7 +523,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:13:59.308552+00:00",
+      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:15:57.823817+00:00"
     },
@@ -556,7 +556,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:13:59.308552+00:00",
+      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:51.329994+00:00"
     },
@@ -589,9 +589,42 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:13:59.308552+00:00",
+      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:55.473555+00:00"
+    },
+    {
+      "id": "c4a8990e47624ec481693cf1",
+      "market": "韩国",
+      "title": "【政策概述】防止消防员因公死亡事件再次发生有哪些措施？",
+      "originalTitle": "[정책 바로보기] 소방관 순직 재발방지 대책은?",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-22T17:28:00+00:00",
+      "topic": "政策与补贴",
+      "priority": "高",
+      "source": "韩国政府政策简报（光伏检索）",
+      "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974147",
+      "summary": "水源保护区安装“太阳能”有争议？",
+      "originalSummary": "상수원보호구역 '태양광' 설치 논란?",
+      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
+      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
+      "watch": "先核对政府原文的适用地区、对象、金额、申请期限和施行日期；不能将补助线索视为已生效支持政策。",
+      "tech": "未分类",
+      "dataKind": "live",
+      "analysisKind": "evidence-cues",
+      "language": "ko",
+      "sourceType": "government",
+      "jurisdiction": "韩国（公告适用范围待核实）",
+      "marketBasis": "官方发布机构辖区，公告适用范围待核实",
+      "eventType": "政策公告",
+      "policyDirection": "未判定",
+      "policyStage": "法规效力/执行阶段待核实",
+      "evidence": [],
+      "articleRead": true,
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-04T12:20:12.025241+00:00"
     },
     {
       "id": "9e91753c7681cc6ebb26e546",
@@ -628,7 +661,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:13:59.308552+00:00",
+      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:09.334719+00:00"
     },
@@ -661,7 +694,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:13:59.308552+00:00",
+      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:59.090480+00:00"
     },
@@ -700,7 +733,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:13:59.308552+00:00",
+      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:20.644868+00:00"
     },
@@ -739,7 +772,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:13:59.308552+00:00",
+      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:17:02.506134+00:00"
     },
@@ -765,7 +798,40 @@
       "originalSummary": "South Korea’s Ministry of Climate, Energy and Environment (MCEE) has unveiled its KRW1,000 trillion (US$747 billion) Korean Green Transformation (K-GX) industrial strategy.",
       "translationStatus": "translated",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-04T12:17:22.446088+00:00"
+      "translatedAt": "2026-11-04T12:20:28.156003+00:00"
+    },
+    {
+      "id": "ecd33be5da742c15ff9a7d34",
+      "market": "韩国",
+      "title": "快速支持价值7.9万亿韩元的现场备用项目……高新技术和新兴产业法规合理化",
+      "originalTitle": "7.9조 규모 현장대기 프로젝트 신속 지원…첨단·신산업 규제 합리화",
+      "date": "2026-10-01",
+      "publishedAt": "2026-10-01T15:41:00+00:00",
+      "topic": "政策与补贴",
+      "priority": "高",
+      "source": "韩国政府政策简报（光伏检索）",
+      "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148972877",
+      "summary": "此外，考虑农业太阳能持续从事农业的特殊性和居民参与农业太阳能的规模（1MW级），合理化农业太阳能小规模环境影响评价标准。",
+      "originalSummary": "또한 농업을 계속 영위하는 영농형 태양광의 특수성과 주민참여형 영농형 태양광의 규모(1MW 수준) 등을 고려해 영농형 태양광의 소규모 환경영향평가 대상기준을 합리화한다.",
+      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
+      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
+      "watch": "先核对政府原文的适用地区、对象、金额、申请期限和施行日期；不能将补助线索视为已生效支持政策。",
+      "tech": "轻量化组件",
+      "dataKind": "live",
+      "analysisKind": "evidence-cues",
+      "language": "ko",
+      "sourceType": "government",
+      "jurisdiction": "韩国（公告适用范围待核实）",
+      "marketBasis": "官方发布机构辖区，公告适用范围待核实",
+      "eventType": "政策公告",
+      "policyDirection": "未判定",
+      "policyStage": "法规效力/执行阶段待核实",
+      "evidence": [],
+      "articleRead": true,
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-04T12:20:15.835709+00:00"
     },
     {
       "id": "1ecba03b01440aaf4fc750ad",
@@ -796,7 +862,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:13:59.308552+00:00",
+      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
       "translationProvider": "繁体转简体（保留原文）",
       "translatedAt": "2026-11-04T12:15:50.840560+00:00"
     },
@@ -829,7 +895,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:13:59.308552+00:00",
+      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:26.695227+00:00"
     },
@@ -868,7 +934,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:13:59.308552+00:00",
+      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:17:03.692923+00:00"
     },
@@ -907,7 +973,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:13:59.308552+00:00",
+      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:17:06.925633+00:00"
     },
@@ -940,7 +1006,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:13:59.308552+00:00",
+      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:17:08.991376+00:00"
     },
@@ -979,7 +1045,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-04T12:13:59.308552+00:00",
+      "collectedAt": "2026-11-04T12:18:31.159720+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:17:12.970613+00:00"
     }
@@ -991,8 +1057,8 @@
   ],
   "translation": {
     "status": "ok",
-    "at": "2026-11-04T12:15:50.839355+00:00",
-    "translatedThisRun": 23,
+    "at": "2026-11-04T12:20:08.064397+00:00",
+    "translatedThisRun": 3,
     "remaining": 0,
     "validationFailures": 0,
     "error": null,
