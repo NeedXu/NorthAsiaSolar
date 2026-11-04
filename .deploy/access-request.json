@@ -1,1 +1,1 @@
-{"action": "open", "requestedAt": "2026-11-04T11:04:08.111833+00:00", "reason": "Restore normal public application after successful shutdown and asset-removal verification"}
+{"action": "open", "requestedAt": "2026-11-04T11:06:17.920527+00:00", "reason": "Restore verified site using clean retry-safe runner after completed shutdown test"}
