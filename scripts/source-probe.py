@@ -7,11 +7,10 @@ import re
 import urllib.request
 import urllib.error
 import xml.etree.ElementTree as ET
-CANDIDATES=[
-('韩国政府政策检索表单','https://www.korea.kr/news/policyNewsList.do'),
-('台湾能源署业务公告RSS','https://www.moeaea.gov.tw/ECW/populace/news/NewsRSSdetail.aspx?Kind=2'),
-('台湾能源署招标/补助RSS','https://www.moeaea.gov.tw/ECW/populace/news/NewsRSSdetail.aspx?Kind=3'),
-]
+archive=json.loads(Path('public/data/feed.json').read_text())
+row=next((r for r in archive['items'] if 'JC-STAR' in r.get('originalTitle','') and r.get('translationStatus')!='translated'),None)
+texts=[] if row is None else [('标题',row['originalTitle'][:220]),('摘要',row.get('originalSummary','')[:140])]+[(f'证据{i}',e['original'][:140]) for i,e in enumerate(row.get('evidence',[]))]
+CANDIDATES=[('机译诊断'+label,'https://translate.googleapis.com/translate_a/single?'+__import__('urllib.parse',fromlist=['urlencode']).urlencode({'client':'gtx','sl':'ja','tl':'zh-CN','dt':'t','q':text})) for label,text in texts]
 
 def inspect(entry):
  name,url=entry;result={'name':name,'url':url}
@@ -19,7 +18,7 @@ def inspect(entry):
   req=urllib.request.Request(url,headers={'User-Agent':'NorthAsiaSolarIntelligence/0.3 source-validation','Accept':'application/rss+xml,application/xml,text/html'})
   with urllib.request.urlopen(req,timeout=18) as r:
    data=r.read(2_000_000);result.update(status=r.status,finalURL=r.url)
-  if name=='公开网页翻译响应验证':result['translationResponse']=data.decode('utf-8','replace')[:1500]
+  if name.startswith('机译诊断'):result['translationResponse']=data.decode('utf-8','replace')[:1500]
   try:
    root=ET.fromstring(data);result['xmlRoot']=root.tag;
    if root.tag.endswith('html'):raise ET.ParseError()
