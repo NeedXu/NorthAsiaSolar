@@ -56,3 +56,9 @@ class LocalSourcesTests(unittest.TestCase):
  def test_announcing_a_rating_is_not_a_product_launch(self):
   title='PV ModuleTechでAAA格付けを獲得'
   self.assertNotEqual(c.signals(title+'。太陽光企業の格付けを発表。',{'sourceType':'company'},title)[0],'产品/技术发布')
+ def test_generic_corporate_og_title_does_not_replace_news_or_date(self):
+  source={'name':'隆基日本','url':'https://example.com/jp/news/','linkPattern':'/jp/news/.+/','market':'日本','language':'ja','sourceType':'company','timezone':9}
+  listing='<a href="/jp/news/a/"><h3>太陽電池の効率28.29％を達成</h3><span>2026.9.30</span></a><a href="/jp/news/b/"><h3>太陽光パネル出荷量29.93GW</h3><span>2026.10.31</span></a>'.encode()
+  shell='<html><meta property="og:title" content="LONGi Solar"><main>Solar corporate shell 2026.10.31</main></html>'.encode()
+  with patch.object(c,'fetch',return_value=shell):rows=c.parse_listing(listing,source,NOW)
+  self.assertEqual(len(rows),2);self.assertEqual(rows[0]['originalTitle'],'太陽電池の効率28.29％を達成');self.assertEqual(rows[0]['date'],'2026-09-30');self.assertFalse(rows[0]['articleRead']);self.assertNotEqual(rows[0]['id'],rows[1]['id'])

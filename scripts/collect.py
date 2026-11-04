@@ -168,23 +168,26 @@ def parse_listing(data,source,now):
  for anchor in soup.find_all('a',href=True):
   url=urllib.parse.urljoin(source['url'],html.unescape(anchor['href']))
   if urllib.parse.urlsplit(url).hostname!=host or not re.search(source['linkPattern'],url):continue
-  heading=anchor.find(['h2','h3','h4']) or anchor.select_one('.title,.news-title,.news_title')
+  heading=anchor.find(['h2','h3','h4']) or anchor.select_one('.title,.news-title,.news_title') or anchor.find(class_=re.compile(r'title|headline|tit$',re.I))
   title=clean(anchor.get('title') or (heading.get_text(' ',strip=True) if heading else anchor.get_text(' ',strip=True)))
   if not title:continue
-  links.setdefault(canonical(url),title)
+  links.setdefault(canonical(url),(title,clean(anchor.get_text(' ',strip=True))))
  if not links:raise ValueError('no recognized article links')
  rows=[];errors=0
- for url,title in list(links.items())[:14]:
+ for url,(title,context) in list(links.items())[:14]:
   try:
-   actual,body,dates=article_document(fetch(url));title=actual or title
-   if not relevant(title,title+' '+body,source):continue
+   actual,body,dates=article_document(fetch(url))
+   generic=source.get('sourceType')=='company' and (len(actual)<15 or bool(re.fullmatch(r'LONGi(?: Solar)?|隆基(?:乐叶|绿能)?|ニュース・お知らせ|Qcells',actual,re.I)))
+   if generic:body='';dates=[context]
+   else:title=actual or title
+   if not relevant(title,title+' '+(body or context),source):continue
    published=None
    for value in dates:
     try:published=valid_date(value,source,now);break
     except (ValueError,TypeError,OverflowError):continue
    if not published:continue
-   excerpt=cue(body,PV) or body[:500]
-   rows.extend(make_rows(title,excerpt,url,published,source,now,body,True))
+   excerpt=(cue(body,PV) or body[:500]) if body else context
+   rows.extend(make_rows(title,excerpt,url,published,source,now,body,bool(body)))
   except Exception:errors+=1
  if links and errors==min(len(links),14):raise ValueError('all article fetches failed')
  return rows
