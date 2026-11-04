@@ -21,8 +21,8 @@
     "timezone": 9
   },
   {
-    "name": "韩国政府政策简报",
-    "url": "https://www.korea.kr/news/policyNewsList.do",
+    "name": "韩国政府政策简报（光伏检索）",
+    "url": "https://www.korea.kr/news/policyNewsList.do?srchWord=%ED%83%9C%EC%96%91%EA%B4%91",
     "kind": "html",
     "linkPattern": "/news/policyNewsView\\.do\\?newsId=[0-9]+",
     "market": "韩国",
@@ -47,6 +47,16 @@
     "kind": "rss",
     "market": "台湾",
     "jurisdiction": "台湾（公告适用范围待核实）",
+    "language": "zh-Hant",
+    "sourceType": "government",
+    "timezone": 8
+  },
+  {
+    "name": "台湾能源署业务/补助公告",
+    "url": "https://www.moeaea.gov.tw/ECW/populace/news/NewsRSSdetail.aspx?Kind=3",
+    "kind": "rss",
+    "market": "台湾",
+    "jurisdiction": "台湾（公告适用对象及法规效力待核实）",
     "language": "zh-Hant",
     "sourceType": "government",
     "timezone": 8

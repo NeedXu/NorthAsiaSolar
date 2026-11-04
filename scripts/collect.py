@@ -18,9 +18,9 @@ SOURCES=json.loads((ROOT/'scripts/sources.json').read_text())
 MARKETS={'日本':r'\bjapan(?:ese)?\b|日本|일본|東京|東京都|千葉|大阪|北海道|九州','韩国':r'\bkorea(?:n)?\b|韩国|韓国|한국|국내|서울|경기도','台湾':r'\btaiwan(?:ese)?\b|台湾|臺灣|台灣|대만|台北|臺北|台南|高雄'}
 PV=r'太陽光|太陽能|太阳能|光伏|ソーラー|太陽電池|(?:光電|光电).{0,14}(?:發電|发电|屋頂|屋顶|系統|系统|案場|案场|設置|政策|補助|補貼|併網|開發)|(?:屋頂|屋顶|地面|農地|漁電).{0,10}(?:光電|光电)|태양광|태양전지|solar|photovoltaic|perovskite|ペロブスカイト|페로브스카이트|TOPCon|HJT'
 BRANDS=r'longi|隆基|ロンジ|trina|天合|トリナ|ja solar|晶澳|canadian solar|阿特斯|カナディアン|qcells|큐셀|한화|ハンファ|シャープ|sharp|カネカ|kaneka|聯合再生|聯合再生|元晶|茂迪|현대에너지솔루션'
-POLICY=r'政策|制度|補助|補貼|补贴|助成|法案|法律|規制|規則|入札|買取|FIT|FIP|지원|정책|보조금|규제|법안|입찰|policy|subsid|tariff|regulat'
+POLICY=r'政策|制度|躉購|躉购|費率|费率|辦法|办法|施行|修正|固定価格|認定|고정가격|공급의무|의무|입법예고|(?<![A-Za-z])RPS(?![A-Za-z])|(?<![A-Za-z])REC(?![A-Za-z])|補助|補貼|补贴|助成|法案|法律|規制|規則|入札|買取|(?<![A-Za-z])FIT(?![A-Za-z])|(?<![A-Za-z])FIP(?![A-Za-z])|지원|정책|보조금|규제|법안|입찰|policy|subsid|tariff|regulat'
 TECH={'N型TOPCon':r'topcon','BC':r'back.contact|\bbc\b|バックコンタクト','HJT':r'heterojunction|\bhjt\b','钙钛矿叠层':r'perovskite|tandem|ペロブスカイト|페로브스카이트','住宅屋顶组件':r'residential|rooftop|屋根|屋頂|屋顶|지붕','轻量化组件':r'lightweight|軽量|輕量|경량','防眩光组件':r'anti.glare|防眩|반사','数据中心光伏应用':r'data.cent(?:er|re)|データセンター|데이터센터|資料中心'}
-EVENTS=[('合作意向/MOU',r'\bmou\b|memorandum|覚書|業務提携|업무협약|合作备忘录|合作備忘錄'),('购电协议/PPA',r'\bppa\b|電力購入|전력구매|购电协议|購電協議'),('项目竣工/投运',r'竣工|投運|投运|運転開始|稼働開始|준공|상업운전|commissioned|completed'),('项目签约/建设',r'着工|建設|签约|簽約|기공|착공|construction'),('合作/供货',r'合作|提携|締結|협력|공급|partner|collaborat|supply|供給'),('产品/技术发布',r'新製品|新商品|発表|発売|製品|신제품|출시|제품|新产品|新產品|推出|launch|unveil|product')]
+EVENTS=[('政府招标/采购',r'招標|招标|採購|采购|調達|조달|tender|procurement'),('合作意向/MOU',r'\bmou\b|memorandum|覚書|業務提携|업무협약|合作备忘录|合作備忘錄'),('购电协议/PPA',r'\bppa\b|電力購入|전력구매|购电协议|購電協議'),('项目竣工/投运',r'竣工|投運|投运|運転開始|稼働開始|준공|상업운전|commissioned|completed'),('项目签约/建设',r'着工|建設|签约|簽約|기공|착공|construction'),('合作/供货',r'合作|提携|締結|협력|공급|partner|collaborat|supply|供給'),('产品/技术发布',r'新製品|新商品|発表|発売|製品|신제품|출시|제품|新产品|新產品|推出|launch|unveil|product')]
 
 def clean(text):return re.sub(r'\s+',' ',html.unescape(re.sub(r'<[^>]*>',' ',text or ''))).strip()
 def canonical(url):
@@ -90,7 +90,7 @@ def signals(text,source,title=None):
    if found:event=name;evidence=found;break
   if evidence:break
  if source.get('sourceType')=='government':
-  if re.search(POLICY,headline,re.I):event='政策公告'
+  if re.search(POLICY,headline,re.I) and event!='政府招标/采购':event='政策公告'
   elif re.search(r'会議|會議|会议|회의|forum|meeting',headline,re.I):event='政策交流/会议'
  if event=='项目竣工/投运' and re.search(r'予定|計画|계획|예정|计划|計畫|预计|預計|planned|expected|will',evidence,re.I):event='项目计划（待核实）'
  direction='未判定';policy_quote=''
@@ -98,7 +98,7 @@ def signals(text,source,title=None):
   for sentence in re.split(r'(?<=[。！？!?])|(?<=\.)\s+',text):
    if not re.search(PV,sentence,re.I):continue
    support=bool(re.search(r'補助|補貼|补贴|助成|지원|보조금|subsid|grant',sentence,re.I))
-   restrict=bool(re.search(r'廃止|終了|縮小|停止|禁止|対象外|しない|行わない|不予|不再|제한|폐지|축소|중단|지원하지|제외|하지 않|取消|撤銷|下修|end of|terminate|ban\b|phase.out',sentence,re.I))
+   restrict=bool(re.search(r'廃止|廢止|廢除|废止|終止|终止|終了|縮減|削減|減額|限縮|縮小|停止|禁止|対象外|しない|行わない|不予|不再|제한|폐지|축소|중단|지원하지|제외|하지 않|取消|撤銷|下修|end of|terminate|ban\b|phase.out',sentence,re.I))
    if support or restrict:
     direction='混合线索' if support and restrict else '支持线索' if support else '限制线索'
     policy_quote=cue(sentence,PV);break
@@ -133,7 +133,7 @@ def make_rows(title,excerpt,url,published,source,now,body='',body_ok=False):
    'impact':'尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。',
    'watch':('先核对政府原文的适用地区、对象、金额、申请期限和施行日期；不能将补助线索视为已生效支持政策。' if topic=='政策与补贴' else '核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。'),'tech':next((name for name,pattern in TECH.items() if re.search(pattern,text,re.I)),'未分类'),
    'dataKind':'live','analysisKind':'evidence-cues','language':source.get('language','en'),'sourceType':source.get('sourceType','media'),'jurisdiction':source.get('jurisdiction','地域适用性待复核'),'marketBasis':basis,
-   'eventType':event,'policyDirection':direction,'policyStage':'法规效力/执行阶段待核实','evidence':evidence,'articleRead':body_ok,'translationStatus':'pending','collectedAt':now.isoformat()}
+   'eventType':event,'policyDirection':direction,'policyStage':('草案/征求意见，未确认生效' if re.search(r'草案|徵求意見|征求意见|意見募集|パブリックコメント|의견수렴|입법예고|draft|consultation',title,re.I) else '会议/政策交流，不代表新增法规' if event=='政策交流/会议' else '法规效力/执行阶段待核实'),'evidence':evidence,'articleRead':body_ok,'translationStatus':'pending','collectedAt':now.isoformat()}
 
 def parse_feed(xml,source,now,enrich=False):
  if b'<!DOCTYPE' in xml.upper() or b'<!ENTITY' in xml.upper():raise ValueError('XML declarations not supported')

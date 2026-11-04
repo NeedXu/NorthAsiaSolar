@@ -39,3 +39,10 @@ class LocalSourcesTests(unittest.TestCase):
  def test_headline_completion_is_not_replaced_by_an_old_mou_in_body(self):
   text='太陽光発電所が竣工。太陽光について去年MOUを締結。'
   self.assertEqual(c.signals(text,{'sourceType':'company'},'太陽光発電所が竣工')[0],'项目竣工/投运')
+ def test_official_tariff_drafts_are_policy_but_not_marked_in_force(self):
+  source={'name':'能源署','sourceType':'government','market':'台湾','language':'zh-Hant'}
+  row=list(c.make_rows('太陽光電躉購費率草案','太陽光電躉購費率草案公開徵求意見。','https://example.com/policy',NOW,source,NOW,'太陽光電躉購費率草案公開徵求意見。',True))[0]
+  self.assertEqual(row['topic'],'政策与补贴');self.assertIn('未确认生效',row['policyStage'])
+ def test_policy_abbreviations_do_not_match_record_or_benefits(self):
+  self.assertFalse(c.re.search(c.POLICY,'Solar cell record efficiency benefits customers',c.re.I))
+  self.assertTrue(c.re.search(c.POLICY,'FIT制度の改定',c.re.I))
