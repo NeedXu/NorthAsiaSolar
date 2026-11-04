@@ -8,7 +8,9 @@ import urllib.request
 import urllib.error
 import xml.etree.ElementTree as ET
 CANDIDATES=[
-('公开网页翻译响应验证','https://translate.googleapis.com/translate_a/single?client=gtx&sl=ko&tl=zh-CN&dt=t&q=%ED%83%9C%EC%96%91%EA%B4%91%20100MW'),
+('韩国政府政策检索表单','https://www.korea.kr/news/policyNewsList.do'),
+('台湾能源署业务公告RSS','https://www.moeaea.gov.tw/ECW/populace/news/NewsRSSdetail.aspx?Kind=2'),
+('台湾能源署招标/补助RSS','https://www.moeaea.gov.tw/ECW/populace/news/NewsRSSdetail.aspx?Kind=3'),
 ]
 
 def inspect(entry):
@@ -26,6 +28,14 @@ def inspect(entry):
   except ET.ParseError:
    text=data.decode('utf-8','replace');result['title']=re.findall(r'<title[^>]*>(.*?)</title>',text,re.S)[:1]
    links=re.findall(r'href=[\"\']([^\"\']+)[\"\']',text,re.I)
+   from html.parser import HTMLParser
+   class Forms(HTMLParser):
+    def __init__(self):super().__init__();self.fields=[]
+    def handle_starttag(self,tag,attrs):
+     d=dict(attrs)
+     if tag=='form':self.fields.append({'formAction':d.get('action')})
+     if tag in ('input','select') and d.get('name'):self.fields.append({'name':d['name'],'type':d.get('type','select')})
+   forms=Forms();forms.feed(text);result['formFields']=forms.fields
    result['feedLinks']=[l for l in links if re.search('rss|rdf|atom|feed',l,re.I)][:12]
    result['newsLinks']=[l for l in links if re.search('press|news|article|view|idxno',l,re.I)][:20]
    result['articleExamples']=[{'url':m.group(1),'context':re.sub('<[^>]+>',' ',text[max(0,m.start()-150):m.end()+400])} for m in re.finditer(r'href=[\"\']([^\"\']*(?:policyNewsView|press_[0-9]|news_id)[^\"\']*)[\"\']',text,re.I)][:4]
