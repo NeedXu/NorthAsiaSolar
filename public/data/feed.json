@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "mode": "live",
-  "attemptedAt": "2026-11-04T10:26:33.479183+00:00",
-  "lastSuccessAt": "2026-11-04T10:26:33.479183+00:00",
+  "attemptedAt": "2026-11-04T10:50:07.954840+00:00",
+  "lastSuccessAt": "2026-11-04T10:50:07.954840+00:00",
   "status": "ok",
   "sources": [
     {
@@ -36,7 +36,7 @@
       "tech": "未分类",
       "dataKind": "live",
       "analysisKind": "rules",
-      "collectedAt": "2026-11-04T10:26:33.479183+00:00"
+      "collectedAt": "2026-11-04T10:50:07.954840+00:00"
     }
   ]
 }
