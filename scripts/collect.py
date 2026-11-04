@@ -127,7 +127,7 @@ def make_rows(title,excerpt,url,published,source,now,body='',body_ok=False):
  if policy_quote:evidence.append({'label':'政策方向原文线索','original':policy_quote})
  if event_quote:evidence.append({'label':'政策公告原文线索' if event=='政策公告' else '项目/合作/产品原文线索','original':event_quote})
  for market in matched:
-  yield {'id':hashlib.sha256((market+url).encode()).hexdigest()[:24],'market':market,'title':title,'originalTitle':title,'date':published.astimezone(dt.timezone(dt.timedelta(hours=8))).date().isoformat(),'publishedAt':published.isoformat(),'topic':topic,'priority':'高' if source.get('sourceType')=='government' and topic=='政策与补贴' else '中','source':source['name'],'url':url,
+  yield {'id':hashlib.sha256((market+url).encode()).hexdigest()[:24],'market':market,'title':title,'originalTitle':title,'date':published.astimezone(dt.timezone(dt.timedelta(hours=source.get('timezone',8)))).date().isoformat(),'publishedAt':published.isoformat(),'topic':topic,'priority':'高' if source.get('sourceType')=='government' and topic=='政策与补贴' else '中','source':source['name'],'url':url,
    'summary':'中文整理待生成；请核对原文。','originalSummary':(cue(body,PV) if body_ok else excerpt)[:1200],
    'importance':'该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。',
    'impact':'尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。',
@@ -187,7 +187,9 @@ def parse_listing(data,source,now):
     except (ValueError,TypeError,OverflowError):continue
    if not published:continue
    excerpt=(cue(body,PV) or body[:500]) if body else context
-   rows.extend(make_rows(title,excerpt,url,published,source,now,body,bool(body)))
+   new_rows=list(make_rows(title,excerpt,url,published,source,now,body,bool(body)))
+   for row in new_rows:row['datePrecision']='timestamp' if re.search(r'\d{1,2}:\d{2}',str(value)) else 'day'
+   rows.extend(new_rows)
   except Exception:errors+=1
  if links and errors==min(len(links),14):raise ValueError('all article fetches failed')
  return rows
