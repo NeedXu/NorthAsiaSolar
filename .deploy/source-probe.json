@@ -1,10 +1,116 @@
 {
   "sources": [
     {
-      "name": "日本環境省RSS",
-      "url": "https://www.env.go.jp/rss/news.xml",
-      "error": "HTTPError",
-      "status": 404
+      "name": "台湾経済部公式RSS",
+      "url": "https://www.moea.gov.tw/Mns/populace/news/NewsRSSdetail.aspx?Kind=1",
+      "status": 200,
+      "finalURL": "https://www.moea.gov.tw/Mns/populace/news/NewsRSSdetail.aspx?Kind=1",
+      "xmlRoot": "rss",
+      "entries": 34,
+      "examples": [
+        {
+          "title": "中企署舉辦宣導說明會　助管理顧問業者強化個資及資安韌性",
+          "date": "Wed, 04 Nov 2026 10:45:00 GMT"
+        },
+        {
+          "title": "標準局與消保處共同公布市售「按壓玩具（捏捏樂）」商品檢測結果",
+          "date": "Wed, 04 Nov 2026 10:24:00 GMT"
+        },
+        {
+          "title": "經濟部︰持續特工區監測 落實各項減污承諾 維護區域空品",
+          "date": "Wed, 04 Nov 2026 08:55:00 GMT"
+        }
+      ]
+    },
+    {
+      "name": "台湾能源署公式RSS",
+      "url": "https://www.moeaea.gov.tw/ECW/populace/news/NewsRSSdetail.aspx?Kind=1",
+      "status": 200,
+      "finalURL": "https://www.moeaea.gov.tw/ECW/populace/news/NewsRSSdetail.aspx?Kind=1",
+      "xmlRoot": "rss",
+      "entries": 2,
+      "examples": [
+        {
+          "title": "11月8日節能童樂趣～玩闖關、看表演一次滿足 年末最夯親子童樂盛會就在臺北市立兒童新樂園",
+          "date": "Wed, 04 Nov 2026 02:53:54 GMT"
+        },
+        {
+          "title": "第65次APEC新及再生能源技術專家小組會議圓滿落幕   共築區域合作與綠能科技韌性願景",
+          "date": "Thu, 29 Oct 2026 09:45:25 GMT"
+        }
+      ]
+    },
+    {
+      "name": "韓国政府政策一覧",
+      "url": "https://www.korea.kr/news/policyNewsList.do",
+      "status": 200,
+      "finalURL": "https://www.korea.kr/news/policyNewsList.do",
+      "title": [
+        "정책뉴스 | 뉴스 | 대한민국 정책브리핑"
+      ],
+      "feedLinks": [],
+      "newsLinks": [
+        "https://m.korea.kr/news/policyNewsList.do",
+        "https://www.korea.kr/news/policyNewsList.do",
+        "${newsUrl}&pWise=sub&pWiseSub=I1",
+        "/news/policyNewsList.do",
+        "/news/policyNewsList.do",
+        "/news/policyNewsList.do",
+        "/news/ministryNewsHome.do",
+        "/news/policyFocusHome.do",
+        "/news/reporterList.do",
+        "/news/celebrityList.do",
+        "/news/customizedNewsList.do",
+        "/multi/mediaNewsList.do",
+        "/briefing/pressReleaseList.do",
+        "/briefing/pressReleaseList.do",
+        "/briefing/pressReleaseList.do",
+        "/etc/newsLetterMain.do",
+        "/etc/newsNotifyGuide.do",
+        "/etc/newsNotifySetting.do",
+        "/news/policyNewsList.do",
+        "/news/policyNewsList.do?smenu=EDS02"
+      ],
+      "articleExamples": [
+        {
+          "url": "/news/policyNewsView.do?newsId=148975035",
+          "context": "\n\t\t 콘텐츠 영역 \r\n\r\n\t\t \r\n\t\t\t \r\n\t\t\t \r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t \r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t 이재명 대통령, 유튜브 &#039;대통령의 Y&#039;로 국민과 소통한다 \r\n\t\t\t\t\t\t\t<span class="
+        },
+        {
+          "url": "/news/policyNewsView.do?newsId=148975017",
+          "context": "\t\t \r\n\r\n\t\t\t\t\t \r\n\t\t\t\t\t \r\n\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t한글 점자 100주년, 국내 첫 점자 "
+        },
+        {
+          "url": "/news/policyNewsView.do?newsId=148975035",
+          "context": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t이재명 대통령, 유튜브 '대통령의 Y'"
+        },
+        {
+          "url": "/news/policyNewsView.do?newsId=148975008",
+          "context": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t\t\t \r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t관계성 범죄 수사사건 32% '고위험'"
+        }
+      ]
+    },
+    {
+      "name": "Trina日本RSS",
+      "url": "https://www.trinasolar.com/jp/feed/",
+      "status": 200,
+      "finalURL": "https://www.trinasolar.com/jp/feed/",
+      "xmlRoot": "rss",
+      "entries": 10,
+      "examples": [
+        {
+          "title": "トリナ・ストレージ、「野津」のAEJ蓄電池プロジェクトに 196MWhの蓄電池システムを供給",
+          "date": "Wed, 14 Oct 2026 02:54:44 +0000"
+        },
+        {
+          "title": "トリナ・ストレージ、AMP-lify株式会社と 1GWh規模の系統用蓄電池プロジェクトに関する覚書（MOU）を締結",
+          "date": "Mon, 14 Sep 2026 06:06:36 +0000"
+        },
+        {
+          "title": "共同開発の家庭用蓄電システムが「JC-STAR レベル1」要件に適合 トリナ・ストレージ、日本市場で住宅用太陽光・蓄電池のセット販売を開始",
+          "date": "Fri, 04 Sep 2026 08:48:56 +0000"
+        }
+      ]
     },
     {
       "name": "日本環境省発表",
@@ -25,219 +131,46 @@
         "/press/press_05807.html",
         "/press/press_05806.html",
         "/press/press_05696.html",
-        "/press/press_05748.html"
-      ]
-    },
-    {
-      "name": "東京都政府RSS",
-      "url": "https://www.metro.tokyo.lg.jp/rss/index.rdf",
-      "status": 200,
-      "finalURL": "https://www.metro.tokyo.lg.jp/index.html/-/asset_publisher/knkg/rss",
-      "xmlRoot": "rss",
-      "entries": 60,
-      "examples": [
+        "/press/press_05748.html",
+        "/press/111118_00083.html",
+        "/press/press_05779.html",
+        "/press/press_05775.html",
+        "/press/press_05755.html",
+        "/press/press_05720.html",
+        "/press/press_05772.html",
+        "/press/press_05771.html",
+        "/press/press_05770.html",
+        "/press/press_05769.html",
+        "/press/press_05760.html"
+      ],
+      "articleExamples": [
         {
-          "title": "「一斉公開建築パトロール」の実施結果をお知らせします",
-          "date": "Wed, 04 Nov 2026 00:00:00 +0900"
+          "url": "/press/press_05751.html",
+          "context": "g--ministers-secretariat\">大臣官房 \r\n                     \r\n                     \r\n                       令和８年秋の叙勲受章者について \r\n                     \r\n                   \r\n                 \r\n               \r\n               \r\n                 \r\n                   このページの先頭へ \r\n                 \r\n               \r\n"
         },
         {
-          "title": "令和9年度予算の要求について",
-          "date": "Wed, 04 Nov 2026 00:00:00 +0900"
+          "url": "/press/press_05794.html",
+          "context": "-tag--global-environment\">地球環境 \r\n                     \r\n                     \r\n                       中央環境審議会地球環境部会気候変動影響評価・適応小委員会（第11回）の開催について \r\n                     \r\n                   \r\n                   \r\n                     \r\n                       保健対策 \r\n                      <span class=\"p-news-link__tag c-tag c-tag--atmos"
         },
         {
-          "title": "令和8年度　東京都立大学「グローバル教養講座」マイケル・レヴィット氏（ノーベル化学賞受賞者）による講演会を開催",
-          "date": "Wed, 04 Nov 2026 00:00:00 +0900"
+          "url": "/press/press_05807.html",
+          "context": "-tag--regeneration-cycle\">再生循環 \r\n                     \r\n                     \r\n                       「GTF グリーンチャレンジデー2026 in 新宿御苑」  を開催します \r\n                     \r\n                   \r\n                   \r\n                     \r\n                       保健対策 \r\n                     \r\n                    <div class=\"c-news-link__i"
+        },
+        {
+          "url": "/press/press_05806.html",
+          "context": "g c-tag--health-measures\">保健対策 \r\n                     \r\n                     \r\n                       第269回中央環境審議会環境保健部会化学物質審査小委員会等合同会合の開催について \r\n                     \r\n                   \r\n                   \r\n                     \r\n                       自然環境 \r\n                     \r\n                    <div class=\"c-news-"
         }
       ]
     },
     {
-      "name": "NEDO発表",
-      "url": "https://www.nedo.go.jp/news/press/index.html",
-      "error": "HTTPError",
-      "status": 404
-    },
-    {
-      "name": "韓国政府トップ",
-      "url": "https://www.korea.kr/main.do",
+      "name": "無料翻訳モデルライセンス",
+      "url": "https://huggingface.co/facebook/m2m100_418M/raw/main/README.md",
       "status": 200,
-      "finalURL": "https://www.korea.kr/main.do",
-      "title": [
-        "대한민국 정책브리핑"
-      ],
+      "finalURL": "https://huggingface.co/facebook/m2m100_418M/raw/main/README.md",
+      "title": [],
       "feedLinks": [],
-      "newsLinks": [
-        "https://www.korea.kr/video/index.html?newsId=${newsId}&pWise=main&pWiseMain=M${count}",
-        "/multi/policyAudioView.do?newsId=${newsId}&pWise=main&pWiseMain=M${count}",
-        "/news/customizedNewsView.do?newsId=${newsId}&customType=${customType}&subPkgId=${subPkgId}&pkgSubId2s=${pkgSubId2s}&pWise=main&pWiseMain=M${count}",
-        "/news/customizedNewsView.do?newsId=${newsId}&pWise=main&pWiseMain=M${count}",
-        "/news/policyNewsList.do",
-        "/news/policyNewsList.do",
-        "/news/policyNewsList.do",
-        "/news/ministryNewsHome.do",
-        "/news/policyFocusHome.do",
-        "/news/reporterList.do"
-      ]
-    },
-    {
-      "name": "韓国政府RSS案内",
-      "url": "https://www.korea.kr/etc/rss.do",
-      "status": 200,
-      "finalURL": "https://www.korea.kr/main.do",
-      "title": [
-        "대한민국 정책브리핑"
-      ],
-      "feedLinks": [],
-      "newsLinks": [
-        "https://www.korea.kr/video/index.html?newsId=${newsId}&pWise=main&pWiseMain=M${count}",
-        "/multi/policyAudioView.do?newsId=${newsId}&pWise=main&pWiseMain=M${count}",
-        "/news/customizedNewsView.do?newsId=${newsId}&customType=${customType}&subPkgId=${subPkgId}&pkgSubId2s=${pkgSubId2s}&pWise=main&pWiseMain=M${count}",
-        "/news/customizedNewsView.do?newsId=${newsId}&pWise=main&pWiseMain=M${count}",
-        "/news/policyNewsList.do",
-        "/news/policyNewsList.do",
-        "/news/policyNewsList.do",
-        "/news/ministryNewsHome.do",
-        "/news/policyFocusHome.do",
-        "/news/reporterList.do"
-      ]
-    },
-    {
-      "name": "韓国政府政策RSS",
-      "url": "https://www.korea.kr/rss/policy.xml",
-      "error": "HTTPError",
-      "status": 404
-    },
-    {
-      "name": "台湾経済部RSS案内",
-      "url": "https://www.moea.gov.tw/Mns/populace/news/NewsRSS.aspx?menu_id=1430",
-      "status": 200,
-      "finalURL": "https://www.moea.gov.tw/Mns/populace/news/NewsRSS.aspx?menu_id=1430",
-      "title": [
-        "\r\n\tRSS - 頂端功能 - 中華民國經濟部(Ministry of Economic Affairs,R.O.C.)全球資訊網\r\n"
-      ],
-      "feedLinks": [
-        "NewsRSSdetail.aspx?Kind=1",
-        "NewsRSSdetail.aspx?Kind=9",
-        "NewsRSSdetail.aspx?Kind=2",
-        "NewsRSSdetail.aspx?Kind=5",
-        "NewsRSSdetail.aspx?Kind=4",
-        "NewsRSSdetail.aspx?Kind=10",
-        "EyNewsRSS.aspx",
-        "EyVideoRSS.aspx",
-        "EyClarifyNewsRSS.aspx",
-        "../news/NewsRSS.aspx?menu_id=1430",
-        "../news/NewsRSS.aspx?menu_id=1430",
-        "../news/NewsRSS.aspx?menu_id=1430"
-      ],
-      "newsLinks": [
-        "NewsRSSdetail.aspx?Kind=1",
-        "NewsRSSdetail.aspx?Kind=9",
-        "NewsRSSdetail.aspx?Kind=2",
-        "NewsRSSdetail.aspx?Kind=5",
-        "NewsRSSdetail.aspx?Kind=4",
-        "NewsRSSdetail.aspx?Kind=10",
-        "EyNewsRSS.aspx",
-        "EyClarifyNewsRSS.aspx",
-        "../news/Epaper.aspx?menu_id=1341",
-        "../news/NewsRSS.aspx?menu_id=1430"
-      ]
-    },
-    {
-      "name": "台湾能源署RSS案内",
-      "url": "https://www.moeaea.gov.tw/ECW/populace/news/NewsRSS.aspx?menu_id=819",
-      "status": 200,
-      "finalURL": "https://www.moeaea.gov.tw/ECW/populace/news/NewsRSS.aspx?menu_id=819",
-      "title": [
-        "\r\n\tRSS - 頂端功能 - 經濟部能源署(Energy Administration, Ministry of Economic Affairs, R.O.C.)全球資訊網\r\n"
-      ],
-      "feedLinks": [
-        "NewsRSSdetail.aspx?Kind=1",
-        "NewsRSSdetail.aspx?Kind=2",
-        "NewsRSSdetail.aspx?Kind=3",
-        "../../populace/news/NewsRSS.aspx?menu_id=819",
-        "../../populace/news/NewsRSS.aspx?menu_id=819",
-        "../../populace/news/NewsRSS.aspx?menu_id=819",
-        "../../populace/news/NewsRSS.aspx?menu_id=819",
-        "NewsRSSdetail.aspx?Kind=1",
-        "NewsRSSdetail.aspx?Kind=3"
-      ],
-      "newsLinks": [
-        "NewsRSSdetail.aspx?Kind=1",
-        "NewsRSSdetail.aspx?Kind=2",
-        "NewsRSSdetail.aspx?Kind=3",
-        "../../populace/news/NewsRSS.aspx?menu_id=819",
-        "../../populace/news/News.aspx?kind=1&amp;menu_id=41",
-        "../../populace/news/News.aspx?kind=9&amp;menu_id=4360",
-        "../../populace/news/Board.aspx?kind=3&amp;menu_id=57",
-        "../../populace/news/Board.aspx?kind=3&amp;sub_kind=6&amp;menu_id=8682",
-        "../../populace/news/NewsRSS.aspx?menu_id=819",
-        "../../populace/news/NewsRSS.aspx?menu_id=819"
-      ]
-    },
-    {
-      "name": "台湾科技新報全体",
-      "url": "https://technews.tw/feed/",
-      "status": 200,
-      "finalURL": "https://technews.tw/feed/",
-      "xmlRoot": "rss",
-      "entries": 40,
-      "examples": [
-        {
-          "title": "永豐銀證實遭外部駭客盜轉！董總鞠躬致歉「墊付 4,176 萬全額退款」",
-          "date": "Wed, 04 Nov 2026 10:32:47 +0000"
-        },
-        {
-          "title": "鈺太10月營收1.15 億元",
-          "date": "Wed, 04 Nov 2026 10:10:08 +0000"
-        },
-        {
-          "title": "立積10月營收月減0.0%",
-          "date": "Wed, 04 Nov 2026 10:10:07 +0000"
-        }
-      ]
-    },
-    {
-      "name": "Trina日本発表",
-      "url": "https://www.trinasolar.com/jp/press-releases/",
-      "status": 200,
-      "finalURL": "https://www.trinasolar.com/jp/press-releases/",
-      "title": [
-        "Trinasolar"
-      ],
-      "feedLinks": [],
-      "newsLinks": [
-        "https://www.trinasolar.com/jp/press-releases/",
-        "/jp/press-releases/",
-        "https://www.trinasolar.com/jp/wp-content/themes/Child-JP/css/news.css?392",
-        "https://www.trinasolar.com/jp/press-releases/page/2/",
-        "https://www.trinasolar.com/jp/press-releases/page/3/",
-        "https://www.trinasolar.com/jp/press-releases/page/4/",
-        "https://www.trinasolar.com/jp/press-releases/page/31/",
-        "https://www.trinasolar.com/jp/press-releases/page/2/",
-        "https://pages.trinasolar.com/2025_GlobalWebsiteNewsletterSubscriptionLP.html",
-        "/jp/press-releases/"
-      ]
-    },
-    {
-      "name": "Qcells韓国ニュース",
-      "url": "https://www.qcells.com/kr/stay-in-the-loop/trending-news",
-      "status": 200,
-      "finalURL": "https://www.qcells.com/kr/stay-in-the-loop/trending-news",
-      "title": [
-        "보도 자료｜한화큐셀 최신 소식 - Qcells Korea"
-      ],
-      "feedLinks": [],
-      "newsLinks": [
-        "https://www.qcells.com/kr/stay-in-the-loop/trending-news",
-        "/kr/stay-in-the-loop/trending-news-detail?newsId=NEW260911002900004",
-        "/kr/stay-in-the-loop/trending-news-detail?newsId=NEW260716025218002",
-        "/kr/stay-in-the-loop/trending-news-detail?newsId=NEW260720025229003",
-        "/kr/stay-in-the-loop/trending-news-detail?newsId=NEW260710064507001",
-        "/kr/stay-in-the-loop/trending-news-detail?newsId=NEW260706020039000",
-        "/kr/stay-in-the-loop/trending-news-detail?newsId=NEW260630002643000",
-        "/kr/stay-in-the-loop/trending-news-detail?newsId=NEW260610073131001",
-        "/kr/stay-in-the-loop/trending-news-detail?newsId=NEW260609010300000",
-        "/kr/stay-in-the-loop/trending-news-detail?newsId=NEW260526051752001"
-      ]
+      "newsLinks": [],
+      "articleExamples": []
     }
   ],
   "model": {
@@ -245,6 +178,6 @@
     "status": 200,
     "finalURL": "https://models.github.ai/inference/chat/completions",
     "contentType": "text/plain",
-    "pageTitle": []
+    "responsePreview": "OK\r\n"
   }
 }
