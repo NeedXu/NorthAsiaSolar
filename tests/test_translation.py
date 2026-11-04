@@ -22,3 +22,7 @@ class TranslationTests(unittest.TestCase):
   with patch.object(t.urllib.request,'urlopen',return_value=response) as request,patch.object(t.time,'sleep'):
    self.assertEqual(t.web_translate('태양광100MW','ko'),'太阳能100MW')
    self.assertNotIn('Authorization',dict(request.call_args.args[0].header_items()))
+ def test_equivalent_dates_fullwidth_digits_and_ordinals_do_not_fail_validation(self):
+  self.assertEqual(t.checked_translation('JC-STAR★２','JC-STAR 2级'), 'JC-STAR 2级')
+  self.assertEqual(t.checked_translation('2026.9.30 世界1位','2026年9月30日 世界第一'), '2026年9月30日 世界第一')
+  with self.assertRaises(ValueError):t.checked_translation('效率28.29%','效率28.30%')

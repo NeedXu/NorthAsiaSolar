@@ -64,7 +64,9 @@ def article_document(data):
  for script in soup.select('script[type="application/ld+json"]'):
   for match in re.findall(r'"datePublished"\s*:\s*"([^"]+)"',script.get_text()):dates.append(match)
  for bad in soup.select('script,style,nav,header,footer,noscript,form,iframe'):bad.decompose()
- title=clean(soup.h1.get_text(' ',strip=True)) if soup.h1 else ''
+ heading=soup.select_one('h1,.news-detail-title,.newsDetail-title,.article-title')
+ og=soup.select_one('meta[property="og:title"]')
+ title=clean(heading.get_text(' ',strip=True)) if heading else clean(og.get('content','')) if og else ''
  body=soup.select_one('[itemprop="articleBody"],#contentBody,.article-view-content-div,.entry-content,.post-content,.view_cont') or soup.select_one('article') or soup.select_one('#contentBody') or soup.select_one('.view_cont') or soup.select_one('.article-view-content-div') or soup.select_one('main') or soup.body or soup
  text=clean(body.get_text(' ',strip=True))[:18000]
  if not dates:dates=[text[:900]]
@@ -166,7 +168,8 @@ def parse_listing(data,source,now):
  for anchor in soup.find_all('a',href=True):
   url=urllib.parse.urljoin(source['url'],html.unescape(anchor['href']))
   if urllib.parse.urlsplit(url).hostname!=host or not re.search(source['linkPattern'],url):continue
-  title=clean(anchor.get('title') or anchor.get_text(' ',strip=True))
+  heading=anchor.find(['h2','h3','h4']) or anchor.select_one('.title,.news-title,.news_title')
+  title=clean(anchor.get('title') or (heading.get_text(' ',strip=True) if heading else anchor.get_text(' ',strip=True)))
   if not title:continue
   links.setdefault(canonical(url),title)
  if not links:raise ValueError('no recognized article links')

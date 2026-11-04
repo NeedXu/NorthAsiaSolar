@@ -5,6 +5,7 @@ import os
 from pathlib import Path
 import re
 import time
+import unicodedata
 import urllib.request
 import urllib.parse
 import urllib.error
@@ -13,7 +14,20 @@ ROOT=Path(__file__).resolve().parents[1]
 MODEL='facebook/m2m100_418M'
 CC=OpenCC('t2s')
 
-def numeric_tokens(text):return set(re.findall(r'\d+(?:[.,]\d+)*',text.replace(',','')))
+def chinese_integer(text):
+ digits={'零':0,'〇':0,'一':1,'二':2,'两':2,'三':3,'四':4,'五':5,'六':6,'七':7,'八':8,'九':9};units={'十':10,'百':100,'千':1000}
+ result=0;current=0
+ for char in text:
+  if char in digits:current=digits[char]
+  else:result+=(current or 1)*units[char];current=0
+ return str(result+current)
+def numeric_tokens(text):
+ text=unicodedata.normalize('NFKC',text).replace(',','')
+ text=re.sub(r'(\d{4})[./-](\d{1,2})[./-](\d{1,2})',lambda m:' '.join(str(int(v)) for v in m.groups()),text)
+ text=re.sub(r'第([零〇一二两三四五六七八九十百千]+)',lambda m:'第'+chinese_integer(m.group(1)),text)
+ text=re.sub(r'([零〇一二两三四五六七八九十百千]+)(?=年|期|次|家|位|季度|个|名|倍|项|座)',lambda m:chinese_integer(m.group(1)),text)
+ return set(re.findall(r'\d+(?:\.\d+)?',text))
+
 def checked_translation(original,translated):
  translated=CC.convert(translated.strip())
  if not re.search(r'[\u4e00-\u9fff]',translated):raise ValueError('no Chinese translation returned')
