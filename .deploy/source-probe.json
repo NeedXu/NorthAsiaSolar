@@ -1,0 +1,272 @@
+{
+  "sources": [
+    {
+      "name": "日本経産省RSS",
+      "url": "https://www.meti.go.jp/information/rss.xml",
+      "error": "HTTPError",
+      "status": 403
+    },
+    {
+      "name": "日本経産省RSS一覧",
+      "url": "https://www.meti.go.jp/information/rss/index.html",
+      "error": "HTTPError",
+      "status": 403
+    },
+    {
+      "name": "日本経産省プレス",
+      "url": "https://www.meti.go.jp/press/index.html",
+      "error": "HTTPError",
+      "status": 403
+    },
+    {
+      "name": "日本資源エネルギー庁",
+      "url": "https://www.enecho.meti.go.jp/rss.xml",
+      "error": "HTTPError",
+      "status": 403
+    },
+    {
+      "name": "日本ソーラージャーナル",
+      "url": "https://solarjournal.jp/feed/",
+      "status": 200,
+      "finalURL": "https://solarjournal.jp/feed/",
+      "xmlRoot": "rss",
+      "entries": 10,
+      "examples": [
+        {
+          "title": "千葉豪雨による停電を乗り切った！スマートハウス一歩目にGoodWeの住宅用ソリューション",
+          "date": "Wed, 04 Nov 2026 03:00:29 +0000"
+        },
+        {
+          "title": "【11/5発行】支援重点化は太陽光市場の”追い風”となるか『SOLAR JOURNAL  vol.59』",
+          "date": "Mon, 02 Nov 2026 05:49:43 +0000"
+        },
+        {
+          "title": "知っておきたい台湾の太陽光発電の”今”｜Energy Taiwan & Net-Zero Taiwan2026 要注目企業レポート",
+          "date": "Fri, 30 Oct 2026 03:00:50 +0000"
+        }
+      ]
+    },
+    {
+      "name": "韓国政策ブリーフィング政策",
+      "url": "https://www.korea.kr/rss/policy.xml",
+      "error": "HTTPError",
+      "status": 404
+    },
+    {
+      "name": "韓国政府プレス",
+      "url": "https://www.korea.kr/rss/pressrelease.xml",
+      "error": "HTTPError",
+      "status": 404
+    },
+    {
+      "name": "韓国産業ニュース",
+      "url": "https://www.industrynews.co.kr/rss/allArticle.xml",
+      "status": 200,
+      "finalURL": "https://www.industrynews.co.kr/rss/allArticle.xml",
+      "xmlRoot": "rss",
+      "entries": 50,
+      "examples": [
+        {
+          "title": "다우·CJ컨소시엄, 중앙일보 5200억원에 인수",
+          "date": "2026-11-04 18:20:40"
+        },
+        {
+          "title": "호반그룹, 한진칼 최대주주 등극… 조원태 회장과 0.11%p '초박빙' 수싸움",
+          "date": "2026-11-04 18:20:07"
+        },
+        {
+          "title": "[신간] \"지식보다 경험의 연결\"… 19인의 삶으로 묻는 『AI 시대의 인간다움』 출간",
+          "date": "2026-11-04 18:17:37"
+        }
+      ]
+    },
+    {
+      "name": "韓国電気新聞",
+      "url": "https://www.electimes.com/rss/allArticle.xml",
+      "status": 200,
+      "finalURL": "https://www.electimes.com/rss/allArticle.xml",
+      "xmlRoot": "rss",
+      "entries": 50,
+      "examples": [
+        {
+          "title": "남부발전, 하이창원퓨얼셀 준공…국산 SOFC 첫 상용화",
+          "date": "2026-11-04 17:34:11"
+        },
+        {
+          "title": "원전 안전 지키는 한수원 원자로 조종사들…최고 실력 뽐냈다",
+          "date": "2026-11-04 17:25:57"
+        },
+        {
+          "title": "(신재생學 추계학술대회)이회성 무탄소연합 회장 “제조 역량 없는 재생E 강국 없다”",
+          "date": "2026-11-04 16:53:34"
+        }
+      ]
+    },
+    {
+      "name": "韓国エネルギーデイリー",
+      "url": "https://www.energydaily.co.kr/rss/allArticle.xml",
+      "status": 200,
+      "finalURL": "https://www.energydaily.co.kr/rss/allArticle.xml",
+      "xmlRoot": "rss",
+      "entries": 50,
+      "examples": [
+        {
+          "title": "석유관리원, 교통안전공단과 석유제품 운송안전·불법유통 관리 협력",
+          "date": "2026-11-04 18:29:28"
+        },
+        {
+          "title": "“에기평, 미래 기후에너지기술 전략 수립 돌입했다”",
+          "date": "2026-11-04 18:21:20"
+        },
+        {
+          "title": "유니슨, 주식병합 후 거래 재개",
+          "date": "2026-11-04 18:05:15"
+        }
+      ]
+    },
+    {
+      "name": "台湾経済部RSS",
+      "url": "https://www.moea.gov.tw/Mns/populace/news/Rss.aspx?kind=1&menu_id=40",
+      "status": 200,
+      "finalURL": "https://www.moea.gov.tw/Mns/populace/news/Rss.aspx?kind=1&menu_id=40",
+      "xmlRoot": "{http://www.w3.org/1999/xhtml}html",
+      "entries": 0,
+      "examples": []
+    },
+    {
+      "name": "台湾経済部公告",
+      "url": "https://www.moea.gov.tw/Mns/populace/news/News.aspx?kind=1&menu_id=40",
+      "status": 200,
+      "finalURL": "https://www.moea.gov.tw/Mns/populace/news/News.aspx?kind=1&menu_id=40",
+      "title": [
+        "\r\n\t本部新聞 - 新聞與公告 - 中華民國經濟部(Ministry of Economic Affairs,R.O.C.)全球資訊網\r\n"
+      ],
+      "feedLinks": [
+        "../news/NewsRSS.aspx?menu_id=1430",
+        "../news/NewsRSS.aspx?menu_id=1430"
+      ],
+      "newsLinks": [
+        "../news/Epaper.aspx?menu_id=1341",
+        "../news/NewsRSS.aspx?menu_id=1430",
+        "../news/NewsList.aspx?kind=1&amp;menu_id=40",
+        "../news/NewsList.aspx?kind=9&amp;menu_id=22333",
+        "../news/MinisterSchedule.aspx?menu_id=42225",
+        "../news/NewsActiveList.aspx?kind=4&amp;menu_id=43",
+        "../news/NewsList.aspx?kind=5&amp;menu_id=44",
+        "../news/NewsList.aspx?kind=2&amp;menu_id=41",
+        "../news/NewsQuery.aspx?menu_id=45",
+        "../news/Epaper.aspx?menu_id=1341"
+      ]
+    },
+    {
+      "name": "台湾能源署RSS",
+      "url": "https://www.moeaea.gov.tw/ECW/rss/Rss.aspx?kind=1&menu_id=41",
+      "status": 200,
+      "finalURL": "https://www.moeaea.gov.tw/ecw/htmNotFoundPage.htm?aspxerrorpath=/ECW/rss/Rss.aspx",
+      "title": [
+        "您所輸入的網址並不存在！"
+      ],
+      "feedLinks": [],
+      "newsLinks": []
+    },
+    {
+      "name": "台湾能源署公告",
+      "url": "https://www.moeaea.gov.tw/ECW/populace/news/News.aspx?kind=1&menu_id=41",
+      "status": 200,
+      "finalURL": "https://www.moeaea.gov.tw/ECW/populace/news/News.aspx?kind=1&menu_id=41",
+      "title": [
+        "\r\n\t新聞 - 最新消息與活動 - 經濟部能源署(Energy Administration, Ministry of Economic Affairs, R.O.C.)全球資訊網\r\n"
+      ],
+      "feedLinks": [
+        "../../populace/news/NewsRSS.aspx?menu_id=819",
+        "../../populace/news/NewsRSS.aspx?menu_id=819"
+      ],
+      "newsLinks": [
+        "../../populace/news/NewsRSS.aspx?menu_id=819",
+        "../../populace/news/News.aspx?kind=1&amp;menu_id=41",
+        "../../populace/news/News.aspx?kind=9&amp;menu_id=4360",
+        "../../populace/news/Board.aspx?kind=3&amp;menu_id=57",
+        "../../populace/news/Board.aspx?kind=3&amp;sub_kind=6&amp;menu_id=8682",
+        "../../populace/news/NewsRSS.aspx?menu_id=819",
+        "../../populace/news/News.aspx?kind=1&amp;menu_id=41",
+        "../../populace/news/News.aspx?kind=1&amp;menu_id=41",
+        "../../populace/news/News.aspx?kind=9&amp;menu_id=4360",
+        "../../populace/news/Board.aspx?kind=3&amp;menu_id=57"
+      ]
+    },
+    {
+      "name": "台湾科技新報能源",
+      "url": "https://technews.tw/category/energy/feed/",
+      "status": 200,
+      "finalURL": "https://technews.tw/category/energy/feed/",
+      "xmlRoot": "rss",
+      "entries": 0,
+      "examples": []
+    },
+    {
+      "name": "LONGi日本",
+      "url": "https://www.longi.com/jp/news/",
+      "status": 200,
+      "finalURL": "https://www.longi.com/jp/news/",
+      "title": [
+        "ニュース・お知らせ"
+      ],
+      "feedLinks": [
+        "/after-sales-feedback"
+      ],
+      "newsLinks": [
+        "https://www.longi.com/jp/news/",
+        "/_nuxt/static/1793786557/jp/news/state.js",
+        "/_nuxt/static/1793786557/jp/news/payload.js",
+        "/jp/news/",
+        "/jp/news/",
+        "/jp/news/",
+        "/jp/news/pvtech-aaa-2026q3-27th/",
+        "/jp/news/2026h1-result/",
+        "/jp/news/cell-2829/",
+        "/jp/news/spglobal-tier1-2026/"
+      ]
+    },
+    {
+      "name": "Trina日本",
+      "url": "https://www.trinasolar.com/jp/resources/newsroom",
+      "status": 200,
+      "finalURL": "https://www.trinasolar.com/jp/",
+      "title": [
+        "Trinasolar"
+      ],
+      "feedLinks": [],
+      "newsLinks": [
+        "/jp/press-releases/",
+        "https://www.trinasolar.com/jp/resources/newsroom/mon-20250630-1100",
+        "https://www.trinasolar.com/jp/press-releases",
+        "https://pages.trinasolar.com/2025_GlobalWebsiteNewsletterSubscriptionLP.html",
+        "/jp/press-releases/",
+        "/jp/press-releases/",
+        "https://pages.trinasolar.com/2025_GlobalWebsiteNewsletterSubscriptionLP.html"
+      ]
+    },
+    {
+      "name": "Qcells韓国",
+      "url": "https://www.qcells.com/kr/",
+      "status": 200,
+      "finalURL": "https://www.qcells.com/kr/",
+      "title": [
+        "한화큐셀｜신재생 태양광 에너지 솔루션 - Qcells Korea"
+      ],
+      "feedLinks": [],
+      "newsLinks": [
+        "/kr/stay-in-the-loop/trending-news",
+        "/kr/stay-in-the-loop/trending-news-detail?newsId=${newsId}",
+        "/kr/get-started/complete-energy-solution/overview",
+        "/kr/subscribe/newsletter",
+        "https://www.hwgeneralins.com/foreign/overview01.do"
+      ]
+    }
+  ],
+  "model": {
+    "configured": true,
+    "error": "JSONDecodeError",
+    "status": null
+  }
+}
