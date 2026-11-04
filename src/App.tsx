@@ -21,7 +21,7 @@ export default function App(){
  const week=recentWeek(feed.items);const marketItems=feed.items.filter(n=>n.market===market);const recent=week.items.filter(n=>n.market===market);const filtered=filterNews(marketItems,{search,topic,priority,from,to,sourceType,eventType,policyDirection});const rows=page==='竞争对手'?filtered.filter(n=>n.topic==='竞争动态'):filtered;
  const reportItems=week.items.filter(n=>all||n.market===market);const report=liveReport(reportItems,all?'日本、韩国、台湾':market,week.start,week.end);
  const stale=feed.lastSuccessAt&&Date.now()-Date.parse(feed.lastSuccessAt)>36*3600000;const healthy=feed.status==='ok'&&!stale&&!error;
- const counts=(name:string)=>marketItems.filter(n=>`${n.title} ${n.originalTitle||''} ${n.originalSummary||''} ${n.summary}`.toLowerCase().includes(name.toLowerCase())).length;
+ const counts=(name:string)=>filterNews(marketItems,{search:name}).length;
  function toggleTheme(){const next=theme==='light'?'dark':'light';setTheme(next);localStorage.setItem('solar-theme',next)}
  function reset(){setSourceType('');setEventType('');setPolicyDirection('');setSearch('');setTopic('');setPriority('');setFrom('');setTo('')}
  if(demo)return <><div className="demo-return"><button onClick={()=>setDemo(false)}>← 返回真实数据工作台</button><span>当前查看的是固定模拟数据演示</span></div><DemoApp/></>;

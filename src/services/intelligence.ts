@@ -2,8 +2,14 @@ import { news, type Intelligence, type Market } from '../data/mock';
 export interface NewsFilter { market?:Market; topic?:string; search?:string; priority?:string; from?:string; to?:string; sourceType?:string; eventType?:string; policyDirection?:string }
 // Replace this adapter with an authenticated API client when a backend is available.
 export interface IntelligenceRepository { list(filter:NewsFilter):Promise<Intelligence[]> }
+const companyAliases=[['LONGi','隆基','ロンジ'],['Trina Solar','Trina','天合','トリナ'],['JA Solar','晶澳','JAソーラー'],['Canadian Solar','阿特斯','カナディアン'],['Hanwha Qcells','Qcells','韩华','韓華','한화','큐셀','ハンファ']];
+export function matchesSearch(n:Intelligence,query:string){
+ const q=query.toLowerCase().trim();const terms=companyAliases.find(a=>a.some(v=>v.toLowerCase()===q))||[q];
+ const text=`${n.title} ${n.originalTitle||''} ${n.originalSummary||''} ${n.summary} ${n.source} ${n.tech}`.toLowerCase();
+ return terms.some(t=>text.includes(t.toLowerCase()));
+}
 export function filterNews(items:Intelligence[], f:NewsFilter) {
- return items.filter(n=>(!f.sourceType||n.sourceType===f.sourceType)&&(!f.eventType||n.eventType===f.eventType)&&(!f.policyDirection||n.policyDirection===f.policyDirection)&&(!f.market||n.market===f.market)&&(!f.topic||n.topic===f.topic)&&(!f.priority||n.priority===f.priority)&&(!f.from||n.date>=f.from)&&(!f.to||n.date<=f.to)&&(!f.search||`${n.title} ${n.originalTitle||''} ${n.originalSummary||''} ${n.summary} ${n.source} ${n.tech}`.toLowerCase().includes(f.search.toLowerCase())));
+ return items.filter(n=>(!f.sourceType||n.sourceType===f.sourceType)&&(!f.eventType||n.eventType===f.eventType)&&(!f.policyDirection||n.policyDirection===f.policyDirection)&&(!f.market||n.market===f.market)&&(!f.topic||n.topic===f.topic)&&(!f.priority||n.priority===f.priority)&&(!f.from||n.date>=f.from)&&(!f.to||n.date<=f.to)&&(!f.search||matchesSearch(n,f.search)));
 }
 export function deduplicate(items:Intelligence[]) { return [...new Map(items.map(n=>[`${n.market}:${n.title.trim().toLowerCase()}`,n])).values()]; }
 export const mockRepository:IntelligenceRepository={async list(filter){return filterNews(deduplicate(news),filter)}};

@@ -7,3 +7,11 @@ describe('local intelligence workflow',()=>{
  it('deduplicates repeated articles within a market',()=>{expect(deduplicate([...news,news[0]])).toHaveLength(12)});
  it('exports business analysis with explicit mock and source labels',()=>{const rows=filterNews(news,{market:'韩国'});const report=weeklyReport(rows,'韩国');expect(report).toContain('本地模拟数据');expect(report).toContain('对晶科业务的影响');expect(report).toContain('https://www.qcells.com/');expect(report).not.toContain('日本｜');expect(report.match(/^## 韩国/gm)).toHaveLength(4)});
 });
+
+describe('multilingual competitor matching',()=>{
+ it('finds the same competitor through Japanese, Chinese and English aliases',()=>{
+  const row={...news[0],title:'天合光能宣布合作',originalTitle:'トリナ 覚書を締結',source:'天合光能日本官方'};
+  for(const search of ['Trina Solar','トリナ','天合'])expect(filterNews([row],{search})).toHaveLength(1);
+  expect(filterNews([row],{search:'Hanwha Qcells'})).toHaveLength(0);
+ });
+});

@@ -27,28 +27,54 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Reuse fresh data for interface-only changes
+        id: data
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          python - <<'PY'
+          import datetime as dt,json,os,re,subprocess
+          needs=True
+          if os.environ['EVENT_NAME']=='push':
+              event=json.load(open(os.environ['GITHUB_EVENT_PATH']))
+              before=event.get('before','');after=event.get('after','')
+              if re.fullmatch(r'[a-f0-9]{40}',before) and set(before)!={'0'}:
+                  changed=subprocess.check_output(['git','diff','--name-only',before,after],text=True).splitlines()
+                  needs=any(p.startswith(('scripts/collect.py','scripts/translate.py','scripts/sources.json','requirements-')) for p in changed)
+                  try:
+                      feed=json.load(open('public/data/feed.json'))
+                      captured=dt.datetime.fromisoformat(feed['attemptedAt'])
+                      needs=needs or dt.datetime.now(dt.timezone.utc)-captured>dt.timedelta(hours=20)
+                  except (ValueError,TypeError,KeyError):needs=True
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f:f.write('collect='+str(needs).lower()+'\n')
+          PY
       - run: python -m pip install -r requirements-collector.txt
       - run: python -m unittest discover -s tests -v
       - name: Collect RSS (retain archive on source failures)
         id: collect
+        if: steps.data.outputs.collect == 'true'
         continue-on-error: true
         run: python scripts/collect.py
       - uses: actions/cache@v4
+        if: steps.data.outputs.collect == 'true'
         with:
           path: ~/.cache/huggingface/hub/models--facebook--m2m100_418M
           key: m2m100-418m-mit-v1
       - name: Install local translation runtime (no paid API)
+        if: steps.data.outputs.collect == 'true'
         run: |
           python -m pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cpu
           python -m pip install -r requirements-translation.txt
       - name: Translate original titles and evidence into Chinese
         id: translate
+        if: steps.data.outputs.collect == 'true'
         continue-on-error: true
         env:
           HF_HUB_DISABLE_XET: '1'
           HF_HUB_DISABLE_IMPLICIT_TOKEN: '1'
         run: python scripts/translate.py
       - name: Save archive and source health
+        if: steps.data.outputs.collect == 'true'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
