@@ -1,4 +1,3 @@
-import fs from 'node:fs';
 // Called only in a GitHub Actions runner. Never ship this token to the frontend.
 export async function changePages({action, repository, token, request=fetch}) {
   if(!['close','open'].includes(action))throw Error('Unsupported access action');
@@ -20,5 +19,5 @@ export async function changePages({action, repository, token, request=fetch}) {
 }
 if(process.argv[1]&&import.meta.url===new URL(process.argv[1],'file:').href){
   changePages({action:process.env.ACCESS_ACTION,repository:process.env.GITHUB_REPOSITORY,token:process.env.GITHUB_TOKEN})
-    .then(message=>{fs.writeFileSync('.deploy/access-result.json',JSON.stringify({action:process.env.ACCESS_ACTION,status:'ok',message,at:new Date().toISOString()})+'\n');console.log(message)}).catch(error=>{fs.writeFileSync('.deploy/access-result.json',JSON.stringify({action:process.env.ACCESS_ACTION,status:'error',message:error.message,at:new Date().toISOString()})+'\n');console.error('::error::'+error.message);process.exitCode=1});
+    .then(message=>console.log(message)).catch(error=>{console.error('::error::'+error.message);process.exitCode=1});
 }
