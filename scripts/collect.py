@@ -18,9 +18,9 @@ SOURCES=json.loads((ROOT/'scripts/sources.json').read_text())
 MARKETS={'日本':r'\bjapan(?:ese)?\b|日本|일본|東京|東京都|千葉|大阪|北海道|九州','韩国':r'\bkorea(?:n)?\b|韩国|韓国|한국|국내|서울|경기도','台湾':r'\btaiwan(?:ese)?\b|台湾|臺灣|台灣|대만|台北|臺北|台南|高雄'}
 PV=r'太陽光|太陽能|太阳能|光伏|ソーラー|太陽電池|(?:光電|光电).{0,14}(?:發電|发电|屋頂|屋顶|系統|系统|案場|案场|設置|政策|補助|補貼|併網|開發)|(?:屋頂|屋顶|地面|農地|漁電).{0,10}(?:光電|光电)|태양광|태양전지|solar|photovoltaic|perovskite|ペロブスカイト|페로브스카이트|TOPCon|HJT'
 BRANDS=r'longi|隆基|ロンジ|trina|天合|トリナ|ja solar|晶澳|canadian solar|阿特斯|カナディアン|qcells|큐셀|한화|ハンファ|シャープ|sharp|カネカ|kaneka|聯合再生|聯合再生|元晶|茂迪|현대에너지솔루션'
-POLICY=r'政策|制度|躉購|躉购|費率|费率|辦法|办法|施行|修正|固定価格|認定|고정가격|공급의무|의무|입법예고|(?<![A-Za-z])RPS(?![A-Za-z])|(?<![A-Za-z])REC(?![A-Za-z])|補助|補貼|补贴|助成|法案|法律|規制|規則|入札|買取|(?<![A-Za-z])FIT(?![A-Za-z])|(?<![A-Za-z])FIP(?![A-Za-z])|지원|정책|보조금|규제|법안|입찰|policy|subsid|tariff|regulat'
+POLICY=r'政策|制度|躉購|躉购|費率|费率|辦法|办法|施行|修正|固定価格|認定|고정가격|공급의무|의무|입법예고|법정|법령|검사|규정|法定|(?<![A-Za-z])RPS(?![A-Za-z])|(?<![A-Za-z])REC(?![A-Za-z])|補助|補貼|补贴|助成|法案|法律|規制|規則|入札|買取|(?<![A-Za-z])FIT(?![A-Za-z])|(?<![A-Za-z])FIP(?![A-Za-z])|지원|정책|보조금|규제|법안|입찰|policy|subsid|tariff|regulat'
 TECH={'N型TOPCon':r'topcon','BC':r'back.contact|\bbc\b|バックコンタクト','HJT':r'heterojunction|\bhjt\b','钙钛矿叠层':r'perovskite|tandem|ペロブスカイト|페로브스카이트','住宅屋顶组件':r'residential|rooftop|屋根|屋頂|屋顶|지붕','轻量化组件':r'lightweight|軽量|輕量|경량','防眩光组件':r'anti.glare|防眩|반사','数据中心光伏应用':r'data.cent(?:er|re)|データセンター|데이터센터|資料中心'}
-EVENTS=[('政府招标/采购',r'招標|招标|採購|采购|調達|조달|tender|procurement'),('合作意向/MOU',r'\bmou\b|memorandum|覚書|業務提携|업무협약|合作备忘录|合作備忘錄'),('购电协议/PPA',r'\bppa\b|電力購入|전력구매|购电协议|購電協議'),('项目竣工/投运',r'竣工|投運|投运|運転開始|稼働開始|준공|상업운전|commissioned|completed'),('项目签约/建设',r'着工|建設|签约|簽約|기공|착공|construction'),('合作/供货',r'合作|提携|締結|협력|공급|partner|collaborat|supply|供給'),('产品/技术发布',r'新製品|新商品|発表|発売|製品|신제품|출시|제품|新产品|新產品|推出|launch|unveil|product')]
+EVENTS=[('政府招标/采购',r'招標|招标|競標|竞标|採購|采购|調達|入札|조달|입찰|tender|procurement'),('合作意向/MOU',r'\bmou\b|memorandum|覚書|業務提携|업무협약|合作备忘录|合作備忘錄'),('购电协议/PPA',r'\bppa\b|電力購入|전력구매|购电协议|購電協議'),('项目竣工/投运',r'竣工|投運|投运|運転開始|稼働開始|준공|상업운전|commissioned|completed'),('项目签约/建设',r'着工|建設|签约|簽約|기공|착공|construction'),('合作/供货',r'合作|提携|締結|협력|공급|partner|collaborat|supply|供給'),('产品/技术发布',r'新製品|新商品|発売|신제품|출시|新产品|新產品|推出|launch|unveil|(?:モジュール|パネル|module|组件|제품).{0,25}(?:発表|發布|发布|공개)')]
 
 def clean(text):return re.sub(r'\s+',' ',html.unescape(re.sub(r'<[^>]*>',' ',text or ''))).strip()
 def canonical(url):
@@ -90,7 +90,7 @@ def signals(text,source,title=None):
    if found:event=name;evidence=found;break
   if evidence:break
  if source.get('sourceType')=='government':
-  if re.search(POLICY,headline,re.I) and event!='政府招标/采购':event='政策公告'
+  if re.search(POLICY,headline,re.I) and event!='政府招标/采购':event='政策公告';evidence=headline[:380]
   elif re.search(r'会議|會議|会议|회의|forum|meeting',headline,re.I):event='政策交流/会议'
  if event=='项目竣工/投运' and re.search(r'予定|計画|계획|예정|计划|計畫|预计|預計|planned|expected|will',evidence,re.I):event='项目计划（待核实）'
  direction='未判定';policy_quote=''
@@ -120,12 +120,12 @@ def make_rows(title,excerpt,url,published,source,now,body='',body_ok=False):
   matched=[source['market']];basis='本地语言来源定位，地域适用性待复核'
  if not matched:return []
  event,event_quote,direction,policy_quote=signals(text,source,title)
- topic='政策与补贴' if event in ('政策公告','政策交流/会议') or re.search(POLICY,title,re.I) else '竞争动态' if event!='市场/企业动态' or re.search(BRANDS,title,re.I) else '技术创新' if re.search(r'効率|효율|efficiency|钙钛矿|ペロブスカイト|HJT|TOPCon',title,re.I) else '市场趋势'
+ topic='政策与补贴' if event in ('政策公告','政策交流/会议') or re.search(POLICY,title,re.I) else '竞争动态' if source.get('sourceType')=='company' or event!='市场/企业动态' or re.search(BRANDS,title,re.I) else '技术创新' if re.search(r'効率|효율|efficiency|钙钛矿|ペロブスカイト|HJT|TOPCon',title,re.I) else '市场趋势'
  # No legal/policy stance from a media report or title alone.
  if not body_ok:direction='未判定';policy_quote=''
  evidence=[]
  if policy_quote:evidence.append({'label':'政策方向原文线索','original':policy_quote})
- if event_quote:evidence.append({'label':'项目/合作/产品原文线索','original':event_quote})
+ if event_quote:evidence.append({'label':'政策公告原文线索' if event=='政策公告' else '项目/合作/产品原文线索','original':event_quote})
  for market in matched:
   yield {'id':hashlib.sha256((market+url).encode()).hexdigest()[:24],'market':market,'title':title,'originalTitle':title,'date':published.astimezone(dt.timezone(dt.timedelta(hours=8))).date().isoformat(),'publishedAt':published.isoformat(),'topic':topic,'priority':'高' if source.get('sourceType')=='government' and topic=='政策与补贴' else '中','source':source['name'],'url':url,
    'summary':'中文整理待生成；请核对原文。','originalSummary':(cue(body,PV) if body_ok else excerpt)[:1200],

@@ -83,7 +83,7 @@ def web_translate(text,language):
 
 def run(path):
  feed=json.loads(path.read_text());now=dt.datetime.now(dt.timezone.utc).isoformat();failures=0;translated=0
- pending=[r for r in feed['items'] if r.get('translationStatus')!='translated' or r.get('translationProvider')=='M2M100-418M 本地开源机译']
+ pending=[r for r in feed['items'] if r.get('translationStatus')!='translated' or r.get('translationProvider')=='M2M100-418M 本地开源机译' or any(not e.get('chinese') for e in r.get('evidence',[]))]
  for row in pending:
   if row.get('language','').startswith('zh'):
    apply(row,None);translated+=1

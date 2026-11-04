@@ -46,3 +46,13 @@ class LocalSourcesTests(unittest.TestCase):
  def test_policy_abbreviations_do_not_match_record_or_benefits(self):
   self.assertFalse(c.re.search(c.POLICY,'Solar cell record efficiency benefits customers',c.re.I))
   self.assertTrue(c.re.search(c.POLICY,'FIT制度の改定',c.re.I))
+ def test_statutory_inspection_change_is_not_classified_as_mou(self):
+  title='학교 태양광 설비 법정검사 주기 4년→1년 단축'
+  event,quote,_,_=c.signals(title+'。태양광 업무협약을 체결한다.',{'sourceType':'government'},title)
+  self.assertEqual(event,'政策公告');self.assertEqual(quote,title)
+ def test_pv_storage_competitive_tender_is_identified(self):
+  title='公告太陽光電發電設備結合儲能系統競標容量及截止期限'
+  self.assertEqual(c.signals(title,{'sourceType':'government'},title)[0],'政府招标/采购')
+ def test_announcing_a_rating_is_not_a_product_launch(self):
+  title='PV ModuleTechでAAA格付けを獲得'
+  self.assertNotEqual(c.signals(title+'。太陽光企業の格付けを発表。',{'sourceType':'company'},title)[0],'产品/技术发布')
