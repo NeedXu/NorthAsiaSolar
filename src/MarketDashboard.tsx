@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import ManufacturerShipments from './ManufacturerShipments';
 import { ArrowDownToLine, ExternalLink } from 'lucide-react';
 import type { Market } from './data/mock';
 import { checkedAt, evidence, japanSummary, jpQuarters, marketNotes, seasonalForecast, sources, type Dimension } from './data/marketEvidence';
@@ -21,6 +22,7 @@ export default function MarketDashboard({market}:{market:Market}){
    <div className="evidence-grid"><section className="panel evidence-card"><h3>季度实绩对照</h3><p>两组同期分别比较；柱长以本表最大值为基准。</p>{jpQuarters.map(q=><div className="shipment-bar" key={q.period}><span>{q.period}</span><div><i style={{width:`${q[domestic?'domestic':'total']/1600000*100}%`}}/></div><a href={q.source} target="_blank" rel="noreferrer">{gw(q[domestic?'domestic':'total'])} GW ↗</a></div>)}<small>累计值计算：2026年1—3月 + 4—6月。7月以后尚无已核实公开季度值。</small></section>
    <section className="panel evidence-card"><div className="eyebrow">模型测算 · 非官方预测</div><h3>2026财年出货情景</h3><p>2026年4月—2027年3月，保留上年季度季节性，以最新Q1同比缩放全年。</p><div className="forecast-value">{gw(seasonalForecast(domestic,adjustment))} <small>GW</small></div><label className="scenario-label">全年基准调整 {adjustment>0?'+':''}{adjustment}%<input aria-label="出货情景调整百分比" type="range" min="-20" max="20" step="1" value={adjustment} onChange={e=>setAdjustment(Number(e.target.value))}/></label><p>公式：2025财年全年 ×（2026财年Q1 ÷ 2025财年Q1）×（1 + 调整比例）。单季度外推，不构成统计置信区间；政策、库存、调查样本变化均未建模。</p><a href={sources.jp25} target="_blank" rel="noreferrer">查看全年基期 <ExternalLink size={12}/></a></section></div>
   </>:<div className="stats evidence-stats">{['2026年组件累计出货','同期同比','2026全年官方预测'].map(label=><section className="panel stat" key={label}><div className="stat-label">{label}</div><div className="stat-value date-stat">待取得</div><p className="stat-note">未核实同口径原始数据；不以装机量或旧年份代填</p></section>)}</div>}
+  <ManufacturerShipments key={market} market={market}/>
   <section className="panel evidence-card customer-panel"><div className="panel-title"><div><h2>客户地图 · 三个维度</h2><p>目标：各地区EPC、绿电买家、投资商前十。当前完成度按各表披露。</p></div><button className="secondary" onClick={()=>exportEvidence(market,dimension)}><ArrowDownToLine size={14}/>导出证据</button></div>
    <div className="customer-tabs" role="group" aria-label="客户维度">{(['EPC','绿电买家','投资商'] as Dimension[]).map(d=><button className={dimension===d?'chosen':''} key={d} onClick={()=>setDimension(d)}>{d}</button>)}</div>
    <h3>{data.title}</h3><p>{data.basis}</p><div className="rank-coverage">{data.coverage}</div>
