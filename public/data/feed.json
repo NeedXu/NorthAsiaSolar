@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "mode": "live",
-  "attemptedAt": "2026-11-13T00:51:43.602637+00:00",
-  "lastSuccessAt": "2026-11-13T00:51:43.602637+00:00",
+  "attemptedAt": "2026-11-14T00:45:52.346500+00:00",
+  "lastSuccessAt": "2026-11-14T00:45:52.346500+00:00",
   "status": "ok",
   "sources": [
     {
@@ -25,7 +25,7 @@
       "name": "韩国政府政策简报（光伏检索）",
       "url": "https://www.korea.kr/news/policyNewsList.do?srchWord=%ED%83%9C%EC%96%91%EA%B4%91",
       "state": "ok",
-      "matched": 5,
+      "matched": 6,
       "language": "ko",
       "sourceType": "government"
     },
@@ -73,7 +73,7 @@
       "name": "韩国电气新闻",
       "url": "https://www.electimes.com/rss/allArticle.xml",
       "state": "ok",
-      "matched": 1,
+      "matched": 2,
       "language": "ko",
       "sourceType": "media"
     },
@@ -81,7 +81,7 @@
       "name": "韩国能源日报",
       "url": "https://www.energydaily.co.kr/rss/allArticle.xml",
       "state": "ok",
-      "matched": 1,
+      "matched": 0,
       "language": "ko",
       "sourceType": "media"
     },
@@ -135,6 +135,123 @@
     }
   ],
   "items": [
+    {
+      "id": "e8993293ec2ef275c61f5d3f",
+      "market": "韩国",
+      "title": "Shinsung E&G 推出 650 W 双面 TOPCon 太阳能组件，效率为 23.25%",
+      "originalTitle": "Shinsung E&G unveils 650 W bifacial TOPCon solar modules with 23.25% efficiency",
+      "date": "2026-11-13",
+      "publishedAt": "2026-11-13T15:41:22+00:00",
+      "topic": "竞争动态",
+      "priority": "中",
+      "source": "PV magazine（补充）",
+      "url": "https://www.pv-magazine.com/2026/11/13/shinsung-eg-unveils-650-w-bifacial-topcon-solar-modules-with-23-25-efficiency/",
+      "summary": "韩国太阳能组件制造商 Shinsung E&G 推出了两个基于 n 型隧道氧化物钝化接触 (TOPCon) 电池技术的新系列双面太阳能组件。",
+      "originalSummary": "South Korea-based solar module manufacturer Shinsung E&G has unveiled two new series of bifacial solar modules based on n-type tunnel oxide passivated contact (TOPCon) cell technology.",
+      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
+      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
+      "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
+      "tech": "N型TOPCon",
+      "dataKind": "live",
+      "analysisKind": "evidence-cues",
+      "language": "en",
+      "sourceType": "media",
+      "jurisdiction": "地域适用性待复核",
+      "marketBasis": "正文明确提及市场",
+      "eventType": "产品/技术发布",
+      "policyDirection": "未判定",
+      "policyStage": "法规效力/执行阶段待核实",
+      "evidence": [
+        {
+          "label": "项目/合作/产品原文线索",
+          "original": "Shinsung E&G unveils 650 W bifacial TOPCon solar modules with 23.25% efficiency",
+          "chinese": "Shinsung E&G 推出 650 W 双面 TOPCon 太阳能组件，效率为 23.25%"
+        }
+      ],
+      "articleRead": true,
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-14T00:45:52.346500+00:00",
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-14T00:47:36.886978+00:00"
+    },
+    {
+      "id": "ed77200e32d702e69ac20d21",
+      "market": "韩国",
+      "title": "“从多晶硅到逆变器”OCI Power在美国RE+介绍集团太阳能电力供应链",
+      "originalTitle": "\"폴리실리콘부터 인버터까지\" OCI파워, 美 RE+서 그룹 태양광 공급망 소개",
+      "date": "2026-11-13",
+      "publishedAt": "2026-11-13T08:44:43+00:00",
+      "topic": "竞争动态",
+      "priority": "中",
+      "source": "韩国电气新闻",
+      "url": "https://www.electimes.com/news/articleView.html?idxno=374737",
+      "summary": "[提供= OCI Power] OCI Power 与OCI Terrasus 和Mission Solar Energy 一起，将在美国的一个展览会上展示该集团从多晶硅到太阳能组件和逆变器的供应链。",
+      "originalSummary": "[제공=OCI파워] OCI파워가 OCI테라서스, 미션솔라에너지와 함께 미국 전시회에서 폴리실리콘부터 태양광 모듈, 인버터로 이어지는 그룹의 공급망을 선보인다.",
+      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
+      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
+      "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
+      "tech": "未分类",
+      "dataKind": "live",
+      "analysisKind": "evidence-cues",
+      "language": "ko",
+      "sourceType": "media",
+      "jurisdiction": "地域适用性待复核",
+      "marketBasis": "本地语言来源定位，地域适用性待复核",
+      "eventType": "合作/供货",
+      "policyDirection": "未判定",
+      "policyStage": "法规效力/执行阶段待核实",
+      "evidence": [
+        {
+          "label": "项目/合作/产品原文线索",
+          "original": "\"폴리실리콘부터 인버터까지\" OCI파워, 美 RE+서 그룹 태양광 공급망 소개",
+          "chinese": "“从多晶硅到逆变器”OCI Power在美国RE+介绍集团太阳能电力供应链"
+        }
+      ],
+      "articleRead": true,
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-14T00:45:52.346500+00:00",
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-14T00:47:43.025120+00:00"
+    },
+    {
+      "id": "bd2aec526118f901ed14e212",
+      "market": "日本",
+      "title": "将电力转化为“资产”的提议力,工厂的武器!汉法日本“ENERICH”的目标是住宅的GX·ZEH化",
+      "originalTitle": "電気を”資産”に変える提案力を、工務店の武器に！ ハンファジャパン「ENERICH」が目指す住宅のGX・ZEH化",
+      "date": "2026-11-13",
+      "publishedAt": "2026-11-13T03:00:55+00:00",
+      "topic": "竞争动态",
+      "priority": "中",
+      "source": "日本 SOLAR JOURNAL",
+      "url": "https://solarjournal.jp/product/68101/",
+      "summary": "用电来为社会做出贡献 工厂、商店和描绘的“共创的故事” 工厂面临的挑战和汉法日本的答案 太阳能电池、储电池、HEMS、电力服务 - 住宅能源建议多层次。",
+      "originalSummary": "電気を束ねて社会に貢献 工務店・販売店と描く「共創の物語」 工務店が抱える課題と ハンファジャパンの答え 太陽光パネル、蓄電池、HEMS、電力サービス――住宅向けのエネルギー提案は多岐にわたる。",
+      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
+      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
+      "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
+      "tech": "未分类",
+      "dataKind": "live",
+      "analysisKind": "evidence-cues",
+      "language": "ja",
+      "sourceType": "media",
+      "jurisdiction": "地域适用性待复核",
+      "marketBasis": "本地语言来源定位，地域适用性待复核",
+      "eventType": "合作/供货",
+      "policyDirection": "未判定",
+      "policyStage": "法规效力/执行阶段待核实",
+      "evidence": [
+        {
+          "label": "项目/合作/产品原文线索",
+          "original": "ENERICHが家庭の電気を 資産に変え、ZEH化を加速させる ENERICHは、従来からハンファジャパンが扱ってきた太陽光パネルや蓄電池などのハードに、同社グループの小売電気事業者であるQ.ENEST（キューエネス）が手掛ける電力供給や余剰電力買取などの電力サービスを組み合わせ、1つのブランドとして垂直統合したものだ。",
+          "chinese": "ENERICH将家用电力转化为资产,加速ZEH化,将其从传统上由汉法日本处理的太阳能电池和电池等硬件结合起来,由该集团的零售电力运营商Q.ENEST(库内斯)提供的电力供应和额外电力购买等电力服务。"
+        }
+      ],
+      "articleRead": true,
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-14T00:45:52.346500+00:00",
+      "translationProvider": "M2M100-418M 本地开源机译",
+      "translatedAt": "2026-11-14T00:48:22.072203+00:00"
+    },
     {
       "id": "81b5c094f4c604064b98adcb",
       "market": "日本",
@@ -207,7 +324,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-13T00:51:43.602637+00:00",
+      "collectedAt": "2026-11-14T00:45:52.346500+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-13T00:53:45.720309+00:00"
     },
@@ -384,7 +501,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-13T00:51:43.602637+00:00",
+      "collectedAt": "2026-11-14T00:45:52.346500+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-12T00:58:31.248705+00:00"
     },
@@ -465,6 +582,39 @@
       "collectedAt": "2026-11-11T00:44:54.297313+00:00",
       "translationProvider": "繁体转简体（保留原文）",
       "translatedAt": "2026-11-11T00:46:57.847305+00:00"
+    },
+    {
+      "id": "670c24015931d2b35eeaff1d",
+      "market": "日本",
+      "title": "[2026年11月最新] 现已接受申请！ SOLAR JOURNAL 推荐太阳能商业活动",
+      "originalTitle": "【2026年11月最新】応募受付中！SOLAR JOURNALイチオシ 太陽光ビジネスイベント",
+      "date": "2026-11-10",
+      "publishedAt": "2026-11-10T03:45:36+00:00",
+      "topic": "市场趋势",
+      "priority": "中",
+      "source": "日本 SOLAR JOURNAL",
+      "url": "https://solarjournal.jp/event/67381/",
+      "summary": "» 【大阪】查看低压系统蓄电池研讨会详情 « 12月14日（周一）可再生能源事业多元化的未来愿景第40届光伏事业研讨会【实景会场&线上直播申请现已接受】太阳能发电行业您需要了解的最新资讯特写！",
+      "originalSummary": "»【大阪】低圧系統用蓄電池セミナーの詳細をみる « 12月14日(月) 多様化する再エネビジネスの未来像 第40回PVビジネスセミナー【リアル会場 & オンライン配信応募受付中】 太陽光発電業界で押さえておくべき最新情報をクローズアップ！",
+      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
+      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
+      "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
+      "tech": "未分类",
+      "dataKind": "live",
+      "analysisKind": "evidence-cues",
+      "language": "ja",
+      "sourceType": "media",
+      "jurisdiction": "地域适用性待复核",
+      "marketBasis": "正文明确提及市场",
+      "eventType": "市场/企业动态",
+      "policyDirection": "未判定",
+      "policyStage": "法规效力/执行阶段待核实",
+      "evidence": [],
+      "articleRead": true,
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-14T00:45:52.346500+00:00",
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-14T00:47:50.386678+00:00"
     },
     {
       "id": "8ccf45ba6bf15f25fffef00c",
@@ -573,7 +723,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-13T00:51:43.602637+00:00",
+      "collectedAt": "2026-11-14T00:45:52.346500+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-10T00:47:44.930862+00:00"
     },
@@ -645,7 +795,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-13T00:51:43.602637+00:00",
+      "collectedAt": "2026-11-14T00:45:52.346500+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-07T00:46:40.917161+00:00"
     },
@@ -1038,7 +1188,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-13T00:51:43.602637+00:00",
+      "collectedAt": "2026-11-14T00:45:52.346500+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:03.302883+00:00"
     },
@@ -1119,7 +1269,7 @@
       "collectedAt": "2026-11-09T00:47:14.595159+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-13T00:54:08.606787+00:00"
+      "translatedAt": "2026-11-14T00:48:07.242805+00:00"
     },
     {
       "id": "01996e8c12d8548b3e10a1f6",
@@ -1150,7 +1300,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-13T00:51:43.602637+00:00",
+      "collectedAt": "2026-11-14T00:45:52.346500+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:15:54.201831+00:00"
     },
@@ -1222,7 +1372,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-13T00:51:43.602637+00:00",
+      "collectedAt": "2026-11-14T00:45:52.346500+00:00",
       "datePrecision": "day",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:42:43.281521+00:00"
@@ -1256,7 +1406,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-13T00:51:43.602637+00:00",
+      "collectedAt": "2026-11-14T00:45:52.346500+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:01.295687+00:00"
     },
@@ -1289,7 +1439,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-13T00:51:43.602637+00:00",
+      "collectedAt": "2026-11-14T00:45:52.346500+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:23.350414+00:00"
     },
@@ -1466,7 +1616,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-13T00:51:43.602637+00:00",
+      "collectedAt": "2026-11-14T00:45:52.346500+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:37:37.417477+00:00"
@@ -1572,7 +1722,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-12T00:56:33.307298+00:00",
+      "collectedAt": "2026-11-14T00:45:52.346500+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:27:09.963540+00:00"
@@ -1617,7 +1767,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-13T00:51:43.602637+00:00",
+      "collectedAt": "2026-11-14T00:45:52.346500+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:27:15.852513+00:00"
@@ -1690,7 +1840,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-13T00:51:43.602637+00:00",
+      "collectedAt": "2026-11-14T00:45:52.346500+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:27:19.599501+00:00"
@@ -1730,7 +1880,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-13T00:51:43.602637+00:00",
+      "collectedAt": "2026-11-14T00:45:52.346500+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-07T00:46:47.799702+00:00"
     },
@@ -1756,7 +1906,7 @@
       "originalSummary": "South Korea’s Ministry of Climate, Energy and Environment (MCEE) has unveiled its KRW1,000 trillion (US$747 billion) Korean Green Transformation (K-GX) industrial strategy.",
       "translationStatus": "translated",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-13T00:54:16.297725+00:00"
+      "translatedAt": "2026-11-14T00:48:33.546761+00:00"
     },
     {
       "id": "ecd33be5da742c15ff9a7d34",
@@ -1793,7 +1943,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-13T00:51:43.602637+00:00",
+      "collectedAt": "2026-11-14T00:45:52.346500+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:27:23.345332+00:00"
@@ -1833,7 +1983,7 @@
       ],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-13T00:51:43.602637+00:00",
+      "collectedAt": "2026-11-14T00:45:52.346500+00:00",
       "translationProvider": "繁体转简体（保留原文）",
       "translatedAt": "2026-11-04T12:27:06.866299+00:00"
     },
@@ -1866,7 +2016,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-13T00:51:43.602637+00:00",
+      "collectedAt": "2026-11-14T00:45:52.346500+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:26.695227+00:00"
@@ -1900,7 +2050,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-13T00:51:43.602637+00:00",
+      "collectedAt": "2026-11-14T00:45:52.346500+00:00",
       "datePrecision": "day",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:37:36.031964+00:00"
@@ -1934,7 +2084,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-13T00:51:43.602637+00:00",
+      "collectedAt": "2026-11-14T00:45:52.346500+00:00",
       "datePrecision": "day",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:37:40.881409+00:00"
@@ -2013,7 +2163,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-13T00:51:43.602637+00:00",
+      "collectedAt": "2026-11-14T00:45:52.346500+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-07T00:46:56.226146+00:00"
     },
@@ -2046,7 +2196,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-13T00:51:43.602637+00:00",
+      "collectedAt": "2026-11-14T00:45:52.346500+00:00",
       "datePrecision": "day",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:37:44.691003+00:00"
@@ -2080,7 +2230,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-13T00:51:43.602637+00:00",
+      "collectedAt": "2026-11-14T00:45:52.346500+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-07T00:47:04.575546+00:00"
     },
@@ -2125,8 +2275,8 @@
   ],
   "translation": {
     "status": "partial",
-    "at": "2026-11-13T00:53:35.402151+00:00",
-    "translatedThisRun": 4,
+    "at": "2026-11-14T00:47:31.539014+00:00",
+    "translatedThisRun": 6,
     "remaining": 1,
     "validationFailures": 1,
     "error": null,
