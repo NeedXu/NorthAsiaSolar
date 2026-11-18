@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "mode": "live",
-  "attemptedAt": "2026-11-17T00:50:05.513213+00:00",
+  "attemptedAt": "2026-11-18T00:56:30.134599+00:00",
   "lastSuccessAt": "2026-11-16T01:03:35.681620+00:00",
   "status": "partial",
   "sources": [
@@ -25,7 +25,7 @@
       "name": "韩国政府政策简报（光伏检索）",
       "url": "https://www.korea.kr/news/policyNewsList.do?srchWord=%ED%83%9C%EC%96%91%EA%B4%91",
       "state": "ok",
-      "matched": 6,
+      "matched": 5,
       "language": "ko",
       "sourceType": "government"
     },
@@ -65,7 +65,7 @@
       "name": "韩国 Industry News",
       "url": "https://www.industrynews.co.kr/rss/allArticle.xml",
       "state": "ok",
-      "matched": 1,
+      "matched": 2,
       "language": "ko",
       "sourceType": "media"
     },
@@ -73,7 +73,7 @@
       "name": "韩国电气新闻",
       "url": "https://www.electimes.com/rss/allArticle.xml",
       "state": "ok",
-      "matched": 2,
+      "matched": 4,
       "language": "ko",
       "sourceType": "media"
     },
@@ -129,12 +129,318 @@
       "name": "PV Tech（补充）",
       "url": "https://www.pv-tech.org/feed/",
       "state": "ok",
-      "matched": 0,
+      "matched": 1,
       "language": "en",
       "sourceType": "media"
     }
   ],
   "items": [
+    {
+      "id": "981aa5a5a69e4b220fbb96d0",
+      "market": "韩国",
+      "title": "KCL - 韩国南部发展 - 越南 IEMM,汉 - 贝太阳能·BIPV 工业合作握手",
+      "originalTitle": "KCL-한국남부발전-베트남 IEMM, 한-베 태양광·BIPV 산업 협력에 손 잡아",
+      "date": "2026-11-18",
+      "publishedAt": "2026-11-17T22:22:33+00:00",
+      "topic": "竞争动态",
+      "priority": "中",
+      "source": "韩国电气新闻",
+      "url": "https://www.electimes.com/news/articleView.html?idxno=374920",
+      "summary": "标准化合作扩大国内BIPV技术的海外业务化基础设置天영길韩国建筑生活环境考验研究委员会主席(中),金正恩韩国南部发展主席(左),Do Trung Hieu 越南 I",
+      "originalSummary": "표준화 협력 확대 국내 BIPV 기술의 해외 사업화 기반 마련 천영길 한국건설생활환경시험연구원 원장(가운데), 김준동 한국남부발전 사장(왼쪽), Do Trung Hieu 베트남 IEMM 부원장(오른쪽)이 한·베트남 태양광·BIPV 산업 협력을 위한 다자간 업무협약을 체결한 후 기념촬영을 하고 있다.",
+      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
+      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
+      "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
+      "tech": "住宅屋顶组件",
+      "dataKind": "live",
+      "analysisKind": "evidence-cues",
+      "language": "ko",
+      "sourceType": "media",
+      "jurisdiction": "地域适用性待复核",
+      "marketBasis": "正文明确提及市场",
+      "eventType": "合作/供货",
+      "policyDirection": "未判定",
+      "policyStage": "法规效力/执行阶段待核实",
+      "evidence": [
+        {
+          "label": "项目/合作/产品原文线索",
+          "original": "KCL-한국남부발전-베트남 IEMM, 한-베 태양광·BIPV 산업 협력에 손 잡아",
+          "chinese": "KCL - 韩国南部发展 - 越南 IEMM,汉 - 贝太阳能·BIPV 工业合作握手"
+        }
+      ],
+      "articleRead": true,
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-18T00:56:30.134599+00:00",
+      "translationProvider": "M2M100-418M 本地开源机译",
+      "translatedAt": "2026-11-18T00:59:03.670462+00:00"
+    },
+    {
+      "id": "4d13e5d3e83f1c8546cd644b",
+      "market": "韩国",
+      "title": "Solarcyle,韩国锌的PedalPoint回收合并形成美国回收平台木星",
+      "originalTitle": "Solarcyle, Korea Zinc’s PedalPoint Recycling merge to form US recycling platform Jupiter",
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T11:38:40+00:00",
+      "topic": "竞争动态",
+      "priority": "中",
+      "source": "PV Tech（补充）",
+      "url": "https://www.pv-tech.org/solarcycle-korea-zinc-pedalpoint-recycling-merge-jupiter-us-recycling-platform/",
+      "summary": "总部设在美国的回收公司Solarcyle正在扩展超越PV,并建立了一个名为“Jupiter”的新联合企业,旨在向超级电梯和数据中心行业提供回收材料。",
+      "originalSummary": "US-based recycling firm Solarcyle is expanding beyond PV with a new joint venture dubbed 'Jupiter' aimed at supplying recycled materials to the hyperscaler and data centre industries.",
+      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
+      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
+      "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
+      "tech": "数据中心光伏应用",
+      "dataKind": "live",
+      "analysisKind": "evidence-cues",
+      "language": "en",
+      "sourceType": "media",
+      "jurisdiction": "地域适用性待复核",
+      "marketBasis": "正文明确提及市场",
+      "eventType": "合作/供货",
+      "policyDirection": "未判定",
+      "policyStage": "法规效力/执行阶段待核实",
+      "evidence": [
+        {
+          "label": "项目/合作/产品原文线索",
+          "original": "orm Jupiter US-based recycling firm Solarcyle is expanding beyond PV with a new joint venture dubbed 'Jupiter' aimed at supplying recycled materials to the hyperscaler and data centre industries.",
+          "chinese": "基于美国木星的回收公司Solarcyle正在扩展超越PV,拥有一个名为“木星”的新联合企业,旨在向超级电梯和数据中心行业提供回收材料。"
+        }
+      ],
+      "articleRead": false,
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-18T00:56:30.134599+00:00",
+      "translationProvider": "M2M100-418M 本地开源机译",
+      "translatedAt": "2026-11-18T00:59:28.688031+00:00"
+    },
+    {
+      "id": "912f6b57c51da1ef063c0461",
+      "market": "韩国",
+      "title": "(WCPEC 2026)乌特将以“大电型太阳能”生态系统...生产能力为区域需求",
+      "originalTitle": "(WCPEC 2026)움트는 ‘대전형 태양광’ 생태계...제조 역량을 지역 수요로",
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T08:38:36+00:00",
+      "topic": "竞争动态",
+      "priority": "中",
+      "source": "韩国电气新闻",
+      "url": "https://www.electimes.com/news/articleView.html?idxno=374898",
+      "summary": "市内安装市场扩展任务 公共设施·桑丹 区域产品应用建议, 米霍东 发展好处 居民与共享 金泽线 中区检察长 “城市型太阳光收入村支持, 维护计划应反映能源转换",
+      "originalSummary": "들...역내 설치시장 확대 과제 공공시설·산단에 지역 제품 적용 제안, 미호동은 발전 혜택 주민과 공유 김제선 중구청장 “도시형 햇빛소득마을 지원하고 정비계획에 에너지전환 반영해야” 김훈래 SJ신소재 대표가 대전형 태양광 생태계 구상을 발표하고 있다.",
+      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
+      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
+      "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
+      "tech": "住宅屋顶组件",
+      "dataKind": "live",
+      "analysisKind": "evidence-cues",
+      "language": "ko",
+      "sourceType": "media",
+      "jurisdiction": "地域适用性待复核",
+      "marketBasis": "正文明确提及市场",
+      "eventType": "合作/供货",
+      "policyDirection": "未判定",
+      "policyStage": "法规效力/执行阶段待核实",
+      "evidence": [
+        {
+          "label": "项目/合作/产品原文线索",
+          "original": "(WCPEC 2026)움트는 ‘대전형 태양광’ 생태계...제조 역량을 지역 수요로 전국 BIPV 공급 70% 맡는 대전 기업들...역내 설치시장 확대 과제 공공시설·산단에 지역 제품 적용 제안, 미호동은 발전 혜택 주민과 공유 김제선 중구청장 “도시형 햇빛소득마을 지원하고 정비계획에 에너지전환 반영해야” 김훈래 SJ신소재 대표가 대전형 태양광 생태계 구상을 발표하고 있다.。",
+          "chinese": "(WCPEC 2026)Umt是“大电型太阳能”生态系统...生产能力以区域需求为国家BIPV供应70%的战争企业...内安装市场扩大挑战公共设施·山丹区"
+        }
+      ],
+      "articleRead": true,
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-18T00:56:30.134599+00:00",
+      "translationProvider": "M2M100-418M 本地开源机译",
+      "translatedAt": "2026-11-18T00:59:46.692085+00:00"
+    },
+    {
+      "id": "09a5bf3bf94053d109668d29",
+      "market": "韩国",
+      "title": "世界太阳能技术的最前线,战争着陆...下一代太阳能电池时代照明",
+      "originalTitle": "[현장] 세계 태양광 기술의 최전선, 대전 상륙… 차세대 태양전지 시대 조명",
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T08:17:09+00:00",
+      "topic": "竞争动态",
+      "priority": "中",
+      "source": "韩国 Industry News",
+      "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=89706",
+      "summary": "“太阳光奥林匹克运动会”在世界各地的太阳能行业的现状和未来从一个地方展望,在朝鲜战争中打破了全面的节日。",
+      "originalSummary": "[인더스트리뉴스 정한교 기자] 전 세계 태양광 산업의 현재와 미래를 한자리에서 조망하는 ‘태양광 올림픽’이 대한민국 대전에서 본격적인 축제의 막을 올렸다.",
+      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
+      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
+      "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
+      "tech": "钙钛矿叠层",
+      "dataKind": "live",
+      "analysisKind": "evidence-cues",
+      "language": "ko",
+      "sourceType": "media",
+      "jurisdiction": "地域适用性待复核",
+      "marketBasis": "本地语言来源定位，地域适用性待复核",
+      "eventType": "合作意向/MOU",
+      "policyDirection": "未判定",
+      "policyStage": "法规效力/执行阶段待核实",
+      "evidence": [
+        {
+          "label": "项目/合作/产品原文线索",
+          "original": "[사진=인더스트리뉴스] 17일 오후 2시에는 대전시와 한국에너지기술연구원이 공동 주최하는 대전 특별세션 포럼 ‘태양광으로 여는 대전의 미래’가 진행됐으며, 대전시와 한전KDN 간 업무협약도 체결됐다.。",
+          "chinese": "17日下午2点,大展与韩国能源技术研究委员会共同主办的战争特别会议论坛“太阳光开战的未来”举行,大展与前KDN之间"
+        }
+      ],
+      "articleRead": true,
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-18T00:56:30.134599+00:00",
+      "translationProvider": "M2M100-418M 本地开源机译",
+      "translatedAt": "2026-11-18T01:00:05.013881+00:00"
+    },
+    {
+      "id": "5b30beca2d33da8cfdf24474",
+      "market": "韩国",
+      "title": "“好吧,我一直在寻找太阳能。",
+      "originalTitle": "“에기평, 차세대 태양광 상용화 모색했다”",
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T07:53:20+00:00",
+      "topic": "竞争动态",
+      "priority": "中",
+      "source": "韩国能源日报",
+      "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=205198",
+      "summary": "韩国能源技术评估员(韩国能源技术评估员)正在寻找下一代太阳能的商业化 · 路径。",
+      "originalSummary": "사진 = 한국에너지기술평가원 [에너지데일리 변국영 기자 ] 한국에너지기술평가원이 차세대 태양광의 상용화 · 방안을 모색했다 .",
+      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
+      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
+      "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
+      "tech": "未分类",
+      "dataKind": "live",
+      "analysisKind": "evidence-cues",
+      "language": "ko",
+      "sourceType": "media",
+      "jurisdiction": "地域适用性待复核",
+      "marketBasis": "正文明确提及市场",
+      "eventType": "合作/供货",
+      "policyDirection": "未判定",
+      "policyStage": "法规效力/执行阶段待核实",
+      "evidence": [
+        {
+          "label": "项目/合作/产品原文线索",
+          "original": "한편 에기평은 지난 11 일 태양광 인버터 업계 및 관계기관 전문가들과 함께 ‘ 차세대 태양광 인버터 전문가 간담회 ’ 를 개최하고 국내 태양광 인버터 산업의 활성화를 위한 협력 방안을 논의했다 .。",
+          "chinese": "与此同时,Egy평上周11日与太阳能转换器行业和相关机构的专家一起举办了“下一代太阳能转换器专家咨询会”,并合作激活国内太阳能转换器行业。"
+        }
+      ],
+      "articleRead": true,
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-18T00:56:30.134599+00:00",
+      "translationProvider": "M2M100-418M 本地开源机译",
+      "translatedAt": "2026-11-18T01:00:14.927618+00:00"
+    },
+    {
+      "id": "85fcda5aacb9c82ee0a6570d",
+      "market": "韩国",
+      "title": "考虑,‘MS投资’ 美太阳自行车和JV成立...太阳能电池板市场攻击",
+      "originalTitle": "고려아연, 'MS 투자' 美 솔라사이클과 JV 설립…폐태양광 패널 시장 공략",
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T07:26:20+00:00",
+      "topic": "市场趋势",
+      "priority": "中",
+      "source": "韩国 Industry News",
+      "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=89704",
+      "summary": "印第安西省太阳能电池板/照片=印第安西(印第安西)考虑 如微软(MS)等全球企业注意的美国太阳能肺板回收领先企业和手握",
+      "originalSummary": "인천시 계양구에 설치된 태양광패널./사진=인천시 [인더스트리뉴스 문기수 기자] 고려아연이 마이크로소프트(MS) 등 글로벌 기업들이 주목한 미국 태양광 폐패널 재활용 선도기업과 손잡고 현지 합작법인(JV)을 세운다.",
+      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
+      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
+      "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
+      "tech": "未分类",
+      "dataKind": "live",
+      "analysisKind": "evidence-cues",
+      "language": "ko",
+      "sourceType": "media",
+      "jurisdiction": "地域适用性待复核",
+      "marketBasis": "本地语言来源定位，地域适用性待复核",
+      "eventType": "市场/企业动态",
+      "policyDirection": "未判定",
+      "policyStage": "法规效力/执行阶段待核实",
+      "evidence": [],
+      "articleRead": true,
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-18T00:56:30.134599+00:00",
+      "translationProvider": "M2M100-418M 本地开源机译",
+      "translatedAt": "2026-11-18T01:00:23.032217+00:00"
+    },
+    {
+      "id": "0bfa572bba269aca16f6e9ef",
+      "market": "韩国",
+      "title": "(WCPEC 2026) 以外墙、室内、睡眠面向扩展的太阳光...材料、设计技术区别化",
+      "originalTitle": "(WCPEC 2026)외벽·실내·수면으로 넓어지는 태양광...소재·설계 기술로 차별화",
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T03:41:49+00:00",
+      "topic": "竞争动态",
+      "priority": "中",
+      "source": "韩国电气新闻",
+      "url": "https://www.electimes.com/news/articleView.html?idxno=374873",
+      "summary": "以色列能源、陶瓷涂层、数字印刷为建筑外部材料实施单位、费罗夫斯凯特利用的建筑、室内电源解决方案介绍AP能源、混凝土无能可持续性、停车场太阳能空间",
+      "originalSummary": "에스지에너지, 세라믹 코팅·디지털 프린팅으로 건축 외장재 구현 유니테스트, 페로브스카이트 활용한 건물·실내 전원 솔루션 소개 AP에너지, 콘크리트 부력체 내구성·주차장 태양광 공간 활용 강조 세계태양광총회(WCPEC) 전시회에서 기술 투어가 진행되고 있다.",
+      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
+      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
+      "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
+      "tech": "钙钛矿叠层",
+      "dataKind": "live",
+      "analysisKind": "evidence-cues",
+      "language": "ko",
+      "sourceType": "media",
+      "jurisdiction": "地域适用性待复核",
+      "marketBasis": "本地语言来源定位，地域适用性待复核",
+      "eventType": "合作/供货",
+      "policyDirection": "未判定",
+      "policyStage": "法规效力/执行阶段待核实",
+      "evidence": [
+        {
+          "label": "项目/合作/产品原文线索",
+          "original": "[사진=김진후 기자] 유니테스트는 페로브스카이트 태양전지를 활용해 건물과 실내 기기에 전력을 공급하는 응용 기술을 소개했다.。",
+          "chinese": "联合测试采用了佩罗夫斯凯特太阳能电池,为建筑物和室内设备提供电源的应用技术。"
+        }
+      ],
+      "articleRead": true,
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-18T00:56:30.134599+00:00",
+      "translationProvider": "M2M100-418M 本地开源机译",
+      "translatedAt": "2026-11-18T01:00:35.450999+00:00"
+    },
+    {
+      "id": "ad300f248f8bd3def40bb0ed",
+      "market": "韩国",
+      "title": "(WCPEC 2026)张南古教授“AI时代,需要更多的电力”...太阳能电池效率50%的挑战",
+      "originalTitle": "(WCPEC 2026)박남규 교수 “AI 시대, 더 많은 전력 필요”...태양전지 효율 50% 향한 도전",
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T03:40:59+00:00",
+      "topic": "竞争动态",
+      "priority": "中",
+      "source": "韩国电气新闻",
+      "url": "https://www.electimes.com/news/articleView.html?idxno=374872",
+      "summary": "效率 9.7% 出发的 费罗夫斯凯特,多接合新可能性 搜索数据中心 电源供应 想象 提交...高效度和长期稳定性 必须共同确保 巴克南瓜 性菌大学 教授 宣布。",
+      "originalSummary": "효율 9.7%서 출발한 페로브스카이트, 다중접합으로 새 가능성 모색 데이터센터 전력 공급 구상 제시…고효율과 장기 안정성 함께 확보해야 박남규 성균관대학교 교수가 발표하고 있다.",
+      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
+      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
+      "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
+      "tech": "钙钛矿叠层",
+      "dataKind": "live",
+      "analysisKind": "evidence-cues",
+      "language": "ko",
+      "sourceType": "media",
+      "jurisdiction": "地域适用性待复核",
+      "marketBasis": "本地语言来源定位，地域适用性待复核",
+      "eventType": "合作/供货",
+      "policyDirection": "未判定",
+      "policyStage": "法规效力/执行阶段待核实",
+      "evidence": [
+        {
+          "label": "项目/合作/产品原文线索",
+          "original": "(WCPEC 2026)박남규 교수 “AI 시대, 더 많은 전력 필요”...태양전지 효율 50% 향한 도전 효율 9.7%서 출발한 페로브스카이트, 다중접합으로 새 가능성 모색 데이터센터 전력 공급 구상 제시…고효율과 장기 안정성 함께 확보해야 박남규 성균관대학교 교수가 발표하고 있다.。",
+          "chinese": "(WCPEC 2026) 陈南古教授 “AI时代,需要更多的电力”... 太阳能电池效率50% 挑战效率 9.7% 出发的费罗夫斯凯特,多接合的新可能性搜索数据"
+        }
+      ],
+      "articleRead": true,
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-18T00:56:30.134599+00:00",
+      "translationProvider": "M2M100-418M 本地开源机译",
+      "translatedAt": "2026-11-18T01:00:49.111350+00:00"
+    },
     {
       "id": "9e54bd5428617e0602f09dc3",
       "market": "韩国",
@@ -166,7 +472,7 @@
       "translationStatus": "translated",
       "collectedAt": "2026-11-17T00:50:05.513213+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-17T00:52:22.382811+00:00"
+      "translatedAt": "2026-11-18T01:00:54.615886+00:00"
     },
     {
       "id": "4b9d4386265825c5a4ff8413",
@@ -205,7 +511,7 @@
       "translationStatus": "translated",
       "collectedAt": "2026-11-17T00:50:05.513213+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-17T00:52:47.880126+00:00"
+      "translatedAt": "2026-11-18T01:01:07.158372+00:00"
     },
     {
       "id": "8eae17387b7d5323e947fee9",
@@ -238,7 +544,7 @@
       "translationStatus": "translated",
       "collectedAt": "2026-11-17T00:50:05.513213+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-17T00:52:58.286949+00:00"
+      "translatedAt": "2026-11-18T01:01:12.823983+00:00"
     },
     {
       "id": "0dcfdfd1b6cd459e6b187e76",
@@ -275,9 +581,9 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-17T00:50:05.513213+00:00",
+      "collectedAt": "2026-11-18T00:56:30.134599+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-17T00:52:34.441732+00:00"
+      "translatedAt": "2026-11-18T00:59:16.029374+00:00"
     },
     {
       "id": "0fc3e813c2b73d56a77fc8c2",
@@ -310,7 +616,7 @@
       "translationStatus": "translated",
       "collectedAt": "2026-11-17T00:50:05.513213+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-17T00:53:12.665324+00:00"
+      "translatedAt": "2026-11-18T01:01:20.667110+00:00"
     },
     {
       "id": "a5703260733da91134cfb1d9",
@@ -341,9 +647,9 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-17T00:50:05.513213+00:00",
+      "collectedAt": "2026-11-18T00:56:30.134599+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-17T00:52:52.778462+00:00"
+      "translatedAt": "2026-11-18T00:59:33.762188+00:00"
     },
     {
       "id": "e8993293ec2ef275c61f5d3f",
@@ -458,7 +764,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-17T00:50:05.513213+00:00",
+      "collectedAt": "2026-11-18T00:56:30.134599+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-15T00:48:36.020342+00:00"
     },
@@ -711,7 +1017,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-17T00:50:05.513213+00:00",
+      "collectedAt": "2026-11-18T00:56:30.134599+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-12T00:58:31.248705+00:00"
     },
@@ -822,7 +1128,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-17T00:50:05.513213+00:00",
+      "collectedAt": "2026-11-18T00:56:30.134599+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-14T00:47:50.386678+00:00"
     },
@@ -933,7 +1239,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-17T00:50:05.513213+00:00",
+      "collectedAt": "2026-11-18T00:56:30.134599+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-10T00:47:44.930862+00:00"
     },
@@ -1005,7 +1311,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-17T00:50:05.513213+00:00",
+      "collectedAt": "2026-11-18T00:56:30.134599+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-07T00:46:40.917161+00:00"
     },
@@ -1398,7 +1704,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-17T00:50:05.513213+00:00",
+      "collectedAt": "2026-11-18T00:56:30.134599+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:03.302883+00:00"
     },
@@ -1479,7 +1785,7 @@
       "collectedAt": "2026-11-09T00:47:14.595159+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-17T00:52:17.052615+00:00"
+      "translatedAt": "2026-11-18T00:58:52.183142+00:00"
     },
     {
       "id": "01996e8c12d8548b3e10a1f6",
@@ -1510,7 +1816,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-17T00:50:05.513213+00:00",
+      "collectedAt": "2026-11-18T00:56:30.134599+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:15:54.201831+00:00"
     },
@@ -1582,7 +1888,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-17T00:50:05.513213+00:00",
+      "collectedAt": "2026-11-18T00:56:30.134599+00:00",
       "datePrecision": "day",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:42:43.281521+00:00"
@@ -1932,7 +2238,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-17T00:50:05.513213+00:00",
+      "collectedAt": "2026-11-18T00:56:30.134599+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:27:09.963540+00:00"
@@ -1977,7 +2283,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-17T00:50:05.513213+00:00",
+      "collectedAt": "2026-11-18T00:56:30.134599+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:27:15.852513+00:00"
@@ -2050,7 +2356,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-17T00:50:05.513213+00:00",
+      "collectedAt": "2026-11-18T00:56:30.134599+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:27:19.599501+00:00"
@@ -2090,7 +2396,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-16T01:03:35.681620+00:00",
+      "collectedAt": "2026-11-18T00:56:30.134599+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-07T00:46:47.799702+00:00"
     },
@@ -2116,7 +2422,7 @@
       "originalSummary": "South Korea’s Ministry of Climate, Energy and Environment (MCEE) has unveiled its KRW1,000 trillion (US$747 billion) Korean Green Transformation (K-GX) industrial strategy.",
       "translationStatus": "translated",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-17T00:53:18.697765+00:00"
+      "translatedAt": "2026-11-18T01:01:28.159380+00:00"
     },
     {
       "id": "ecd33be5da742c15ff9a7d34",
@@ -2153,7 +2459,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-17T00:50:05.513213+00:00",
+      "collectedAt": "2026-11-18T00:56:30.134599+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:27:23.345332+00:00"
@@ -2226,7 +2532,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-17T00:50:05.513213+00:00",
+      "collectedAt": "2026-11-18T00:56:30.134599+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:26.695227+00:00"
@@ -2260,7 +2566,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-17T00:50:05.513213+00:00",
+      "collectedAt": "2026-11-18T00:56:30.134599+00:00",
       "datePrecision": "day",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:37:36.031964+00:00"
@@ -2294,7 +2600,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-17T00:50:05.513213+00:00",
+      "collectedAt": "2026-11-18T00:56:30.134599+00:00",
       "datePrecision": "day",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:37:40.881409+00:00"
@@ -2373,7 +2679,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-16T01:03:35.681620+00:00",
+      "collectedAt": "2026-11-18T00:56:30.134599+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-07T00:46:56.226146+00:00"
     },
@@ -2406,7 +2712,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-17T00:50:05.513213+00:00",
+      "collectedAt": "2026-11-18T00:56:30.134599+00:00",
       "datePrecision": "day",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:37:44.691003+00:00"
@@ -2440,7 +2746,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-16T01:03:35.681620+00:00",
+      "collectedAt": "2026-11-18T00:56:30.134599+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-07T00:47:04.575546+00:00"
     },
@@ -2485,8 +2791,8 @@
   ],
   "translation": {
     "status": "partial",
-    "at": "2026-11-17T00:51:55.251572+00:00",
-    "translatedThisRun": 8,
+    "at": "2026-11-18T00:58:29.799992+00:00",
+    "translatedThisRun": 16,
     "remaining": 1,
     "validationFailures": 1,
     "error": null,
