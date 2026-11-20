@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "mode": "live",
-  "attemptedAt": "2026-11-19T00:56:34.487524+00:00",
+  "attemptedAt": "2026-11-20T00:50:24.604267+00:00",
   "lastSuccessAt": "2026-11-16T01:03:35.681620+00:00",
   "status": "partial",
   "sources": [
@@ -9,7 +9,7 @@
       "name": "东京都政府",
       "url": "https://www.metro.tokyo.lg.jp/rss/index.rdf",
       "state": "ok",
-      "matched": 1,
+      "matched": 2,
       "language": "ja",
       "sourceType": "government"
     },
@@ -25,7 +25,7 @@
       "name": "韩国政府政策简报（光伏检索）",
       "url": "https://www.korea.kr/news/policyNewsList.do?srchWord=%ED%83%9C%EC%96%91%EA%B4%91",
       "state": "ok",
-      "matched": 6,
+      "matched": 5,
       "language": "ko",
       "sourceType": "government"
     },
@@ -65,7 +65,7 @@
       "name": "韩国 Industry News",
       "url": "https://www.industrynews.co.kr/rss/allArticle.xml",
       "state": "ok",
-      "matched": 1,
+      "matched": 0,
       "language": "ko",
       "sourceType": "media"
     },
@@ -73,7 +73,7 @@
       "name": "韩国电气新闻",
       "url": "https://www.electimes.com/rss/allArticle.xml",
       "state": "ok",
-      "matched": 1,
+      "matched": 0,
       "language": "ko",
       "sourceType": "media"
     },
@@ -81,7 +81,7 @@
       "name": "韩国能源日报",
       "url": "https://www.energydaily.co.kr/rss/allArticle.xml",
       "state": "ok",
-      "matched": 3,
+      "matched": 2,
       "language": "ko",
       "sourceType": "media"
     },
@@ -136,6 +136,76 @@
   ],
   "items": [
     {
+      "id": "eb23e5bf871af5fbfa717f82",
+      "market": "韩国",
+      "title": "韩国和法国企业将为基于空间的人工智能数据中心开展太阳能技术",
+      "originalTitle": "Korean and French firms to pursue solar tech for space-based AI data centres",
+      "date": "2026-11-20",
+      "publishedAt": "2026-11-19T16:38:11+00:00",
+      "topic": "市场趋势",
+      "priority": "中",
+      "source": "PV Tech（补充）",
+      "url": "https://www.pv-tech.org/flexell-alatyr-solar-tech-space-based-ai-data-centres/",
+      "summary": "韩国太阳能技术公司Flexell Space正在寻求将其产品集成到基于太空的数据中心。",
+      "originalSummary": "Korean space solar technology firm Flexell Space is looking to incorporate its products into space-based data centres.",
+      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
+      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
+      "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
+      "tech": "数据中心光伏应用",
+      "dataKind": "live",
+      "analysisKind": "evidence-cues",
+      "language": "en",
+      "sourceType": "media",
+      "jurisdiction": "地域适用性待复核",
+      "marketBasis": "正文明确提及市场",
+      "eventType": "市场/企业动态",
+      "policyDirection": "未判定",
+      "policyStage": "法规效力/执行阶段待核实",
+      "evidence": [],
+      "articleRead": false,
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
+      "translationProvider": "M2M100-418M 本地开源机译",
+      "translatedAt": "2026-11-20T00:52:38.845193+00:00"
+    },
+    {
+      "id": "ceb8cb0c5939d9255031a63f",
+      "market": "日本",
+      "title": "【制度解説】経産省が発表したFIT/FIP支援重点化４項目 太陽光市場の追い風となるか",
+      "originalTitle": "【制度解説】経産省が発表したFIT/FIP支援重点化４項目 太陽光市場の追い風となるか",
+      "date": "2026-11-19",
+      "publishedAt": "2026-11-19T03:06:07+00:00",
+      "topic": "政策与补贴",
+      "priority": "中",
+      "source": "日本 SOLAR JOURNAL",
+      "url": "https://solarjournal.jp/policy/68594/",
+      "summary": "中文整理待生成；请核对原文。",
+      "originalSummary": "事業用太陽光発電における支援重点化の経緯 2.",
+      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
+      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
+      "watch": "先核对政府原文的适用地区、对象、金额、申请期限和施行日期；不能将补助线索视为已生效支持政策。",
+      "tech": "住宅屋顶组件",
+      "dataKind": "live",
+      "analysisKind": "evidence-cues",
+      "language": "ja",
+      "sourceType": "media",
+      "jurisdiction": "地域适用性待复核",
+      "marketBasis": "本地语言来源定位，地域适用性待复核",
+      "eventType": "政府招标/采购",
+      "policyDirection": "未判定",
+      "policyStage": "法规效力/执行阶段待核实",
+      "evidence": [
+        {
+          "label": "项目/合作/产品原文线索",
+          "original": "これを受けて調達価格等算定委員会は、事業用太陽光(地上設置)を2027年度以降、原則としてFIT/FIPの新規支援の対象外とした。"
+        }
+      ],
+      "articleRead": true,
+      "translationStatus": "pending",
+      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
+      "translationError": "ValueError"
+    },
+    {
       "id": "e27c3bf9ba48b8cbca4caeb4",
       "market": "韩国",
       "title": "太阳能激活的民·关·学·联集力量......发展协商",
@@ -172,7 +242,7 @@
       "translationStatus": "translated",
       "collectedAt": "2026-11-19T00:56:34.487524+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-19T00:59:13.336272+00:00"
+      "translatedAt": "2026-11-20T00:53:10.000917+00:00"
     },
     {
       "id": "e3741f540089b1330f606fac",
@@ -211,7 +281,40 @@
       "translationStatus": "translated",
       "collectedAt": "2026-11-19T00:56:34.487524+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-19T00:59:42.946229+00:00"
+      "translatedAt": "2026-11-20T00:53:34.996086+00:00"
+    },
+    {
+      "id": "1c1c062a69a97dd36a0306df",
+      "market": "日本",
+      "title": "空太阳能的所有设施先引入空太阳能的所有设施的经营者公开招募",
+      "originalTitle": "Airソーラーの都有施設への先行導入 Airソーラーを都有施設に設置する事業者を公募します",
+      "date": "2026-11-19",
+      "publishedAt": "2026-11-18T15:00:00+00:00",
+      "topic": "市场趋势",
+      "priority": "中",
+      "source": "东京都政府",
+      "url": "https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111902",
+      "summary": "东京都向日本出生的太阳能电池“空太阳能”的普及扩展,具有“薄、轻、旋转”的特点,设定了“2035年市内实施目标约1吉瓦”。",
+      "originalSummary": "東京都は、「薄く、軽く、曲がる」という特徴を持った日本生まれの太陽電池である「 Airソーラー 【注】 」の普及拡大に向け、「2035年における都内導入目標約1ギガワット」を掲げています。",
+      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
+      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
+      "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
+      "tech": "钙钛矿叠层",
+      "dataKind": "live",
+      "analysisKind": "evidence-cues",
+      "language": "ja",
+      "sourceType": "government",
+      "jurisdiction": "东京都",
+      "marketBasis": "官方发布机构辖区，公告适用范围待核实",
+      "eventType": "市场/企业动态",
+      "policyDirection": "未判定",
+      "policyStage": "法规效力/执行阶段待核实",
+      "evidence": [],
+      "articleRead": true,
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
+      "translationProvider": "M2M100-418M 本地开源机译",
+      "translatedAt": "2026-11-20T00:52:34.319411+00:00"
     },
     {
       "id": "e61b774702ead02696fd53ce",
@@ -242,9 +345,9 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-19T00:56:34.487524+00:00",
+      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-19T01:00:04.470653+00:00"
+      "translatedAt": "2026-11-20T00:53:46.467376+00:00"
     },
     {
       "id": "f00c9a453f0a7bb2bb5308f8",
@@ -281,9 +384,9 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-19T00:56:34.487524+00:00",
+      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-19T01:00:20.097062+00:00"
+      "translatedAt": "2026-11-20T00:54:07.535981+00:00"
     },
     {
       "id": "981aa5a5a69e4b220fbb96d0",
@@ -322,7 +425,7 @@
       "translationStatus": "translated",
       "collectedAt": "2026-11-18T00:56:30.134599+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-19T01:00:40.465028+00:00"
+      "translatedAt": "2026-11-20T00:54:23.172857+00:00"
     },
     {
       "id": "a7a9bb8450cfd1b1a9f5e727",
@@ -364,9 +467,9 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-19T00:56:34.487524+00:00",
+      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-19T00:59:01.100324+00:00"
+      "translatedAt": "2026-11-20T00:52:58.924219+00:00"
     },
     {
       "id": "4d13e5d3e83f1c8546cd644b",
@@ -405,7 +508,7 @@
       "translationStatus": "translated",
       "collectedAt": "2026-11-19T00:56:34.487524+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-19T01:00:52.682084+00:00"
+      "translatedAt": "2026-11-20T00:54:41.099954+00:00"
     },
     {
       "id": "912f6b57c51da1ef063c0461",
@@ -444,7 +547,7 @@
       "translationStatus": "translated",
       "collectedAt": "2026-11-18T00:56:30.134599+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-19T01:01:06.496368+00:00"
+      "translatedAt": "2026-11-20T00:54:53.317534+00:00"
     },
     {
       "id": "09a5bf3bf94053d109668d29",
@@ -483,7 +586,7 @@
       "translationStatus": "translated",
       "collectedAt": "2026-11-18T00:56:30.134599+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-19T01:01:18.146774+00:00"
+      "translatedAt": "2026-11-20T00:55:03.537921+00:00"
     },
     {
       "id": "5b30beca2d33da8cfdf24474",
@@ -522,7 +625,7 @@
       "translationStatus": "translated",
       "collectedAt": "2026-11-19T00:56:34.487524+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-19T01:01:29.658669+00:00"
+      "translatedAt": "2026-11-20T00:55:13.143201+00:00"
     },
     {
       "id": "85fcda5aacb9c82ee0a6570d",
@@ -555,7 +658,7 @@
       "translationStatus": "translated",
       "collectedAt": "2026-11-18T00:56:30.134599+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-19T01:01:37.493535+00:00"
+      "translatedAt": "2026-11-20T00:55:20.653563+00:00"
     },
     {
       "id": "0bfa572bba269aca16f6e9ef",
@@ -594,7 +697,7 @@
       "translationStatus": "translated",
       "collectedAt": "2026-11-18T00:56:30.134599+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-19T01:01:49.843456+00:00"
+      "translatedAt": "2026-11-20T00:55:31.869751+00:00"
     },
     {
       "id": "ad300f248f8bd3def40bb0ed",
@@ -633,7 +736,7 @@
       "translationStatus": "translated",
       "collectedAt": "2026-11-18T00:56:30.134599+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-19T01:02:04.678752+00:00"
+      "translatedAt": "2026-11-20T00:55:44.659000+00:00"
     },
     {
       "id": "9e54bd5428617e0602f09dc3",
@@ -666,7 +769,7 @@
       "translationStatus": "translated",
       "collectedAt": "2026-11-17T00:50:05.513213+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-19T01:02:10.556996+00:00"
+      "translatedAt": "2026-11-20T00:55:50.005835+00:00"
     },
     {
       "id": "4b9d4386265825c5a4ff8413",
@@ -705,7 +808,7 @@
       "translationStatus": "translated",
       "collectedAt": "2026-11-17T00:50:05.513213+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-19T01:02:23.754284+00:00"
+      "translatedAt": "2026-11-20T00:56:01.874940+00:00"
     },
     {
       "id": "8eae17387b7d5323e947fee9",
@@ -738,7 +841,7 @@
       "translationStatus": "translated",
       "collectedAt": "2026-11-17T00:50:05.513213+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-19T01:02:30.588541+00:00"
+      "translatedAt": "2026-11-20T00:56:07.163213+00:00"
     },
     {
       "id": "0dcfdfd1b6cd459e6b187e76",
@@ -775,9 +878,9 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-19T00:56:34.487524+00:00",
+      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-19T00:59:55.759933+00:00"
+      "translatedAt": "2026-11-20T00:53:58.351389+00:00"
     },
     {
       "id": "0fc3e813c2b73d56a77fc8c2",
@@ -810,7 +913,7 @@
       "translationStatus": "translated",
       "collectedAt": "2026-11-17T00:50:05.513213+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-19T01:02:38.742488+00:00"
+      "translatedAt": "2026-11-20T00:56:14.337529+00:00"
     },
     {
       "id": "a5703260733da91134cfb1d9",
@@ -841,9 +944,9 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-19T00:56:34.487524+00:00",
+      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-19T01:00:09.928584+00:00"
+      "translatedAt": "2026-11-20T00:54:12.386536+00:00"
     },
     {
       "id": "e8993293ec2ef275c61f5d3f",
@@ -958,7 +1061,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-19T00:56:34.487524+00:00",
+      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-15T00:48:36.020342+00:00"
     },
@@ -1211,7 +1314,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-19T00:56:34.487524+00:00",
+      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-12T00:58:31.248705+00:00"
     },
@@ -1322,7 +1425,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-19T00:56:34.487524+00:00",
+      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-14T00:47:50.386678+00:00"
     },
@@ -1433,7 +1536,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-19T00:56:34.487524+00:00",
+      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-10T00:47:44.930862+00:00"
     },
@@ -1505,7 +1608,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-19T00:56:34.487524+00:00",
+      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-07T00:46:40.917161+00:00"
     },
@@ -1898,7 +2001,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-19T00:56:34.487524+00:00",
+      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:03.302883+00:00"
     },
@@ -1979,7 +2082,7 @@
       "collectedAt": "2026-11-09T00:47:14.595159+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-19T00:59:32.559091+00:00"
+      "translatedAt": "2026-11-20T00:53:25.689544+00:00"
     },
     {
       "id": "01996e8c12d8548b3e10a1f6",
@@ -2082,7 +2185,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-19T00:56:34.487524+00:00",
+      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
       "datePrecision": "day",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:42:43.281521+00:00"
@@ -2326,7 +2429,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-19T00:56:34.487524+00:00",
+      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:37:37.417477+00:00"
@@ -2432,7 +2535,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-19T00:56:34.487524+00:00",
+      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:27:09.963540+00:00"
@@ -2477,7 +2580,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-19T00:56:34.487524+00:00",
+      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:27:15.852513+00:00"
@@ -2550,7 +2653,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-19T00:56:34.487524+00:00",
+      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:27:19.599501+00:00"
@@ -2616,7 +2719,7 @@
       "originalSummary": "South Korea’s Ministry of Climate, Energy and Environment (MCEE) has unveiled its KRW1,000 trillion (US$747 billion) Korean Green Transformation (K-GX) industrial strategy.",
       "translationStatus": "translated",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-19T01:02:45.458868+00:00"
+      "translatedAt": "2026-11-20T00:56:20.170687+00:00"
     },
     {
       "id": "ecd33be5da742c15ff9a7d34",
@@ -2726,7 +2829,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-19T00:56:34.487524+00:00",
+      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:26.695227+00:00"
@@ -2760,7 +2863,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-19T00:56:34.487524+00:00",
+      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
       "datePrecision": "day",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:37:36.031964+00:00"
@@ -2794,7 +2897,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-19T00:56:34.487524+00:00",
+      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
       "datePrecision": "day",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:37:40.881409+00:00"
@@ -2834,7 +2937,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-17T00:50:05.513213+00:00",
+      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:17:03.692923+00:00"
     },
@@ -2906,7 +3009,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-19T00:56:34.487524+00:00",
+      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
       "datePrecision": "day",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:37:44.691003+00:00"
@@ -2985,10 +3088,10 @@
   ],
   "translation": {
     "status": "partial",
-    "at": "2026-11-19T00:58:31.038739+00:00",
-    "translatedThisRun": 21,
-    "remaining": 1,
-    "validationFailures": 1,
+    "at": "2026-11-20T00:52:22.781967+00:00",
+    "translatedThisRun": 23,
+    "remaining": 2,
+    "validationFailures": 2,
     "error": null,
     "phase": "local-fallback",
     "modelLicense": "mit",
