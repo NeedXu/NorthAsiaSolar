@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "mode": "live",
-  "attemptedAt": "2026-11-20T00:50:24.604267+00:00",
+  "attemptedAt": "2026-11-21T00:54:11.722238+00:00",
   "lastSuccessAt": "2026-11-16T01:03:35.681620+00:00",
   "status": "partial",
   "sources": [
@@ -25,7 +25,7 @@
       "name": "韩国政府政策简报（光伏检索）",
       "url": "https://www.korea.kr/news/policyNewsList.do?srchWord=%ED%83%9C%EC%96%91%EA%B4%91",
       "state": "ok",
-      "matched": 5,
+      "matched": 7,
       "language": "ko",
       "sourceType": "government"
     },
@@ -81,7 +81,7 @@
       "name": "韩国能源日报",
       "url": "https://www.energydaily.co.kr/rss/allArticle.xml",
       "state": "ok",
-      "matched": 2,
+      "matched": 0,
       "language": "ko",
       "sourceType": "media"
     },
@@ -136,9 +136,49 @@
   ],
   "items": [
     {
+      "id": "2d63a46417c0336ee4b23132",
+      "market": "韩国",
+      "title": "IEA“韩国将在实施可再生能源供应计划时减少进口依赖和碳排放”",
+      "originalTitle": "IEA \"한국, 재생에너지 보급계획 이행시 수입의존도·탄소배출 낮춰\"",
+      "date": "2026-11-21",
+      "publishedAt": "2026-11-20T16:23:00+00:00",
+      "topic": "竞争动态",
+      "priority": "中",
+      "source": "韩国政府政策简报（光伏检索）",
+      "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148976192",
+      "summary": "分析认为，去年太阳能在全球发电增量中占比最大，首次作为可再生能源成为能源需求整体增量的最大来源。",
+      "originalSummary": "태양광은 지난해 세계 발전량 증가분 중 가장 큰 비중을 차지했고, 재생에너지로는 처음으로 에너지 수요 증가분 전체에서도 최대 공급원이 됐다고 분석했다.",
+      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
+      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
+      "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
+      "tech": "未分类",
+      "dataKind": "live",
+      "analysisKind": "evidence-cues",
+      "language": "ko",
+      "sourceType": "government",
+      "jurisdiction": "韩国（公告适用范围待核实）",
+      "marketBasis": "官方发布机构辖区，公告适用范围待核实",
+      "eventType": "合作/供货",
+      "policyDirection": "未判定",
+      "policyStage": "法规效力/执行阶段待核实",
+      "evidence": [
+        {
+          "label": "项目/合作/产品原文线索",
+          "original": "태양광은 지난해 세계 발전량 증가분 중 가장 큰 비중을 차지했고, 재생에너지로는 처음으로 에너지 수요 증가분 전체에서도 최대 공급원이 됐다고 분석했다.",
+          "chinese": "分析认为，去年太阳能在全球发电增量中占比最大，首次作为可再生能源成为能源需求整体增量的最大来源。"
+        }
+      ],
+      "articleRead": true,
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
+      "datePrecision": "timestamp",
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-21T00:56:03.033951+00:00"
+    },
+    {
       "id": "eb23e5bf871af5fbfa717f82",
       "market": "韩国",
-      "title": "韩国和法国企业将为基于空间的人工智能数据中心开展太阳能技术",
+      "title": "韩国和法国公司将为太空人工智能数据中心寻求太阳能技术",
       "originalTitle": "Korean and French firms to pursue solar tech for space-based AI data centres",
       "date": "2026-11-20",
       "publishedAt": "2026-11-19T16:38:11+00:00",
@@ -146,7 +186,7 @@
       "priority": "中",
       "source": "PV Tech（补充）",
       "url": "https://www.pv-tech.org/flexell-alatyr-solar-tech-space-based-ai-data-centres/",
-      "summary": "韩国太阳能技术公司Flexell Space正在寻求将其产品集成到基于太空的数据中心。",
+      "summary": "韩国太空太阳能技术公司 Flexell Space 正在寻求将其产品纳入太空数据中心。",
       "originalSummary": "Korean space solar technology firm Flexell Space is looking to incorporate its products into space-based data centres.",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
@@ -164,14 +204,14 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
-      "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-20T00:52:38.845193+00:00"
+      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-21T00:56:08.730553+00:00"
     },
     {
       "id": "ceb8cb0c5939d9255031a63f",
       "market": "日本",
-      "title": "【制度解説】経産省が発表したFIT/FIP支援重点化４項目 太陽光市場の追い風となるか",
+      "title": "【系统解说】经济产业省公布的4项优先FIT/FIP支援项目会成为太阳能市场的顺风车吗？",
       "originalTitle": "【制度解説】経産省が発表したFIT/FIP支援重点化４項目 太陽光市場の追い風となるか",
       "date": "2026-11-19",
       "publishedAt": "2026-11-19T03:06:07+00:00",
@@ -179,7 +219,7 @@
       "priority": "中",
       "source": "日本 SOLAR JOURNAL",
       "url": "https://solarjournal.jp/policy/68594/",
-      "summary": "中文整理待生成；请核对原文。",
+      "summary": "优先支持商业太阳能发电的历史 2.",
       "originalSummary": "事業用太陽光発電における支援重点化の経緯 2.",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
@@ -197,18 +237,20 @@
       "evidence": [
         {
           "label": "项目/合作/产品原文线索",
-          "original": "これを受けて調達価格等算定委員会は、事業用太陽光(地上設置)を2027年度以降、原則としてFIT/FIPの新規支援の対象外とした。"
+          "original": "これを受けて調達価格等算定委員会は、事業用太陽光(地上設置)を2027年度以降、原則としてFIT/FIPの新規支援の対象外とした。",
+          "chinese": "为此，采购价格计算委员会规定，从 2027 财年起，商业太阳能（地面安装）原则上不符合新的 FIT/FIP 支持资格。"
         }
       ],
       "articleRead": true,
-      "translationStatus": "pending",
-      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
-      "translationError": "ValueError"
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-21T00:56:20.158189+00:00"
     },
     {
       "id": "e27c3bf9ba48b8cbca4caeb4",
       "market": "韩国",
-      "title": "太阳能激活的民·关·学·联集力量......发展协商",
+      "title": "公共、私营部门、学术界和研究机构正在联手振兴浮动太阳能……发展委员会成立",
       "originalTitle": "수상태양광 활성화에 민·관·학·연 힘 모은다… 발전협의체 출범",
       "date": "2026-11-19",
       "publishedAt": "2026-11-19T00:26:28+00:00",
@@ -216,7 +258,7 @@
       "priority": "中",
       "source": "韩国 Industry News",
       "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=89830",
-      "summary": "韩国水资源公司(K-water,主席 양승조)上周18日在战争黄金区战争会议中心(DCC)出席了民·关·学·年50多名机构官员",
+      "summary": "[行业新闻 记者 郑汉教] 韩国水资源公社（K-water、代表理事杨承祖）18日在大田儒城区大田会议中心（DCC）召开会议，来自约50家公私、学术、研究机构的官员参加了会议。",
       "originalSummary": "[인더스트리뉴스 정한교 기자] 한국수자원공사(K-water, 사장 양승조)는 지난 18일 대전 유성구 대전컨벤션센터(DCC)에서 민·관·학·연 50여 개 기관 관계자가 참석한 가운데 국내 수상태양광 사업 활성화와 관련 산업 생태계 조성을 위한 ‘수상태양광 활성화 발전협의체’ 발족식을 개최했다고 밝혔다.",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
@@ -235,19 +277,19 @@
         {
           "label": "项目/合作/产品原文线索",
           "original": "이번 협의체 출범을 계기로 한국수자원공사는 관계기관 협력을 한층 강화해 사업 추진 과정의 행정적·기술적 지연을 최소화하고 국내 수상태양광 산업의 글로벌 경쟁력 확보와 탄소중립 실현을 선도해 나갈 방침이다.。",
-          "chinese": "随着本协议的启动,韩国水资源公司将加强关系机构合作,尽量减少业务推进过程的行政技术延迟,确保国内水太阳能行业的全球竞争力和实现碳中立。"
+          "chinese": "随着该咨询机构的成立，韩国水资源公司进一步加强了与相关组织的合作，以最大限度地减少项目实施过程中的行政和技术延误，确保国内浮动太阳能发电行业的全球竞争力，并实现碳中和。"
         }
       ],
       "articleRead": true,
       "translationStatus": "translated",
       "collectedAt": "2026-11-19T00:56:34.487524+00:00",
-      "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-20T00:53:10.000917+00:00"
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-21T00:56:16.778305+00:00"
     },
     {
       "id": "e3741f540089b1330f606fac",
       "market": "韩国",
-      "title": "OCIPower,IPS和手握北美太阳能转换器O&M市场攻击",
+      "title": "OCI Power携手IPS，开始瞄准北美太阳能逆变器运维市场",
       "originalTitle": "OCI파워, IPS와 손잡고 북미 태양광 인버터 O&M 시장 공략 본격화",
       "date": "2026-11-19",
       "publishedAt": "2026-11-18T21:00:00+00:00",
@@ -255,7 +297,7 @@
       "priority": "中",
       "source": "韩国电气新闻",
       "url": "https://www.electimes.com/news/articleView.html?idxno=374972",
-      "summary": "OCIPower正在加快与美国电力设施维修专业企业和不断增长的北美太阳能维修(O&M)市场攻击。",
+      "summary": "【OCI Power 提供】OCI Power 正与一家美国电力设施维护公司携手，加快进军快速增长的北美太阳能维护（O&M）市场。",
       "originalSummary": "[제공=OCI파워] OCI파워가 미국 전력설비 정비 전문기업과 손잡고 가파르게 성장하는 북미 태양광 유지보수(O&M) 시장 공략에 속도를 낸다.",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
@@ -274,19 +316,19 @@
         {
           "label": "项目/合作/产品原文线索",
           "original": "특히, 지난 10월에 태양광 인버터 정비업체 볼드 리뉴어블스(Bold Renewables)를 인수하며 부품 조달 및 현장 대응 역량을 한층 강화했다.。",
-          "chinese": "特别是,去年10月收购了太阳能转换器维修公司Bold Renewables,并提高了零部件供应和现场响应能力。"
+          "chinese": "特别是去年10月，我们收购了太阳能逆变器维护公司Bold Renewables，进一步增强了我们的零部件采购和现场响应能力。"
         }
       ],
       "articleRead": true,
       "translationStatus": "translated",
       "collectedAt": "2026-11-19T00:56:34.487524+00:00",
-      "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-20T00:53:34.996086+00:00"
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-21T00:56:24.909265+00:00"
     },
     {
       "id": "1c1c062a69a97dd36a0306df",
       "market": "日本",
-      "title": "空太阳能的所有设施先引入空太阳能的所有设施的经营者公开招募",
+      "title": "初步在都营设施引入空气太阳能 我们正在公开招募企业在都营设施安装空气太阳能",
       "originalTitle": "Airソーラーの都有施設への先行導入 Airソーラーを都有施設に設置する事業者を公募します",
       "date": "2026-11-19",
       "publishedAt": "2026-11-18T15:00:00+00:00",
@@ -294,7 +336,7 @@
       "priority": "中",
       "source": "东京都政府",
       "url": "https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111902",
-      "summary": "东京都向日本出生的太阳能电池“空太阳能”的普及扩展,具有“薄、轻、旋转”的特点,设定了“2035年市内实施目标约1吉瓦”。",
+      "summary": "东京都政府制定了到 2035 年在东京引入约 1 GW 装机容量的目标，以扩大 Air Solar（一种日本本土薄、轻且灵活的太阳能电池）的使用。",
       "originalSummary": "東京都は、「薄く、軽く、曲がる」という特徴を持った日本生まれの太陽電池である「 Airソーラー 【注】 」の普及拡大に向け、「2035年における都内導入目標約1ギガワット」を掲げています。",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
@@ -312,14 +354,14 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
-      "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-20T00:52:34.319411+00:00"
+      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-21T00:56:00.007774+00:00"
     },
     {
       "id": "e61b774702ead02696fd53ce",
       "market": "韩国",
-      "title": "太阳光·风能“天气信息平台” 法定化推进... 再生能源预测基础加强",
+      "title": "推动太阳能和风电“天气信息平台”立法……加强可再生能源预测基础",
       "originalTitle": "태양광·풍력 ‘기상정보 플랫폼’ 법제화 추진…재생에너지 예측 기반 강화",
       "date": "2026-11-18",
       "publishedAt": "2026-11-18T08:19:11+00:00",
@@ -327,7 +369,7 @@
       "priority": "中",
       "source": "韩国能源日报",
       "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=205239",
-      "summary": "国会气候能源环境工作委员会 巴吉胡 会议员 [能源日记] 为太阳光和风力供应扩展所需的天气资讯提供和整合的「可再生能源天气资讯平台」",
+      "summary": "国会气候、能源、环境和劳动委员会代表朴智惠[能源日报记者杨美爱]系统地提供和整合扩大太阳能和风能分布所需的天气信息的“可再生能源天气信息平台”",
       "originalSummary": "국회 기후에너지환경노동위원회 박지혜 의원 [에너지데일리 양미애 기자] 태양광과 풍력의 보급 확대에 필요한 기상정보를 체계적으로 제공하고 이를 통합하는 ‘재생에너지 기상정보 플랫폼’을 구축·운영할 수 있도록 법적 근거를 마련하는 방안이 추진된다.",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
@@ -346,13 +388,13 @@
       "articleRead": true,
       "translationStatus": "translated",
       "collectedAt": "2026-11-20T00:50:24.604267+00:00",
-      "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-20T00:53:46.467376+00:00"
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-21T00:56:30.815464+00:00"
     },
     {
       "id": "f00c9a453f0a7bb2bb5308f8",
       "market": "韩国",
-      "title": "水太阳能“500MW市场”建设...K-water,50个机构和工业生态系统建设",
+      "title": "开发浮式太阳能“500MW市场”……K-water与50家组织建立产业生态系统",
       "originalTitle": "수상태양광 ‘500MW 시장’ 키운다…K-water, 50개 기관과 산업 생태계 구축",
       "date": "2026-11-18",
       "publishedAt": "2026-11-18T07:16:20+00:00",
@@ -360,7 +402,7 @@
       "priority": "中",
       "source": "韩国能源日报",
       "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=205227",
-      "summary": "今天,韩国水资源公司为国内水太阳能业务激活和相关工业生态系统建设发出“水太阳能激活发展协商”",
+      "summary": "（照片前排中央，韩国水资源公社可再生能源部部长吴奉根）当天，韩国水资源公社宣布成立“浮动式太阳能发电活性化开发协议会”，旨在振兴国内浮动式太阳能发电事业，打造相关产业生态系统。",
       "originalSummary": "(사진 앞줄 가운데 오봉근 한국수자원공사 재생에너지본부장) 이날 한국수자원공사는 국내 수상태양광 사업 활성화와 관련 산업 생태계 조성을 위한 ‘수상태양광 활성화 발전협의체’ 를 발족했했다.",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
@@ -379,19 +421,19 @@
         {
           "label": "项目/合作/产品原文线索",
           "original": "[에너지데일리 조남준 기자 ] 댐 수면을 활용하는 수상태양광을 개별 발전사업에서 국내 재생에너지 산업의 한 축으로 확대하기 위한 민·관·학·연 협력체계가 가동된다.。",
-          "chinese": "利用深眠的水太阳光在个人发展业务中扩大到国内可再生能源行业的一个轴的民·关·学·联合合作系统正在运行。"
+          "chinese": "[能源日报记者赵南俊]为了将利用水坝水面的浮动太阳能发电从单个发电项目扩大到国内可再生能源产业的支柱之一，公私学术研究合作系统正在运行。"
         }
       ],
       "articleRead": true,
       "translationStatus": "translated",
       "collectedAt": "2026-11-20T00:50:24.604267+00:00",
-      "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-20T00:54:07.535981+00:00"
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-21T00:56:39.256991+00:00"
     },
     {
       "id": "981aa5a5a69e4b220fbb96d0",
       "market": "韩国",
-      "title": "KCL - 韩国南部发展 - 越南 IEMM,汉 - 贝太阳能·BIPV 工业合作握手",
+      "title": "KCL-韩国南方电力公司-越南IEMM携手韩越太阳能/BIPV产业合作",
       "originalTitle": "KCL-한국남부발전-베트남 IEMM, 한-베 태양광·BIPV 산업 협력에 손 잡아",
       "date": "2026-11-18",
       "publishedAt": "2026-11-17T22:22:33+00:00",
@@ -399,7 +441,7 @@
       "priority": "中",
       "source": "韩国电气新闻",
       "url": "https://www.electimes.com/news/articleView.html?idxno=374920",
-      "summary": "标准化合作扩大国内BIPV技术的海外业务化基础设置天영길韩国建筑生活环境考验研究委员会主席(中),金正恩韩国南部发展主席(左),Do Trung Hieu 越南 I",
+      "summary": "扩大标准化合作 为国内BIPV技术的海外商业化奠定基础 韩国建设与生活环境研究所所长Cheon Young-gil（中）、韩国南方电力公司总裁Kim Jun-dong（左）和Do Trung Hieu越南I",
       "originalSummary": "표준화 협력 확대 국내 BIPV 기술의 해외 사업화 기반 마련 천영길 한국건설생활환경시험연구원 원장(가운데), 김준동 한국남부발전 사장(왼쪽), Do Trung Hieu 베트남 IEMM 부원장(오른쪽)이 한·베트남 태양광·BIPV 산업 협력을 위한 다자간 업무협약을 체결한 후 기념촬영을 하고 있다.",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
@@ -418,19 +460,19 @@
         {
           "label": "项目/合作/产品原文线索",
           "original": "KCL-한국남부발전-베트남 IEMM, 한-베 태양광·BIPV 산업 협력에 손 잡아",
-          "chinese": "KCL - 韩国南部发展 - 越南 IEMM,汉 - 贝太阳能·BIPV 工业合作握手"
+          "chinese": "KCL-韩国南方电力公司-越南IEMM携手韩越太阳能/BIPV产业合作"
         }
       ],
       "articleRead": true,
       "translationStatus": "translated",
       "collectedAt": "2026-11-18T00:56:30.134599+00:00",
-      "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-20T00:54:23.172857+00:00"
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-21T00:56:45.047748+00:00"
     },
     {
       "id": "a7a9bb8450cfd1b1a9f5e727",
       "market": "日本",
-      "title": "“仅仅是电力计划”的供应商决定、毕业FIT家庭招聘开始通知 家中未消耗的电力到有设施",
+      "title": "宣布选择“东町电力计划”供应商并开始招募散客家庭。家庭中未使用的电力将转移到东京都政府的设施。",
       "originalTitle": "「とちょう電力プラン」の供給事業者決定・卒FIT家庭の募集開始のお知らせ 自家消費されなかった電気を都有施設へ",
       "date": "2026-11-18",
       "publishedAt": "2026-11-17T15:00:00+00:00",
@@ -438,7 +480,7 @@
       "priority": "高",
       "source": "东京都政府",
       "url": "https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111815",
-      "summary": "因此,在城市,有设施开展利用可再生能源100%的电力活动,作为“正如电力计划”的,我们正在实施在城市的家庭的太阳能发电产生的FIT电力(注2)的采购。",
+      "summary": "因此，东京都正在努力在东京都拥有的设施中100%使用可再生能源电力，并且作为“东町电力计划”的一部分，它正在向东京都地区的家庭购买太阳能发电产生的FIT电力[注2]。",
       "originalSummary": "このため都では、都有施設において再生可能エネルギー100％の電力を活用する取組を行っており、「とちょう電力プラン」として、都内のご家庭の太陽光発電で発電された卒FIT電力 【注2】 の買取りを実施しております。",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
@@ -457,24 +499,24 @@
         {
           "label": "政策方向原文线索",
           "original": "【注1】再生可能エネルギー 太陽光・風力・地熱・中小水力・バイオマス等のCO2を排出しないエネルギー源 【注2】卒FIT電力 固定価格での買取り期間（住宅用太陽光発電の場合10年間）が終了した電力（2019年11月以降、順次買取り期間終了） 記 供給事業者 出光興産株式会社 募集開始 令和8年11月18日（水曜日）から 買取り期間 令和8年12月の検針日から令和9年12月の検針日前日まで 買取り価格 11円／キロワットアワー（税込、通常買取り価格に都が1.5円／キロワッ",
-          "chinese": "【注1】可再生能源 太阳光、风能、地热、中型水力、生物质等不排放CO2的能源来源 【注2】 毕业FIT电力 固定价格采购期(住宅用太阳能发电10年)结束的电力(自2019年11月起,连续采购期结束) 标签 供应商 出光兴产股份公司 招募"
+          "chinese": "[注1] 可再生能源 不排放二氧化碳的能源，如太阳能、风能、地热能、中小型水力发电、生物质能等。 [注2] FIT后电力 固定价格购买期（住宅太阳能发电为10年）已结束的电力（购买期将从2019年11月起依次结束） 供应商 出光兴产株式会社 招聘"
         },
         {
           "label": "政策公告原文线索",
           "original": "「とちょう電力プラン」の供給事業者決定・卒FIT家庭の募集開始のお知らせ 自家消費されなかった電気を都有施設へ",
-          "chinese": "“仅仅是电力计划”的供应商决定、毕业FIT家庭招聘开始通知 家中未消耗的电力到有设施"
+          "chinese": "宣布选择“东町电力计划”供应商并开始招募散客家庭。家庭中未使用的电力将转移到东京都政府的设施。"
         }
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
-      "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-20T00:52:58.924219+00:00"
+      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-21T00:56:07.141825+00:00"
     },
     {
       "id": "4d13e5d3e83f1c8546cd644b",
       "market": "韩国",
-      "title": "Solarcyle,韩国锌的PedalPoint回收合并形成美国回收平台木星",
+      "title": "Solarcyle 与韩国锌业公司 PedalPoint Recycling 合并，组建美国回收平台 Jupiter",
       "originalTitle": "Solarcyle, Korea Zinc’s PedalPoint Recycling merge to form US recycling platform Jupiter",
       "date": "2026-11-17",
       "publishedAt": "2026-11-17T11:38:40+00:00",
@@ -482,7 +524,7 @@
       "priority": "中",
       "source": "PV Tech（补充）",
       "url": "https://www.pv-tech.org/solarcycle-korea-zinc-pedalpoint-recycling-merge-jupiter-us-recycling-platform/",
-      "summary": "总部设在美国的回收公司Solarcyle正在扩展超越PV,并建立了一个名为“Jupiter”的新联合企业,旨在向超级电梯和数据中心行业提供回收材料。",
+      "summary": "总部位于美国的回收公司 Solarcyle 正在通过一家名为“Jupiter”的新合资企业将业务扩展到光伏领域之外，旨在为超大规模和数据中心行业提供回收材料。",
       "originalSummary": "US-based recycling firm Solarcyle is expanding beyond PV with a new joint venture dubbed 'Jupiter' aimed at supplying recycled materials to the hyperscaler and data centre industries.",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
@@ -501,19 +543,19 @@
         {
           "label": "项目/合作/产品原文线索",
           "original": "orm Jupiter US-based recycling firm Solarcyle is expanding beyond PV with a new joint venture dubbed 'Jupiter' aimed at supplying recycled materials to the hyperscaler and data centre industries.",
-          "chinese": "基于美国木星的回收公司Solarcyle正在扩展超越PV,拥有一个名为“木星”的新联合企业,旨在向超级电梯和数据中心行业提供回收材料。"
+          "chinese": "orm Jupiter 美国回收公司 Solarcyle 正在通过一家名为“Jupiter”的新合资企业将业务扩展到光伏以外的领域，旨在向超大型企业和数据中心行业提供回收材料。"
         }
       ],
       "articleRead": false,
       "translationStatus": "translated",
       "collectedAt": "2026-11-19T00:56:34.487524+00:00",
-      "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-20T00:54:41.099954+00:00"
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-21T00:56:47.963284+00:00"
     },
     {
       "id": "912f6b57c51da1ef063c0461",
       "market": "韩国",
-      "title": "(WCPEC 2026)乌特将以“大电型太阳能”生态系统...生产能力为区域需求",
+      "title": "(WCPEC 2026) 新兴的“电力太阳能”生态系统...满足当地需求的制造能力",
       "originalTitle": "(WCPEC 2026)움트는 ‘대전형 태양광’ 생태계...제조 역량을 지역 수요로",
       "date": "2026-11-17",
       "publishedAt": "2026-11-17T08:38:36+00:00",
@@ -521,7 +563,7 @@
       "priority": "中",
       "source": "韩国电气新闻",
       "url": "https://www.electimes.com/news/articleView.html?idxno=374898",
-      "summary": "市内安装市场扩展任务 公共设施·桑丹 区域产品应用建议, 米霍东 发展好处 居民与共享 金泽线 中区检察长 “城市型太阳光收入村支持, 维护计划应反映能源转换",
+      "summary": "扩大该地区安装市场的任务是提出将当地产品应用于公共设施和工业园区，三湖洞与居民分享发电效益。中区市长金济善表示：“我们需要支持城市阳光收入村庄，并在维护计划中反映能源转换。”",
       "originalSummary": "들...역내 설치시장 확대 과제 공공시설·산단에 지역 제품 적용 제안, 미호동은 발전 혜택 주민과 공유 김제선 중구청장 “도시형 햇빛소득마을 지원하고 정비계획에 에너지전환 반영해야” 김훈래 SJ신소재 대표가 대전형 태양광 생태계 구상을 발표하고 있다.",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
@@ -540,19 +582,19 @@
         {
           "label": "项目/合作/产品原文线索",
           "original": "(WCPEC 2026)움트는 ‘대전형 태양광’ 생태계...제조 역량을 지역 수요로 전국 BIPV 공급 70% 맡는 대전 기업들...역내 설치시장 확대 과제 공공시설·산단에 지역 제품 적용 제안, 미호동은 발전 혜택 주민과 공유 김제선 중구청장 “도시형 햇빛소득마을 지원하고 정비계획에 에너지전환 반영해야” 김훈래 SJ신소재 대표가 대전형 태양광 생태계 구상을 발표하고 있다.。",
-          "chinese": "(WCPEC 2026)Umt是“大电型太阳能”生态系统...生产能力以区域需求为国家BIPV供应70%的战争企业...内安装市场扩大挑战公共设施·山丹区"
+          "chinese": "(WCPEC 2026) 新兴的“大田型太阳能发电”生态系统...大田企业根据当地需求和制造能力承担全国 BIPV 供应的 70%...扩大该地区安装市场的任务 公共设施和工业园区的区域系统"
         }
       ],
       "articleRead": true,
       "translationStatus": "translated",
       "collectedAt": "2026-11-18T00:56:30.134599+00:00",
-      "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-20T00:54:53.317534+00:00"
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-21T00:56:53.590418+00:00"
     },
     {
       "id": "09a5bf3bf94053d109668d29",
       "market": "韩国",
-      "title": "世界太阳能技术的最前线,战争着陆...下一代太阳能电池时代照明",
+      "title": "【现场】登陆大田，全球太阳能技术最前沿...下一代太阳能电池时代照明",
       "originalTitle": "[현장] 세계 태양광 기술의 최전선, 대전 상륙… 차세대 태양전지 시대 조명",
       "date": "2026-11-17",
       "publishedAt": "2026-11-17T08:17:09+00:00",
@@ -560,7 +602,7 @@
       "priority": "中",
       "source": "韩国 Industry News",
       "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=89706",
-      "summary": "“太阳光奥林匹克运动会”在世界各地的太阳能行业的现状和未来从一个地方展望,在朝鲜战争中打破了全面的节日。",
+      "summary": "[行业新闻记者 Jeong Han-kyo] 展示全球太阳能产业现状和未来的“太阳能奥运会”在韩国大田拉开了正式的序幕。",
       "originalSummary": "[인더스트리뉴스 정한교 기자] 전 세계 태양광 산업의 현재와 미래를 한자리에서 조망하는 ‘태양광 올림픽’이 대한민국 대전에서 본격적인 축제의 막을 올렸다.",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
@@ -579,19 +621,19 @@
         {
           "label": "项目/合作/产品原文线索",
           "original": "[사진=인더스트리뉴스] 17일 오후 2시에는 대전시와 한국에너지기술연구원이 공동 주최하는 대전 특별세션 포럼 ‘태양광으로 여는 대전의 미래’가 진행됐으며, 대전시와 한전KDN 간 업무협약도 체결됐다.。",
-          "chinese": "17日下午2点,大展与韩国能源技术研究委员会共同主办的战争特别会议论坛“太阳光开战的未来”举行,大展与前KDN之间"
+          "chinese": "[照片=行业新闻]下午2点17日，由大田市和韩国能源研究院共同主办的大田特别会议论坛“大田的未来由太阳能开启”，并举行了大田市和韩国电力KDN之间的活动。"
         }
       ],
       "articleRead": true,
       "translationStatus": "translated",
       "collectedAt": "2026-11-18T00:56:30.134599+00:00",
-      "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-20T00:55:03.537921+00:00"
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-21T00:57:00.264726+00:00"
     },
     {
       "id": "5b30beca2d33da8cfdf24474",
       "market": "韩国",
-      "title": "“好吧,我一直在寻找太阳能。",
+      "title": "“埃平寻求将下一代太阳能商业化”",
       "originalTitle": "“에기평, 차세대 태양광 상용화 모색했다”",
       "date": "2026-11-17",
       "publishedAt": "2026-11-17T07:53:20+00:00",
@@ -599,7 +641,7 @@
       "priority": "中",
       "source": "韩国能源日报",
       "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=205198",
-      "summary": "韩国能源技术评估员(韩国能源技术评估员)正在寻找下一代太阳能的商业化 · 路径。",
+      "summary": "照片=韩国能源技术评估和规划研究所 [《能源日报》记者 Gook-young Byeon] 韩国能源技术评估和规划研究所寻求下一代太阳能商业化的方法。",
       "originalSummary": "사진 = 한국에너지기술평가원 [에너지데일리 변국영 기자 ] 한국에너지기술평가원이 차세대 태양광의 상용화 · 방안을 모색했다 .",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
@@ -618,19 +660,19 @@
         {
           "label": "项目/合作/产品原文线索",
           "original": "한편 에기평은 지난 11 일 태양광 인버터 업계 및 관계기관 전문가들과 함께 ‘ 차세대 태양광 인버터 전문가 간담회 ’ 를 개최하고 국내 태양광 인버터 산업의 활성화를 위한 협력 방안을 논의했다 .。",
-          "chinese": "与此同时,Egy평上周11日与太阳能转换器行业和相关机构的专家一起举办了“下一代太阳能转换器专家咨询会”,并合作激活国内太阳能转换器行业。"
+          "chinese": "与此同时，埃吉平市11日与太阳能逆变器行业及相关机构的专家召开了“下一代太阳能逆变器专家会议”，合作振兴国内太阳能逆变器行业。"
         }
       ],
       "articleRead": true,
       "translationStatus": "translated",
       "collectedAt": "2026-11-19T00:56:34.487524+00:00",
-      "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-20T00:55:13.143201+00:00"
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-21T00:57:11.137025+00:00"
     },
     {
       "id": "85fcda5aacb9c82ee0a6570d",
       "market": "韩国",
-      "title": "考虑,‘MS投资’ 美太阳自行车和JV成立...太阳能电池板市场攻击",
+      "title": "韩国锌业通过“MS投资”与美国SolarCycle成立合资公司……瞄准废弃太阳能电池板市场",
       "originalTitle": "고려아연, 'MS 투자' 美 솔라사이클과 JV 설립…폐태양광 패널 시장 공략",
       "date": "2026-11-17",
       "publishedAt": "2026-11-17T07:26:20+00:00",
@@ -638,7 +680,7 @@
       "priority": "中",
       "source": "韩国 Industry News",
       "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=89704",
-      "summary": "印第安西省太阳能电池板/照片=印第安西(印第安西)考虑 如微软(MS)等全球企业注意的美国太阳能肺板回收领先企业和手握",
+      "summary": "仁川桂阳区安装的太阳能电池板。/照片=仁川市[行业新闻记者Ki-soo Moon]韩国锌公司与美国一家领先的太阳能电池板回收公司联手，该公司引起了微软(MS)等全球公司的关注。",
       "originalSummary": "인천시 계양구에 설치된 태양광패널./사진=인천시 [인더스트리뉴스 문기수 기자] 고려아연이 마이크로소프트(MS) 등 글로벌 기업들이 주목한 미국 태양광 폐패널 재활용 선도기업과 손잡고 현지 합작법인(JV)을 세운다.",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
@@ -657,13 +699,13 @@
       "articleRead": true,
       "translationStatus": "translated",
       "collectedAt": "2026-11-18T00:56:30.134599+00:00",
-      "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-20T00:55:20.653563+00:00"
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-21T00:57:14.178091+00:00"
     },
     {
       "id": "0bfa572bba269aca16f6e9ef",
       "market": "韩国",
-      "title": "(WCPEC 2026) 以外墙、室内、睡眠面向扩展的太阳光...材料、设计技术区别化",
+      "title": "(WCPEC 2026) 太阳能扩展到外墙、室内和水面……通过材料和设计技术实现差异化",
       "originalTitle": "(WCPEC 2026)외벽·실내·수면으로 넓어지는 태양광...소재·설계 기술로 차별화",
       "date": "2026-11-17",
       "publishedAt": "2026-11-17T03:41:49+00:00",
@@ -671,7 +713,7 @@
       "priority": "中",
       "source": "韩国电气新闻",
       "url": "https://www.electimes.com/news/articleView.html?idxno=374873",
-      "summary": "以色列能源、陶瓷涂层、数字印刷为建筑外部材料实施单位、费罗夫斯凯特利用的建筑、室内电源解决方案介绍AP能源、混凝土无能可持续性、停车场太阳能空间",
+      "summary": "SG Energy 采用陶瓷涂层和数字印刷的建筑外部材料 Unitest 推出使用钙钛矿的建筑和室内电力解决方案 AP Energy 提高混凝土浮体和停车场太阳能发电空间的耐用性",
       "originalSummary": "에스지에너지, 세라믹 코팅·디지털 프린팅으로 건축 외장재 구현 유니테스트, 페로브스카이트 활용한 건물·실내 전원 솔루션 소개 AP에너지, 콘크리트 부력체 내구성·주차장 태양광 공간 활용 강조 세계태양광총회(WCPEC) 전시회에서 기술 투어가 진행되고 있다.",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
@@ -690,19 +732,19 @@
         {
           "label": "项目/合作/产品原文线索",
           "original": "[사진=김진후 기자] 유니테스트는 페로브스카이트 태양전지를 활용해 건물과 실내 기기에 전력을 공급하는 응용 기술을 소개했다.。",
-          "chinese": "联合测试采用了佩罗夫斯凯特太阳能电池,为建筑物和室内设备提供电源的应用技术。"
+          "chinese": "[照片=记者Jinhu Kim] Unitest介绍了一种利用钙钛矿太阳能电池为建筑物和室内设备供电的应用技术。"
         }
       ],
       "articleRead": true,
       "translationStatus": "translated",
       "collectedAt": "2026-11-18T00:56:30.134599+00:00",
-      "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-20T00:55:31.869751+00:00"
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-21T00:57:19.335396+00:00"
     },
     {
       "id": "ad300f248f8bd3def40bb0ed",
       "market": "韩国",
-      "title": "(WCPEC 2026)张南古教授“AI时代,需要更多的电力”...太阳能电池效率50%的挑战",
+      "title": "(WCPEC 2026) Namgyu Park 教授“在 AI 时代，需要更多电力”...挑战 50% 太阳能电池效率",
       "originalTitle": "(WCPEC 2026)박남규 교수 “AI 시대, 더 많은 전력 필요”...태양전지 효율 50% 향한 도전",
       "date": "2026-11-17",
       "publishedAt": "2026-11-17T03:40:59+00:00",
@@ -710,7 +752,7 @@
       "priority": "中",
       "source": "韩国电气新闻",
       "url": "https://www.electimes.com/news/articleView.html?idxno=374872",
-      "summary": "效率 9.7% 出发的 费罗夫斯凯特,多接合新可能性 搜索数据中心 电源供应 想象 提交...高效度和长期稳定性 必须共同确保 巴克南瓜 性菌大学 教授 宣布。",
+      "summary": "钙钛矿的起始效率为 9.7%，提出了数据中心供电方案，通过多个结点探索新的可能性……成均馆大学 Park Nam-gyu 教授正在演讲如何确保高效率和长期稳定性。",
       "originalSummary": "효율 9.7%서 출발한 페로브스카이트, 다중접합으로 새 가능성 모색 데이터센터 전력 공급 구상 제시…고효율과 장기 안정성 함께 확보해야 박남규 성균관대학교 교수가 발표하고 있다.",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
@@ -729,19 +771,19 @@
         {
           "label": "项目/合作/产品原文线索",
           "original": "(WCPEC 2026)박남규 교수 “AI 시대, 더 많은 전력 필요”...태양전지 효율 50% 향한 도전 효율 9.7%서 출발한 페로브스카이트, 다중접합으로 새 가능성 모색 데이터센터 전력 공급 구상 제시…고효율과 장기 안정성 함께 확보해야 박남규 성균관대학교 교수가 발표하고 있다.。",
-          "chinese": "(WCPEC 2026) 陈南古教授 “AI时代,需要更多的电力”... 太阳能电池效率50% 挑战效率 9.7% 出发的费罗夫斯凯特,多接合的新可能性搜索数据"
+          "chinese": "(WCPEC 2026) Park Nam-gyu 教授“在 AI 时代，需要更多电力”...向 50% 太阳能电池效率发起挑战 钙钛矿以 9.7% 效率开始，通过多个结点探索新的可能性 数据"
         }
       ],
       "articleRead": true,
       "translationStatus": "translated",
       "collectedAt": "2026-11-18T00:56:30.134599+00:00",
-      "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-20T00:55:44.659000+00:00"
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-21T00:57:23.417886+00:00"
     },
     {
       "id": "9e54bd5428617e0602f09dc3",
       "market": "韩国",
-      "title": "“从太阳光到电网”HD现代,以集成解决方案清理北美市场",
+      "title": "“从太阳能到电网”HD现代瞄准​​北美市场综合解决方案",
       "originalTitle": "\"태양광부터 전력망까지\" HD현대, 통합 솔루션으로 북미 시장 정조준",
       "date": "2026-11-16",
       "publishedAt": "2026-11-16T06:38:39+00:00",
@@ -749,7 +791,7 @@
       "priority": "中",
       "source": "韩国 Industry News",
       "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=89613",
-      "summary": "从17日起在美国拉斯维加斯举行的北美清洁能源展览会RE+2026参加的HD现代化。",
+      "summary": "HD现代参加17日起在美国拉斯维加斯举行的北美清洁能源展RE+2026的鸟瞰图。/图片=HD现代[行业新闻记者Moon Ki-soo] HD现代以太阳能发电为起点。",
       "originalSummary": "17일부터 미국 라스베이거스에서 열리는 북미 청정에너지 전시회 RE+2026에 참가하는 HD현대 조감도./이미지=HD현대 [인더스트리뉴스 문기수 기자] HD현대가 태양광 발전부터 배터리에너지저장장치(BESS), 전력망 구축을 아우르는 통합 밸류체인을 앞세워 세계 최대 규모인 북미 에너지 시장 공략에 드라이브를 건다.",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
@@ -768,13 +810,13 @@
       "articleRead": true,
       "translationStatus": "translated",
       "collectedAt": "2026-11-17T00:50:05.513213+00:00",
-      "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-20T00:55:50.005835+00:00"
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-21T00:57:27.646939+00:00"
     },
     {
       "id": "4b9d4386265825c5a4ff8413",
       "market": "韩国",
-      "title": "(WCPEC 2026)世界太阳能大会开幕式...从新一代太阳能电池到能源转型",
+      "title": "(WCPEC 2026) 世界光伏大会在大田开幕...涵盖从下一代太阳能电池到能源转换的所有内容",
       "originalTitle": "(WCPEC 2026)세계태양광총회 대전서 개막...차세대 태양전지부터 에너지 전환까지 총망라",
       "date": "2026-11-16",
       "publishedAt": "2026-11-16T06:01:05+00:00",
@@ -782,7 +824,7 @@
       "priority": "中",
       "source": "韩国电气新闻",
       "url": "https://www.electimes.com/news/articleView.html?idxno=374809",
-      "summary": "国内书首次开放...55个国家的1853人参加全球研究成果·工业趋势分享 坦德姆·佩罗夫斯卡特独立技术领域组成政府·国会“供应扩展·工业培养”强调“第9次世界太阳",
+      "summary": "首次在韩国举办...来自55个国家的1,853名参与者分享全球研究成果和行业趋势组织串联和钙钛矿独立技术领域政府和国会强调“扩大供应和培育产业”“第九届世界太阳”",
       "originalSummary": "국내서 처음 열려...55개국 1853명 참가 글로벌 연구 성과·산업 동향 공유 탠덤·페로브스카이트 독립 기술 분야 편성 정부·국회 “보급 확대·산업 육성” 강조 ‘제9회 세계태양광총회(WCPEC-9) 2026 대전’ 개막식에서 주요 참석자들이 퍼포먼스 후 단체 기념촬영을 하고 있다.",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
@@ -801,19 +843,19 @@
         {
           "label": "项目/合作/产品原文线索",
           "original": "차세대 태양전지의 효율 향상부터 발전시스템의 활용, 보급 확대를 뒷받침할 정책까지 연구와 산업을 잇는 국제협력의 장이 열렸다.。",
-          "chinese": "从新一代太阳能电池的效率提高到支持发电系统的利用、扩散政策的国际研究与工业合作开幕式。"
+          "chinese": "研究和工业之间的国际合作机会已经打开，从提高下一代太阳能电池的效率到支持扩大发电系统的利用和分配的政策。"
         }
       ],
       "articleRead": true,
       "translationStatus": "translated",
       "collectedAt": "2026-11-17T00:50:05.513213+00:00",
-      "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-20T00:56:01.874940+00:00"
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-21T00:57:32.489676+00:00"
     },
     {
       "id": "8eae17387b7d5323e947fee9",
       "market": "韩国",
-      "title": "“太阳光肺模块现场分离·解散”...原光安提,移动回收实验完成",
+      "title": "“太阳能废弃组件现场分离拆解”……圆光科技完成移动回收示范",
       "originalTitle": "“태양광 폐모듈 현장서 분리·해체”...원광에스앤티, 이동식 재활용 실증 마쳐",
       "date": "2026-11-16",
       "publishedAt": "2026-11-16T04:05:50+00:00",
@@ -821,7 +863,7 @@
       "priority": "中",
       "source": "韩国电气新闻",
       "url": "https://www.electimes.com/news/articleView.html?idxno=374813",
-      "summary": "原光安提在太阳能发电现场确定了分离、分解肺模块的移动回收过程的可用性。",
+      "summary": "[Wonkwang S&T 提供] Wonkwang S&T 证实了在太阳能发电场分离和拆除废弃模块的移动回收工艺的适用性。",
       "originalSummary": "[제공=원광에스앤티] 원광에스앤티가 태양광발전 현장에서 폐모듈을 분리·해체하는 이동식 재활용 공정의 적용 가능성을 확인했다.",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
@@ -840,13 +882,13 @@
       "articleRead": true,
       "translationStatus": "translated",
       "collectedAt": "2026-11-17T00:50:05.513213+00:00",
-      "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-20T00:56:07.163213+00:00"
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-21T00:57:35.596116+00:00"
     },
     {
       "id": "0dcfdfd1b6cd459e6b187e76",
       "market": "日本",
-      "title": "从故障解决到维护成本 应对太阳能电池板清洁挑战的G-Solar Partners的清洁机器人RHINOSTAR",
+      "title": "G-Solar Partners的清洁机器人“RHINOSTAR”应对太阳能电池板清洁问题，从故障排除到维护成本",
       "originalTitle": "故障対応から維持コストまで 太陽光パネル洗浄の課題に応える G-Solar Partnersの洗浄ロボット「RHINOSTAR」",
       "date": "2026-11-16",
       "publishedAt": "2026-11-16T03:00:46+00:00",
@@ -854,7 +896,7 @@
       "priority": "中",
       "source": "日本 SOLAR JOURNAL",
       "url": "https://solarjournal.jp/product/68446/",
-      "summary": "出售前的“合作伙伴”发电厂的终身合作伙伴 需求扩展的面板清洁 已被忽视的“机械”的挑战 自2012年左右以来,太阳能发电厂在全国迅速增长。",
+      "summary": "超越销售的“建立友谊”——成为电厂的终身合作伙伴 面板清洁的需求不断增长 被忽视的“机械”问题 自 2012 年左右以来，太阳能电厂在全国范围内迅速增加。",
       "originalSummary": "販売の先にある「仲間づくり」発電所の生涯パートナーへ 需要が広がるパネル洗浄 見過ごされてきた「機械」の課題 2012年頃から全国で急増した太陽光発電所。",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
@@ -873,19 +915,19 @@
         {
           "label": "项目/合作/产品原文线索",
           "original": "故障対応から維持コストまで 太陽光パネル洗浄の課題に応える G-Solar Partnersの洗浄ロボット「RHINOSTAR」",
-          "chinese": "从故障解决到维护成本 应对太阳能电池板清洁挑战的G-Solar Partners的清洁机器人RHINOSTAR"
+          "chinese": "G-Solar Partners的清洁机器人“RHINOSTAR”应对太阳能电池板清洁问题，从故障排除到维护成本"
         }
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
-      "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-20T00:53:58.351389+00:00"
+      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-21T00:56:28.226977+00:00"
     },
     {
       "id": "0fc3e813c2b73d56a77fc8c2",
       "market": "韩国",
-      "title": "工厂成立完成之前,天花板·休假区太阳光租赁推进... 南州议员法案脚",
+      "title": "在工厂建设完成之前，就推动屋顶和闲置土地上的太阳能租赁……李彦柱议员提出了一项法案",
       "originalTitle": "공장 설립 완료 전에도 지붕·유휴부지 태양광 임대 추진…이언주 의원 법안 발의",
       "date": "2026-11-16",
       "publishedAt": "2026-11-16T01:25:41+00:00",
@@ -893,7 +935,7 @@
       "priority": "中",
       "source": "韩国能源日报",
       "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=205116",
-      "summary": "国会工商资源中社企业委员会 伊恩州议员 建工后推天花板太阳光是否能承受发电设备的负担,再审查工厂运作",
+      "summary": "国会产业通商能源中小企业委员会议员李彦珠[能源日报记者杨美爱]工厂建成后，如果推广屋顶太阳能，在工厂运营之前，我们将重新审查其是否能够承受发电设备的负载。",
       "originalSummary": "국회 산업통상자원중소벤처기업위원회 이언주 의원 [에너지데일리 양미애 기자 ] 공장을 지은 뒤 지붕 태양광을 추진하면 발전설비의 하중을 견딜 수 있는지 다시 검토하고, 공장 가동에 지장이 없도록 공사 일정도 조정해야 한다.",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
@@ -912,13 +954,13 @@
       "articleRead": true,
       "translationStatus": "translated",
       "collectedAt": "2026-11-17T00:50:05.513213+00:00",
-      "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-20T00:56:14.337529+00:00"
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-21T00:57:39.228199+00:00"
     },
     {
       "id": "a5703260733da91134cfb1d9",
       "market": "日本",
-      "title": "2026年12月14日(月)第40届PV商业研讨会",
+      "title": "【现接受参与申请！ ] 2026年12月14日星期一“第40届光伏商业研讨会”",
       "originalTitle": "【参加申し込み受付中！】2026年12月14日(月)「第40回PVビジネスセミナー」",
       "date": "2026-11-14",
       "publishedAt": "2026-11-14T07:00:40+00:00",
@@ -926,7 +968,7 @@
       "priority": "中",
       "source": "日本 SOLAR JOURNAL",
       "url": "https://solarjournal.jp/event/67470/",
-      "summary": "多样化再能源业务的未来形象 ～太阳光、储蓄电池开拓的下一代能源解决方案～2。",
+      "summary": "多元化可再生能源业务的未来形象 - 以太阳能和蓄电池为首的下一代能源解决方案 - 2.",
       "originalSummary": "多様化する再エネビジネスの未来像 ～太陽光・蓄電池が拓く次世代エネルギーソリューション～ 2.",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
@@ -944,9 +986,9 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
-      "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-20T00:54:12.386536+00:00"
+      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-21T00:56:33.442180+00:00"
     },
     {
       "id": "e8993293ec2ef275c61f5d3f",
@@ -1061,7 +1103,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
+      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-15T00:48:36.020342+00:00"
     },
@@ -1314,7 +1356,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
+      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-12T00:58:31.248705+00:00"
     },
@@ -1425,7 +1467,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
+      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-14T00:47:50.386678+00:00"
     },
@@ -1536,7 +1578,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
+      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-10T00:47:44.930862+00:00"
     },
@@ -1608,7 +1650,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
+      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-07T00:46:40.917161+00:00"
     },
@@ -2001,7 +2043,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
+      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:03.302883+00:00"
     },
@@ -2082,7 +2124,7 @@
       "collectedAt": "2026-11-09T00:47:14.595159+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-20T00:53:25.689544+00:00"
+      "translatedAt": "2026-11-21T00:58:00.465170+00:00"
     },
     {
       "id": "01996e8c12d8548b3e10a1f6",
@@ -2185,7 +2227,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
+      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
       "datePrecision": "day",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:42:43.281521+00:00"
@@ -2429,7 +2471,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
+      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:37:37.417477+00:00"
@@ -2535,7 +2577,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
+      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:27:09.963540+00:00"
@@ -2580,7 +2622,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
+      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:27:15.852513+00:00"
@@ -2653,7 +2695,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
+      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:27:19.599501+00:00"
@@ -2719,7 +2761,7 @@
       "originalSummary": "South Korea’s Ministry of Climate, Energy and Environment (MCEE) has unveiled its KRW1,000 trillion (US$747 billion) Korean Green Transformation (K-GX) industrial strategy.",
       "translationStatus": "translated",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-20T00:56:20.170687+00:00"
+      "translatedAt": "2026-11-21T00:58:13.508464+00:00"
     },
     {
       "id": "ecd33be5da742c15ff9a7d34",
@@ -2756,7 +2798,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-19T00:56:34.487524+00:00",
+      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:27:23.345332+00:00"
@@ -2829,7 +2871,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
+      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:26.695227+00:00"
@@ -2863,7 +2905,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
+      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
       "datePrecision": "day",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:37:36.031964+00:00"
@@ -2897,7 +2939,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
+      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
       "datePrecision": "day",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:37:40.881409+00:00"
@@ -2937,7 +2979,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
+      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:17:03.692923+00:00"
     },
@@ -3009,7 +3051,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-20T00:50:24.604267+00:00",
+      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
       "datePrecision": "day",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:37:44.691003+00:00"
@@ -3088,10 +3130,10 @@
   ],
   "translation": {
     "status": "partial",
-    "at": "2026-11-20T00:52:22.781967+00:00",
-    "translatedThisRun": 23,
-    "remaining": 2,
-    "validationFailures": 2,
+    "at": "2026-11-21T00:55:57.386153+00:00",
+    "translatedThisRun": 25,
+    "remaining": 1,
+    "validationFailures": 1,
     "error": null,
     "phase": "local-fallback",
     "modelLicense": "mit",
