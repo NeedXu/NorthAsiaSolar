@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "mode": "live",
-  "attemptedAt": "2026-11-21T00:54:11.722238+00:00",
+  "attemptedAt": "2026-11-22T00:46:58.472094+00:00",
   "lastSuccessAt": "2026-11-16T01:03:35.681620+00:00",
   "status": "partial",
   "sources": [
@@ -170,7 +170,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
+      "collectedAt": "2026-11-22T00:46:58.472094+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-21T00:56:03.033951+00:00"
@@ -204,7 +204,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
+      "collectedAt": "2026-11-22T00:46:58.472094+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-21T00:56:08.730553+00:00"
     },
@@ -243,7 +243,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
+      "collectedAt": "2026-11-22T00:46:58.472094+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-21T00:56:20.158189+00:00"
     },
@@ -354,7 +354,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
+      "collectedAt": "2026-11-22T00:46:58.472094+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-21T00:56:00.007774+00:00"
     },
@@ -509,7 +509,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
+      "collectedAt": "2026-11-22T00:46:58.472094+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-21T00:56:07.141825+00:00"
     },
@@ -920,7 +920,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
+      "collectedAt": "2026-11-22T00:46:58.472094+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-21T00:56:28.226977+00:00"
     },
@@ -986,7 +986,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
+      "collectedAt": "2026-11-22T00:46:58.472094+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-21T00:56:33.442180+00:00"
     },
@@ -1103,7 +1103,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
+      "collectedAt": "2026-11-22T00:46:58.472094+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-15T00:48:36.020342+00:00"
     },
@@ -1356,7 +1356,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
+      "collectedAt": "2026-11-22T00:46:58.472094+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-12T00:58:31.248705+00:00"
     },
@@ -1467,7 +1467,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
+      "collectedAt": "2026-11-22T00:46:58.472094+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-14T00:47:50.386678+00:00"
     },
@@ -1578,7 +1578,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
+      "collectedAt": "2026-11-22T00:46:58.472094+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-10T00:47:44.930862+00:00"
     },
@@ -1650,7 +1650,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
+      "collectedAt": "2026-11-22T00:46:58.472094+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-07T00:46:40.917161+00:00"
     },
@@ -2043,7 +2043,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
+      "collectedAt": "2026-11-22T00:46:58.472094+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:03.302883+00:00"
     },
@@ -2124,7 +2124,7 @@
       "collectedAt": "2026-11-09T00:47:14.595159+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-21T00:58:00.465170+00:00"
+      "translatedAt": "2026-11-22T00:49:17.161872+00:00"
     },
     {
       "id": "01996e8c12d8548b3e10a1f6",
@@ -2227,7 +2227,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
+      "collectedAt": "2026-11-22T00:46:58.472094+00:00",
       "datePrecision": "day",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:42:43.281521+00:00"
@@ -2471,7 +2471,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
+      "collectedAt": "2026-11-22T00:46:58.472094+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:37:37.417477+00:00"
@@ -2577,7 +2577,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
+      "collectedAt": "2026-11-22T00:46:58.472094+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:27:09.963540+00:00"
@@ -2622,7 +2622,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
+      "collectedAt": "2026-11-22T00:46:58.472094+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:27:15.852513+00:00"
@@ -2695,7 +2695,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
+      "collectedAt": "2026-11-22T00:46:58.472094+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:27:19.599501+00:00"
@@ -2735,7 +2735,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-19T00:56:34.487524+00:00",
+      "collectedAt": "2026-11-22T00:46:58.472094+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-07T00:46:47.799702+00:00"
     },
@@ -2761,7 +2761,7 @@
       "originalSummary": "South Korea’s Ministry of Climate, Energy and Environment (MCEE) has unveiled its KRW1,000 trillion (US$747 billion) Korean Green Transformation (K-GX) industrial strategy.",
       "translationStatus": "translated",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-21T00:58:13.508464+00:00"
+      "translatedAt": "2026-11-22T00:49:24.057460+00:00"
     },
     {
       "id": "ecd33be5da742c15ff9a7d34",
@@ -2798,7 +2798,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
+      "collectedAt": "2026-11-22T00:46:58.472094+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:27:23.345332+00:00"
@@ -2871,7 +2871,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
+      "collectedAt": "2026-11-22T00:46:58.472094+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:26.695227+00:00"
@@ -2905,7 +2905,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
+      "collectedAt": "2026-11-22T00:46:58.472094+00:00",
       "datePrecision": "day",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:37:36.031964+00:00"
@@ -2939,7 +2939,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
+      "collectedAt": "2026-11-22T00:46:58.472094+00:00",
       "datePrecision": "day",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:37:40.881409+00:00"
@@ -3018,7 +3018,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-19T00:56:34.487524+00:00",
+      "collectedAt": "2026-11-22T00:46:58.472094+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-07T00:46:56.226146+00:00"
     },
@@ -3051,7 +3051,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-21T00:54:11.722238+00:00",
+      "collectedAt": "2026-11-22T00:46:58.472094+00:00",
       "datePrecision": "day",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:37:44.691003+00:00"
@@ -3085,7 +3085,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-19T00:56:34.487524+00:00",
+      "collectedAt": "2026-11-22T00:46:58.472094+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-07T00:47:04.575546+00:00"
     },
@@ -3130,8 +3130,8 @@
   ],
   "translation": {
     "status": "partial",
-    "at": "2026-11-21T00:55:57.386153+00:00",
-    "translatedThisRun": 25,
+    "at": "2026-11-22T00:48:50.574930+00:00",
+    "translatedThisRun": 2,
     "remaining": 1,
     "validationFailures": 1,
     "error": null,
