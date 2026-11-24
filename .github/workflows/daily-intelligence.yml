@@ -98,6 +98,8 @@ jobs:
       - id: check
         run: echo "enabled=$(node scripts/access-control.mjs)" >> "$GITHUB_OUTPUT"
   build:
+    outputs:
+      artifact_name: ${{ steps.pages_artifact.outputs.name }}
     needs: [collect, public-access]
     if: needs.public-access.outputs.enabled == 'true'
     runs-on: ubuntu-latest
@@ -112,8 +114,12 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run build
+      - name: Set Pages artifact name
+        id: pages_artifact
+        run: echo 'name=github-pages-${{ github.run_attempt }}' >> "$GITHUB_OUTPUT"
       - uses: actions/upload-pages-artifact@v3
         with:
+          name: ${{ steps.pages_artifact.outputs.name }}
           path: dist
   deploy:
     needs: build
@@ -128,6 +134,8 @@ jobs:
     steps:
       - uses: actions/deploy-pages@v4
         id: deployment
+        with:
+          artifact_name: ${{ needs.build.outputs.artifact_name }}
       - uses: actions/checkout@v4
         with:
           ref: main
