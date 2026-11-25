@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "mode": "live",
-  "attemptedAt": "2026-11-24T00:54:43.221504+00:00",
+  "attemptedAt": "2026-11-25T00:57:48.076286+00:00",
   "lastSuccessAt": "2026-11-16T01:03:35.681620+00:00",
   "status": "partial",
   "sources": [
@@ -9,7 +9,7 @@
       "name": "东京都政府",
       "url": "https://www.metro.tokyo.lg.jp/rss/index.rdf",
       "state": "ok",
-      "matched": 2,
+      "matched": 1,
       "language": "ja",
       "sourceType": "government"
     },
@@ -25,7 +25,7 @@
       "name": "韩国政府政策简报（光伏检索）",
       "url": "https://www.korea.kr/news/policyNewsList.do?srchWord=%ED%83%9C%EC%96%91%EA%B4%91",
       "state": "ok",
-      "matched": 7,
+      "matched": 6,
       "language": "ko",
       "sourceType": "government"
     },
@@ -57,7 +57,7 @@
       "name": "日本 SOLAR JOURNAL",
       "url": "https://solarjournal.jp/feed/",
       "state": "ok",
-      "matched": 9,
+      "matched": 10,
       "language": "ja",
       "sourceType": "media"
     },
@@ -73,7 +73,7 @@
       "name": "韩国电气新闻",
       "url": "https://www.electimes.com/rss/allArticle.xml",
       "state": "ok",
-      "matched": 2,
+      "matched": 3,
       "language": "ko",
       "sourceType": "media"
     },
@@ -129,12 +129,195 @@
       "name": "PV Tech（补充）",
       "url": "https://www.pv-tech.org/feed/",
       "state": "ok",
-      "matched": 1,
+      "matched": 0,
       "language": "en",
       "sourceType": "media"
     }
   ],
   "items": [
+    {
+      "id": "69dd442a8fabe5cdf112ce92",
+      "market": "韩国",
+      "title": "KTC - 太阳能矿业协会,测试·认证支持和技术解体“适合”",
+      "originalTitle": "KTC-태양광산업협회, 시험·인증 지원 및 기술 애로 해소에 ‘맞손’",
+      "date": "2026-11-25",
+      "publishedAt": "2026-11-25T00:03:52+00:00",
+      "topic": "政策与补贴",
+      "priority": "中",
+      "source": "韩国电气新闻",
+      "url": "https://www.electimes.com/news/articleView.html?idxno=375250",
+      "summary": "太阳能企业国内认证获得·技术支持全面化双军内KTC总裁(从右到第三)和巴克松韩国太阳能矿业协会主席(从右到第四)等两机构官员签署协议后",
+      "originalSummary": "태양광 기업 국내 인증 획득·기술지원 본격화 양병내 KTC 원장(오른쪽에서 세 번째)과 박종환 한국태양광산업협회장(오른쪽에서 네 번째) 등 양 기관 관계자들이 협약을 체결한 뒤 기념촬영을 하고 있다.",
+      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
+      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
+      "watch": "先核对政府原文的适用地区、对象、金额、申请期限和施行日期；不能将补助线索视为已生效支持政策。",
+      "tech": "未分类",
+      "dataKind": "live",
+      "analysisKind": "evidence-cues",
+      "language": "ko",
+      "sourceType": "media",
+      "jurisdiction": "地域适用性待复核",
+      "marketBasis": "正文明确提及市场",
+      "eventType": "合作意向/MOU",
+      "policyDirection": "未判定",
+      "policyStage": "法规效力/执行阶段待核实",
+      "evidence": [
+        {
+          "label": "项目/合作/产品原文线索",
+          "original": "한국기계전기전자시험연구원(원장 양병내, 이하 KTC)은 24일 KTC 군포 본원에서 한국태양광산업협회(회장 박종환, 이하 KOPIA)와 태양광 기업의 기술 애로 해소 및 시험·인증 지원을 위한 업무협약을 체결했다고 밝혔다.。",
+          "chinese": "韩国机械电气电子测试研究委员会(主席 양병内,以下KTC)于24日在KTC军事总部韩国太阳矿业协会(主席 박종환,以下KOPIA)和太阳能企业的技术分析和测试·认证"
+        }
+      ],
+      "articleRead": true,
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-25T00:57:48.076286+00:00",
+      "translationProvider": "M2M100-418M 本地开源机译",
+      "translatedAt": "2026-11-25T01:00:06.964024+00:00"
+    },
+    {
+      "id": "9c19e3c0840615f8c1fcd4fc",
+      "market": "韩国",
+      "title": "吉菲洛斯,仅用太阳能生产绿氢...在水资源工厂建造设施",
+      "originalTitle": "지필로스, 태양광만으로 그린수소 생산…수자원공사에 설비 구축",
+      "date": "2026-11-25",
+      "publishedAt": "2026-11-24T16:04:14+00:00",
+      "topic": "市场趋势",
+      "priority": "中",
+      "source": "韩国电气新闻",
+      "url": "https://www.electimes.com/news/articleView.html?idxno=375243",
+      "summary": "无电网 太阳光 只有 PEM 水电 运行一天 生产高达 48 公斤... 水电 乘用车 约 10 个 太阳光 以水力为基础的 阳阳光 设施 和 区别 韩国 水资源 公司(K-water) 桑山全球",
+      "originalSummary": "전력망 없이 태양광만으로 PEM 수전해 가동 하루 최대 48kg 생산…수소승용차 약 10대분 태양광 전원으로 수력 기반 성남 시설과 차별화 한국수자원공사(K-water) 송산글로벌교육연구센터 부지 내 ‘그린수소 생산 P2G시스템’ 전경.",
+      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
+      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
+      "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
+      "tech": "未分类",
+      "dataKind": "live",
+      "analysisKind": "evidence-cues",
+      "language": "ko",
+      "sourceType": "media",
+      "jurisdiction": "地域适用性待复核",
+      "marketBasis": "正文明确提及市场",
+      "eventType": "市场/企业动态",
+      "policyDirection": "未判定",
+      "policyStage": "法规效力/执行阶段待核实",
+      "evidence": [],
+      "articleRead": true,
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-25T00:57:48.076286+00:00",
+      "translationProvider": "M2M100-418M 本地开源机译",
+      "translatedAt": "2026-11-25T01:00:23.398495+00:00"
+    },
+    {
+      "id": "02f0a0898d8fdc8357fcb653",
+      "market": "日本",
+      "title": "住宅太阳与极端温度降低健康风险相关",
+      "originalTitle": "Residential solar linked to reduced health risks from extreme temperatures",
+      "date": "2026-11-24",
+      "publishedAt": "2026-11-24T09:18:43+00:00",
+      "topic": "竞争动态",
+      "priority": "中",
+      "source": "PV magazine（补充）",
+      "url": "https://www.pv-magazine.com/2026/11/24/residential-solar-linked-to-reduced-health-risks-from-extreme-temperatures/",
+      "summary": "根据新研究,住宅太阳能设施可以缓解与极度温度相关的死亡风险。",
+      "originalSummary": "Residential solar installations can mitigate the mortality risks associated with extremely hot temperatures, according to new research.",
+      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
+      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
+      "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
+      "tech": "住宅屋顶组件",
+      "dataKind": "live",
+      "analysisKind": "evidence-cues",
+      "language": "en",
+      "sourceType": "media",
+      "jurisdiction": "地域适用性待复核",
+      "marketBasis": "正文明确提及市场",
+      "eventType": "合作/供货",
+      "policyDirection": "未判定",
+      "policyStage": "法规效力/执行阶段待核实",
+      "evidence": [
+        {
+          "label": "项目/合作/产品原文线索",
+          "original": "solar can make electricity more affordable to run air conditioning when electricity prices spike due to factors such as supply disruptions, geopolitical shocks or extremely hot weather.。",
+          "chinese": "太阳能可以使电力更便宜运行空调,当电力价格因供应故障、地缘政治冲击或极热天气等因素而上涨。"
+        }
+      ],
+      "articleRead": true,
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-25T00:57:48.076286+00:00",
+      "translationProvider": "M2M100-418M 本地开源机译",
+      "translatedAt": "2026-11-25T01:00:14.310179+00:00"
+    },
+    {
+      "id": "3aba7d2f398e19b2564834da",
+      "market": "韩国",
+      "title": "出路不开 入口·面部火罪机...太阳光许可人仍然“规则转行”",
+      "originalTitle": "이격거리 없애니 진입로·면적 옥죄기…태양광 인허가는 여전히 ‘규제 역주행’",
+      "date": "2026-11-24",
+      "publishedAt": "2026-11-24T04:55:27+00:00",
+      "topic": "政策与补贴",
+      "priority": "中",
+      "source": "韩国电气新闻",
+      "url": "https://www.electimes.com/news/articleView.html?idxno=375146",
+      "summary": "火...二·三中戈的盈利性“<unk>”议会,安装条件的娱乐公务员审判...最终行政审判的知识体是居民民众高心,行业是可预测的许可标准要求 # 陈南天安",
+      "originalSummary": "화...이중·삼중고에 수익성 ‘뚝’ 의정부, 설치 조건 두고 오락가락 행정 판단...결국 행정심판행 지자체는 주민 민원 고심, 업계는 예측 가능한 허가 기준 요구 #충남 천안에선 폭 3m 농로 끝에 있는 땅에 일반 태양광발전소를 지으려면 이웃 토지주부터 설득해야 할 판이다.",
+      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
+      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
+      "watch": "先核对政府原文的适用地区、对象、金额、申请期限和施行日期；不能将补助线索视为已生效支持政策。",
+      "tech": "未分类",
+      "dataKind": "live",
+      "analysisKind": "evidence-cues",
+      "language": "ko",
+      "sourceType": "media",
+      "jurisdiction": "地域适用性待复核",
+      "marketBasis": "正文明确提及市场",
+      "eventType": "市场/企业动态",
+      "policyDirection": "未判定",
+      "policyStage": "法规效力/执行阶段待核实",
+      "evidence": [],
+      "articleRead": true,
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-25T00:57:48.076286+00:00",
+      "translationProvider": "M2M100-418M 本地开源机译",
+      "translatedAt": "2026-11-25T01:00:49.050415+00:00"
+    },
+    {
+      "id": "b33acd8f4732a8f958c8aa2e",
+      "market": "日本",
+      "title": "Sigenergy 除了适合所有电站区域的流行模块型外,还发布了专用高容器型。",
+      "originalTitle": "Sigenergyが蓄電所の全領域に対応人気のモジュール型に加え、特高向けコンテナ型をリリース",
+      "date": "2026-11-24",
+      "publishedAt": "2026-11-24T03:00:04+00:00",
+      "topic": "竞争动态",
+      "priority": "中",
+      "source": "日本 SOLAR JOURNAL",
+      "url": "https://solarjournal.jp/product/68412/",
+      "summary": "以海外的巨大成就为背景 储存所涵盖所有类别“特殊高压”系统用电站 发布容器型新产品 包括高压系统用电站、太阳光合并储存站、低压系统用电站等扩展采用的Sigenergy(Sigenergy)也应对特殊高压系统用电站。",
+      "originalSummary": "海外の大型実績を背景に 蓄電所の全カテゴリーを網羅 「特別高圧」系統用蓄電所向け コンテナ型の新製品を発表 高圧系統用蓄電所をはじめ、太陽光併設蓄電所、低圧系統用蓄電所などで採用を広げてきたSigenergy（シグエナジー）が、特別高圧系統用蓄電所にも対応する。",
+      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
+      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
+      "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
+      "tech": "未分类",
+      "dataKind": "live",
+      "analysisKind": "evidence-cues",
+      "language": "ja",
+      "sourceType": "media",
+      "jurisdiction": "地域适用性待复核",
+      "marketBasis": "正文明确提及市场",
+      "eventType": "产品/技术发布",
+      "policyDirection": "未判定",
+      "policyStage": "法规效力/执行阶段待核实",
+      "evidence": [
+        {
+          "label": "项目/合作/产品原文线索",
+          "original": "海外の大型実績を背景に 蓄電所の全カテゴリーを網羅 「特別高圧」系統用蓄電所向け コンテナ型の新製品を発表 高圧系統用蓄電所をはじめ、太陽光併設蓄電所、低圧系統用蓄電所などで採用を広げてきたSigenergy（シグエナジー）が、特別高圧系統用蓄電所にも対応する。",
+          "chinese": "以海外的巨大成就为背景 储存所涵盖所有类别“特殊高压”系统用电站 发布容器型新产品 包括高压系统用电站、太阳光合并储存站、低压系统用电站等扩展采用的Sigenergy(Sigenergy)也应对特殊高压系统用电站。"
+        }
+      ],
+      "articleRead": true,
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-25T00:57:48.076286+00:00",
+      "translationProvider": "M2M100-418M 本地开源机译",
+      "translatedAt": "2026-11-25T01:00:41.100608+00:00"
+    },
     {
       "id": "67eb9d5b49eb4ec8f2a8ad9b",
       "market": "日本",
@@ -172,7 +355,7 @@
       "translationStatus": "translated",
       "collectedAt": "2026-11-24T00:54:43.221504+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-24T00:57:16.655471+00:00"
+      "translatedAt": "2026-11-25T01:00:57.166622+00:00"
     },
     {
       "id": "9ada12ebb9254f60eb283337",
@@ -211,7 +394,7 @@
       "translationStatus": "translated",
       "collectedAt": "2026-11-24T00:54:43.221504+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-24T00:57:07.488635+00:00"
+      "translatedAt": "2026-11-25T01:01:10.695026+00:00"
     },
     {
       "id": "a4f1e0a8695eded0aa29a181",
@@ -250,7 +433,7 @@
       "translationStatus": "translated",
       "collectedAt": "2026-11-24T00:54:43.221504+00:00",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-24T00:57:28.565800+00:00"
+      "translatedAt": "2026-11-25T01:01:28.276502+00:00"
     },
     {
       "id": "4a9f7a3f9792a42552c893b2",
@@ -326,7 +509,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-24T00:54:43.221504+00:00",
+      "collectedAt": "2026-11-25T00:57:48.076286+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-21T00:56:03.033951+00:00"
@@ -399,7 +582,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-24T00:54:43.221504+00:00",
+      "collectedAt": "2026-11-25T00:57:48.076286+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-21T00:56:20.158189+00:00"
     },
@@ -510,7 +693,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-24T00:54:43.221504+00:00",
+      "collectedAt": "2026-11-25T00:57:48.076286+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-21T00:56:00.007774+00:00"
     },
@@ -1076,7 +1259,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-24T00:54:43.221504+00:00",
+      "collectedAt": "2026-11-25T00:57:48.076286+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-21T00:56:28.226977+00:00"
     },
@@ -1142,7 +1325,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-24T00:54:43.221504+00:00",
+      "collectedAt": "2026-11-25T00:57:48.076286+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-21T00:56:33.442180+00:00"
     },
@@ -1259,7 +1442,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-24T00:54:43.221504+00:00",
+      "collectedAt": "2026-11-25T00:57:48.076286+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-15T00:48:36.020342+00:00"
     },
@@ -1512,7 +1695,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-24T00:54:43.221504+00:00",
+      "collectedAt": "2026-11-25T00:57:48.076286+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-12T00:58:31.248705+00:00"
     },
@@ -1623,7 +1806,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-24T00:54:43.221504+00:00",
+      "collectedAt": "2026-11-25T00:57:48.076286+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-14T00:47:50.386678+00:00"
     },
@@ -1734,7 +1917,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-24T00:54:43.221504+00:00",
+      "collectedAt": "2026-11-25T00:57:48.076286+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-10T00:47:44.930862+00:00"
     },
@@ -1806,7 +1989,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-24T00:54:43.221504+00:00",
+      "collectedAt": "2026-11-25T00:57:48.076286+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-07T00:46:40.917161+00:00"
     },
@@ -2199,7 +2382,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-24T00:54:43.221504+00:00",
+      "collectedAt": "2026-11-25T00:57:48.076286+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:03.302883+00:00"
     },
@@ -2280,7 +2463,7 @@
       "collectedAt": "2026-11-09T00:47:14.595159+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-24T00:56:53.885758+00:00"
+      "translatedAt": "2026-11-25T00:59:53.091282+00:00"
     },
     {
       "id": "01996e8c12d8548b3e10a1f6",
@@ -2383,7 +2566,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-24T00:54:43.221504+00:00",
+      "collectedAt": "2026-11-25T00:57:48.076286+00:00",
       "datePrecision": "day",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:42:43.281521+00:00"
@@ -2627,7 +2810,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-24T00:54:43.221504+00:00",
+      "collectedAt": "2026-11-25T00:57:48.076286+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:37:37.417477+00:00"
@@ -2733,7 +2916,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-24T00:54:43.221504+00:00",
+      "collectedAt": "2026-11-25T00:57:48.076286+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:27:09.963540+00:00"
@@ -2778,7 +2961,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-24T00:54:43.221504+00:00",
+      "collectedAt": "2026-11-25T00:57:48.076286+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:27:15.852513+00:00"
@@ -2851,7 +3034,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-24T00:54:43.221504+00:00",
+      "collectedAt": "2026-11-25T00:57:48.076286+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:27:19.599501+00:00"
@@ -2917,7 +3100,7 @@
       "originalSummary": "South Korea’s Ministry of Climate, Energy and Environment (MCEE) has unveiled its KRW1,000 trillion (US$747 billion) Korean Green Transformation (K-GX) industrial strategy.",
       "translationStatus": "translated",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-24T00:57:43.565642+00:00"
+      "translatedAt": "2026-11-25T01:01:34.247519+00:00"
     },
     {
       "id": "ecd33be5da742c15ff9a7d34",
@@ -2954,7 +3137,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-24T00:54:43.221504+00:00",
+      "collectedAt": "2026-11-25T00:57:48.076286+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:27:23.345332+00:00"
@@ -3061,7 +3244,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-24T00:54:43.221504+00:00",
+      "collectedAt": "2026-11-25T00:57:48.076286+00:00",
       "datePrecision": "day",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:37:36.031964+00:00"
@@ -3095,7 +3278,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-24T00:54:43.221504+00:00",
+      "collectedAt": "2026-11-25T00:57:48.076286+00:00",
       "datePrecision": "day",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:37:40.881409+00:00"
@@ -3135,7 +3318,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-24T00:54:43.221504+00:00",
+      "collectedAt": "2026-11-25T00:57:48.076286+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:17:03.692923+00:00"
     },
@@ -3207,7 +3390,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-24T00:54:43.221504+00:00",
+      "collectedAt": "2026-11-25T00:57:48.076286+00:00",
       "datePrecision": "day",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:37:44.691003+00:00"
@@ -3286,8 +3469,8 @@
   ],
   "translation": {
     "status": "partial",
-    "at": "2026-11-24T00:56:30.378475+00:00",
-    "translatedThisRun": 5,
+    "at": "2026-11-25T00:59:31.340445+00:00",
+    "translatedThisRun": 10,
     "remaining": 1,
     "validationFailures": 1,
     "error": null,
