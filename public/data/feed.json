@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "mode": "live",
-  "attemptedAt": "2026-11-27T01:00:33.136101+00:00",
+  "attemptedAt": "2026-11-28T00:57:28.108358+00:00",
   "lastSuccessAt": "2026-11-16T01:03:35.681620+00:00",
   "status": "partial",
   "sources": [
@@ -17,7 +17,7 @@
       "name": "日本环境省",
       "url": "https://www.env.go.jp/press/",
       "state": "ok",
-      "matched": 0,
+      "matched": 1,
       "language": "ja",
       "sourceType": "government"
     },
@@ -25,7 +25,7 @@
       "name": "韩国政府政策简报（光伏检索）",
       "url": "https://www.korea.kr/news/policyNewsList.do?srchWord=%ED%83%9C%EC%96%91%EA%B4%91",
       "state": "ok",
-      "matched": 7,
+      "matched": 6,
       "language": "ko",
       "sourceType": "government"
     },
@@ -65,7 +65,7 @@
       "name": "韩国 Industry News",
       "url": "https://www.industrynews.co.kr/rss/allArticle.xml",
       "state": "ok",
-      "matched": 4,
+      "matched": 1,
       "language": "ko",
       "sourceType": "media"
     },
@@ -73,7 +73,7 @@
       "name": "韩国电气新闻",
       "url": "https://www.electimes.com/rss/allArticle.xml",
       "state": "ok",
-      "matched": 2,
+      "matched": 3,
       "language": "ko",
       "sourceType": "media"
     },
@@ -81,7 +81,7 @@
       "name": "韩国能源日报",
       "url": "https://www.energydaily.co.kr/rss/allArticle.xml",
       "state": "ok",
-      "matched": 2,
+      "matched": 0,
       "language": "ko",
       "sourceType": "media"
     },
@@ -89,7 +89,7 @@
       "name": "台湾科技新报",
       "url": "https://technews.tw/feed/",
       "state": "ok",
-      "matched": 0,
+      "matched": 1,
       "language": "zh-Hant",
       "sourceType": "media"
     },
@@ -121,7 +121,7 @@
       "name": "PV magazine（补充）",
       "url": "https://www.pv-magazine.com/feed/",
       "state": "ok",
-      "matched": 0,
+      "matched": 1,
       "language": "en",
       "sourceType": "media"
     },
@@ -136,9 +136,225 @@
   ],
   "items": [
     {
+      "id": "a787684b9ff89375dd05487b",
+      "market": "日本",
+      "title": "日本第30次太阳能拍卖分配27.7兆瓦光伏发电容量",
+      "originalTitle": "Japan’s 30th solar auction allocates 27.7 MW of PV capacity",
+      "date": "2026-11-27",
+      "publishedAt": "2026-11-27T14:24:01+00:00",
+      "topic": "市场趋势",
+      "priority": "中",
+      "source": "PV magazine（补充）",
+      "url": "https://www.pv-magazine.com/2026/11/27/japans-30th-solar-auction-allocates-27-7-mw-of-pv-capacity/",
+      "summary": "输电运营商协调组织 (OCCTO) 公布了该国第 30 次公用事业规模太阳能项目拍卖的结果。",
+      "originalSummary": "oordination of Transmission Operators (OCCTO) has announced the results of the country’s 30th auction for utility-scale solar projects.",
+      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
+      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
+      "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
+      "tech": "钙钛矿叠层",
+      "dataKind": "live",
+      "analysisKind": "evidence-cues",
+      "language": "en",
+      "sourceType": "media",
+      "jurisdiction": "地域适用性待复核",
+      "marketBasis": "正文明确提及市场",
+      "eventType": "市场/企业动态",
+      "policyDirection": "未判定",
+      "policyStage": "法规效力/执行阶段待核实",
+      "evidence": [],
+      "articleRead": true,
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-28T00:57:28.108358+00:00",
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-28T00:59:26.167825+00:00"
+    },
+    {
+      "id": "472df3a16ad78a7e00314f9b",
+      "market": "韩国",
+      "title": "WiJ因分析在工业园区引入太阳能和PPA的效果而获得“城南气候技术大会”大奖",
+      "originalTitle": "위제이, 산단 태양광·PPA 도입 효과 분석으로 ‘성남 기후테크 컨페어’ 최우수상",
+      "date": "2026-11-27",
+      "publishedAt": "2026-11-27T08:18:20+00:00",
+      "topic": "竞争动态",
+      "priority": "中",
+      "source": "韩国电气新闻",
+      "url": "https://www.electimes.com/news/articleView.html?idxno=375389",
+      "summary": "该服务反映了各公司的用电量和场地条件，并显示通过安装太阳能或引入购电协议（PPA）可以减少多少电费。",
+      "originalSummary": "해당 서비스는 기업별 전력 사용량과 부지 여건을 반영해 태양광 설치나 전력구매계약(PPA) 도입으로 전기요금을 얼마나 줄일 수 있는지 보여준다.",
+      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
+      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
+      "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
+      "tech": "住宅屋顶组件",
+      "dataKind": "live",
+      "analysisKind": "evidence-cues",
+      "language": "ko",
+      "sourceType": "media",
+      "jurisdiction": "地域适用性待复核",
+      "marketBasis": "本地语言来源定位，地域适用性待复核",
+      "eventType": "购电协议/PPA",
+      "policyDirection": "未判定",
+      "policyStage": "法规效力/执行阶段待核实",
+      "evidence": [
+        {
+          "label": "项目/合作/产品原文线索",
+          "original": "위제이, 산단 태양광·PPA 도입 효과 분석으로 ‘성남 기후테크 컨페어’ 최우수상",
+          "chinese": "WiJ因分析在工业园区引入太阳能和PPA的效果而获得“城南气候技术大会”大奖"
+        }
+      ],
+      "articleRead": true,
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-28T00:57:28.108358+00:00",
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-28T00:59:18.007920+00:00"
+    },
+    {
+      "id": "f6667fb9bd39cf160d1036ad",
+      "market": "韩国",
+      "title": "提出了“20年长期合同”，但是……太阳能行业担心价格和系统的不确定性。",
+      "originalTitle": "‘20년 장기계약’ 제시했지만… 태양광 업계는 가격·계통 불확실성 우려",
+      "date": "2026-11-27",
+      "publishedAt": "2026-11-27T08:07:23+00:00",
+      "topic": "市场趋势",
+      "priority": "中",
+      "source": "韩国 Industry News",
+      "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=90362",
+      "summary": "[行业新闻记者 Jeong Han-kyo] 尽管政府提出了以 20 年长期固定价格合同为中心的新可再生能源供应系统，但太阳能发电公司甚至无法估计投资决策所需的合同价格。",
+      "originalSummary": "[인더스트리뉴스 정한교 기자] 정부가 20년 장기고정가격계약을 중심으로 한 새로운 재생에너지 보급체계를 제시했지만, 정작 태양광 발전사업자들은 투자 판단에 필요한 계약가격조차 가늠하기 어렵다고 호소했다.",
+      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
+      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
+      "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
+      "tech": "未分类",
+      "dataKind": "live",
+      "analysisKind": "evidence-cues",
+      "language": "ko",
+      "sourceType": "media",
+      "jurisdiction": "地域适用性待复核",
+      "marketBasis": "正文明确提及市场",
+      "eventType": "市场/企业动态",
+      "policyDirection": "未判定",
+      "policyStage": "法规效力/执行阶段待核实",
+      "evidence": [],
+      "articleRead": true,
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-28T00:57:28.108358+00:00",
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-28T00:59:23.658019+00:00"
+    },
+    {
+      "id": "0495dbfb3cb5a3adfc40760c",
+      "market": "台湾",
+      "title": "硕禾今年营收拚破百亿，看好明年美国太阳能市场成长",
+      "originalTitle": "碩禾今年營收拚破百億，看好明年美國太陽能市場成長",
+      "date": "2026-11-27",
+      "publishedAt": "2026-11-27T07:45:57+00:00",
+      "topic": "竞争动态",
+      "priority": "中",
+      "source": "台湾科技新报",
+      "url": "https://technews.tw/2026/11/27/giga-solar-revenue-targets-10-billion-this-year-us-solar-growth-next-year/",
+      "summary": "太阳能导电浆大厂 硕禾 今（27 日）举行法人说明会，总经理黄文瑞表示，今年是硕禾近十年来重要的营运转机，全年营收有望突破百亿元。",
+      "originalSummary": "太陽能導電漿大廠 碩禾 今（27 日）舉行法人說明會，總經理黃文瑞表示，今年是碩禾近十年來重要的營運轉機，全年營收有望突破百億元。",
+      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
+      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
+      "watch": "核对合作对象、MOU与正式合同的区别、项目容量、供货方和实际投运日期；产品发布另查功率、认证、质保与本地准入。",
+      "tech": "数据中心光伏应用",
+      "dataKind": "live",
+      "analysisKind": "evidence-cues",
+      "language": "zh-Hant",
+      "sourceType": "media",
+      "jurisdiction": "地域适用性待复核",
+      "marketBasis": "本地语言来源定位，地域适用性待复核",
+      "eventType": "项目签约/建设",
+      "policyDirection": "未判定",
+      "policyStage": "法规效力/执行阶段待核实",
+      "evidence": [
+        {
+          "label": "项目/合作/产品原文线索",
+          "original": "黃文瑞也指出，AI 資料中心快速發展，美國面臨電網建設及電力供應不足等問題，相較於核能及燃料電池等發電方式，太陽能建置時間較短，可快速補充電力供應。",
+          "chinese": "黄文瑞也指出，AI 资料中心快速发展，美国面临电网建设及电力供应不足等问题，相较于核能及燃料电池等发电方式，太阳能建置时间较短，可快速补充电力供应。"
+        }
+      ],
+      "articleRead": true,
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-28T00:57:28.108358+00:00",
+      "translationProvider": "繁体转简体（保留原文）",
+      "translatedAt": "2026-11-28T00:59:12.134139+00:00"
+    },
+    {
+      "id": "d79cadc7602948dc72634228",
+      "market": "韩国",
+      "title": "下个月宣布“RPS 最后”太阳能招标...增加激励措施以吸引现货运营商签订长期合同",
+      "originalTitle": "‘RPS 마지막’ 태양광 입찰 내달 공고...인센티브 늘려 현물사업자 장기계약 유도",
+      "date": "2026-11-27",
+      "publishedAt": "2026-11-27T05:08:21+00:00",
+      "topic": "政策与补贴",
+      "priority": "中",
+      "source": "韩国电气新闻",
+      "url": "https://www.electimes.com/news/articleView.html?idxno=375374",
+      "summary": "新的市场碳分配从20分减少到30分...提交文件的最大数量从21种减少到5种。太阳能发电合同期限设定为20年，不含运营期，上限按竣工时间确定。明年起3年现货转换竞标...低碳",
+      "originalSummary": "신규시장 탄소배점 20점서 30점으로...제출서류 최대 21종서 5종으로 축소 태양광 계약기간 20년서 가동기간 빼고 준공 시점별 상한가 책정 내년부터 3년간 현물 전환입찰…저탄소 우대가 없고 상한가도 해마다 낮춰 백길남 한국에너지공단 팀장이 2026년도 2차 태양광 고정가격계약 입찰 및 27~29년도 전환시장 입찰시장 개설 방안을 공유하고 있다.",
+      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
+      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
+      "watch": "先核对政府原文的适用地区、对象、金额、申请期限和施行日期；不能将补助线索视为已生效支持政策。",
+      "tech": "未分类",
+      "dataKind": "live",
+      "analysisKind": "evidence-cues",
+      "language": "ko",
+      "sourceType": "media",
+      "jurisdiction": "地域适用性待复核",
+      "marketBasis": "正文明确提及市场",
+      "eventType": "政府招标/采购",
+      "policyDirection": "未判定",
+      "policyStage": "法规效力/执行阶段待核实",
+      "evidence": [
+        {
+          "label": "项目/合作/产品原文线索",
+          "original": "‘RPS 마지막’ 태양광 입찰 내달 공고...인센티브 늘려 현물사업자 장기계약 유도",
+          "chinese": "下个月宣布“RPS 最后”太阳能招标...增加激励措施以吸引现货运营商签订长期合同"
+        }
+      ],
+      "articleRead": true,
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-28T00:57:28.108358+00:00",
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-28T00:59:30.664904+00:00"
+    },
+    {
+      "id": "6ab641201d9ce9ebf7419b01",
+      "market": "日本",
+      "title": "【解说】农业太阳能发电将如何改变营商环境？农村可再生能源法的修订和 FIT/FIP 支持的未来",
+      "originalTitle": "【解説】営農型太陽光発電、事業環境はどう変わる？ 農山漁村再エネ法改正とFIT/FIP支援の行方",
+      "date": "2026-11-27",
+      "publishedAt": "2026-11-27T03:00:38+00:00",
+      "topic": "政策与补贴",
+      "priority": "中",
+      "source": "日本 SOLAR JOURNAL",
+      "url": "https://solarjournal.jp/news/68550/",
+      "summary": "企业要求的“理想的农业太阳能”的具体形象 对与当地社区共存的担忧 不符合 FIT/FIP 优先支持的资格 经济产业省将从 2027 年度起原则上取消 FIT/FIP 制度下对地面安装商用太阳能的新支持。",
+      "originalSummary": "事業者に求められる「望ましい営農型太陽光」の具体像 地域との共生に懸念 FIT/FIP支援重点化の対象外に 経済産業省は、地上設置型事業用太陽光へのFIT/FIP制度による新規支援を、2027年度より原則廃止する。",
+      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
+      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
+      "watch": "先核对政府原文的适用地区、对象、金额、申请期限和施行日期；不能将补助线索视为已生效支持政策。",
+      "tech": "未分类",
+      "dataKind": "live",
+      "analysisKind": "evidence-cues",
+      "language": "ja",
+      "sourceType": "media",
+      "jurisdiction": "地域适用性待复核",
+      "marketBasis": "本地语言来源定位，地域适用性待复核",
+      "eventType": "市场/企业动态",
+      "policyDirection": "未判定",
+      "policyStage": "法规效力/执行阶段待核实",
+      "evidence": [],
+      "articleRead": true,
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-28T00:57:28.108358+00:00",
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-28T00:59:33.597024+00:00"
+    },
+    {
       "id": "b0686c2315057496a4462e59",
       "market": "韩国",
-      "title": "韩国南东发展,平面150MW太阳光单元构建",
+      "title": "韩国东南电力开始在平昌建设 150 兆瓦太阳能发电综合设施",
       "originalTitle": "한국남동발전, 평창 150MW 태양광단지 조성 본격화",
       "date": "2026-11-27",
       "publishedAt": "2026-11-27T00:23:39+00:00",
@@ -146,7 +362,7 @@
       "priority": "中",
       "source": "韩国 Industry News",
       "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=90318",
-      "summary": "太阳能发电机 太阳能发电机 太阳能发电机 太阳能发电机",
+      "summary": "平昌郡余浦里太阳能发电项目推进谅解备忘录现场。",
       "originalSummary": "평창군 유포리 태양광발전사업 추진 MOU 장면.",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
@@ -165,19 +381,19 @@
         {
           "label": "项目/合作/产品原文线索",
           "original": "한국남동발전, 평창 150MW 태양광단지 조성 본격화 평창군 유포리 태양광발전사업 추진 MOU 장면.。",
-          "chinese": "韩国南东发展,平창150MW太阳光单组成全面化平창军福利太阳光发展业务推进MOU场景。"
+          "chinese": "韩国东南电力平昌150MW太阳能发电综合体建设全面启动谅解备忘录，以促进平昌郡Eupo-ri太阳能发电项目。"
         }
       ],
       "articleRead": true,
       "translationStatus": "translated",
       "collectedAt": "2026-11-27T01:00:33.136101+00:00",
-      "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-27T01:03:01.598103+00:00"
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-28T00:59:41.297164+00:00"
     },
     {
       "id": "3e3e74acbbe1f936b1d4313c",
       "market": "韩国",
-      "title": "科索拉,学校屋顶开始的10年步伐...2035年太阳能200MW",
+      "title": "Kepko Solar，从学校屋顶开始的 10 年历史...到 2035 年太阳能发电量达到 200MW",
       "originalTitle": "켑코솔라, 학교 옥상서 시작한 10년의 발자취… 2035년 태양광 200MW 키운다",
       "date": "2026-11-27",
       "publishedAt": "2026-11-27T00:16:21+00:00",
@@ -185,7 +401,7 @@
       "priority": "中",
       "source": "韩国 Industry News",
       "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=90311",
-      "summary": "在过去的10年中,以学校、公共机构、工业单位扩大太阳能发电业务的科索拉以未来10年增长动力与电力市场联系的新能源业务。",
+      "summary": "Kepko Solar在过去10年中将太阳能发电业务扩展到了学校、公共机构和工业园区，并提出了与电力市场相关的新能源业务，作为未来10年的增长引擎。",
       "originalSummary": "지난 10년간 학교와 공공기관, 산업단지로 태양광발전 사업을 확대해 온 켑코솔라가 향후 10년의 성장동력으로 전력시장과 연계한 에너지 신사업을 제시했다.",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
@@ -204,13 +420,13 @@
       "articleRead": true,
       "translationStatus": "translated",
       "collectedAt": "2026-11-27T01:00:33.136101+00:00",
-      "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-27T01:03:13.518192+00:00"
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-28T00:59:47.413932+00:00"
     },
     {
       "id": "1c73242b14f3d6f0a7bd8e5f",
       "market": "韩国",
-      "title": "(RE100会议)现有RPS太阳能光 CPPA加入...“转换量根据供应机会注意”",
+      "title": "（RE100会议）现有RPS太阳能也加入CPPA...“根据转换量关注采购机会”",
       "originalTitle": "(RE100 컨퍼런스)기존 RPS 태양광도 CPPA 합류...“전환 물량 따라 조달 기회 주목\"",
       "date": "2026-11-27",
       "publishedAt": "2026-11-26T23:32:35+00:00",
@@ -218,7 +434,7 @@
       "priority": "中",
       "source": "韩国电气新闻",
       "url": "https://www.electimes.com/news/articleView.html?idxno=375354",
-      "summary": "从明年起,现有太阳能发电厂直接向企业供应的案例增加,希望签订可再生能源电力购买合同(PPA)的企业选择范围扩大。",
+      "summary": "[照片=记者Kim Jin-hu]预计从明年开始，随着现有太阳能发电厂直接向企业供电的情况增加，希望签署可再生能源购电协议（PPA）的企业的选择范围将会扩大。",
       "originalSummary": "[사진=김진후 기자] 내년부터 기존 태양광발전소가 기업에 전력을 직접 공급하는 사례가 늘면서 재생에너지 전력구매계약(PPA)을 맺으려는 기업의 선택지가 넓어질 것이란 전망이 나왔다.",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
@@ -237,19 +453,59 @@
         {
           "label": "项目/合作/产品原文线索",
           "original": "(RE100 컨퍼런스)기존 RPS 태양광도 CPPA 합류...“전환 물량 따라 조달 기회 주목\"",
-          "chinese": "(RE100会议)现有RPS太阳能光 CPPA加入...“转换量根据供应机会注意”"
+          "chinese": "（RE100会议）现有RPS太阳能也加入CPPA...“根据转换量关注采购机会”"
         }
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-27T01:00:33.136101+00:00",
-      "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-27T01:03:29.707656+00:00"
+      "collectedAt": "2026-11-28T00:57:28.108358+00:00",
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-28T00:59:52.803544+00:00"
+    },
+    {
+      "id": "f7a59a67aa8d62683556f3d0",
+      "market": "日本",
+      "title": "关于召开关于制定《太阳能电池废弃物的再利用等促进法》附属法律制定的研究委员会（第3次会议）",
+      "originalTitle": "「太陽電池廃棄物の再資源化等の推進に関する法律」の下位法令の策定等に係る検討会（第３回）の開催について",
+      "date": "2026-11-27",
+      "publishedAt": "2026-11-26T15:00:00+00:00",
+      "topic": "政策与补贴",
+      "priority": "高",
+      "source": "日本环境省",
+      "url": "https://www.env.go.jp/press/press_05872.html",
+      "summary": "新闻发布 首页 新闻/公共关系 新闻发布一览 关于召开“太阳能电池废弃物的再利用等促进法”附属法律制定研究小组（第3次会议） 打印本文 2026年11月27日 关于“太阳能电池废弃物的再利用等促进法”的附属法律制定等再利用研究会",
+      "originalSummary": "報道発表資料 ホーム 報道・広報 報道発表一覧 「太陽電池廃棄物の再資源化等の推進に関する法律」の下位法令の策定等に係る検討会（第３回）の開催について この記事を印刷 2026年11月27日 再生循環 「太陽電池廃棄物の再資源化等の推進に関する法律」の下位法令の策定等に係る検討会（第３回）の開催について To English １.",
+      "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
+      "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
+      "watch": "先核对政府原文的适用地区、对象、金额、申请期限和施行日期；不能将补助线索视为已生效支持政策。",
+      "tech": "未分类",
+      "dataKind": "live",
+      "analysisKind": "evidence-cues",
+      "language": "ja",
+      "sourceType": "government",
+      "jurisdiction": "日本（公告适用范围待核实）",
+      "marketBasis": "官方发布机构辖区，公告适用范围待核实",
+      "eventType": "政策公告",
+      "policyDirection": "未判定",
+      "policyStage": "法规效力/执行阶段待核实",
+      "evidence": [
+        {
+          "label": "政策公告原文线索",
+          "original": "「太陽電池廃棄物の再資源化等の推進に関する法律」の下位法令の策定等に係る検討会（第３回）の開催について",
+          "chinese": "关于召开关于制定《太阳能电池废弃物的再利用等促进法》附属法律制定的研究委员会（第3次会议）"
+        }
+      ],
+      "articleRead": true,
+      "translationStatus": "translated",
+      "collectedAt": "2026-11-28T00:57:28.108358+00:00",
+      "datePrecision": "timestamp",
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-28T00:59:14.797058+00:00"
     },
     {
       "id": "5cb18cd9b2bca4472e39ab74",
       "market": "韩国",
-      "title": "南东发电,平面建造150MW太阳能发电",
+      "title": "韩国东南电力将在平昌建设150兆瓦太阳能发电综合设施",
       "originalTitle": "남동발전, 평창에 150MW 태양광 발전단지 조성한다",
       "date": "2026-11-26",
       "publishedAt": "2026-11-26T09:53:43+00:00",
@@ -257,7 +513,7 @@
       "priority": "中",
       "source": "韩国能源日报",
       "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=205540",
-      "summary": "此外,在平창军中也将推进150MW大规模太阳能发电站的组成。",
+      "summary": "[照片=韩国东南电力提供] [能源日报记者宋秉勋]江原特别自治道平昌郡正在推进150MW大型太阳能发电综合设施的建设。",
       "originalSummary": "[사진=한국남동발전 제공] [에너지데일리 송병훈 기자] 강원특별자치도 평창군에 150MW급 대규모 태양광 발전단지 조성이 추진된다.",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
@@ -276,19 +532,19 @@
         {
           "label": "项目/合作/产品原文线索",
           "original": "한국남동발전은 26일 평창군청에서 평창군, 정상그룹과 강원특별자치도 평창군 봉평면 유포리 일대 태양광 발전사업의 성공적인 추진을 위한 업무협약(MOU)을 체결했다고 밝혔다.。",
-          "chinese": "韩国南东发展26日在平창军局表示,平창军、正常集团和参议员特别自治也签署了平창军平平平面福利一大太阳能发电业务的成功推进工作协议(MOU)。"
+          "chinese": "韩国东南电力26日在平昌郡厅宣布，与平昌郡及正尚集团签署了关于成功推进江原道平昌郡蓬坪面油浦里地区太阳能发电项目的业务协议（MOU）。"
         }
       ],
       "articleRead": true,
       "translationStatus": "translated",
       "collectedAt": "2026-11-27T01:00:33.136101+00:00",
-      "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-27T01:03:39.218777+00:00"
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-28T00:59:59.774443+00:00"
     },
     {
       "id": "bddad825fde908e85cf172d1",
       "market": "韩国",
-      "title": "电工协会,无注册太阳光广告等新生,新生,寻求现实反应",
+      "title": "电气建设协会寻求对新能源和可再生能源问题的回应，例如未注册的太阳能广告",
       "originalTitle": "전기공사협회, 무등록 태양광 광고 등 신재생에너지 현안 대응 모색",
       "date": "2026-11-26",
       "publishedAt": "2026-11-26T05:48:03+00:00",
@@ -296,7 +552,7 @@
       "priority": "中",
       "source": "韩国电气新闻",
       "url": "https://www.electimes.com/news/articleView.html?idxno=375326",
-      "summary": "韩国电气工厂协会(主席二型州)未登记企业太阳能发电设备安装、撤销广告响应等新生能源领域的主要现状进行了检查,并寻找制度改进路径。",
+      "summary": "[照片=电气承包商协会] 韩国电气承包商协会（李亨柱会长）研究了可再生能源领域的重大问题，例如应对未注册公司安装和拆除太阳能发电设施的广告，并寻求改进系统的方法。",
       "originalSummary": "[사진=전기공사협회] 한국전기공사협회(회장 이형주)가 무등록업체의 태양광발전설비 설치·철거 광고 대응 등 신재생에너지 분야 주요 현안을 점검하고 제도 개선 방안을 모색했다.",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
@@ -315,19 +571,19 @@
         {
           "label": "项目/合作/产品原文线索",
           "original": "전기공사협회, 무등록 태양광 광고 등 신재생에너지 현안 대응 모색",
-          "chinese": "电工协会,无注册太阳光广告等新生,新生,寻求现实反应"
+          "chinese": "电气建设协会寻求对新能源和可再生能源问题的回应，例如未注册的太阳能广告"
         }
       ],
       "articleRead": true,
       "translationStatus": "translated",
       "collectedAt": "2026-11-27T01:00:33.136101+00:00",
-      "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-27T01:03:49.405201+00:00"
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-28T01:00:03.724098+00:00"
     },
     {
       "id": "8ac39a6f7a7f91fed3f5ca06",
       "market": "韩国",
-      "title": "东方发展,在“SmartPalm办公室”的太阳能发电设施支持",
+      "title": "韩国东西电力为“智能农场学院”提供太阳能发电设施",
       "originalTitle": "동서발전, '스마트팜 사관학교'에 태양광 발전설비 지원",
       "date": "2026-11-26",
       "publishedAt": "2026-11-26T05:00:47+00:00",
@@ -335,7 +591,7 @@
       "priority": "中",
       "source": "韩国能源日报",
       "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=205506",
-      "summary": "韩国东方发展(主席权名号)上周25日满满当时材料“SmartPalm办公室”支持太阳能发电设施的“EWP能源1”",
+      "summary": "[照片=韩国东西电力提供] [能源日报记者宋秉勋]25日，韩国东西电力（代表权明浩）推出了“EWP Energy 1”，为位于忠清南道唐津市的“智能农场军事学院”的太阳能发电设施提供支持。",
       "originalSummary": "[사진=한국동서발전 제공] [에너지데일리 송병훈 기자] 한국동서발전(사장 권명호)은 지난 25일 충남 당진시 소재 '스마트팜 사관학교'에 태양광 발전설비를 지원하는 'EWP에너지1004 제33호' 사업을 추진했다고 26일 밝혔다.",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
@@ -354,13 +610,13 @@
       "articleRead": true,
       "translationStatus": "translated",
       "collectedAt": "2026-11-27T01:00:33.136101+00:00",
-      "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-27T01:03:55.494108+00:00"
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-28T01:00:08.182326+00:00"
     },
     {
       "id": "1d06aade579799b1f011146e",
       "market": "韩国",
-      "title": "太阳能市场调查:RPS取消前的太阳能行业,比预期更担心......“合同价格·盈利性”最大变量",
+      "title": "【太阳能市场研究】面临RPS取消的太阳能行业比预期更受关注……‘合同价格/盈利能力’最大变量",
       "originalTitle": "[태양광 시장조사] RPS 폐지 앞둔 태양광 업계, 기대보다 우려… ‘계약가격·수익성’ 최대 변수",
       "date": "2026-11-26",
       "publishedAt": "2026-11-26T03:12:57+00:00",
@@ -368,7 +624,7 @@
       "priority": "中",
       "source": "韩国 Industry News",
       "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=90280",
-      "summary": "对未来的太阳能发电业务环境的影响,44.9%的太阳能行业官员回答说,他们预计由于竞争招标和合同价格下跌而盈利性恶化。",
+      "summary": "当被问及未来对太阳能发电商业环境的影响时，44.9%的太阳能行业官员回应称，由于竞标和合同价格下降，预计盈利能力将恶化。",
       "originalSummary": "향후 태양광 발전사업 환경에 미칠 영향을 묻는 질문에 44.9%의 태양광 업계 관계자들은 경쟁입찰과 계약가격 하락에 따른 수익성 악화를 예상한다고 응답했다.",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
@@ -387,19 +643,19 @@
         {
           "label": "项目/合作/产品原文线索",
           "original": "[태양광 시장조사] RPS 폐지 앞둔 태양광 업계, 기대보다 우려… ‘계약가격·수익성’ 최대 변수 [인더스트리뉴스 정한교 기자] RPS 제도 개편과 경쟁입찰 기반 장기고정가격 계약시장 도입을 앞두고 업계는 계약가격 하락에 따른 수익성 악화를 가장 우려하는 것으로 나타났다.。",
-          "chinese": "[太阳光市场调查] RPS 取消前的太阳光行业,比预期更担心......“合同价格·盈利性”最大变量 [工业新闻 正义教记者] RPS 制度改编和基于竞争招标的长期定价合同"
+          "chinese": "【太阳能市场研究】面临取消RPS的太阳能产业比预期更令人担忧...“合同价格和盈利能力”的最大变量【行业新闻记者Jeong Han-kyo】RPS制度改革和基于竞争性招标的长期固定价格合同"
         }
       ],
       "articleRead": true,
       "translationStatus": "translated",
       "collectedAt": "2026-11-27T01:00:33.136101+00:00",
-      "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-27T01:04:08.665806+00:00"
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-28T01:00:15.186450+00:00"
     },
     {
       "id": "d4c4e92a799b05e8ca14c459",
       "market": "韩国",
-      "title": "RPS时代的终结......面对新的竞争秩序的太阳光",
+      "title": "【专题报道】RPS时代的终结……太阳能面临新的竞争秩序",
       "originalTitle": "[스페셜리포트] RPS 시대의 종언… 새로운 경쟁 질서 마주한 태양광",
       "date": "2026-11-26",
       "publishedAt": "2026-11-26T03:07:50+00:00",
@@ -407,7 +663,7 @@
       "priority": "中",
       "source": "韩国 Industry News",
       "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=90279",
-      "summary": "在政府推向2030年可再生能源100GW供应的情况下,新的合同市场可以成为决定未来太阳能行业的投资和竞争方式的重要标准。",
+      "summary": "随着政府推动到2030年供应100GW可再生能源，新的合同市场可能成为决定太阳能行业未来投资和竞争方式的重要标准。",
       "originalSummary": "정부가 2030년 재생에너지 100GW 보급을 추진하는 상황에서 새로운 계약시장은 향후 태양광 산업의 투자와 경쟁방식을 결정하는 중요한 기준이 될 수 있기 때문이다.",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
@@ -426,19 +682,19 @@
         {
           "label": "项目/合作/产品原文线索",
           "original": "태양광 기술의 발전과 제조원가 하락으로 재생에너지의 가격 경쟁력이 높아지면서 주요국은 보조금 중심의 보급정책에서 경쟁입찰과 장기계약 등 시장 중심의 제도로 이동하고 있다.。",
-          "chinese": "随着太阳能技术的发展和制造商的下跌,可再生能源的价格竞争力越来越高,主要国家从补贴中心的普及政策转向竞争招标和长期合同等市场中心制度。"
+          "chinese": "随着太阳能技术的发展和制造成本的下降，可再生能源的价格竞争力增强，主要国家正在从以补贴为中心的分配政策转向竞争性招标和长期合同等市场导向的制度。"
         }
       ],
       "articleRead": true,
       "translationStatus": "translated",
       "collectedAt": "2026-11-27T01:00:33.136101+00:00",
-      "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-27T01:04:18.112271+00:00"
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-28T01:00:22.161700+00:00"
     },
     {
       "id": "aa9f56a690dd748d3841ec91",
       "market": "日本",
-      "title": "根据地方政府的规定,重能源设施撤销成本的积累义务化扩大,确保安全撤销和废弃。",
+      "title": "地方政府法令越来越多地强制要求为可再生能源设备的拆除节省资金，以确保可靠的拆除和处置",
       "originalTitle": "自治体条例で再エネ設備撤去費用の積み立て義務化が広がる、確実な撤去・廃棄を担保へ",
       "date": "2026-11-26",
       "publishedAt": "2026-11-26T03:00:23+00:00",
@@ -446,7 +702,7 @@
       "priority": "中",
       "source": "日本 SOLAR JOURNAL",
       "url": "https://solarjournal.jp/news/68644/",
-      "summary": "无论是完成运营后,似乎仍在寻求防止太阳能和风力发电设施不被撤销。",
+      "summary": "这两项措施似乎都是为了防止太阳能和风力发电设备在运行完成后无人看管而不被拆除。",
       "originalSummary": "いずれも運用を終えたあと、太陽光・風力発電設備を撤去せずに放置することを未然に防ぐことを目指しているように見える。",
       "importance": "该条目由原文关键词归类，不代表政策已生效或商业重要性已确认。",
       "impact": "尚未生成经人工复核的晶科业务影响分析；请结合原文适用地区、项目阶段、产品认证及客户渠道评估。",
@@ -464,9 +720,9 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-27T01:00:33.136101+00:00",
-      "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-27T01:03:07.113150+00:00"
+      "collectedAt": "2026-11-28T00:57:28.108358+00:00",
+      "translationProvider": "Google 网页机译（未经人工校核）",
+      "translatedAt": "2026-11-28T00:59:43.870525+00:00"
     },
     {
       "id": "2a9264e16d69974b25fd14e7",
@@ -497,7 +753,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-27T01:00:33.136101+00:00",
+      "collectedAt": "2026-11-28T00:57:28.108358+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-26T01:00:06.352475+00:00"
     },
@@ -713,7 +969,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-27T01:00:33.136101+00:00",
+      "collectedAt": "2026-11-28T00:57:28.108358+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-26T01:00:22.643932+00:00"
     },
@@ -908,7 +1164,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-27T01:00:33.136101+00:00",
+      "collectedAt": "2026-11-28T00:57:28.108358+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-21T00:56:03.033951+00:00"
@@ -981,7 +1237,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-27T01:00:33.136101+00:00",
+      "collectedAt": "2026-11-28T00:57:28.108358+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-21T00:56:20.158189+00:00"
     },
@@ -1658,7 +1914,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-27T01:00:33.136101+00:00",
+      "collectedAt": "2026-11-28T00:57:28.108358+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-21T00:56:28.226977+00:00"
     },
@@ -1724,7 +1980,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-27T01:00:33.136101+00:00",
+      "collectedAt": "2026-11-28T00:57:28.108358+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-21T00:56:33.442180+00:00"
     },
@@ -1841,7 +2097,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-27T01:00:33.136101+00:00",
+      "collectedAt": "2026-11-28T00:57:28.108358+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-15T00:48:36.020342+00:00"
     },
@@ -2094,7 +2350,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-27T01:00:33.136101+00:00",
+      "collectedAt": "2026-11-28T00:57:28.108358+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-12T00:58:31.248705+00:00"
     },
@@ -2205,7 +2461,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-27T01:00:33.136101+00:00",
+      "collectedAt": "2026-11-28T00:57:28.108358+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-14T00:47:50.386678+00:00"
     },
@@ -2316,7 +2572,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-27T01:00:33.136101+00:00",
+      "collectedAt": "2026-11-28T00:57:28.108358+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-10T00:47:44.930862+00:00"
     },
@@ -2862,7 +3118,7 @@
       "collectedAt": "2026-11-09T00:47:14.595159+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-27T01:02:53.854207+00:00"
+      "translatedAt": "2026-11-28T01:00:43.954396+00:00"
     },
     {
       "id": "01996e8c12d8548b3e10a1f6",
@@ -2965,7 +3221,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-27T01:00:33.136101+00:00",
+      "collectedAt": "2026-11-28T00:57:28.108358+00:00",
       "datePrecision": "day",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:42:43.281521+00:00"
@@ -3315,7 +3571,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-27T01:00:33.136101+00:00",
+      "collectedAt": "2026-11-28T00:57:28.108358+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:27:09.963540+00:00"
@@ -3360,7 +3616,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-27T01:00:33.136101+00:00",
+      "collectedAt": "2026-11-28T00:57:28.108358+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:27:15.852513+00:00"
@@ -3433,7 +3689,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-27T01:00:33.136101+00:00",
+      "collectedAt": "2026-11-28T00:57:28.108358+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:27:19.599501+00:00"
@@ -3499,7 +3755,7 @@
       "originalSummary": "South Korea’s Ministry of Climate, Energy and Environment (MCEE) has unveiled its KRW1,000 trillion (US$747 billion) Korean Green Transformation (K-GX) industrial strategy.",
       "translationStatus": "translated",
       "translationProvider": "M2M100-418M 本地开源机译",
-      "translatedAt": "2026-11-27T01:04:24.155543+00:00"
+      "translatedAt": "2026-11-28T01:00:57.411502+00:00"
     },
     {
       "id": "ecd33be5da742c15ff9a7d34",
@@ -3536,7 +3792,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-27T01:00:33.136101+00:00",
+      "collectedAt": "2026-11-28T00:57:28.108358+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:27:23.345332+00:00"
@@ -3609,7 +3865,7 @@
       "evidence": [],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-27T01:00:33.136101+00:00",
+      "collectedAt": "2026-11-28T00:57:28.108358+00:00",
       "datePrecision": "timestamp",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:16:26.695227+00:00"
@@ -3643,7 +3899,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-27T01:00:33.136101+00:00",
+      "collectedAt": "2026-11-28T00:57:28.108358+00:00",
       "datePrecision": "day",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:37:36.031964+00:00"
@@ -3677,7 +3933,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-27T01:00:33.136101+00:00",
+      "collectedAt": "2026-11-28T00:57:28.108358+00:00",
       "datePrecision": "day",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:37:40.881409+00:00"
@@ -3717,7 +3973,7 @@
       ],
       "articleRead": true,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-27T01:00:33.136101+00:00",
+      "collectedAt": "2026-11-28T00:57:28.108358+00:00",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:17:03.692923+00:00"
     },
@@ -3789,7 +4045,7 @@
       "evidence": [],
       "articleRead": false,
       "translationStatus": "translated",
-      "collectedAt": "2026-11-27T01:00:33.136101+00:00",
+      "collectedAt": "2026-11-28T00:57:28.108358+00:00",
       "datePrecision": "day",
       "translationProvider": "Google 网页机译（未经人工校核）",
       "translatedAt": "2026-11-04T12:37:44.691003+00:00"
@@ -3868,8 +4124,8 @@
   ],
   "translation": {
     "status": "partial",
-    "at": "2026-11-27T01:02:33.089469+00:00",
-    "translatedThisRun": 11,
+    "at": "2026-11-28T00:59:12.133595+00:00",
+    "translatedThisRun": 18,
     "remaining": 1,
     "validationFailures": 1,
     "error": null,
